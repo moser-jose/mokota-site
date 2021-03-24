@@ -35,7 +35,7 @@ function InscreverSe() {
                             <Input type="text" name="endereco" placeholder label="Endereço *" ></Input>
                             <div className="termos-p">
                                 <Checkbox name="computador" label="Possuo um computador *" ></Checkbox>
-                                <Checkbox name="programacao" label="Tenho experiência em programação"></Checkbox>
+                                {/* <Checkbox name="programacao" label="Tenho experiência em programação"></Checkbox> */}
                             </div>
                             <div className="termos-p">
                                 <Input type="submit" value="Inscrever-se" name="inscrever" placeholder label ></Input>

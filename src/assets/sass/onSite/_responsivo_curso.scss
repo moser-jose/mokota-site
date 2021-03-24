@@ -261,9 +261,13 @@
                     ul{
                         margin: 20px 0;
                         li{
-                            font-size: 12px;
+                            font-size: 13px;
                             &::before {
-                                font-size: 14px;
+                                content: "\2714";
+                                display: inline-block;
+                                color: #23962d !important;
+                                margin-right: 6px;
+                                font-size: 14px !important;
                             }
                         }
                     }
