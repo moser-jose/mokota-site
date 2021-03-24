@@ -1,0 +1,212 @@
+.header-scroll {
+    box-shadow: rgba(46, 61, 73, 0.2) 0px 1px 20px 0px !important;
+    background-color: #f5f8fd !important;
+    height: 67px !important;
+    transition: all 0.5s ease 0s;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    .pre-header {
+        display: none !important;
+    }
+    .menu {
+        .logoprincipal {
+            img {
+                padding: 6px 0 !important;
+            }
+        }
+        .menu-nav {
+            .nav {
+                li {
+                    a {
+                        color: #555 !important;
+                        &:hover {
+                            color: #8d8c8c !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.header {
+    transition:all 0.5s ease 0s;
+    height: 97px;
+    position: fixed;
+    width: 100%;
+    z-index: 8000;
+    .pre-header {
+        background: #f5f8fd;
+        transition: background 0.3s linear;
+        height: 30px;
+
+        .info {
+            height: 30px;
+            p {
+                color: #111;
+                display: inline-block;
+                letter-spacing: 1px;
+                font-size: 10px;
+                line-height: 30px;
+                vertical-align: middle;
+                .ic {
+                    width: 10px;
+                    vertical-align: middle;
+                }
+            }
+            .email {
+                margin-left: 40px;
+            }
+            .endereco {
+                float: right !important;
+            }
+        }
+    }
+
+    .menu {
+        display: flex;
+
+        .logoprincipal {
+            display: flex;
+            margin: 0 !important;
+            justify-content: flex-start;
+            align-items: center;
+            height: 100%;
+            position: relative;
+
+            img {
+                width: 150px;
+                padding: 10px 0;
+            }
+        }
+        .menu-nav {
+            display: flex;
+            margin: 0 !important;
+            padding: 10px 0;
+            justify-content: flex-end;
+            align-items: center;
+            height: 100%;
+            position: relative;
+            flex: 2;
+            z-index: 1000;
+            .nav {
+                position: relative;
+                margin-right: 30px;
+                .animacao {
+                    position: absolute;
+                    height: 2.5px;
+                    bottom: 0;
+                    z-index: -1;
+                    background: #ff8465;
+                    border-radius: 2px;
+                    transition: all 1s;
+                    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1);
+                }
+                li {
+                    display: inline-block;
+                    z-index: 1;
+                    a {
+                        //color: #555;
+                        color: #fff;
+                        font-size: 1rem;
+                        position: relative;
+                        margin: 0 10px;
+                        padding: 4px 0;
+                        display: inline-block;
+                        font-weight: 500;
+                        &:hover {
+                            color: #f1f1f1;
+                        }
+                    }
+                    /* &::after{
+                        content: "";
+                        width: 3px;
+                        height: 3px;
+                        border: 2px solid #fff;
+                        background-color: #E88D76;
+                        border-radius: 50%;
+                        display: inline-block;
+                        position: absolute;
+                        top: 50%;
+                        transform: translateY(-50%);
+                        margin:0 -2px;
+                    } */
+
+                    &:nth-last-child(2)::after {
+                        content: "";
+                        border: none !important;
+                        background-color: transparent !important;
+                    }
+                    &::nth-child(1) {
+                        width: 54px;
+                    }
+                    &::nth-child(2) {
+                        width: 170px;
+                    }
+                    &::nth-child(3) {
+                        width: 100px;
+                    }
+                    :nth-child(4) {
+                        width: 160px;
+                    }
+                    :nth-child(5) {
+                        width: 110px;
+                    }
+                }
+                .link{
+                    cursor: pointer;
+                    text-decoration: none;
+                    font-family: "Poppins";
+                    color: #fff;
+                        font-size: 1rem;
+                        position: relative;
+                        margin: 0 10px;
+                        padding: 4px 0;
+                        display: inline-block;
+                        font-weight: 500;
+                        &:hover {
+                            color: #f1f1f1;
+                        }
+                  }
+
+                .s-home,
+                li:nth-child(1):hover ~ .animacao {
+                    width: 49px;
+                    left: 9.5px;
+                }
+                .s-sobre,
+                li:nth-child(2):hover ~ .animacao {
+                    width: 82px;
+                    left: 82px;
+                }
+                .s-servicos,
+                li:nth-child(3):hover ~ .animacao {
+                    width: 72px;
+                    left: 185px;
+                }
+                .s-cursos,
+                li:nth-child(4):hover ~ .animacao {
+                    width: 68px;
+                    left: 317px;
+                }
+                .s-contato,
+                li:nth-child(5):hover ~ .animacao {
+                    width: 90px;
+                    left: 410px;
+                }
+                .s-faq,
+                li:nth-child(6):hover ~ .animacao {
+                    width: 42px;
+                    left: 521px;
+                }
+            }
+            .social {
+                display: none;
+            }
+            .foot-mob {
+                display: none;
+            }
+        }
+    }
+}

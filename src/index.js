@@ -1,0 +1,55 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faAndroid, fab } from '@fortawesome/free-brands-svg-icons'
+import { StatePlayContext } from './contexts/PlayContext'
+import {
+  faPhoneAlt,
+  faEnvelope,
+  faMapMarkerAlt,
+  faKey,
+  faCertificate,
+  faCode,
+  faLaptopCode,
+  faBell,
+  faSun,
+  faMoon,
+  faLayerGroup,
+  faUserCircle,
+  faSignOutAlt,
+  faHeadset,
+  faHeart,
+}
+  from '@fortawesome/free-solid-svg-icons'
+import { faHeart as faHeartFar } from '@fortawesome/free-regular-svg-icons';
+
+library.add(fab,
+  faBell,
+  faSun,
+  faMoon,
+  faPhoneAlt,
+  faEnvelope,
+  faMapMarkerAlt,
+  faKey,
+  faLayerGroup,
+  faCertificate,
+  faCode,
+  faLaptopCode,
+  faLayerGroup,
+  faUserCircle,
+  faSignOutAlt,
+  faHeadset,
+  faHeart,
+  faAndroid,
+)
+
+ReactDOM.render(
+  <React.StrictMode>
+    <StatePlayContext>
+      <App />
+    </StatePlayContext>
+
+  </React.StrictMode>,
+  document.getElementById('root')
+);
