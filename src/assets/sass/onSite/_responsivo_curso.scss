@@ -126,7 +126,7 @@
         .redes {
             position: absolute;
             left: 48px;
-            bottom: 14px;
+            bottom: 20px;
             margin: 0;
             padding: 0;
             list-style: none;
@@ -254,12 +254,17 @@
                     height: 0px; 
                     padding: 0 ;
                     height: unset;
+                    
                     p{
                         display: none;
                     }
                     ul{
+                        margin: 20px 0;
                         li{
-                            font-size: 14px;
+                            font-size: 12px;
+                            &::before {
+                                font-size: 14px;
+                            }
                         }
                     }
                 }
