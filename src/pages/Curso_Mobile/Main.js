@@ -6,6 +6,7 @@ import '../../assets/sass/onSite/App.scss'
 import PlayVideo from '../../components/Curso_Mobile/PlayVideo'
 import { usePlayContext } from '../../contexts/PlayContext'
 import InscreverSe from '../../components/Curso_Mobile/InscreverSe'
+import PreProjetos from '../../components/Curso_Mobile/PreProjetos'
 const Main = () => {
     const { playBubton, setPlayButton } = usePlayContext();
 
@@ -17,6 +18,7 @@ const Main = () => {
             {playBubton === true && <PlayVideo fechar={handleFecharClick} />}
             <Home />
             <Sobre />
+            <PreProjetos></PreProjetos>
             <InscreverSe />
             <Footer />
         </>
