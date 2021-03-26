@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="154" height="220" viewBox="0 0 154 220">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b17d9f"/>
+      <stop offset="1" stop-color="#7e015a"/>
+    </linearGradient>
+    <clipPath id="clip-Watch_38_mm_2">
+      <rect width="154" height="220"/>
+    </clipPath>
+  </defs>
+  <g id="Watch_38_mm_2" data-name="Watch 38 mm – 2" clip-path="url(#clip-Watch_38_mm_2)">
+    <rect width="154" height="220" fill="url(#linear-gradient)"/>
+    <g id="adobe-xd" transform="translate(5.611 -14)">
+      <path id="Caminho_4" data-name="Caminho 4" d="M10,10h99.159v96.455H10Z" transform="translate(-5.493 -5.493)" fill="#2e001e"/>
+      <path id="Caminho_5" data-name="Caminho 5" d="M0,0V105.469H108.173V0ZM4.507,4.507h99.159v96.455H4.507Z" fill="#ff2bc2"/>
+      <path id="Caminho_6" data-name="Caminho 6" d="M103.392,74.791a6.189,6.189,0,0,0-2.614-.451c-5.679,0-9.465,4.372-9.465,11.629,0,8.293,3.876,11.629,8.924,11.629a8.5,8.5,0,0,0,3.11-.5V74.791ZM83.2,86.329c0-10.5,6.761-18.7,17.849-18.7a19.988,19.988,0,0,1,2.344.09V56a.452.452,0,0,1,.451-.451H111.1c.361,0,.451.135.451.361V97.1a32.1,32.1,0,0,0,.225,4.417c0,.316,0,.361-.27.5a26.848,26.848,0,0,1-11.538,2.614c-9.781,0-16.767-6.04-16.767-18.3Zm-15.37-7.3L80.45,103.5c.225.361.09.721-.27.721H72.337a.884.884,0,0,1-.947-.586q-4.327-8.924-8.834-18.525h-.09c-2.7,6.04-5.679,12.62-8.564,18.57a.866.866,0,0,1-.811.5H45.609c-.451,0-.5-.361-.27-.631l12.35-23.753L45.744,56.176a.4.4,0,0,1,.316-.676h7.752c.451,0,.676.09.811.5,2.84,5.995,5.724,11.9,8.429,17.939h.09c2.614-5.95,5.5-11.944,8.248-17.849.225-.361.361-.586.811-.586h7.257c.361,0,.5.27.27.676Z" transform="translate(-24.831 -30.485)" fill="#ff2bc2"/>
+    </g>
+    <text id="Design_" data-name="Design " transform="translate(73 120)" fill="#efefef" font-size="20" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0" y="0">Design </tspan></text>
+    <text id="é" transform="translate(102 138)" fill="#efefef" font-size="16" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">é</tspan></text>
+    <text id="Tudo" transform="translate(60 155)" fill="#efefef" font-size="20" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Tudo</tspan></text>
+    <text id="_Adobe_XD_" data-name="(Adobe XD)" transform="translate(32 187)" fill="#efefef" font-size="16" font-family="Poppins-Light, Poppins" font-weight="300"><tspan x="0" y="0">(Adobe XD)</tspan></text>
+  </g>
+</svg>

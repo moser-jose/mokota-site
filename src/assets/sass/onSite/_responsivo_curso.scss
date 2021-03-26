@@ -358,6 +358,29 @@
             } */
         }
     }
+
+
+
+
+
+    
+.modulos{
+    height: 100%;
+    .mod-l{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .grid-2{
+        width: 190px !important;
+        height: 260px;
+        margin-top: 40px !important;
+    }
+}  
+
+
+
     footer{
         display: none;
     }

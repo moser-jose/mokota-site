@@ -1,13 +1,16 @@
 import React from 'react'
 import TextLoop from "react-text-loop";
+import { Link } from 'react-scroll';
 import IMG from '../../assets/img/img-curso/xd-img.jpg';
 function PreProjetos() {
+   
+
     return (
         <div className="pre-p">
             <div className="container">
                 <div className="texto-p grid-7">
                     <span className="preparado">Tudo esta preparado...</span>
-                    <h2>Torna-se num {" "}
+                    <h2>Torne-se num {" "}
                         <TextLoop interval={2400} springConfig={{ stiffness: 50, damping: 6 }}>
                             <span className="textloop">
                                 programador
@@ -18,10 +21,12 @@ function PreProjetos() {
                         </TextLoop>{" "} mobile com esse curso</h2>
                     <ul>
                         <li>Durante o curso você vai poder utilizar ferramentas incríveis;</li>
+                        <li>Você vai poder desenhar seu próprio aplicativo;</li>
                         <li>Você vai criar não um, nem dois mais três aplicativos reais;</li>
                         <li>Vai poder publicar seus apps na Google Play e AppStore;</li>
                         <li>Vai poder partilhar seus aplicativos para o mundo todo;</li>
                     </ul>
+                    <Link duration={1000} smooth={true} to="inscrever" className="btn-azul">Ver projectos do curso</Link>
 
                 </div>
                 <div className="texto-i grid-9">

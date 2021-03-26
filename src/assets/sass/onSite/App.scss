@@ -7,7 +7,7 @@
 @import 'footer';
 .btn-branco,
 .btn-azul {
-    padding: 10px;
+    padding: 10px 20px;
     background-color: #fff;
     font-size: 18px;
     border: none;
@@ -25,6 +25,8 @@
 .btn-azul {
     background-color: #438ce0;
     color: #fff;
+    font-family: "Rubik", "Poppins";
+    font-weight: 300;
     &:hover {
         background-color: #5da2f1;
     }
@@ -392,6 +394,7 @@
         }
 
         ul{
+            margin-bottom: 50px;
             li{
                 margin: 20px 0;
                 color: #fff;
@@ -399,11 +402,12 @@
                 font-weight: 300;
                 font-family: "Rubik","Poppins";
                 display: flex;
+                align-items: center;
 
                 &::before{
                     content: "";
-                    height: 20px;
-                    width: 20px;
+                    height: 15px;
+                    width: 15px;
                     background-color: #e88d76;
                     margin-right: 10px;
                     border-radius: 50%;
@@ -426,4 +430,46 @@
     }
 }
 
+.modulos{
+    height: 500px;
+    width: 100%;
+    background-color: #f5f8fd;
+    padding: 50px 0;
+
+    .grid-2{
+        height: 220px;
+        background-color: red;
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0.125), 0 1px 3px rgba(0, 0, 0, 0.2);
+        position: relative;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .mod{
+            
+            background-color: #438ce0;
+            position: absolute;
+            bottom: -25px;
+            padding: 3px 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 0 1px rgba(0, 0, 0, 0.125), 0 1px 3px rgba(0, 0, 0, 0.2);
+            font-size: 25px;
+            font-weight: 600;
+            color: #f5f8fd;
+            border-radius: 4px;
+            span{
+                font-size: 12px;
+                margin-left: 5px;
+                letter-spacing: 1px
+            }
+
+        }
+    }
+
+}  
 @import 'responsivo_curso';

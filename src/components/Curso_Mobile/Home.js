@@ -1,6 +1,5 @@
 import React from 'react'
 import TextLoop from "react-text-loop";
-import { Carousel } from 'react-responsive-carousel';
 import Header from './Header'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { usePlayContext } from '../../contexts/PlayContext';
