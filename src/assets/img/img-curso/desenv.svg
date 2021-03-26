@@ -10,17 +10,17 @@
   </defs>
   <g id="Watch_38_mm_6" data-name="Watch 38 mm – 6" clip-path="url(#clip-Watch_38_mm_6)">
     <rect width="154" height="220" fill="url(#linear-gradient)"/>
-    <text id="Configuração" transform="translate(6 131)" fill="#efefef" font-size="20" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0" y="0">Configuração</tspan></text>
-    <text id="Ambiente" transform="translate(49 154)" fill="#efefef" font-size="20" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">Ambiente</tspan></text>
+    <text id="Configuração" transform="translate(6 131)" fill="#efefef" font-size="20" font-family="Poppins, sans-serif" font-weight="700"><tspan x="0" y="0">Configuração</tspan></text>
+    <text id="Ambiente" transform="translate(49 154)" fill="#efefef" font-size="20" font-family="Poppins, sans-serif" font-weight="500"><tspan x="0" y="0">Ambiente</tspan></text>
     <g id="visual-code" transform="translate(-5.796 13.937) rotate(-13)">
       <path id="Caminho_39" data-name="Caminho 39" d="M3.6,254.033s-2.251-1.622.45-3.789l6.292-5.627a2.671,2.671,0,0,1,3.7-.244l58.066,43.962v21.081s-.028,3.31-4.276,2.945Z" transform="translate(0 -208.194)" fill="#2489ca"/>
       <path id="Caminho_40" data-name="Caminho 40" d="M20.461,498.8,5.495,512.407s-1.538,1.144,0,3.188l6.949,6.32s1.65,1.772,4.089-.244L32.4,509.64Z" transform="translate(-1.89 -439.372)" fill="#1070b3"/>
       <path id="Caminho_41" data-name="Caminho 41" d="M313.338,66.982l27.448-20.959-.178-20.968s-1.172-4.576-5.083-2.194L299,56.1Z" transform="translate(-268.492 -7.442)" fill="#0877b9"/>
       <path id="Caminho_42" data-name="Caminho 42" d="M689.306,104.2a3.774,3.774,0,0,0,3.526,1.1l21.39-10.54c2.738-1.866,2.354-4.182,2.354-4.182V27.628c0-2.766-2.832-3.723-2.832-3.723L695.2,14.969c-4.051-2.5-6.7.45-6.7.45s3.413-2.457,5.083,2.194v83.226a3.781,3.781,0,0,1-.366,1.641c-.488.985-1.547,1.9-4.089,1.519Z" transform="translate(-621.466 0)" fill="#3c99d4"/>
     </g>
-    <text id="do" transform="translate(23 150)" fill="#333" font-size="16" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">do</tspan></text>
-    <text id="de" transform="translate(15 169)" fill="#efefef" font-size="12" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">de</tspan></text>
-    <text id="Desenvolvimento" transform="translate(37 174)" fill="#333" font-size="12" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0" y="0">Desenvolvimento</tspan></text>
+    <text id="do" transform="translate(23 150)" fill="#333" font-size="16" font-family="Poppins, sans-serif"><tspan x="0" y="0">do</tspan></text>
+    <text id="de" transform="translate(15 169)" fill="#efefef" font-size="12" font-family="Poppins, sans-serif"><tspan x="0" y="0">de</tspan></text>
+    <text id="Desenvolvimento" transform="translate(37 174)" fill="#333" font-size="12" font-family="Poppins, sans-serif" font-weight="700"><tspan x="0" y="0">Desenvolvimento</tspan></text>
     <line id="Linha_1" data-name="Linha 1" x2="116" transform="translate(29 181)" fill="none" stroke="#efefef" stroke-linecap="round" stroke-width="1"/>
   </g>
 </svg>
