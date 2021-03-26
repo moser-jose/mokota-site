@@ -3,10 +3,9 @@
     <clipPath id="clip-Watch_38_mm_7">
       <rect width="154" height="220"/>
     </clipPath>
-    <style type="text/css">
-      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&family=Rubik:wght@300;400;500&display=swap');
-    </style>
+   
   </defs>
+   
   <g id="Watch_38_mm_7" data-name="Watch 38 mm – 7" clip-path="url(#clip-Watch_38_mm_7)">
     <rect width="154" height="220" fill="#e7d035"/>
     <g id="javascript" transform="translate(7 7.088)">
@@ -14,9 +13,9 @@
       <path id="Caminho_3" data-name="Caminho 3" d="M335.654,505.026c-.661-4.119-3.346-7.577-11.3-10.8-2.763-1.27-5.843-2.179-6.761-4.273a4.661,4.661,0,0,1-.163-2.643c.592-2.394,3.449-3.14,5.715-2.454a6.287,6.287,0,0,1,3.672,3.406c3.9-2.523,3.887-2.505,6.607-4.239a16.838,16.838,0,0,0-2.179-2.917c-2.342-2.617-5.534-3.964-10.64-3.861-.884.112-1.776.232-2.66.343a12.066,12.066,0,0,0-6.4,3.775c-4.273,4.848-3.055,13.334,2.145,16.826,5.123,3.844,12.648,4.719,13.609,8.315.935,4.4-3.235,5.826-7.379,5.32-3.055-.635-4.754-2.188-6.59-5.011-3.381,1.956-3.381,1.956-6.856,3.956a15.259,15.259,0,0,0,3.072,4.179c6.538,6.633,22.9,6.307,25.836-3.733A12.394,12.394,0,0,0,335.654,505.026Zm-33.807-27.252H293.4c0,7.293-.034,14.535-.034,21.829,0,4.642.24,8.9-.515,10.2-1.236,2.566-4.436,2.248-5.895,1.75a7.247,7.247,0,0,1-3.115-3.235,4.348,4.348,0,0,0-.481-.772q-3.436,2.1-6.864,4.2a13.567,13.567,0,0,0,4.977,5.7,16.391,16.391,0,0,0,12.064,1.484,10.66,10.66,0,0,0,6.813-5.337c1.922-3.544,1.51-7.834,1.493-12.579C301.89,493.279,301.847,485.54,301.847,477.774Z" transform="translate(-252.775 -436.288)" fill="#323330"/>
     </g>
     <g id="Grupo_6" data-name="Grupo 6" transform="translate(0 18)">
-      <text id="Javascript-2" data-name="Javascript" transform="translate(16 138)" fill="#141414" font-size="22" font-family="Poppins-Bold, Poppins, Rubik" font-weight="700"><tspan x="0" y="0">Javascript</tspan></text>
-      <text id="ES6" transform="translate(100 165)" fill="#141414" font-size="22" font-family="Poppins-Regular, Poppins, Rubik"><tspan x="0" y="0">ES6</tspan></text>
-      <text id="Dominando_o" data-name="Dominando o" transform="translate(10 113)" fill="#141414" font-size="20" font-family="Poppins-Light, Poppins, Rubik" font-weight="300"><tspan x="0" y="0">Dominando o</tspan></text>
+      <text id="Javascript-2" data-name="Javascript" transform="translate(16 138)" fill="#141414" font-size="22" font-family="Poppins" font-weight="700"><tspan x="0" y="0">Javascript</tspan></text>
+      <text id="ES6" transform="translate(100 165)" fill="#141414" font-size="22" font-family="Poppins"><tspan x="0" y="0">ES6</tspan></text>
+      <text id="Dominando_o" data-name="Dominando o" transform="translate(10 113)" fill="#141414" font-size="20" font-family="Poppins" font-weight="300"><tspan x="0" y="0">Dominando o</tspan></text>
     </g>
   </g>
 </svg>
