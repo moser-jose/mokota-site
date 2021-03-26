@@ -25,6 +25,6 @@
       <path id="Caminho_35" data-name="Caminho 35" d="M79.609,137.389l-10.2-62.807c-.319-1.965-2.339-2.778-3.746-1.369L1.29,137.525,36.676,157.3a7.41,7.41,0,0,0,7.222,0L79.61,137.389Z" transform="translate(-0.891 -50.065)" fill="#fcca3f"/>
       <path id="Caminho_36" data-name="Caminho 36" d="M43.056,300.972a7.467,7.467,0,0,1-7.277,0L.289,281.281l-.288.3L35.78,301.562a7.467,7.467,0,0,0,7.277,0l35.985-20.069-.088-.542-35.9,20.02Z" transform="translate(-0.001 -194.002)" fill="#eeab37"/>
     </g>
-    <text id="_MongoDB_" data-name="(MongoDB)" transform="translate(36 194)" fill="#efefef" font-size="16" font-family="Poppins-Light, Poppins" font-weight="300"><tspan x="0" y="0">(MongoDB)</tspan></text>
+    <text id="_MongoDB_" data-name="(MongoDB)" transform="translate(36 194)" fill="#efefef" font-size="16" font-family="Poppins-Light, Poppins, sans-serif" font-weight="300"><tspan x="0" y="0">(MongoDB)</tspan></text>
   </g>
 </svg>
