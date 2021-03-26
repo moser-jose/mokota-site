@@ -3,6 +3,9 @@
     <clipPath id="clip-Watch_38_mm_7">
       <rect width="154" height="220"/>
     </clipPath>
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&family=Rubik:wght@300;400;500&display=swap');
+    </style>
   </defs>
   <g id="Watch_38_mm_7" data-name="Watch 38 mm – 7" clip-path="url(#clip-Watch_38_mm_7)">
     <rect width="154" height="220" fill="#e7d035"/>
