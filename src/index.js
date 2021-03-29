@@ -6,6 +6,7 @@ import { faAndroid, fab } from '@fortawesome/free-brands-svg-icons'
 import { StatePlayContext } from './contexts/PlayContext'
 import {
   faPhoneAlt,
+  faMobileAlt,
   faEnvelope,
   faMapMarkerAlt,
   faKey,
@@ -20,12 +21,21 @@ import {
   faSignOutAlt,
   faHeadset,
   faHeart,
+  faThumbsUp,
+  faCalendarAlt,
+  faQuoteLeft,
+  faQuoteRight
 }
   from '@fortawesome/free-solid-svg-icons'
 import { faHeart as faHeartFar } from '@fortawesome/free-regular-svg-icons';
 
 library.add(fab,
   faBell,
+  faQuoteLeft,
+  faQuoteRight,
+  faMobileAlt,
+  faThumbsUp,
+  faCalendarAlt,
   faSun,
   faMoon,
   faPhoneAlt,

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-scroll';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Moser from '../../assets/img/moser.jpg'
 import PlaySobreSvg from './PlaySobreSvg';
 import Javascript from '../../assets/img/img-curso/javascript.svg';
@@ -34,7 +35,7 @@ const Sobre = () => {
                         nativos para <span className="iconspeck speck-android-sp"></span> Android e <span className="iconspeck speck-apple"></span> iOS, desde o zero,
                         passando pelo design das aplicações até a sua implementação.
                         Você irá aprender com as tecnologias mais poderosas 100% na prática.
-                        Criando 3 apps reais e ainda publicando nas famosas lojas <span className="iconspeck speck-appstore-sp"></span> AppStore e <span className="iconspeck speck-google-play"></span> Google Play.</p>
+                        Criando 4 apps reais e ainda publicando nas famosas lojas <span className="iconspeck speck-appstore-sp"></span> AppStore e <span className="iconspeck speck-google-play"></span> Google Play.</p>
                         <p className="mais">Assista o video e saiba mais sobre o curso. ➝</p>
                     </div>
                 </div>
@@ -43,14 +44,27 @@ const Sobre = () => {
                 </div>
             </div>
 
-            <ul className="redes-sobre container">
-                <li className="butProj"><a href="/">3 Apps reais</a></li>
-                <li className="butProj"><a href="/">8 Módulos</a></li>
-                <li className="butProj"><a href="https://github.com/mokota-code"> Sem pre-requisitos</a></li>
-                <li className="butProj"><a href="/">1 mês de aulas</a></li>
-                <li className="butProj"><a href="/">Segunda/Sexta</a></li>
-                <li className="butProj"><a href="/">4h de aulas/dia</a></li>
-            </ul>
+            <div className="opc container">
+                <div className="grid-4">
+                    <span><FontAwesomeIcon className="icon" icon="mobile-alt" /></span>
+                    <h1>4 Aplicativos Reais</h1>
+                    <p>Crie três aplicativos reais, incríveis com design inédito e publique nas famosas lojas de Aplicativos</p>
+                </div>
+                <div className="grid-4">
+                    <span><FontAwesomeIcon className="icon" icon="code" /></span>
+                    <h1>8 Módulos</h1>
+                    <p>São 8 módulos completos e estruturados de forma a facilitar o aprendizado e um conjunto de bonus incríveis</p>
+                </div>
+                <div className="grid-4">
+                    <span><FontAwesomeIcon className="icon" icon="thumbs-up" /></span>
+                    <h1>Sem Pré-requisitos</h1>
+                    <p>Não precisa ter algum conhecimento de programação. Apenas trague um computador portátil</p></div>
+                <div className="grid-4">
+                <span><FontAwesomeIcon className="icon" icon="calendar-alt" /></span>
+                    <h1>1 Mês de Aulas</h1>
+                    <p>Aulas de segunda/sexta e quatro horas/dia. Desfrute do tempo e crie aplicações de invejar.</p>
+                </div>
+            </div>
             <div className="equipa animacao-baixo">
                 <div className="card card-l container">
                     <div className="grid-8 professor">

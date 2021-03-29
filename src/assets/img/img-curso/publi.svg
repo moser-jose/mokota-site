@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="335" height="300" viewBox="0 0 335 300">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.523" y1="1" x2="0.5" y2="-0.497" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#666765" stop-opacity="0.82"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <filter id="Elipse_7" x="233" y="49" width="68" height="68" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Watch_38_mm_8">
+      <rect width="335" height="300"/>
+    </clipPath>
+  </defs>
+  <g id="Watch_38_mm_8" data-name="Watch 38 mm – 8" clip-path="url(#clip-Watch_38_mm_8)">
+    <rect width="335" height="300" fill="url(#linear-gradient)"/>
+    <text id="google_play" data-name="google play" transform="translate(61 188)" fill="#efefef" font-size="22" font-family="Poppins-Medium, Poppins, sans-serif" font-weight="500"><tspan x="0" y="0">google play</tspan></text>
+    <text id="na" transform="translate(30 183)" fill="#333" font-size="18" font-family="Poppins-Regular, Poppins, sans-serif"><tspan x="0" y="0">na</tspan></text>
+    <text id="e" transform="translate(34 206)" fill="#efefef" font-size="18" font-family="Poppins-Regular, Poppins, sans-serif"><tspan x="0" y="0">e</tspan></text>
+    <text id="AppStore" transform="translate(45 219)" fill="#333" font-size="22" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">AppStore</tspan></text>
+    <g id="android" transform="translate(-8.164 -36.224)">
+      <path id="Caminho_43" data-name="Caminho 43" d="M92.119,207.092a4.475,4.475,0,0,1,4.475,4.475v19.195a4.474,4.474,0,0,1-8.949,0V211.567a4.474,4.474,0,0,1,4.474-4.474Z" transform="translate(-38.049 -94.011)" fill="#358432"/>
+      <path id="Caminho_44" data-name="Caminho 44" d="M69.314,133.645c-.015.17-.028.341-.028.515v29.082a5.588,5.588,0,0,0,5.549,5.647h29.574a5.588,5.588,0,0,0,5.549-5.647V134.16c0-.173-.006-.346-.021-.515Z" transform="translate(-25.458 -43.641)" fill="#358432"/>
+      <path id="Caminho_45" data-name="Caminho 45" d="M74.257,114.963a4.475,4.475,0,0,1,4.475,4.475v19.195a4.474,4.474,0,0,1-8.949,0V119.437a4.474,4.474,0,0,1,4.474-4.474ZM36.639,94.474a4.475,4.475,0,0,1,4.474,4.475v19.195a4.474,4.474,0,1,1-8.949,0V98.948A4.474,4.474,0,0,1,36.639,94.474Zm55.051,0a4.475,4.475,0,0,1,4.474,4.475v19.195a4.474,4.474,0,0,1-8.949,0V98.948A4.475,4.475,0,0,1,91.69,94.474Zm-47.7-4.5c.124-8.933,7.921-16.257,17.929-17.222h4.5c10.009.966,17.8,8.29,17.929,17.222Z" transform="translate(0 -1.882)" fill="#358432"/>
+      <path id="Caminho_46" data-name="Caminho 46" d="M74.743,70.009l4.72,8.176m32.523-8.176-4.72,8.176" transform="translate(-29.201)" fill="none" stroke="#358432" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <path id="Caminho_47" data-name="Caminho 47" d="M104.773,97.138a2.316,2.316,0,0,1-4.63.013v-.013a2.316,2.316,0,0,1,4.63-.013Zm17.28,0a2.316,2.316,0,0,1-4.63.013v-.013a2.316,2.316,0,0,1,4.63-.013Z" transform="translate(-46.62 -17.05)" fill="#fff"/>
+    </g>
+    <path id="apple" d="M28.064,5.429A13.354,13.354,0,0,1,37.863,0a13.323,13.323,0,0,1-3.225,9.973c-4.348,5.225-9.291,4.37-9.291,4.37S24.419,10.234,28.064,5.429ZM25.868,17.9c2.109,0,6.023-2.9,11.118-2.9,8.77,0,12.22,6.24,12.22,6.24a13.548,13.548,0,0,0-6.748,11.821c0,9.443,8.406,12.7,8.406,12.7S44.988,62.3,37.051,62.3c-3.645,0-6.479-2.457-10.32-2.457-3.914,0-7.8,2.548-10.328,2.548C9.156,62.392,0,46.7,0,34.093,0,21.686,7.75,15.177,15.019,15.177c4.726,0,8.393,2.725,10.849,2.725Z" transform="translate(141.136 18.257)" fill="#999"/>
+    <text id="_android_e_ios_" data-name="(android e ios)" transform="translate(95 271)" fill="#efefef" font-size="20" font-family="Poppins-Light, Poppins, sans-serif" font-weight="300"><tspan x="0" y="0">(android e ios)</tspan></text>
+    <text id="Publicando_App" data-name="Publicando App" transform="translate(24 155)" fill="#efefef" font-size="24" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">Publicando App</tspan></text>
+    <g id="Grupo_7" data-name="Grupo 7" transform="translate(-2862.966 -1252.698)">
+      <path id="Caminho_51" data-name="Caminho 51" d="M53.859,38.346c1.686-9.624,15.606-27,15.606-27-8.474,2.035-16.7,16.373-16.7,16.373l-4.849-7.408-4.611,2.724Z" transform="translate(2920 1297.244)" fill="#999" stroke="#efefef" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="2.613" stroke-width="1" fill-rule="evenodd"/>
+      <path id="Caminho_52" data-name="Caminho 52" d="M94.967,75.6a5.156,5.156,0,0,1-2.349-.4,1.44,1.44,0,0,1-.746-1.385,8.8,8.8,0,0,1,.476-2.134,1.675,1.675,0,0,1,1.572-1.21c.159,0,.4.016.7.032.3.032.508.048.651.048a.6.6,0,0,1,.476.159.714.714,0,0,1,.143.446,1.48,1.48,0,0,1-.064.43c-.064.159-.1.3-.143.446l.445.032a1.439,1.439,0,0,0,.746-.159.787.787,0,0,0,.365-.732,6.031,6.031,0,0,0-1.3-2.818,6.048,6.048,0,0,1-1.27-2.994,4.129,4.129,0,0,1,1.857-3.376,7.669,7.669,0,0,1,4.809-1.5,4.529,4.529,0,0,1,1.555.207,1.075,1.075,0,0,1,.825,1v.828a3.465,3.465,0,0,1-.365,1.847,2.408,2.408,0,0,1-2.047.716c-1.015,0-1.524-.255-1.524-.78V64.2a1.213,1.213,0,0,0-.651.175.824.824,0,0,0-.476.748,5.6,5.6,0,0,0,.73,1.72q.5.791.984,1.592a5.21,5.21,0,0,1,.619,1.831v.446a4.689,4.689,0,0,1-1.254,3.376A5.884,5.884,0,0,1,95.3,75.6h-.334Z" transform="translate(2882.862 1259.659)" fill="#358432" stroke="#efefef" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="2.613" stroke-width="1" fill-rule="evenodd"/>
+    </g>
+    <text id="Modulo_" data-name="Modulo " transform="translate(222 47)" fill="#fff" font-size="22" font-family="Poppins-Medium, Poppins, sans-serif" font-weight="500"><tspan x="0" y="0">Modulo </tspan></text>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Elipse_7)">
+      <circle id="Elipse_7-2" data-name="Elipse 7" cx="25" cy="25" r="25" transform="translate(242 55)" fill="#438ce0"/>
+    </g>
+    <text id="_7_" data-name="7
+" transform="translate(262 88)" fill="#efefef" font-size="20" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">7</tspan><tspan x="0" y="30"></tspan></text>
+  </g>
+</svg>

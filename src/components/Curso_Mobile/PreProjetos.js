@@ -10,15 +10,7 @@ function PreProjetos() {
             <div className="container">
                 <div className="texto-p grid-7">
                     <span className="preparado">Tudo esta preparado...</span>
-                    <h2>Torne-se num {" "}
-                        <TextLoop interval={2400} springConfig={{ stiffness: 50, damping: 6 }}>
-                            <span className="textloop">
-                                programador
-                            </span>
-                            <span className="textloop">
-                                developer
-                            </span>
-                        </TextLoop>{" "} mobile com esse curso</h2>
+                    <h2>Torne-se num developer mobile com esse curso</h2>
                     <ul>
                         <li>Durante o curso você vai poder utilizar ferramentas incríveis;</li>
                         <li>Você vai poder desenhar seu próprio aplicativo;</li>
@@ -26,7 +18,7 @@ function PreProjetos() {
                         <li>Vai poder publicar seus apps na Google Play e AppStore;</li>
                         <li>Vai poder partilhar seus aplicativos para o mundo todo;</li>
                     </ul>
-                    <Link duration={1000} smooth={true} to="inscrever" className="btn-azul">Ver projectos do curso</Link>
+                    <Link duration={1000} smooth={true} to="projectos" className="btn-azul">Ver projectos do curso</Link>
 
                 </div>
                 <div className="texto-i grid-9">

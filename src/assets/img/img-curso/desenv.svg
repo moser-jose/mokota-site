@@ -1,26 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="154" height="220" viewBox="0 0 154 220">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="335" height="300" viewBox="0 0 335 300">
   <defs>
     <linearGradient id="linear-gradient" x1="0.523" y1="1" x2="0.5" y2="-0.497" gradientUnits="objectBoundingBox">
       <stop offset="0" stop-color="#0877b9"/>
       <stop offset="1" stop-color="#fff"/>
     </linearGradient>
+    <filter id="Elipse_5" x="232" y="49" width="68" height="68" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
     <clipPath id="clip-Watch_38_mm_6">
-      <rect width="154" height="220"/>
+      <rect width="335" height="300"/>
     </clipPath>
   </defs>
   <g id="Watch_38_mm_6" data-name="Watch 38 mm – 6" clip-path="url(#clip-Watch_38_mm_6)">
-    <rect width="154" height="220" fill="url(#linear-gradient)"/>
-    <text id="Configuração" transform="translate(6 131)" fill="#efefef" font-size="20" font-family="Poppins, sans-serif" font-weight="700"><tspan x="0" y="0">Configuração</tspan></text>
-    <text id="Ambiente" transform="translate(49 154)" fill="#efefef" font-size="20" font-family="Poppins, sans-serif" font-weight="500"><tspan x="0" y="0">Ambiente</tspan></text>
-    <g id="visual-code" transform="translate(-5.796 13.937) rotate(-13)">
-      <path id="Caminho_39" data-name="Caminho 39" d="M3.6,254.033s-2.251-1.622.45-3.789l6.292-5.627a2.671,2.671,0,0,1,3.7-.244l58.066,43.962v21.081s-.028,3.31-4.276,2.945Z" transform="translate(0 -208.194)" fill="#2489ca"/>
-      <path id="Caminho_40" data-name="Caminho 40" d="M20.461,498.8,5.495,512.407s-1.538,1.144,0,3.188l6.949,6.32s1.65,1.772,4.089-.244L32.4,509.64Z" transform="translate(-1.89 -439.372)" fill="#1070b3"/>
-      <path id="Caminho_41" data-name="Caminho 41" d="M313.338,66.982l27.448-20.959-.178-20.968s-1.172-4.576-5.083-2.194L299,56.1Z" transform="translate(-268.492 -7.442)" fill="#0877b9"/>
-      <path id="Caminho_42" data-name="Caminho 42" d="M689.306,104.2a3.774,3.774,0,0,0,3.526,1.1l21.39-10.54c2.738-1.866,2.354-4.182,2.354-4.182V27.628c0-2.766-2.832-3.723-2.832-3.723L695.2,14.969c-4.051-2.5-6.7.45-6.7.45s3.413-2.457,5.083,2.194v83.226a3.781,3.781,0,0,1-.366,1.641c-.488.985-1.547,1.9-4.089,1.519Z" transform="translate(-621.466 0)" fill="#3c99d4"/>
+    <rect width="335" height="300" fill="url(#linear-gradient)"/>
+    <text id="Configuração" transform="translate(23 200)" fill="#efefef" font-size="24" font-family="Poppins-Light, Poppins, sans-serif" font-weight="300"><tspan x="0" y="0">Configuração</tspan></text>
+    <text id="Ambiente" transform="translate(59 236)" fill="#efefef" font-size="22" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">Ambiente</tspan></text>
+    <g id="visual-code" transform="translate(9.204 27.937) rotate(-13)">
+      <path id="Caminho_39" data-name="Caminho 39" d="M3.737,255.6s-2.591-1.868.518-4.361l7.244-6.478s2.073-2.181,4.264-.281l66.848,50.611v24.269s-.032,3.811-4.923,3.39Z" transform="translate(0 -204.936)" fill="#2489ca"/>
+      <path id="Caminho_40" data-name="Caminho 40" d="M22.828,498.8,5.6,514.465s-1.771,1.317,0,3.671l8,7.276s1.9,2.04,4.707-.281L36.571,511.28Z" transform="translate(-1.861 -432.496)" fill="#1070b3"/>
+      <path id="Caminho_41" data-name="Caminho 41" d="M315.507,73.759l31.6-24.129L346.9,25.491s-1.35-5.268-5.851-2.526L299,61.236Z" transform="translate(-264.29 -7.326)" fill="#0877b9"/>
+      <path id="Caminho_42" data-name="Caminho 42" d="M689.428,117.843a4.345,4.345,0,0,0,4.059,1.263l24.625-12.135c3.152-2.148,2.71-4.815,2.71-4.815V29.7c0-3.185-3.26-4.286-3.26-4.286L696.219,15.121c-4.664-2.882-7.719.518-7.719.518s3.93-2.829,5.851,2.526v95.813a4.352,4.352,0,0,1-.421,1.889c-.561,1.134-1.781,2.192-4.707,1.749Z" transform="translate(-611.74 0)" fill="#3c99d4"/>
     </g>
-    <text id="do" transform="translate(23 150)" fill="#333" font-size="16" font-family="Poppins, sans-serif"><tspan x="0" y="0">do</tspan></text>
-    <text id="de" transform="translate(15 169)" fill="#efefef" font-size="12" font-family="Poppins, sans-serif"><tspan x="0" y="0">de</tspan></text>
-    <text id="Desenvolvimento" transform="translate(37 174)" fill="#333" font-size="12" font-family="Poppins, sans-serif" font-weight="700"><tspan x="0" y="0">Desenvolvimento</tspan></text>
-    <line id="Linha_1" data-name="Linha 1" x2="116" transform="translate(29 181)" fill="none" stroke="#efefef" stroke-linecap="round" stroke-width="1"/>
+    <text id="do" transform="translate(30 225)" fill="#333" font-size="20" font-family="Poppins-Regular, Poppins, sans-serif"><tspan x="0" y="0">do</tspan></text>
+    <text id="de" transform="translate(35 266)" fill="#efefef" font-size="18" font-family="Poppins-Regular, Poppins, sans-serif"><tspan x="0" y="0">de</tspan></text>
+    <text id="Desenvolvimento" transform="translate(63 267)" fill="#333" font-size="22" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">Desenvolvimento</tspan></text>
+    <line id="Linha_1" data-name="Linha 1" x2="215" transform="translate(47 279)" fill="none" stroke="#efefef" stroke-linecap="round" stroke-width="1"/>
+    <text id="Modulo_" data-name="Modulo " transform="translate(221 47)" fill="#464646" font-size="22" font-family="Poppins-Medium, Poppins, sans-serif" font-weight="500"><tspan x="0" y="0">Modulo </tspan></text>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Elipse_5)">
+      <circle id="Elipse_5-2" data-name="Elipse 5" cx="25" cy="25" r="25" transform="translate(241 55)" fill="#438ce0"/>
+    </g>
+    <text id="_1" data-name="1" transform="translate(263 87)" fill="#efefef" font-size="20" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">1</tspan></text>
   </g>
 </svg>

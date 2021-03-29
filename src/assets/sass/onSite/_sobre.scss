@@ -9,6 +9,34 @@
         display: flex;
         align-items: center;
     }
+    .opc{
+        margin-top: 50px;
+        .grid-4{
+            height: 300px;
+            background-color: #438ce0;
+            box-shadow: 0 2px 3px 0 rgba(0,0,0,.2);
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-direction: column;
+            padding: 20px;
+            text-align: center;
+            color: #fff;
+            span{
+                font-size: 30px;
+                color: #18181880;
+            }
+            h1{
+                font-size: 25px;
+                font-weight: 500;
+            }
+            p{
+                font-family: "Rubik","Poppins","sans-serif";
+                font-size: 18px;
+                line-height: 1.5em;
+            }
+        }
+    }
     .sobre-video {
         display: block;
         margin: 0 auto;
@@ -168,7 +196,7 @@
             .titulo {
                 text-align: center;
                 color: #393939;
-                font-size: 3rem;
+                font-size: 2.4rem;
                 line-height: 1.375;
                 letter-spacing: -0.1rem;
                 span {
@@ -181,7 +209,7 @@
                 line-height: 1.4;
                 font-size: 1.3rem;
                 margin: 10px 0 10px;
-                font-family: "Poppins";
+                font-family: "Rubik","Poppins","sans-serif";
             }
             
         }
@@ -410,7 +438,7 @@
         background-repeat: no-repeat;
         background-position: center;
         position: relative;
-
+        margin-left: 0 !important;
         &::after {
             content: "";
             position: absolute;
@@ -655,7 +683,7 @@
    .card-l{
     .professor{
         display: flex;
-        height: 480.44px;
+        height: 424px;
         align-items: center;
         .sobreM{
             height: 340px;

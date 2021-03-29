@@ -1,22 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="154" height="220" viewBox="0 0 154 220">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="335" height="300" viewBox="0 0 335 300">
   <defs>
     <linearGradient id="linear-gradient" x1="0.523" y1="1" x2="0.5" y2="-0.497" gradientUnits="objectBoundingBox">
       <stop offset="0" stop-color="#3f3635"/>
       <stop offset="1" stop-color="#fff"/>
     </linearGradient>
+    <filter id="Elipse_6" x="233" y="49" width="68" height="68" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
     <clipPath id="clip-Watch_38_mm_5">
-      <rect width="154" height="220"/>
+      <rect width="335" height="300"/>
     </clipPath>
   </defs>
   <g id="Watch_38_mm_5" data-name="Watch 38 mm – 5" clip-path="url(#clip-Watch_38_mm_5)">
-    <rect width="154" height="220" fill="url(#linear-gradient)"/>
-    <text id="Seja_um_Dev" data-name="Seja um Dev" transform="translate(23 144)" fill="#efefef" font-size="20" font-family="Poppins-Bold, Poppins, sans-serif" font-weight="700"><tspan x="0" y="0">Seja um Dev</tspan></text>
-    <text id="Open_Source_" data-name="Open Source " transform="translate(10 168)" fill="#efefef" font-size="20" font-family="Poppins-Medium, Poppins, sans-serif" font-weight="500"><tspan x="0" y="0">Open Source </tspan></text>
-    <text id="_Git_e_Github_" data-name="(Git e Github)" transform="translate(4 192)" fill="#efefef" font-size="16" font-family="Poppins-Light, Poppins, sans-serif" font-weight="300"><tspan x="0" y="0">(Git e Github)</tspan></text>
-    <g id="github" transform="translate(7 34.597)">
-      <path id="Caminho_37" data-name="Caminho 37" d="M45.32,0A45.325,45.325,0,0,0,30.993,88.325c2.265.419,3.1-.983,3.1-2.18,0-1.081-.042-4.651-.061-8.438C21.42,80.449,18.759,72.36,18.759,72.36c-2.062-5.238-5.032-6.631-5.032-6.631-4.112-2.813.31-2.755.31-2.755,4.551.32,6.947,4.67,6.947,4.67,4.042,6.929,10.6,4.925,13.188,3.768a9.651,9.651,0,0,1,2.877-6.06C26.984,64.205,16.4,60.319,16.4,42.954a17.539,17.539,0,0,1,4.67-12.165c-.471-1.142-2.022-5.751.439-11.994,0,0,3.806-1.218,12.466,4.646a42.993,42.993,0,0,1,22.7,0c8.65-5.864,12.451-4.646,12.451-4.646,2.467,6.243.915,10.852.444,11.994a17.505,17.505,0,0,1,4.664,12.165c0,17.407-10.6,21.24-20.694,22.361,1.625,1.406,3.074,4.165,3.074,8.393,0,6.064-.053,10.944-.053,12.437,0,1.206.816,2.619,3.113,2.174A45.327,45.327,0,0,0,45.32,0" fill="#161614"/>
-      <path id="Caminho_38" data-name="Caminho 38" d="M45.554,180.24c-.1.225-.454.293-.777.138s-.514-.455-.407-.681.452-.3.781-.141.517.457.4.684m2.229,1.989c-.216.2-.639.107-.926-.209a.693.693,0,0,1-.133-.942c.223-.2.633-.107.93.21s.354.739.128.942m1.53,2.545c-.278.193-.732.012-1.013-.391s-.278-.886.006-1.08.729-.02,1.013.38.277.893-.007,1.091m2.587,2.947c-.248.274-.777.2-1.165-.173a.872.872,0,0,1-.257-1.158c.251-.274.783-.2,1.174.173s.514.887.249,1.158m3.342,1c-.109.355-.619.516-1.132.365s-.848-.571-.745-.93.618-.525,1.136-.364.848.567.741.928m3.8.422c.013.374-.423.684-.961.691s-.98-.291-.986-.658.425-.685.967-.693.98.29.98.661M62.783,189c.065.365-.31.739-.845.839s-1.013-.129-1.08-.491.316-.748.841-.845,1.015.126,1.084.5" transform="translate(-28.58 -115.68)" fill="#161614"/>
+    <rect width="335" height="300" fill="url(#linear-gradient)"/>
+    <text id="Seja_um_programador" data-name="Seja um programador" transform="translate(24 183)" fill="#efefef" font-size="24" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">Seja um programador</tspan></text>
+    <text id="Open_Source_" data-name="Open Source " transform="translate(125 216)" fill="#efefef" font-size="22" font-family="Poppins-Medium, Poppins, sans-serif" font-weight="500"><tspan x="0" y="0">Open Source </tspan></text>
+    <text id="_Git_e_Github_" data-name="(Git e Github)" transform="translate(101 271)" fill="#efefef" font-size="20" font-family="Poppins-Light, Poppins, sans-serif" font-weight="300"><tspan x="0" y="0">(Git e Github)</tspan></text>
+    <path id="Caminho_48" data-name="Caminho 48" d="M192.756,192.756h0Z" transform="translate(231 -8.756)" fill="#fff" fill-rule="evenodd"/>
+    <text id="Modulo_" data-name="Modulo " transform="translate(222 47)" fill="#fff" font-size="22" font-family="Poppins-Medium, Poppins, sans-serif" font-weight="500"><tspan x="0" y="0">Modulo </tspan></text>
+    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Elipse_6)">
+      <circle id="Elipse_6-2" data-name="Elipse 6" cx="25" cy="25" r="25" transform="translate(242 55)" fill="#438ce0"/>
     </g>
-    <path id="git" d="M114.536,53.168,63.567,2.2a7.518,7.518,0,0,0-10.631,0L42.352,12.786,55.778,26.212A8.928,8.928,0,0,1,67.085,37.593l12.939,12.94a8.935,8.935,0,1,1-5.358,5.044L62.6,43.51V75.265a9.038,9.038,0,0,1,2.366,1.692,8.938,8.938,0,1,1-9.722-1.952V42.954A8.837,8.837,0,0,1,52.314,41a8.943,8.943,0,0,1-1.928-9.78L37.151,17.986,2.2,52.932a7.52,7.52,0,0,0,0,10.635l50.97,50.967a7.519,7.519,0,0,0,10.632,0L114.536,63.8a7.523,7.523,0,0,0,0-10.636" transform="translate(99.105 -70.755) rotate(14)" fill="#de4c36"/>
+    <text id="_8_" data-name="8
+" transform="translate(261 88)" fill="#efefef" font-size="20" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">8</tspan><tspan x="0" y="30"></tspan></text>
+    <g id="github" transform="translate(24 24)">
+      <path id="Caminho_37" data-name="Caminho 37" d="M51.139,0A51.144,51.144,0,0,0,34.972,99.664c2.556.473,3.494-1.109,3.494-2.46,0-1.219-.048-5.248-.069-9.521-14.227,3.093-17.229-6.034-17.229-6.034-2.326-5.911-5.678-7.482-5.678-7.482-4.64-3.174.35-3.109.35-3.109,5.135.361,7.839,5.27,7.839,5.27,4.561,7.818,11.963,5.558,14.881,4.251a10.89,10.89,0,0,1,3.247-6.838c-11.358-1.293-23.3-5.678-23.3-25.273a19.79,19.79,0,0,1,5.269-13.726c-.531-1.288-2.281-6.489.5-13.533,0,0,4.294-1.374,14.067,5.242a48.512,48.512,0,0,1,25.611,0C73.711,19.834,78,21.208,78,21.208c2.783,7.044,1.032,12.245.5,13.533a19.752,19.752,0,0,1,5.263,13.726c0,19.641-11.963,23.966-23.35,25.232,1.834,1.587,3.468,4.7,3.468,9.47,0,6.842-.059,12.349-.059,14.034,0,1.361.92,2.955,3.513,2.453A51.146,51.146,0,0,0,51.139,0" fill="#161614"/>
+      <path id="Caminho_38" data-name="Caminho 38" d="M45.71,180.339c-.112.254-.513.33-.876.156s-.58-.513-.459-.768.511-.335.881-.159.584.516.455.771m2.516,2.244c-.244.226-.721.121-1.044-.236a.782.782,0,0,1-.15-1.063c.251-.226.714-.12,1.049.237s.4.834.144,1.063m1.726,2.871c-.314.218-.826.014-1.143-.441s-.313-1,.007-1.218.822-.022,1.143.429.313,1.008-.008,1.231m2.919,3.326c-.28.309-.877.226-1.314-.2a.983.983,0,0,1-.29-1.307c.284-.31.884-.223,1.324.2s.58,1,.281,1.307m3.771,1.123c-.123.4-.7.582-1.277.412s-.957-.645-.84-1.049.7-.593,1.281-.411.957.64.837,1.048m4.293.476c.014.422-.477.772-1.085.779s-1.106-.328-1.113-.743.48-.772,1.091-.782,1.106.327,1.106.746m4.217-.162c.073.411-.35.834-.953.947s-1.143-.146-1.219-.553.357-.844.949-.954,1.146.142,1.223.561" transform="translate(-26.556 -107.491)" fill="#161614"/>
+    </g>
   </g>
 </svg>

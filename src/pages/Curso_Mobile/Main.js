@@ -8,6 +8,9 @@ import { usePlayContext } from '../../contexts/PlayContext'
 import InscreverSe from '../../components/Curso_Mobile/InscreverSe'
 import PreProjetos from '../../components/Curso_Mobile/PreProjetos'
 import Modulos from '../../components/Curso_Mobile/Modulos'
+import Projectos from '../../components/Curso_Mobile/Projectos';
+import Quote from '../../components/Curso_Mobile/Quote'
+import FAQ from '../../components/Curso_Mobile/FAQ'
 const Main = () => {
     const { playBubton, setPlayButton } = usePlayContext();
 
@@ -21,7 +24,10 @@ const Main = () => {
             <Sobre />
             <PreProjetos></PreProjetos>
             <Modulos></Modulos>
+            <Projectos></Projectos>
             <InscreverSe />
+            <Quote></Quote>
+            <FAQ></FAQ>
             <Footer />
         </>
     );
