@@ -1,5 +1,6 @@
 import React from 'react'
 import TextLoop from "react-text-loop";
+import { Link } from 'react-scroll'
 import Header from './Header'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { usePlayContext } from '../../contexts/PlayContext';
@@ -35,7 +36,7 @@ function Home() {
                                     com esse curso.
                                 </h1>
                                 <div className="bot">
-                                    <a className="sbr" href="/">Saiba mais</a>
+                                <Link className="sbr" duration={1000} smooth={true} to="sobre">Saiba mais</Link>
                                     <button onClick={(event) => handleCl(event)} id="playsobre" className="playsobre" >{' '}</button>
                                     <span className="vid">Veja o vídeo</span>
                                 </div>

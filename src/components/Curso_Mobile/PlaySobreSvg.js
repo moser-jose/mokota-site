@@ -1,5 +1,4 @@
 import React from 'react'
-import Play from '../../assets/img/teste.jpg'
 import { usePlayContext } from '../../contexts/PlayContext'
 function PlaySobreSvg({img}) {
     const { setPlayButton, setEventButon } = usePlayContext();
@@ -8,7 +7,7 @@ function PlaySobreSvg({img}) {
         setPlayButton(true)
     }
     return (
-        <button id="playemp" /* href="#" */ onClick={handleCl}>
+        <button id="playemp" onClick={handleCl}>
             <div className="vd">
             </div>
         </button>

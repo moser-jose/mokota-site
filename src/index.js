@@ -24,13 +24,23 @@ import {
   faThumbsUp,
   faCalendarAlt,
   faQuoteLeft,
-  faQuoteRight
+  faQuoteRight,
+  faAward,
+  faUsers,
+  faChalkboardTeacher,
+  faHatWizard,
+  faHandshake,
 }
   from '@fortawesome/free-solid-svg-icons'
 import { faHeart as faHeartFar } from '@fortawesome/free-regular-svg-icons';
 
 library.add(fab,
   faBell,
+  faHandshake,
+  faHatWizard,
+  faChalkboardTeacher,
+  faAward,
+  faUsers,
   faQuoteLeft,
   faQuoteRight,
   faMobileAlt,

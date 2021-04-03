@@ -42,28 +42,28 @@ function Projectos() {
             <h1><span>Projectos</span> do curso</h1>
             <p className="text">Veja os projectos abaixo e esteja por dentro das aplicações que iremos desenvolver durante o curso.</p>
             <ul>
-                <li className={calculadora == 1 && 'selected'} onClick={calculadoraFunct}>Calculadora</li>
-                <li className={covid == 1 && 'selected'} onClick={covidFunct}>Covid-19 Tracker</li>
-                <li className={kumbon == 1 && 'selected'} onClick={kumbonFunct}>KumbOn</li>
-                <li className={camida == 1 && 'selected'} onClick={camidaFunct}>Camida</li>
+                <li className={calculadora === 1 ? 'selected' : ''} onClick={calculadoraFunct}>Calculadora</li>
+                <li className={covid === 1 ? 'selected' : ''} onClick={covidFunct}>Covid-19 Tracker</li>
+                <li className={kumbon === 1 ? 'selected' : ''} onClick={kumbonFunct}>KumbOn</li>
+                <li className={camida === 1 ? 'selected' : ''} onClick={camidaFunct}>Camida</li>
             </ul>
-            <div className={calculadora == 1 ? 'pro-v' : 'projecto-1 '}>
+            <div className={calculadora === 1 ? 'pro-v' : 'projecto-1 '}>
                 <img src={Calculadora} alt="calculadora" />
                 <p>Com o App Calculadora você estará por dentro do framework react-native, vai saber como funciona e como podem ser criadas as aplicações para android e ios.
                 </p>
             </div>
-            <div className={covid == 1 ? 'pro-v' : 'projecto-1 '}>
+            <div className={covid === 1 ? 'pro-v' : 'projecto-1 '}>
                 <img src={Covid} alt="covid-19" />
                 <p>Com a criação desse app, a ideia é estar informado sobre o estado da Covid-19 em Angola e ao redor do mundo,
                 com Temas light, dark e opções de idiomas.
                 </p>
             </div>
-            <div className={kumbon == 1 ? 'pro-v' : 'projecto-1 '}>
+            <div className={kumbon === 1 ? 'pro-v' : 'projecto-1 '}>
                 <img src={Kumbon} alt="Kumbon" />
                 <p>A ídeia da criação desse aplicativo é incentivar a resolução de
                     problemas que enfrentamos diariamente, em particular as enchentes nos multicaixas.</p>
             </div>
-            <div className={camida == 1 ? 'pro-v' : 'projecto-1 '}>
+            <div className={camida === 1 ? 'pro-v' : 'projecto-1 '}>
 
             </div>
 

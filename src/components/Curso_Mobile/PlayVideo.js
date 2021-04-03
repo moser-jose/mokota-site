@@ -14,7 +14,9 @@ function PlayVideo({ fechar }) {
     else if (eventButon === 'playemp') {
         url = 'http://www.youtube.com/embed/-CxIGiUBFWk?showinfo=0&enablejsapi=1&origin=https://github.com/'
     }
-
+    else if (eventButon === 'playpagamento') {
+        url = 'http://www.youtube.com/embed/-CxIGiUBFWk?showinfo=0&enablejsapi=1&origin=https://github.com/'
+    }
     function handleFecharClick({ target, currentTarget }) {
         if (target === currentTarget) {
             fechar();

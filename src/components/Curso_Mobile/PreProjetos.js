@@ -1,5 +1,4 @@
 import React from 'react'
-import TextLoop from "react-text-loop";
 import { Link } from 'react-scroll';
 import IMG from '../../assets/img/img-curso/xd-img.jpg';
 function PreProjetos() {

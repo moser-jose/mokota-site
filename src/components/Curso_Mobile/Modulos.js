@@ -38,19 +38,19 @@ function Modulos() {
                         <img src={Node} alt="" />
                     </div>
                     <div className="grid-4">
-                        <img src={Fire} alt="" />
-                    </div>
-                    <div className="grid-4">
                         <img src={Publ} alt="" />
                     </div>
                     <div className="grid-4">
                         <img src={GitH} alt="" />
                     </div>
+                    <div className="grid-4">
+                        <img src={Fire} alt="" />
+                    </div>
+                    
                 </div>
-                {/*  <p>Com esse curso você vai estudar a fundo cada particularidade das ferramentas
+                 <p className="text">Com esse curso você vai estudar a fundo cada particularidade das ferramentas
                 e a grande maioria dos recursos que eles nos oferecem. Tudo isso seguindo a documentação
-                e as melhores práticas de programação, aplicando tudo em diversos exemplos e
-                    vendo como isso pode ser implementado numa aplicação real.</p> */}
+                e as melhores práticas de programação.</p>
             </div>
             <div className="prese">
                 <div className="container">

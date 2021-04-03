@@ -26,7 +26,7 @@ const Sobre = () => {
             <div className="sb container">
                 <div className="grid-8 sobrenos">
                     <div className="eq-cab">
-                        <h1 className="titulo">Sobre o <span>Curso</span></h1>
+                        <h1 className="titulo">Sobre o <span>curso</span></h1>
                         <p className="desc"><span>Criação de Aplicativos Moveis com React Native Completo </span>
                         é um curso criado pela Mokota, com intuito de disseminar
                         o desenvolvimento de aplicações moveis por parte da juventude e não só,
@@ -48,7 +48,7 @@ const Sobre = () => {
                 <div className="grid-4">
                     <span><FontAwesomeIcon className="icon" icon="mobile-alt" /></span>
                     <h1>4 Aplicativos Reais</h1>
-                    <p>Crie três aplicativos reais, incríveis com design inédito e publique nas famosas lojas de Aplicativos</p>
+                    <p>Crie quatro aplicativos reais, incríveis com design inédito e publique nas famosas lojas de Aplicativos</p>
                 </div>
                 <div className="grid-4">
                     <span><FontAwesomeIcon className="icon" icon="code" /></span>
@@ -60,7 +60,7 @@ const Sobre = () => {
                     <h1>Sem Pré-requisitos</h1>
                     <p>Não precisa ter algum conhecimento de programação. Apenas trague um computador portátil</p></div>
                 <div className="grid-4">
-                <span><FontAwesomeIcon className="icon" icon="calendar-alt" /></span>
+                    <span><FontAwesomeIcon className="icon" icon="calendar-alt" /></span>
                     <h1>1 Mês de Aulas</h1>
                     <p>Aulas de segunda/sexta e quatro horas/dia. Desfrute do tempo e crie aplicações de invejar.</p>
                 </div>
@@ -90,6 +90,7 @@ const Sobre = () => {
                                 <li>Professor Universitário</li>
                                 <li>Programador Fullstack</li>
                                 <li>UI/UX Design</li>
+                                <li><i>&hearts;</i> Apaixonado por Open Source</li>
                             </ul>
                             <p>← Veja os meus projectos open source no github</p>
                         </div>

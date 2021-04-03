@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="335" height="300" viewBox="0 0 335 300">
   <defs>
-    <filter id="Elipse_2" x="233" y="49" width="68" height="68" filterUnits="userSpaceOnUse">
+    <filter id="Elipse_2" x="243" y="49" width="57" height="57" filterUnits="userSpaceOnUse">
       <feOffset dy="3" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="3" result="blur"/>
       <feFlood flood-opacity="0.161"/>
@@ -14,16 +14,16 @@
   <g id="Watch_38_mm_7" data-name="Watch 38 mm – 7" clip-path="url(#clip-Watch_38_mm_7)">
     <rect width="335" height="300" fill="#e7d035"/>
     <g id="javascript" transform="translate(23 23.952)">
-      <path id="Caminho_2" data-name="Caminho 2" d="M0,0H119.044V119.044H0Z" fill="#f0db4f"/>
-      <path id="Caminho_3" data-name="Caminho 3" d="M354.512,513.885c-.871-5.432-4.413-9.992-14.9-14.247-3.644-1.675-7.706-2.874-8.917-5.635a6.147,6.147,0,0,1-.215-3.485c.781-3.157,4.549-4.142,7.536-3.236a8.292,8.292,0,0,1,4.843,4.492c5.137-3.327,5.126-3.3,8.713-5.59a22.205,22.205,0,0,0-2.874-3.847c-3.089-3.451-7.3-5.228-14.032-5.092-1.166.147-2.342.305-3.508.453a15.913,15.913,0,0,0-8.442,4.979c-5.635,6.393-4.028,17.585,2.829,22.191,6.756,5.07,16.68,6.224,17.947,10.965,1.233,5.805-4.266,7.683-9.732,7.016-4.029-.837-6.269-2.885-8.691-6.608-4.458,2.58-4.458,2.58-9.041,5.217,1.086,2.376,2.229,3.451,4.051,5.511,8.623,8.747,30.2,8.317,34.073-4.923A16.346,16.346,0,0,0,354.512,513.885Zm-44.585-35.94H298.793c0,9.619-.045,19.169-.045,28.788,0,6.122.317,11.735-.679,13.455-1.629,3.383-5.85,2.965-7.774,2.308a9.557,9.557,0,0,1-4.108-4.266,5.727,5.727,0,0,0-.634-1.018q-4.532,2.767-9.053,5.545a17.892,17.892,0,0,0,6.563,7.514c4.244,2.546,9.947,3.327,15.91,1.958a14.058,14.058,0,0,0,8.985-7.039c2.535-4.673,1.992-10.331,1.969-16.589C309.984,498.394,309.928,488.187,309.928,477.946Z" transform="translate(-245.211 -423.233)" fill="#323330"/>
+      <path id="Caminho_2" data-name="Caminho 2" d="M0,0H93.1V93.1H0Z" fill="#f0db4f"/>
+      <path id="Caminho_3" data-name="Caminho 3" d="M337.511,505.9c-.681-4.248-3.452-7.815-11.655-11.142-2.85-1.31-6.027-2.248-6.974-4.407a4.808,4.808,0,0,1-.168-2.726c.611-2.469,3.558-3.239,5.894-2.531a6.485,6.485,0,0,1,3.788,3.513c4.018-2.6,4.009-2.584,6.814-4.372a17.368,17.368,0,0,0-2.248-3.009c-2.416-2.7-5.708-4.089-10.974-3.982-.912.115-1.832.239-2.743.354a12.445,12.445,0,0,0-6.6,3.894c-4.407,5-3.151,13.753,2.212,17.355,5.283,3.965,13.045,4.867,14.036,8.576.965,4.54-3.336,6.009-7.611,5.487-3.151-.655-4.9-2.257-6.8-5.168-3.487,2.018-3.487,2.018-7.071,4.08a15.739,15.739,0,0,0,3.168,4.31c6.744,6.841,23.62,6.5,26.647-3.85A12.784,12.784,0,0,0,337.511,505.9Zm-34.869-28.107h-8.708c0,7.522-.035,14.992-.035,22.514,0,4.788.248,9.177-.531,10.523-1.274,2.646-4.575,2.319-6.08,1.805a7.475,7.475,0,0,1-3.213-3.336,4.482,4.482,0,0,0-.5-.8q-3.544,2.164-7.08,4.336a13.993,13.993,0,0,0,5.133,5.876,16.906,16.906,0,0,0,12.443,1.531,11,11,0,0,0,7.027-5.5c1.982-3.655,1.558-8.08,1.54-12.974C302.687,493.783,302.643,485.8,302.643,477.791Z" transform="translate(-252.03 -435.002)" fill="#323330"/>
     </g>
-    <text id="Dominando_o" data-name="Dominando o" transform="translate(162 201)" fill="#141414" font-size="22" font-family="Poppins-Light, Poppins, sans-serif" font-weight="300"><tspan x="0" y="0">Dominando o</tspan></text>
-    <text id="Javascript-2" data-name="Javascript" transform="translate(178 236)" fill="#141414" font-size="24" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">Javascript</tspan></text>
-    <text id="ES6" transform="translate(269 271)" fill="#141414" font-size="24" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">ES6</tspan></text>
-    <text id="Modulo_" data-name="Modulo " transform="translate(222 47)" fill="#464646" font-size="22" font-family="Poppins-Medium, Poppins, sans-serif" font-weight="500"><tspan x="0" y="0">Modulo </tspan></text>
+    <text id="Dominando_o" data-name="Dominando o" transform="translate(176 201)" fill="#141414" font-size="20" font-family="Poppins-Light, Poppins, sans-serif" font-weight="300"><tspan x="0" y="0">Dominando o</tspan></text>
+    <text id="Javascript-2" data-name="Javascript" transform="translate(204 237)" fill="#141414" font-size="20" font-family="Poppins-Medium, Poppins, sans-serif" font-weight="500"><tspan x="0" y="0">Javascript</tspan></text>
+    <text id="ES6" transform="translate(276 272)" fill="#141414" font-size="20" font-family="Poppins-Medium, Poppins, sans-serif" font-weight="500"><tspan x="0" y="0">ES6</tspan></text>
+    <text id="Modulo_" data-name="Modulo " transform="translate(231 45)" fill="#464646" font-size="20" font-family="Poppins-Medium, Poppins, sans-serif" font-weight="500"><tspan x="0" y="0">Módulo </tspan></text>
     <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Elipse_2)">
-      <circle id="Elipse_2-2" data-name="Elipse 2" cx="25" cy="25" r="25" transform="translate(242 55)" fill="#438ce0"/>
+      <circle id="Elipse_2-2" data-name="Elipse 2" cx="19.5" cy="19.5" r="19.5" transform="translate(252 55)" fill="#438ce0"/>
     </g>
-    <text id="_2" data-name="2" transform="translate(262 87)" fill="#efefef" font-size="20" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">2</tspan></text>
+    <text id="_2" data-name="2" transform="translate(266 81)" fill="#efefef" font-size="18" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">2</tspan></text>
   </g>
 </svg>

@@ -18,27 +18,27 @@ function InscreverSe() {
                         <form >
                             <div className="flex-l">
                                 <div className="flex-d">
-                                    <Input type="text" name="nome" placeholder label="Nome *" ></Input>
+                                    <Input type="text" name="nome" placeholder="" label="Nome *" ></Input>
                                 </div>
                                 <div className="flex-d">
-                                    <Input type="text" name="sobrenome" placeholder label="Sobre Nome *" ></Input>
+                                    <Input type="text" name="sobrenome" placeholder="" label="Sobre Nome *" ></Input>
                                 </div></div>
                             <div className="flex-l">
                                 <div className="flex-d">
-                                    <Input type="text" name="telefone" placeholder label="Telefone (1) *" ></Input>
+                                    <Input type="text" name="telefone" placeholder="" label="Telefone (1) *" ></Input>
                                 </div>
                                 <div className="flex-d">
-                                    <Input type="text" name="sobrenome" placeholder label="Telefone (2) " ></Input>
+                                    <Input type="text" name="sobrenome" placeholder="" label="Telefone (2) " ></Input>
                                 </div></div>
 
-                            <Input type="email" name="email" placeholder label="E-mail *" ></Input>
-                            <Input type="text" name="endereco" placeholder label="Endereço *" ></Input>
+                            <Input type="email" name="email" placeholder="" label="E-mail *" ></Input>
+                            <Input type="text" name="endereco" placeholder="" label="Endereço *" ></Input>
                             <div className="termos-p">
                                 <Checkbox name="computador" label="Possuo um computador *" ></Checkbox>
                                 {/* <Checkbox name="programacao" label="Tenho experiência em programação"></Checkbox> */}
                             </div>
                             <div className="termos-p">
-                                <Input type="submit" value="Inscrever-se" name="inscrever" placeholder label ></Input>
+                                <Input type="submit" value="Inscrever-se" name="inscrever" placeholder="" label="" ></Input>
 
                             </div>
                         </form>

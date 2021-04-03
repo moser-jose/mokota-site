@@ -23,16 +23,15 @@
             text-align: center;
             color: #fff;
             span{
-                font-size: 30px;
+                font-size: 32px;
                 color: #18181880;
             }
             h1{
-                font-size: 25px;
+                font-size: 20px;
                 font-weight: 500;
             }
             p{
-                font-family: "Rubik","Poppins","sans-serif";
-                font-size: 18px;
+                font-size: 16px;
                 line-height: 1.5em;
             }
         }
@@ -205,9 +204,8 @@
                 }
             }
             .desc {
-                color: #393939;
                 line-height: 1.4;
-                font-size: 1.3rem;
+                font-size: 1.2rem;
                 margin: 10px 0 10px;
                 font-family: "Rubik","Poppins","sans-serif";
             }
@@ -418,11 +416,11 @@
             }
         }
         .desc {
-            color: #ffffffc7;
+           /*  color: #ffffffc7; */
             line-height: 1.4;
-            font-size: 1.3rem;
+            font-size: 1.2rem;
             text-align: center;
-            font-family: "Poppins";
+            font-family: "Rubik","Poppins", "sans-serif";
             margin: 10px 0 40px;
         }
     }
@@ -563,17 +561,19 @@
         }
         h1 {
             margin: 10px 0 2px 0;
-            font-size: 1.5rem;
+            font-size: 1.3rem;
             font-weight: 600;
             color: #555;
+            font-family: "Rubik","Poppins","sans-serif";
         }
         h2 {
             font-size: 0.8rem;
             font-style: italic;
             letter-spacing: 0.5px;
-            font-weight: 600;
+            font-weight: 400;
             color: #555;
             margin-bottom: 30px;
+            font-family: "Rubik","Poppins","sans-serif";
         }
         span {
             height: 25px;
@@ -646,19 +646,11 @@
         background-color: #fff;}
     .ferr-texto{
         text-align: center;
-        font-size: 22px;
+        font-size: 20px;
+        font-family: "Rubik","Poppins","sans-serif";
         
         position: relative;
-        /* &::after{
-            content: "";
-            display: block;
-            height: 2px;
-            width: 30%;
-            margin: 10px auto 0;
-            background-color: #e88d76;
-        } */
         span{
-            font-size: 24px;
             font-weight: 500;
             color: #438ce0;
         }
@@ -695,14 +687,18 @@
             ul{
                 li{
                     margin-top: 16px;
-                    font-family: "Poppins";
-                    font-weight: 500;
+                    font-family: "Rubik","Poppins","sans-serif";
+                    font-weight: 400;
                     &::before {
                         content: "\2714";
                         display: inline-block;
                         border-radius: 50%;
                         color: #23962d;
                         margin-right: 6px;
+                        font-size: 18px;
+                    }
+                    i{
+                        color: #e63434;
                         font-size: 18px;
                     }
                 }
@@ -749,11 +745,11 @@
                 }
             }
             .desc {
-                color: #393939c7;
+                /* color: #393939c7; */
                 line-height: 1.4;
-                font-size: 1.3rem;
+                font-size: 20px;
                 text-align: left;
-                font-family: "Poppins";
+                font-family: "Rubik","Poppins","sans-serif";
                 margin: 0;
                 span{
                     margin:20px 0 0;

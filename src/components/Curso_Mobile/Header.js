@@ -47,8 +47,8 @@ function Header() {
                         <li className="m-home"><Link className="link" duration={1000} smooth={true} to="home">Home</Link></li>
                         <li className="m-sobre"><Link className="link" duration={1000} smooth={true} to="sobre">O Curso</Link></li>
                         <li className="m-sobre"><Link className="link" duration={1000} smooth={true} to="projectos">Projectos</Link></li>
+                        <li className="m-sobre"><Link className="link" duration={1000} smooth={true} to="pagamento">Pagamento</Link></li>
                         <li className="m-sobre"><Link className="link" duration={1000} smooth={true} to="faq">FAQ</Link></li>
-
                         <div id="animacao" className="animacao s-home"></div>
                     </ul>
                     <Link duration={1000} smooth={true} to="inscrever" className={scrollPosition > 70 ? "btn-azul" : "btn-branco"}>Inscrever-se</Link>

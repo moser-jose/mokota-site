@@ -11,6 +11,8 @@ import Modulos from '../../components/Curso_Mobile/Modulos'
 import Projectos from '../../components/Curso_Mobile/Projectos';
 import Quote from '../../components/Curso_Mobile/Quote'
 import FAQ from '../../components/Curso_Mobile/FAQ'
+import Duvidas from '../../components/Curso_Mobile/Duvidas'
+import Pagamento from '../../components/Curso_Mobile/Pagamento'
 const Main = () => {
     const { playBubton, setPlayButton } = usePlayContext();
 
@@ -25,6 +27,8 @@ const Main = () => {
             <PreProjetos></PreProjetos>
             <Modulos></Modulos>
             <Projectos></Projectos>
+            <Duvidas></Duvidas>
+            <Pagamento></Pagamento>
             <InscreverSe />
             <Quote></Quote>
             <FAQ></FAQ>
