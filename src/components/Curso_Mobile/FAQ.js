@@ -3,9 +3,9 @@ import React from 'react'
 function FAQ() {
     return (
         <div id="faq" className="faq">
-            <h1>Perguntas Frequentes <span>(FAQ)</span></h1>
+            <div className="container"><h1>Perguntas Frequentes <span>(FAQ)</span></h1></div>
             <div className="container faq-1">
-                <div className="grid-1-3">
+                <div className="grid-1-3 first">
                     <h2>Não sei programar, posso fazer o curso?</h2>
                     <p> <span>SIM!</span> Começaremos do básico até o avançado e
                     explicaremos ao fundo todas as ferramentas que utilizaremos, sem omitir.
@@ -37,9 +37,9 @@ function FAQ() {
                 <div className="grid-1-3">
                     <h2>Como é feito o pagamento de acesso ao curso?</h2>
                     <p>O valor total do curso é de 30.000 kzs, e existem duas modalidades de pagamento,
-                        a 1ª o estudante pode fazer o pagamento desse valor em um único pagamento. 2ª o aluno pode 
-                        fazer o pagamento em duas prestações de 15.000 kzs cada. A primeira prestação é cobrado até o ínicio do curso, 
-                        e a segunda é cobrado duas semanas após o ínicio do curso.
+                    a 1ª o estudante pode fazer o pagamento desse valor em um único pagamento. 2ª o aluno pode
+                    fazer o pagamento em duas prestações de 15.000 kzs cada. A primeira prestação é cobrado até o ínicio do curso,
+                    e a segunda é cobrado duas semanas após o ínicio do curso.
                     </p>
                 </div>
                 <div className="grid-1-3">

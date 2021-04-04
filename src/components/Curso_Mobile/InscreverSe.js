@@ -9,7 +9,7 @@ function InscreverSe() {
                 <div className="grid-6">
                     <h1 className="titulo">Inscreva-se
                     <span className="agora"> AGORA</span>
-                        <span className="vaga">e reserve já a sua vaga</span>
+                        <span className="vaga">Reserve já a sua vaga</span>
                     </h1>
                     <h1 className="obs"><span>obs:</span> Porfavor, insira informações fidedigas pois
                 a nossa equipa irá entrar em contacto consigo.
