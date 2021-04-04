@@ -429,7 +429,6 @@
                 }
                 p{
                     font-size: 12px;
-                    font-weight: 400;
                     &::before{
                         top: -15px;
                         font-size: 12px;
@@ -464,78 +463,39 @@
     }
    
     .prestacao,.pag{
-        box-shadow: 0 2px 3px 0 rgba(0,0,0,.2);
-        background-color: #f5f8fd;
-        border-radius: 10px;
-        padding:30px 30px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;;
-        .invest{
-            font-size: 16px;
-            color: #3f506d;
-            font-weight: 500;
-        }
+        padding:18px;
+        margin-left: 0 !important;
+        
         h1{
-            font-size: 40px;
-            color: #3f506d;
-            font-weight: 500;
-            margin: 2px 0 20px;
-            font-family: "Poppins", sans-serif;
+            margin: 0px;
             span{
-                font-size: 15px;
-                margin-left: 20px;
+                margin-left: 0;
             }
         }
         h3{
-            font-size: 16px;
-            color: #3f506d;
-            font-weight: 400;
-            margin-bottom: 20px;
+            margin-bottom: 0px;
         }
         .primeira-p{
-            height: 80px;
-            width: 100%;
-            background-color: #5ebc7f;
-            border-radius: 15px;
-            display: flex;
-            padding: 15px;
-            
+            padding: 10px;
+            align-items: center;
             &:nth-last-child(1){
-                margin-top: 30px;
+                margin-top: 0px;
             }
             .icon{
-                width: 50px;
-               /*  height: 100%; */
-                background-color: #f5f8fd;
-                box-shadow: 0 2px 3px 0 rgba(0,0,0,.2);
-                border-radius: 10px;
-                display: flex;
-                justify-content: center;
-                align-items: center;
+                width: 35px !important;
+                height: 35px !important;
                 span{
                     color: #3f506d;
-                    font-size: 25px !important;
+                    font-size: 18px !important;
                 }
             }
             .texto{
-                display: flex;
-                flex-direction: column;
-                padding: 0 20px;
-                justify-content:  center;
-                flex: 1;
+                padding: 0 10px;
                 h1{
-                    margin-bottom: 3px;
-                    font-family: "Rubik","Poppins","sans-serif";
-                    font-size: 18px;
-                    font-weight: 500;
-                    color: #3f506d;
+                    font-size: 14px;
                 }
                 h2{
-                    margin-top: 3px;
-                    color:#fafafac2;
-                    font-size: 16px;
-                    font-family: "Rubik","Poppins","sans-serif";
+                    font-size: 14px;
                 }
             }
             .valor{
@@ -543,7 +503,7 @@
                 justify-content: center;
                 align-items: center;
                 p{
-                    font-size: 18px;
+                    font-size: 14px;
                     font-weight: 500;
                     color: #f5f8fd;
                     padding: 6px;
@@ -567,6 +527,7 @@
         }
     }
     .pag{
+        margin-top: 36px !important;
         h2{
             color: #3f506d;
             font-weight: 500;
@@ -592,11 +553,12 @@
             }
         }
         div{
+            .btn-azul{
+                font-size: 14px;
+                padding: 10px !important;
+            }
             span{
-                color: #438ce0;
-                font-weight: 500;
-                margin-left: 16px;
-                cursor: pointer
+                font-size: 14px;
             }
         }
     }

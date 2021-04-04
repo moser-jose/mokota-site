@@ -65,7 +65,7 @@ function Pagamento() {
                         </div>
                         <div className="texto">
                             <h1>2ª Prestação</h1>
-                            <h2>até a 2 ª semana</h2>
+                            <h2>até a 2ª semana</h2>
                         </div>
                         <div className="valor">
                             <p>15.000 Kzs</p>
