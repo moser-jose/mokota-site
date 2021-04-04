@@ -617,9 +617,16 @@
     p{
         text-align: center;
         color: #fff;
+        display: block;
         font-size: 18px;
         margin-top:20px;
         letter-spacing: 1px;
+        span{
+            display: block;
+            font-size: 25px;
+            margin: 20px 0;
+            color: #0000002e;
+        }
     }
     .autor{
         font-family: "Poppins";

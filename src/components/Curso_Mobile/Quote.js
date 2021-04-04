@@ -4,7 +4,8 @@ function Quote() {
     return (
         <blockquote className="quote">
             <div className="container">
-                <p><span> <FontAwesomeIcon icon="quote-left" /> Forme-se com o pensamento de que conhecimento é poder. <FontAwesomeIcon icon="quote-right" /></span></p>
+                <p><span> <FontAwesomeIcon icon="quote-left" /> </span>
+                Forme-se com o pensamento de que conhecimento é poder. <span><FontAwesomeIcon icon="quote-right" /></span></p>
                 <p className="autor">- Moser José, CTO</p>
             </div>
         </blockquote>
