@@ -605,6 +605,15 @@
        
         display: none;
     }
+    .img{
+        img{
+            width: 260px;
+            height: 470px;
+            margin-left: 10px;
+            margin-right: 10px;
+            object-fit: cover;
+        }
+    }
     
 }
 .quote{

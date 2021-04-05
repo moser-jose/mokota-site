@@ -1,5 +1,11 @@
 import React, { useState } from 'react'
-import Kumbon from '../../assets/img/img-curso/kumbon.jpg'
+import KumbonLogin from '../../assets/img/img-curso/projetos/kumbon/Login.svg'
+import KumbonHome from '../../assets/img/img-curso/projetos/kumbon/Home.svg'
+import KumbonMapa from '../../assets/img/img-curso/projetos/kumbon/Mapa.svg'
+import KumbonBancoMapa from '../../assets/img/img-curso/projetos/kumbon/Mapa-Banco.svg'
+
+import CalculadoraLight from '../../assets/img/img-curso/projetos/calculadora/Home-Light.svg'
+import CalculadoraDark from '../../assets/img/img-curso/projetos/calculadora/Home-Dark.svg'
 import Calculadora from '../../assets/img/img-curso/calculadora.jpg'
 import Covid from '../../assets/img/img-curso/covid.jpg'
 function Projectos() {
@@ -48,18 +54,30 @@ function Projectos() {
                 <li className={camida === 1 ? 'selected' : ''} onClick={camidaFunct}>Camida</li>
             </ul>
             <div className={calculadora === 1 ? 'pro-v' : 'projecto-1 '}>
-                <img src={Calculadora} alt="calculadora" />
+
+                <div className="img">
+                    <img src={CalculadoraLight} alt="calculadora" />
+                    <img src={CalculadoraDark} alt="calculadora" />
+                </div>
                 <p>Com o App Calculadora você estará por dentro do framework react-native, vai saber como funciona e como podem ser criadas as aplicações para android e ios.
                 </p>
             </div>
             <div className={covid === 1 ? 'pro-v' : 'projecto-1 '}>
                 <img src={Covid} alt="covid-19" />
+                <div className="img">
+
+                </div>
                 <p>Com a criação desse app, a ideia é estar informado sobre o estado da Covid-19 em Angola e ao redor do mundo,
                 com Temas light, dark e opções de idiomas.
                 </p>
             </div>
             <div className={kumbon === 1 ? 'pro-v' : 'projecto-1 '}>
-                <img src={Kumbon} alt="Kumbon" />
+                <div className="img">
+                    <img src={KumbonLogin} alt="Kumbon" />
+                    <img src={KumbonHome} alt="Kumbon" />
+                    <img src={KumbonMapa} alt="Kumbon" />
+                    <img src={KumbonBancoMapa} alt="Kumbon" />
+                </div>
                 <p>A ídeia da criação desse aplicativo é incentivar a resolução de
                     problemas que enfrentamos diariamente, em particular as enchentes nos multicaixas.</p>
             </div>
