@@ -131,9 +131,9 @@
         </g>
       </g>
       <g id="Grupo_81" data-name="Grupo 81" transform="translate(0 -1)">
-        <text id="Banco_BPC" data-name="Banco BPC" transform="translate(121 183)" fill="#fff" font-size="20" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="0" y="0">Banco BPC</tspan></text>
-        <text id="Rua_Doutor_Lacerda_Cidade-alta_H..." data-name="Rua Doutor Lacerda, Cidade-alta, H..." transform="translate(122 199)" fill="#fff" font-size="9" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Rua Doutor Lacerda, Cidade-alta, H...</tspan></text>
-        <text id="_1_km_distancia" data-name="1 km, distancia" transform="translate(123 213)" fill="#ffcb20" font-size="9" font-family="Poppins-SemiBold, Poppins" font-weight="600" opacity="0.74"><tspan x="0" y="0">1 km, distancia</tspan></text>
+        <text id="Banco_BPC" data-name="Banco BPC" transform="translate(121 183)" fill="#fff" font-size="20" font-family="Poppins-Bold, Poppins, sans-serif" font-weight="700"><tspan x="0" y="0">Banco BPC</tspan></text>
+        <text id="Rua_Doutor_Lacerda_Cidade-alta_H..." data-name="Rua Doutor Lacerda, Cidade-alta, H..." transform="translate(122 199)" fill="#fff" font-size="9" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">Rua Doutor Lacerda, Cidade-alta, H...</tspan></text>
+        <text id="_1_km_distancia" data-name="1 km, distancia" transform="translate(123 213)" fill="#ffcb20" font-size="9" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600" opacity="0.74"><tspan x="0" y="0">1 km, distancia</tspan></text>
         <g id="Grupo_77" data-name="Grupo 77" transform="translate(15 15)">
           <g transform="matrix(1, 0, 0, 1, -15, -11)" filter="url(#NoPath_-_Cópia_2_)">
             <rect id="NoPath_-_Cópia_2_4" data-name="NoPath - Cópia (2)" width="72" height="72" rx="36" transform="translate(36 154)" fill="url(#pattern-2)"/>
@@ -144,8 +144,8 @@
         </g>
       </g>
       <g id="Grupo_76" data-name="Grupo 76" transform="translate(-10 1)">
-        <text id="Dinheiro" transform="translate(267 236)" fill="#fff" font-size="12" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Dinheiro</tspan></text>
-        <text id="Papel" transform="translate(352 236)" fill="#fff" font-size="12" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Papel</tspan></text>
+        <text id="Dinheiro" transform="translate(267 236)" fill="#fff" font-size="12" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">Dinheiro</tspan></text>
+        <text id="Papel" transform="translate(352 236)" fill="#fff" font-size="12" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">Papel</tspan></text>
         <path id="Icon_awesome-check-circle" data-name="Icon awesome-check-circle" d="M14.563,7.563a7,7,0,1,1-7-7A7,7,0,0,1,14.563,7.563Zm-7.81,3.706,5.194-5.194a.452.452,0,0,0,0-.639L11.308,4.8a.452.452,0,0,0-.639,0L6.433,9.034,4.456,7.056a.452.452,0,0,0-.639,0l-.639.639a.452.452,0,0,0,0,.639l2.935,2.935a.452.452,0,0,0,.639,0Z" transform="translate(248.438 224.438)" fill="#0d9c02"/>
         <path id="Icon_ionic-ios-close-circle" data-name="Icon ionic-ios-close-circle" d="M10.375,3.375a7,7,0,1,0,7,7A7,7,0,0,0,10.375,3.375Zm1.774,9.534-1.774-1.774L8.6,12.909a.538.538,0,1,1-.761-.761l1.774-1.774L7.841,8.6A.538.538,0,0,1,8.6,7.841l1.774,1.774,1.774-1.774a.538.538,0,0,1,.761.761l-1.774,1.774,1.774,1.774a.54.54,0,0,1,0,.761A.534.534,0,0,1,12.149,12.909Z" transform="translate(328.625 221.625)" fill="#ff6363"/>
       </g>
@@ -188,19 +188,19 @@
         <g transform="matrix(1, 0, 0, 1, 0, 8)" filter="url(#Retângulo_1)">
           <rect id="Retângulo_1-3" data-name="Retângulo 1" width="206" height="108" rx="6" transform="translate(20 603)" fill="#fff"/>
         </g>
-        <text id="Banco_BPC-2" data-name="Banco BPC" transform="translate(108 645)" fill="#312c51" font-size="12" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Banco BPC</tspan></text>
-        <text id="Rua_Doutor_Lacerda_Ci..." data-name="Rua Doutor Lacerda, Ci..." transform="translate(106 660)" fill="#312c51" font-size="9" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Rua Doutor Lacerda, Ci...</tspan></text>
-        <text id="_20_km_distancia" data-name="20 km, distancia" transform="translate(108 674)" fill="#ffbb01" font-size="9" font-family="Poppins-SemiBold, Poppins" font-weight="600" opacity="0.65"><tspan x="0" y="0">20 km, distancia</tspan></text>
+        <text id="Banco_BPC-2" data-name="Banco BPC" transform="translate(108 645)" fill="#312c51" font-size="12" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">Banco BPC</tspan></text>
+        <text id="Rua_Doutor_Lacerda_Ci..." data-name="Rua Doutor Lacerda, Ci..." transform="translate(106 660)" fill="#312c51" font-size="9" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">Rua Doutor Lacerda, Ci...</tspan></text>
+        <text id="_20_km_distancia" data-name="20 km, distancia" transform="translate(108 674)" fill="#ffbb01" font-size="9" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600" opacity="0.65"><tspan x="0" y="0">20 km, distancia</tspan></text>
         <g id="Grupo_42" data-name="Grupo 42" transform="translate(93.185 693)">
           <g id="Grupo_6" data-name="Grupo 6">
-            <text id="Dinheiro-2" data-name="Dinheiro" transform="translate(19.815 11)" fill="#312c51" font-size="10" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Dinheiro</tspan></text>
+            <text id="Dinheiro-2" data-name="Dinheiro" transform="translate(19.815 11)" fill="#312c51" font-size="10" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">Dinheiro</tspan></text>
             <g id="Icon_ionic-ios-checkmark-circle-outline" data-name="Icon ionic-ios-checkmark-circle-outline" transform="translate(0 1)">
               <path id="Caminho_8" data-name="Caminho 8" d="M17.643,12.856l-.592-.609a.127.127,0,0,0-.094-.04h0a.122.122,0,0,0-.094.04l-4.106,4.136-1.494-1.494a.13.13,0,0,0-.188,0l-.6.6a.134.134,0,0,0,0,.192l1.885,1.885a.6.6,0,0,0,.394.192.625.625,0,0,0,.39-.185h0l4.5-4.523A.144.144,0,0,0,17.643,12.856Z" transform="translate(-7.056 -7.979)" fill="#23b605"/>
               <path id="Caminho_9" data-name="Caminho 9" d="M10.375,4.317A6.055,6.055,0,1,1,6.091,6.091a6.018,6.018,0,0,1,4.284-1.774m0-.942a7,7,0,1,0,7,7,7,7,0,0,0-7-7Z" transform="translate(-3.375 -3.375)" fill="#23b605"/>
             </g>
           </g>
           <g id="Grupo_7" data-name="Grupo 7" transform="translate(77.325)">
-            <text id="Papel-2" data-name="Papel" transform="translate(17.49 11)" fill="#312c51" font-size="10" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Papel</tspan></text>
+            <text id="Papel-2" data-name="Papel" transform="translate(17.49 11)" fill="#312c51" font-size="10" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">Papel</tspan></text>
             <g id="Icon_ionic-ios-close-circle-outline" data-name="Icon ionic-ios-close-circle-outline" transform="translate(0 1)">
               <path id="Caminho_10" data-name="Caminho 10" d="M17.593,16.83,15.82,15.057l1.774-1.774a.538.538,0,1,0-.761-.761L15.059,14.3l-1.774-1.774a.538.538,0,0,0-.761.761L14.3,15.057,12.525,16.83a.52.52,0,0,0,0,.761.534.534,0,0,0,.761,0l1.774-1.774,1.774,1.774a.54.54,0,0,0,.761,0A.534.534,0,0,0,17.593,16.83Z" transform="translate(-8.059 -8.057)" fill="#ff6363"/>
               <path id="Caminho_11" data-name="Caminho 11" d="M10.375,4.317A6.055,6.055,0,1,1,6.091,6.091a6.018,6.018,0,0,1,4.284-1.774m0-.942a7,7,0,1,0,7,7,7,7,0,0,0-7-7Z" transform="translate(-3.375 -3.375)" fill="#ff6363"/>
@@ -218,19 +218,19 @@
         <g transform="matrix(1, 0, 0, 1, -219, 8)" filter="url(#Retângulo_1-2)">
           <rect id="Retângulo_1-4" data-name="Retângulo 1" width="206" height="108" rx="6" transform="translate(239 603)" fill="#fff"/>
         </g>
-        <text id="Banco_BPC-3" data-name="Banco BPC" transform="translate(108 645)" fill="#312c51" font-size="12" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Banco BPC</tspan></text>
-        <text id="Rua_Doutor_Lacerda_Ci...-2" data-name="Rua Doutor Lacerda, Ci..." transform="translate(106 660)" fill="#312c51" font-size="9" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Rua Doutor Lacerda, Ci...</tspan></text>
-        <text id="_20_km_distancia-2" data-name="20 km, distancia" transform="translate(108 674)" fill="#ffbb01" font-size="9" font-family="Poppins-SemiBold, Poppins" font-weight="600" opacity="0.65"><tspan x="0" y="0">20 km, distancia</tspan></text>
+        <text id="Banco_BPC-3" data-name="Banco BPC" transform="translate(108 645)" fill="#312c51" font-size="12" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">Banco BPC</tspan></text>
+        <text id="Rua_Doutor_Lacerda_Ci...-2" data-name="Rua Doutor Lacerda, Ci..." transform="translate(106 660)" fill="#312c51" font-size="9" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">Rua Doutor Lacerda, Ci...</tspan></text>
+        <text id="_20_km_distancia-2" data-name="20 km, distancia" transform="translate(108 674)" fill="#ffbb01" font-size="9" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600" opacity="0.65"><tspan x="0" y="0">20 km, distancia</tspan></text>
         <g id="Grupo_42-2" data-name="Grupo 42" transform="translate(93.185 693)">
           <g id="Grupo_6-2" data-name="Grupo 6">
-            <text id="Dinheiro-3" data-name="Dinheiro" transform="translate(19.815 11)" fill="#312c51" font-size="10" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Dinheiro</tspan></text>
+            <text id="Dinheiro-3" data-name="Dinheiro" transform="translate(19.815 11)" fill="#312c51" font-size="10" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">Dinheiro</tspan></text>
             <g id="Icon_ionic-ios-checkmark-circle-outline-2" data-name="Icon ionic-ios-checkmark-circle-outline" transform="translate(0 1)">
               <path id="Caminho_8-2" data-name="Caminho 8" d="M17.643,12.856l-.592-.609a.127.127,0,0,0-.094-.04h0a.122.122,0,0,0-.094.04l-4.106,4.136-1.494-1.494a.13.13,0,0,0-.188,0l-.6.6a.134.134,0,0,0,0,.192l1.885,1.885a.6.6,0,0,0,.394.192.625.625,0,0,0,.39-.185h0l4.5-4.523A.144.144,0,0,0,17.643,12.856Z" transform="translate(-7.056 -7.979)" fill="#23b605"/>
               <path id="Caminho_9-2" data-name="Caminho 9" d="M10.375,4.317A6.055,6.055,0,1,1,6.091,6.091a6.018,6.018,0,0,1,4.284-1.774m0-.942a7,7,0,1,0,7,7,7,7,0,0,0-7-7Z" transform="translate(-3.375 -3.375)" fill="#23b605"/>
             </g>
           </g>
           <g id="Grupo_7-2" data-name="Grupo 7" transform="translate(77.325)">
-            <text id="Papel-3" data-name="Papel" transform="translate(17.49 11)" fill="#312c51" font-size="10" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Papel</tspan></text>
+            <text id="Papel-3" data-name="Papel" transform="translate(17.49 11)" fill="#312c51" font-size="10" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">Papel</tspan></text>
             <g id="Icon_ionic-ios-close-circle-outline-2" data-name="Icon ionic-ios-close-circle-outline" transform="translate(0 1)">
               <path id="Caminho_10-2" data-name="Caminho 10" d="M17.593,16.83,15.82,15.057l1.774-1.774a.538.538,0,1,0-.761-.761L15.059,14.3l-1.774-1.774a.538.538,0,0,0-.761.761L14.3,15.057,12.525,16.83a.52.52,0,0,0,0,.761.534.534,0,0,0,.761,0l1.774-1.774,1.774,1.774a.54.54,0,0,0,.761,0A.534.534,0,0,0,17.593,16.83Z" transform="translate(-8.059 -8.057)" fill="#ff6363"/>
               <path id="Caminho_11-2" data-name="Caminho 11" d="M10.375,4.317A6.055,6.055,0,1,1,6.091,6.091a6.018,6.018,0,0,1,4.284-1.774m0-.942a7,7,0,1,0,7,7,7,7,0,0,0-7-7Z" transform="translate(-3.375 -3.375)" fill="#ff6363"/>
