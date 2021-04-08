@@ -59,25 +59,47 @@ function Projectos() {
             <p className="text">Veja os projectos abaixo e esteja por dentro das aplicações que iremos desenvolver durante o curso.</p>
             <ul>
                 <li className={calculadora === 1 ? 'selected' : ''} onClick={calculadoraFunct}>Calculadora</li>
-                <li className={covid === 1 ? 'selected' : ''} onClick={covidFunct}>Covid-19 Tracker</li>
+                <li className={covid === 1 ? 'selected' : ''} onClick={covidFunct}>Covid-19</li>
                 <li className={kumbon === 1 ? 'selected' : ''} onClick={kumbonFunct}>KumbOn</li>
                 <li className={camida === 1 ? 'selected' : ''} onClick={camidaFunct}>Camida</li>
             </ul>
             <div className={calculadora === 1 ? 'pro-v' : 'projecto-1 '}>
 
-                <div className="img">
-                    <img src={CalculadoraLight} alt="calculadora" />
-                    <img src={CalculadoraDark} alt="calculadora" />
+            <div className="img">
+                    <Carousel
+                        disableArrowsOnEnd={false}
+                        pagination={true}
+                        transitionMs={500}
+                        breakPoints={breakPoints}
+                        focusOnSelect={false}
+                    >
+                        <img src={CalculadoraLight} alt="calculadora" />
+                        <img src={CalculadoraDark} alt="calculadora" />
+
+                    </Carousel>
+
                 </div>
+                
                 <p>Com o App Calculadora você estará por dentro do framework react-native, vai saber como funciona e como podem ser criadas as aplicações para android e ios.
                 </p>
             </div>
             <div className={covid === 1 ? 'pro-v' : 'projecto-1 '}>
+
                 <div className="img">
-                    <img src={CovidHome} alt="Covid - Home" />
-                    <img src={CovidPaises} alt="Covid - Paises" />
-                    <img src={CovidMapa} alt="Covid - Mapas" />
-                    <img src={CovidEmergencia} alt="Covid - Emergência" />
+                    <Carousel
+                        disableArrowsOnEnd={false}
+                        pagination={true}
+                        transitionMs={500}
+                        breakPoints={breakPoints}
+                        focusOnSelect={false}
+                    >
+                        <img src={CovidHome} alt="Covid - Home" />
+                        <img src={CovidPaises} alt="Covid - Paises" />
+                        <img src={CovidMapa} alt="Covid - Mapas" />
+                        <img src={CovidEmergencia} alt="Covid - Emergência" />
+
+                    </Carousel>
+
                 </div>
                 <p>Com a criação desse app, a ideia é estar informado sobre o estado da Covid-19 em Angola e ao redor do mundo,
                 com Temas light, dark e opções de idiomas.
