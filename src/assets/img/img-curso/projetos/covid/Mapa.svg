@@ -13,7 +13,7 @@
   </defs>
   <g id="Mapa" clip-path="url(#clip-Mapa)">
     <rect width="412" height="735" fill="#1d1e21"/>
-    <text id="Covid-19_Pelo_Mundo" data-name="Covid-19 Pelo Mundo" transform="translate(20 58)" fill="#f2f6f8" font-size="20" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Covid-19 Pelo Mundo</tspan></text>
+    <text id="Covid-19_Pelo_Mundo" data-name="Covid-19 Pelo Mundo" transform="translate(20 58)" fill="#f2f6f8" font-size="20" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">Covid-19 Pelo Mundo</tspan></text>
     <rect id="Retângulo_2" data-name="Retângulo 2" width="412" height="60" transform="translate(0 675)" fill="#2b3139"/>
     <g id="Search" transform="translate(20 690)">
       <ellipse id="Ellipse_746" cx="10.643" cy="10.687" rx="10.643" ry="10.687" transform="translate(0)" fill="none" stroke="#f2f6f8" stroke-width="1.5"/>
@@ -47,21 +47,21 @@
         <path id="Home-2" data-name="Home" d="M6.644,18.782V15.715A1.418,1.418,0,0,1,8.058,14.3h2.874a1.419,1.419,0,0,1,1.424,1.413h0v3.058A1.231,1.231,0,0,0,13.583,20h1.961a3.46,3.46,0,0,0,2.443-1A3.41,3.41,0,0,0,19,16.578V7.866a2.473,2.473,0,0,0-.9-1.9L11.443.674A3.115,3.115,0,0,0,7.485.745L.967,5.964A2.474,2.474,0,0,0,0,7.866v8.7A3.444,3.444,0,0,0,3.456,20H5.372a1.231,1.231,0,0,0,.873-.354,1.213,1.213,0,0,0,.362-.864Z" fill="none" stroke="#1d1e21" stroke-width="2"/>
       </g>
     </g>
-    <text id="Total_de_casos" data-name="Total de casos" transform="translate(20 629)" fill="#f2f6f8" font-size="12" font-family="Poppins-Light, Poppins" font-weight="300"><tspan x="0" y="0">Total de casos</tspan></text>
-    <text id="Activos" transform="translate(129 629)" fill="#f2f6f8" font-size="12" font-family="Poppins-Light, Poppins" font-weight="300"><tspan x="0" y="0">Activos</tspan></text>
-    <text id="Estado_crítico" data-name="Estado crítico" transform="translate(187 629)" fill="#f2f6f8" font-size="12" font-family="Poppins-Light, Poppins" font-weight="300"><tspan x="0" y="0">Estado crítico</tspan></text>
-    <text id="Recuperados" transform="translate(286 629)" fill="#f2f6f8" font-size="12" font-family="Poppins-Light, Poppins" font-weight="300"><tspan x="0" y="0">Recuperados</tspan></text>
+    <text id="Total_de_casos" data-name="Total de casos" transform="translate(20 629)" fill="#f2f6f8" font-size="12" font-family="Poppins-Light, Poppins, sans-serif" font-weight="300"><tspan x="0" y="0">Total de casos</tspan></text>
+    <text id="Activos" transform="translate(129 629)" fill="#f2f6f8" font-size="12" font-family="Poppins-Light, Poppins, sans-serif" font-weight="300"><tspan x="0" y="0">Activos</tspan></text>
+    <text id="Estado_crítico" data-name="Estado crítico" transform="translate(187 629)" fill="#f2f6f8" font-size="12" font-family="Poppins-Light, Poppins, sans-serif" font-weight="300"><tspan x="0" y="0">Estado crítico</tspan></text>
+    <text id="Recuperados" transform="translate(286 629)" fill="#f2f6f8" font-size="12" font-family="Poppins-Light, Poppins, sans-serif" font-weight="300"><tspan x="0" y="0">Recuperados</tspan></text>
     <text id="Mortes_" data-name="Mortes
-" transform="translate(385 629)" fill="#f2f6f8" font-size="12" font-family="Poppins-Light, Poppins" font-weight="300"><tspan x="0" y="0">Mortes</tspan><tspan x="0" y="18"></tspan></text>
-    <text id="Total_de_casos-2" data-name="Total de casos" transform="translate(20 629)" fill="#f2f6f8" font-size="12" font-family="Poppins-Light, Poppins" font-weight="300"><tspan x="0" y="0">Total de casos</tspan></text>
-    <text id="_142_6_" data-name="[+142,6]" transform="translate(39 584)" fill="#0078ff" font-size="12" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">[+142,6]</tspan></text>
-    <text id="_65_7m" data-name="+65,7m" transform="translate(37 607)" fill="#0078ff" font-size="14" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">+65,7m</tspan></text>
-    <text id="_15_7m" data-name="+15,7m" transform="translate(126 607)" fill="#ff8040" font-size="14" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">+15,7m</tspan></text>
+" transform="translate(385 629)" fill="#f2f6f8" font-size="12" font-family="Poppins-Light, Poppins, sans-serif" font-weight="300"><tspan x="0" y="0">Mortes</tspan><tspan x="0" y="18"></tspan></text>
+    <text id="Total_de_casos-2" data-name="Total de casos" transform="translate(20 629)" fill="#f2f6f8" font-size="12" font-family="Poppins-Light, Poppins, sans-serif" font-weight="300"><tspan x="0" y="0">Total de casos</tspan></text>
+    <text id="_142_6_" data-name="[+142,6]" transform="translate(39 584)" fill="#0078ff" font-size="12" font-family="Poppins-Medium, Poppins, sans-serif" font-weight="500"><tspan x="0" y="0">[+142,6]</tspan></text>
+    <text id="_65_7m" data-name="+65,7m" transform="translate(37 607)" fill="#0078ff" font-size="14" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">+65,7m</tspan></text>
+    <text id="_15_7m" data-name="+15,7m" transform="translate(126 607)" fill="#ff8040" font-size="14" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">+15,7m</tspan></text>
     <circle id="Elipse_4" data-name="Elipse 4" cx="4" cy="4" r="4" transform="translate(147 564)" fill="#ff8040"/>
-    <text id="_151_7m" data-name="+151,7m" transform="translate(200 607)" fill="#fb3" font-size="14" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">+151,7m</tspan></text>
-    <text id="_41_7m" data-name="+41,7m" transform="translate(301 607)" fill="#21b94e" font-size="14" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">+41,7m</tspan></text>
-    <text id="_122_6_" data-name="[+122,6]" transform="translate(301 584)" fill="#21b94e" font-size="12" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">[+122,6]</tspan></text>
-    <text id="_1_7m" data-name="+1,7m" transform="translate(385 607)" fill="#ff3131" font-size="14" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">+1,7m</tspan></text>
-    <text id="_2_6_" data-name="[+2,6]" transform="translate(386 584)" fill="#ff3131" font-size="12" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="0">[+2,6]</tspan></text>
+    <text id="_151_7m" data-name="+151,7m" transform="translate(200 607)" fill="#fb3" font-size="14" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">+151,7m</tspan></text>
+    <text id="_41_7m" data-name="+41,7m" transform="translate(301 607)" fill="#21b94e" font-size="14" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">+41,7m</tspan></text>
+    <text id="_122_6_" data-name="[+122,6]" transform="translate(301 584)" fill="#21b94e" font-size="12" font-family="Poppins-Medium, Poppins, sans-serif" font-weight="500"><tspan x="0" y="0">[+122,6]</tspan></text>
+    <text id="_1_7m" data-name="+1,7m" transform="translate(385 607)" fill="#ff3131" font-size="14" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">+1,7m</tspan></text>
+    <text id="_2_6_" data-name="[+2,6]" transform="translate(386 584)" fill="#ff3131" font-size="12" font-family="Poppins-Medium, Poppins, sans-serif" font-weight="500"><tspan x="0" y="0">[+2,6]</tspan></text>
   </g>
 </svg>

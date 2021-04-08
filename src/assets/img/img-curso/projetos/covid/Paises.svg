@@ -43,10 +43,10 @@
   </defs>
   <g id="Paises" clip-path="url(#clip-Paises)">
     <rect width="412" height="735" fill="#1d1e21"/>
-    <text id="Covid-19_Tracker" data-name="Covid-19 Tracker" transform="translate(20 56)" fill="#f2f6f8" font-size="20" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Covid-19 Tracker</tspan></text>
+    <text id="Covid-19_Tracker" data-name="Covid-19 Tracker" transform="translate(20 56)" fill="#f2f6f8" font-size="20" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">Covid-19 Tracker</tspan></text>
     <g id="Grupo_4" data-name="Grupo 4" transform="translate(0 -39)">
       <rect id="Retângulo_1-3" data-name="Retângulo 1" width="372" height="119" rx="18" transform="translate(20 115)" fill="#ff4b63"/>
-      <text id="A_Covid-19_é_uma_doença_altamente_transmissível_fique_em_casa_e_esteja_seguro" data-name="A Covid-19 é uma doença altamente transmissível, fique em casa e esteja seguro" transform="translate(144 162)" fill="#f2f6f8" font-size="14" font-family="Poppins-Regular, Poppins"><tspan x="0" y="15">A Covid-19 é uma doença </tspan><tspan x="0" y="36">altamente transmissível, fique em </tspan><tspan x="0" y="57">casa e esteja seguro</tspan></text>
+      <text id="A_Covid-19_é_uma_doença_altamente_transmissível_fique_em_casa_e_esteja_seguro" data-name="A Covid-19 é uma doença altamente transmissível, fique em casa e esteja seguro" transform="translate(144 162)" fill="#f2f6f8" font-size="14" font-family="Poppins-Regular, Poppins, sans-serif"><tspan x="0" y="15">A Covid-19 é uma doença </tspan><tspan x="0" y="36">altamente transmissível, fique em </tspan><tspan x="0" y="57">casa e esteja seguro</tspan></text>
       <g id="user_covid" transform="translate(-196 26.54)" clip-path="url(#clip-path)">
         <g id="Grupo_3" data-name="Grupo 3" transform="translate(236.538 101.747)">
           <path id="Caminho_16" data-name="Caminho 16" d="M242.527,342.275c-.507-1.971-3.261-2.688-4.994-1.61A6.262,6.262,0,0,0,236.1,348.6c1.132,1.751,3.406,2.417,5.491,2.4q.84,12.33.76,24.7a12.809,12.809,0,0,0,12.958,2.312,6.739,6.739,0,0,0,3.141-2.262c1.8-2.587-.225-8.068,2.771-9.486,1.274-.6,3.338-.112,4.742-.468a8.477,8.477,0,0,0,4.934-3.149c4.4-6.174,3.58-15.013,3.417-22.1a74.059,74.059,0,0,1,.464-10.168c.337-2.917.787-6.109-.787-8.587-1.992-3.142-6.263-3.717-9.977-3.92-6.138-.337-12.871-.337-17.662,3.517a13.264,13.264,0,0,0-4.858,10.791,3.6,3.6,0,0,1-.55,2.811Z" transform="translate(-206.739 -308.17)" fill="#fff"/>
@@ -76,7 +76,7 @@
           <path id="Caminho_40" data-name="Caminho 40" d="M268.936,314.447a1.743,1.743,0,1,0-1.743-1.743A1.743,1.743,0,0,0,268.936,314.447Z" transform="translate(-206.925 -308.132)" fill="#fff"/>
         </g>
       </g>
-      <text id="Fique_em_Casa" data-name="Fique em Casa" transform="translate(144 145)" fill="#f2f6f8" font-size="16" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Fique em Casa</tspan></text>
+      <text id="Fique_em_Casa" data-name="Fique em Casa" transform="translate(144 145)" fill="#f2f6f8" font-size="16" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">Fique em Casa</tspan></text>
     </g>
     <rect id="Retângulo_2" data-name="Retângulo 2" width="412" height="60" transform="translate(0 675)" fill="#2b3139"/>
     <g id="Search" transform="translate(20 690)">
@@ -106,7 +106,7 @@
         <ellipse id="Ellipse_746-2" data-name="Ellipse_746" cx="10.643" cy="10.687" rx="10.643" ry="10.687" transform="translate(0)" fill="none" stroke="#1d1e21" stroke-width="1.5"/>
         <path id="Path_34202-2" data-name="Path_34202" d="M2.622,3.661a1.057,1.057,0,0,1-.711-.308L.282,1.449A.87.87,0,0,1,.218.232h0a.779.779,0,0,1,1.11,0l2.049,1.64A1.079,1.079,0,0,1,3.61,3.017a1.068,1.068,0,0,1-.944.681Z" transform="translate(19.845 19.831)" fill="none" stroke="#707070" stroke-width="1.5" opacity="0.4"/>
       </g>
-      <text id="Introduza_o_nome_de_um_país" data-name="Introduza o nome de um país" transform="translate(59 235)" fill="#898989" font-size="13" font-family="Poppins-Light, Poppins" font-weight="300"><tspan x="0" y="0">Introduza o nome de um país</tspan></text>
+      <text id="Introduza_o_nome_de_um_país" data-name="Introduza o nome de um país" transform="translate(59 235)" fill="#898989" font-size="13" font-family="Poppins-Light, Poppins, sans-serif" font-weight="300"><tspan x="0" y="0">Introduza o nome de um país</tspan></text>
       <g transform="matrix(1, 0, 0, 1, 0, -9)" filter="url(#Retângulo_4)">
         <path id="Retângulo_4-2" data-name="Retângulo 4" d="M0,0H37A10,10,0,0,1,47,10V40A10,10,0,0,1,37,50H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(345 215)" fill="#ddd"/>
       </g>
@@ -125,32 +125,32 @@
         <g id="Grupo_28" data-name="Grupo 28" transform="translate(135.668 281.156)">
           <rect id="Retângulo_1-5" data-name="Retângulo 1" width="119" height="31" rx="6" transform="translate(19.332 114.844)" fill="#f2f6f8"/>
         </g>
-        <text id="Ver_mais" data-name="Ver mais" transform="translate(179 417)" fill="#1d1e21" font-size="16" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Ver mais</tspan></text>
+        <text id="Ver_mais" data-name="Ver mais" transform="translate(179 417)" fill="#1d1e21" font-size="16" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">Ver mais</tspan></text>
       </g>
       <g id="us" transform="translate(30 294)" stroke="#fff" stroke-width="3" fill="url(#pattern)">
         <rect width="47" height="47" rx="23.5" stroke="none"/>
         <rect x="1.5" y="1.5" width="44" height="44" rx="22" fill="none"/>
       </g>
-      <text id="Continente:" transform="translate(83 337)" fill="#f2f6f8" font-size="12" font-family="Poppins-Light, Poppins" font-weight="300"><tspan x="0" y="0">Continente:</tspan></text>
-      <text id="USA" transform="translate(83 315)" fill="#f2f6f8" font-size="20" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">USA</tspan></text>
-      <text id="North_America" data-name="North America" transform="translate(156 337)" fill="#f2f6f8" font-size="12" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">North America</tspan></text>
-      <text id="População:" transform="translate(275 337)" fill="#f2f6f8" font-size="12" font-family="Poppins-Light, Poppins" font-weight="300"><tspan x="0" y="0">População:</tspan></text>
-      <text id="_312_1" data-name="+312,1" transform="translate(347 337)" fill="#f2f6f8" font-size="12" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">+312,1</tspan></text>
+      <text id="Continente:" transform="translate(83 337)" fill="#f2f6f8" font-size="12" font-family="Poppins-Light, Poppins, sans-serif" font-weight="300"><tspan x="0" y="0">Continente:</tspan></text>
+      <text id="USA" transform="translate(83 315)" fill="#f2f6f8" font-size="20" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">USA</tspan></text>
+      <text id="North_America" data-name="North America" transform="translate(156 337)" fill="#f2f6f8" font-size="12" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">North America</tspan></text>
+      <text id="População:" transform="translate(275 337)" fill="#f2f6f8" font-size="12" font-family="Poppins-Light, Poppins, sans-serif" font-weight="300"><tspan x="0" y="0">População:</tspan></text>
+      <text id="_312_1" data-name="+312,1" transform="translate(347 337)" fill="#f2f6f8" font-size="12" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">+312,1</tspan></text>
       <g id="Grupo_33" data-name="Grupo 33">
         <g id="Grupo_32" data-name="Grupo 32" transform="translate(0 1)">
-          <text id="Activos" transform="translate(83 366)" fill="#ff8040" font-size="14" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Activos</tspan></text>
-          <text id="_218_7k_" data-name="[+218,7k]" transform="translate(83 387)" fill="#ff8040" font-size="14" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">[+218,7k]</tspan></text>
-          <text id="_14_9m" data-name="+14,9m" transform="translate(83 407)" fill="#ff8040" font-size="14" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">+14,9m</tspan></text>
+          <text id="Activos" transform="translate(83 366)" fill="#ff8040" font-size="14" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">Activos</tspan></text>
+          <text id="_218_7k_" data-name="[+218,7k]" transform="translate(83 387)" fill="#ff8040" font-size="14" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">[+218,7k]</tspan></text>
+          <text id="_14_9m" data-name="+14,9m" transform="translate(83 407)" fill="#ff8040" font-size="14" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">+14,9m</tspan></text>
         </g>
         <g id="Grupo_31" data-name="Grupo 31" transform="translate(-12 1)">
-          <text id="Recuperados" transform="translate(193 366)" fill="#21b94e" font-size="14" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Recuperados</tspan></text>
-          <text id="_18_7k_" data-name="[+18,7k]" transform="translate(193 387)" fill="#21b94e" font-size="14" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">[+18,7k]</tspan></text>
-          <text id="_8_9m" data-name="+8,9m" transform="translate(193 407)" fill="#21b94e" font-size="14" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">+8,9m</tspan></text>
+          <text id="Recuperados" transform="translate(193 366)" fill="#21b94e" font-size="14" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">Recuperados</tspan></text>
+          <text id="_18_7k_" data-name="[+18,7k]" transform="translate(193 387)" fill="#21b94e" font-size="14" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">[+18,7k]</tspan></text>
+          <text id="_8_9m" data-name="+8,9m" transform="translate(193 407)" fill="#21b94e" font-size="14" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">+8,9m</tspan></text>
         </g>
         <g id="Grupo_30" data-name="Grupo 30" transform="translate(0 1)">
-          <text id="Mortes" transform="translate(308 366)" fill="#ff3131" font-size="14" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Mortes</tspan></text>
-          <text id="_4_7k_" data-name="[+4,7k]" transform="translate(308 387)" fill="#ff3131" font-size="14" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">[+4,7k]</tspan></text>
-          <text id="_114_9m" data-name="+114,9m" transform="translate(308 407)" fill="#ff3131" font-size="14" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">+114,9m</tspan></text>
+          <text id="Mortes" transform="translate(308 366)" fill="#ff3131" font-size="14" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">Mortes</tspan></text>
+          <text id="_4_7k_" data-name="[+4,7k]" transform="translate(308 387)" fill="#ff3131" font-size="14" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">[+4,7k]</tspan></text>
+          <text id="_114_9m" data-name="+114,9m" transform="translate(308 407)" fill="#ff3131" font-size="14" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">+114,9m</tspan></text>
         </g>
       </g>
     </g>
@@ -164,28 +164,28 @@
         <g id="Grupo_28-2" data-name="Grupo 28" transform="translate(135.668 281.156)">
           <rect id="Retângulo_1-7" data-name="Retângulo 1" width="119" height="31" rx="6" transform="translate(19.332 114.844)" fill="#f2f6f8"/>
         </g>
-        <text id="Ver_mais-2" data-name="Ver mais" transform="translate(179 417)" fill="#1d1e21" font-size="16" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Ver mais</tspan></text>
+        <text id="Ver_mais-2" data-name="Ver mais" transform="translate(179 417)" fill="#1d1e21" font-size="16" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">Ver mais</tspan></text>
       </g>
-      <text id="Continente:-2" data-name="Continente:" transform="translate(83 337)" fill="#f2f6f8" font-size="12" font-family="Poppins-Light, Poppins" font-weight="300"><tspan x="0" y="0">Continente:</tspan></text>
-      <text id="France" transform="translate(83 315)" fill="#f2f6f8" font-size="20" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">France</tspan></text>
-      <text id="Europe" transform="translate(156 337)" fill="#f2f6f8" font-size="12" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Europe</tspan></text>
-      <text id="População:-2" data-name="População:" transform="translate(275 337)" fill="#f2f6f8" font-size="12" font-family="Poppins-Light, Poppins" font-weight="300"><tspan x="0" y="0">População:</tspan></text>
-      <text id="_212_1" data-name="+212,1" transform="translate(347 337)" fill="#f2f6f8" font-size="12" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">+212,1</tspan></text>
+      <text id="Continente:-2" data-name="Continente:" transform="translate(83 337)" fill="#f2f6f8" font-size="12" font-family="Poppins-Light, Poppins, sans-serif" font-weight="300"><tspan x="0" y="0">Continente:</tspan></text>
+      <text id="France" transform="translate(83 315)" fill="#f2f6f8" font-size="20" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">France</tspan></text>
+      <text id="Europe" transform="translate(156 337)" fill="#f2f6f8" font-size="12" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">Europe</tspan></text>
+      <text id="População:-2" data-name="População:" transform="translate(275 337)" fill="#f2f6f8" font-size="12" font-family="Poppins-Light, Poppins, sans-serif" font-weight="300"><tspan x="0" y="0">População:</tspan></text>
+      <text id="_212_1" data-name="+212,1" transform="translate(347 337)" fill="#f2f6f8" font-size="12" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">+212,1</tspan></text>
       <g id="Grupo_33-2" data-name="Grupo 33">
         <g id="Grupo_32-2" data-name="Grupo 32" transform="translate(0 1)">
-          <text id="Activos-2" data-name="Activos" transform="translate(83 366)" fill="#ff8040" font-size="14" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Activos</tspan></text>
-          <text id="_130_7k_" data-name="[+130,7k]" transform="translate(83 387)" fill="#ff8040" font-size="14" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">[+130,7k]</tspan></text>
-          <text id="_19_9m" data-name="+19,9m" transform="translate(83 407)" fill="#ff8040" font-size="14" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">+19,9m</tspan></text>
+          <text id="Activos-2" data-name="Activos" transform="translate(83 366)" fill="#ff8040" font-size="14" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">Activos</tspan></text>
+          <text id="_130_7k_" data-name="[+130,7k]" transform="translate(83 387)" fill="#ff8040" font-size="14" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">[+130,7k]</tspan></text>
+          <text id="_19_9m" data-name="+19,9m" transform="translate(83 407)" fill="#ff8040" font-size="14" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">+19,9m</tspan></text>
         </g>
         <g id="Grupo_31-2" data-name="Grupo 31" transform="translate(-12 1)">
-          <text id="Recuperados-2" data-name="Recuperados" transform="translate(193 366)" fill="#21b94e" font-size="14" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Recuperados</tspan></text>
-          <text id="_9_7k_" data-name="[+9,7k]" transform="translate(193 387)" fill="#21b94e" font-size="14" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">[+9,7k]</tspan></text>
-          <text id="_12_9m" data-name="+12,9m" transform="translate(193 407)" fill="#21b94e" font-size="14" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">+12,9m</tspan></text>
+          <text id="Recuperados-2" data-name="Recuperados" transform="translate(193 366)" fill="#21b94e" font-size="14" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">Recuperados</tspan></text>
+          <text id="_9_7k_" data-name="[+9,7k]" transform="translate(193 387)" fill="#21b94e" font-size="14" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">[+9,7k]</tspan></text>
+          <text id="_12_9m" data-name="+12,9m" transform="translate(193 407)" fill="#21b94e" font-size="14" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">+12,9m</tspan></text>
         </g>
         <g id="Grupo_30-2" data-name="Grupo 30" transform="translate(0 1)">
-          <text id="Mortes-2" data-name="Mortes" transform="translate(308 366)" fill="#ff3131" font-size="14" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Mortes</tspan></text>
-          <text id="_1_7k_" data-name="[+1,7k]" transform="translate(308 387)" fill="#ff3131" font-size="14" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">[+1,7k]</tspan></text>
-          <text id="_321_9m" data-name="+321,9m" transform="translate(308 407)" fill="#ff3131" font-size="14" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">+321,9m</tspan></text>
+          <text id="Mortes-2" data-name="Mortes" transform="translate(308 366)" fill="#ff3131" font-size="14" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">Mortes</tspan></text>
+          <text id="_1_7k_" data-name="[+1,7k]" transform="translate(308 387)" fill="#ff3131" font-size="14" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">[+1,7k]</tspan></text>
+          <text id="_321_9m" data-name="+321,9m" transform="translate(308 407)" fill="#ff3131" font-size="14" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">+321,9m</tspan></text>
         </g>
       </g>
     </g>

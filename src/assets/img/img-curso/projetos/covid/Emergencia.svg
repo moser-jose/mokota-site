@@ -16,10 +16,10 @@
   </defs>
   <g id="Emergencia" clip-path="url(#clip-Emergencia)">
     <rect width="412" height="735" fill="#1d1e21"/>
-    <text id="Covid-19_Emergênca" data-name="Covid-19 Emergênca" transform="translate(20 67)" fill="#f2f6f8" font-size="20" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Covid-19 Emergênca</tspan></text>
+    <text id="Covid-19_Emergênca" data-name="Covid-19 Emergênca" transform="translate(20 67)" fill="#f2f6f8" font-size="20" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">Covid-19 Emergênca</tspan></text>
     <g id="Grupo_4" data-name="Grupo 4" transform="translate(0 -34)">
       <rect id="Retângulo_1" data-name="Retângulo 1" width="372" height="119" rx="18" transform="translate(20 115)" fill="#ff4b63"/>
-      <text id="A_Covid-19_é_uma_doença_altamente_transmissível_fique_em_casa_e_esteja_seguro" data-name="A Covid-19 é uma doença altamente transmissível, fique em casa e esteja seguro" transform="translate(144 162)" fill="#f2f6f8" font-size="14" font-family="Poppins-Regular, Poppins"><tspan x="0" y="15">A Covid-19 é uma doença </tspan><tspan x="0" y="36">altamente transmissível, fique em </tspan><tspan x="0" y="57">casa e esteja seguro</tspan></text>
+      <text id="A_Covid-19_é_uma_doença_altamente_transmissível_fique_em_casa_e_esteja_seguro" data-name="A Covid-19 é uma doença altamente transmissível, fique em casa e esteja seguro" transform="translate(144 162)" fill="#f2f6f8" font-size="14" font-family="Poppins-Regular, Poppins, sans-serif"><tspan x="0" y="15">A Covid-19 é uma doença </tspan><tspan x="0" y="36">altamente transmissível, fique em </tspan><tspan x="0" y="57">casa e esteja seguro</tspan></text>
       <g id="user_covid" transform="translate(-196 26.54)" clip-path="url(#clip-path)">
         <g id="Grupo_3" data-name="Grupo 3" transform="translate(236.538 101.747)">
           <path id="Caminho_16" data-name="Caminho 16" d="M242.527,342.275c-.507-1.971-3.261-2.688-4.994-1.61A6.262,6.262,0,0,0,236.1,348.6c1.132,1.751,3.406,2.417,5.491,2.4q.84,12.33.76,24.7a12.809,12.809,0,0,0,12.958,2.312,6.739,6.739,0,0,0,3.141-2.262c1.8-2.587-.225-8.068,2.771-9.486,1.274-.6,3.338-.112,4.742-.468a8.477,8.477,0,0,0,4.934-3.149c4.4-6.174,3.58-15.013,3.417-22.1a74.059,74.059,0,0,1,.464-10.168c.337-2.917.787-6.109-.787-8.587-1.992-3.142-6.263-3.717-9.977-3.92-6.138-.337-12.871-.337-17.662,3.517a13.264,13.264,0,0,0-4.858,10.791,3.6,3.6,0,0,1-.55,2.811Z" transform="translate(-206.739 -308.17)" fill="#fff"/>
@@ -51,19 +51,19 @@
       </g>
       <text id="Fique_em_Casa" data-name="Fique em Casa" transform="translate(144 145)" fill="#f2f6f8" font-size="16" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Fique em Casa</tspan></text>
     </g>
-    <text id="Contactos_de_Emergência" data-name="Contactos de Emergência" transform="translate(20 241)" fill="#f2f6f8" font-size="20" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Contactos de Emergência</tspan></text>
-    <text id="Se_você_tiver_febre_tosse_e_dificuldade_para_respirar_e_tiver_estado_recentemente_no_exterior_ou_tiver_estado_em_contacto_próximo_com_alguém_confirmado_com_COVID-19_entre_em_contacto_com_um_dos_centros_hospitalares_mais_próximo_a_si." data-name="Se você tiver febre, tosse e dificuldade para respirar e tiver estado recentemente no exterior ou tiver estado em contacto próximo com alguém confirmado com COVID-19, entre em contacto com um dos centros hospitalares mais próximo a si." transform="translate(20 268)" fill="#f2f6f8" font-size="14" font-family="Poppins-Medium, Poppins" font-weight="500"><tspan x="0" y="15">Se você tiver febre, tosse e dificuldade para respirar </tspan><tspan x="0" y="36">e tiver estado recentemente no exterior ou tiver </tspan><tspan x="0" y="57">estado em contacto próximo com alguém </tspan><tspan x="0" y="78">confirmado com COVID-19, entre em contacto com </tspan><tspan x="0" y="99">um dos centros hospitalares mais próximo a si.</tspan></text>
+    <text id="Contactos_de_Emergência" data-name="Contactos de Emergência" transform="translate(20 241)" fill="#f2f6f8" font-size="20" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">Contactos de Emergência</tspan></text>
+    <text id="Se_você_tiver_febre_tosse_e_dificuldade_para_respirar_e_tiver_estado_recentemente_no_exterior_ou_tiver_estado_em_contacto_próximo_com_alguém_confirmado_com_COVID-19_entre_em_contacto_com_um_dos_centros_hospitalares_mais_próximo_a_si." data-name="Se você tiver febre, tosse e dificuldade para respirar e tiver estado recentemente no exterior ou tiver estado em contacto próximo com alguém confirmado com COVID-19, entre em contacto com um dos centros hospitalares mais próximo a si." transform="translate(20 268)" fill="#f2f6f8" font-size="14" font-family="Poppins-Medium, Poppins, sans-serif" font-weight="500"><tspan x="0" y="15">Se você tiver febre, tosse e dificuldade para respirar </tspan><tspan x="0" y="36">e tiver estado recentemente no exterior ou tiver </tspan><tspan x="0" y="57">estado em contacto próximo com alguém </tspan><tspan x="0" y="78">confirmado com COVID-19, entre em contacto com </tspan><tspan x="0" y="99">um dos centros hospitalares mais próximo a si.</tspan></text>
     <g id="Grupo_5" data-name="Grupo 5" transform="translate(0 284)">
       <rect id="Retângulo_1-2" data-name="Retângulo 1" width="372" height="180" rx="18" transform="translate(20 115)" fill="#2b3139"/>
     </g>
-    <text id="Centro_Integrado_de_Segurança_Pública" data-name="Centro Integrado de Segurança Pública" transform="translate(40 435)" fill="#f2f6f8" font-size="16" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Centro Integrado de Segurança Pública</tspan></text>
-    <text id="Avenida_Ho_Chi_Minh_-_Luanda" data-name="Avenida Ho Chi Minh - Luanda" transform="translate(40 452)" fill="#f2f6f8" font-size="14" font-family="Poppins-Italic, Poppins" font-style="italic"><tspan x="0" y="15">Avenida Ho Chi Minh - Luanda</tspan></text>
+    <text id="Centro_Integrado_de_Segurança_Pública" data-name="Centro Integrado de Segurança Pública" transform="translate(40 435)" fill="#f2f6f8" font-size="16" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">Centro Integrado de Segurança Pública</tspan></text>
+    <text id="Avenida_Ho_Chi_Minh_-_Luanda" data-name="Avenida Ho Chi Minh - Luanda" transform="translate(40 452)" fill="#f2f6f8" font-size="14" font-family="Poppins-Italic, Poppins, sans-serif" font-style="italic"><tspan x="0" y="15">Avenida Ho Chi Minh - Luanda</tspan></text>
     <g id="Grupo_8" data-name="Grupo 8" transform="translate(0 -21)">
       <g id="Grupo_6" data-name="Grupo 6" transform="translate(101.312 403.877)">
         <rect id="Retângulo_1-3" data-name="Retângulo 1" width="170" height="61" rx="12" transform="translate(19.688 115.123)" fill="#f2f6f8"/>
       </g>
       <g id="Grupo_7" data-name="Grupo 7" transform="translate(15 -2)">
-        <text id="_111" data-name="111" transform="translate(195 562)" fill="#1d1e21" font-size="30" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">111</tspan></text>
+        <text id="_111" data-name="111" transform="translate(195 562)" fill="#1d1e21" font-size="30" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">111</tspan></text>
         <g id="Calling" transform="translate(154 538.999)">
           <path id="Fill_1" data-name="Fill 1" d="M1.02.015A.861.861,0,0,0,.693,1.7,3.462,3.462,0,0,1,3.437,4.45h0a.859.859,0,0,0,.841.7.933.933,0,0,0,.165-.015.865.865,0,0,0,.677-1.01A5.174,5.174,0,0,0,1.02.015" transform="translate(15.135 4.616)" opacity="0.4"/>
           <path id="Fill_3" data-name="Fill 3" d="M.954.008A.817.817,0,0,0,.328.184.863.863,0,0,0,.762,1.718,6.912,6.912,0,0,1,6.888,7.857a.857.857,0,0,0,.851.764.8.8,0,0,0,.1-.006A.847.847,0,0,0,8.411,8.3a.856.856,0,0,0,.181-.633A8.616,8.616,0,0,0,.954.008" transform="translate(16.27)" opacity="0.4"/>
@@ -71,7 +71,7 @@
         </g>
       </g>
     </g>
-    <text id="Recomendações" transform="translate(20 620)" fill="#f2f6f8" font-size="20" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Recomendações</tspan></text>
+    <text id="Recomendações" transform="translate(20 620)" fill="#f2f6f8" font-size="20" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">Recomendações</tspan></text>
     <g id="Grupo_9" data-name="Grupo 9">
       <rect id="Retângulo_2" data-name="Retângulo 2" width="412" height="60" transform="translate(0 675)" fill="#2b3139"/>
       <g id="Search" transform="translate(20 690)">

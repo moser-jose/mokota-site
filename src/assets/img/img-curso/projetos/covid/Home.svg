@@ -16,10 +16,10 @@
   </defs>
   <g id="Home" clip-path="url(#clip-Home)">
     <rect width="412" height="735" fill="#1d1e21"/>
-    <text id="Covid-19_Angola" data-name="Covid-19 Angola" transform="translate(20 56)" fill="#f2f6f8" font-size="20" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Covid-19 Angola</tspan></text>
+    <text id="Covid-19_Angola" data-name="Covid-19 Angola" transform="translate(20 56)" fill="#f2f6f8" font-size="20" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">Covid-19 Angola</tspan></text>
     <g id="Grupo_4" data-name="Grupo 4" transform="translate(0 -39)">
       <rect id="Retângulo_1" data-name="Retângulo 1" width="372" height="119" rx="18" transform="translate(20 115)" fill="#ff4b63"/>
-      <text id="A_Covid-19_é_uma_doença_altamente_transmissível_fique_em_casa_e_esteja_seguro" data-name="A Covid-19 é uma doença altamente transmissível, fique em casa e esteja seguro" transform="translate(144 162)" fill="#f2f6f8" font-size="14" font-family="Poppins-Regular, Poppins"><tspan x="0" y="15">A Covid-19 é uma doença </tspan><tspan x="0" y="36">altamente transmissível, fique em </tspan><tspan x="0" y="57">casa e esteja seguro</tspan></text>
+      <text id="A_Covid-19_é_uma_doença_altamente_transmissível_fique_em_casa_e_esteja_seguro" data-name="A Covid-19 é uma doença altamente transmissível, fique em casa e esteja seguro" transform="translate(144 162)" fill="#f2f6f8" font-size="14" font-family="Poppins-Regular, Poppins, sans-serif"><tspan x="0" y="15">A Covid-19 é uma doença </tspan><tspan x="0" y="36">altamente transmissível, fique em </tspan><tspan x="0" y="57">casa e esteja seguro</tspan></text>
       <g id="user_covid" transform="translate(-196 26.54)" clip-path="url(#clip-path)">
         <g id="Grupo_3" data-name="Grupo 3" transform="translate(236.538 101.747)">
           <path id="Caminho_16" data-name="Caminho 16" d="M242.527,342.275c-.507-1.971-3.261-2.688-4.994-1.61A6.262,6.262,0,0,0,236.1,348.6c1.132,1.751,3.406,2.417,5.491,2.4q.84,12.33.76,24.7a12.809,12.809,0,0,0,12.958,2.312,6.739,6.739,0,0,0,3.141-2.262c1.8-2.587-.225-8.068,2.771-9.486,1.274-.6,3.338-.112,4.742-.468a8.477,8.477,0,0,0,4.934-3.149c4.4-6.174,3.58-15.013,3.417-22.1a74.059,74.059,0,0,1,.464-10.168c.337-2.917.787-6.109-.787-8.587-1.992-3.142-6.263-3.717-9.977-3.92-6.138-.337-12.871-.337-17.662,3.517a13.264,13.264,0,0,0-4.858,10.791,3.6,3.6,0,0,1-.55,2.811Z" transform="translate(-206.739 -308.17)" fill="#fff"/>
@@ -49,11 +49,11 @@
           <path id="Caminho_40" data-name="Caminho 40" d="M268.936,314.447a1.743,1.743,0,1,0-1.743-1.743A1.743,1.743,0,0,0,268.936,314.447Z" transform="translate(-206.925 -308.132)" fill="#fff"/>
         </g>
       </g>
-      <text id="Fique_em_Casa" data-name="Fique em Casa" transform="translate(144 145)" fill="#f2f6f8" font-size="16" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Fique em Casa</tspan></text>
+      <text id="Fique_em_Casa" data-name="Fique em Casa" transform="translate(144 145)" fill="#f2f6f8" font-size="16" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">Fique em Casa</tspan></text>
     </g>
     <g id="Grupo_10" data-name="Grupo 10" transform="translate(0 -18)">
-      <text id="Novos_Resultados" data-name="Novos Resultados" transform="translate(20 254)" fill="#f2f6f8" font-size="20" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Novos Resultados</tspan></text>
-      <text id="Última_Actualização:_04_de_Dezembro_de_2020_às_12:17" data-name="Última Actualização: 04 de Dezembro de 2020 às 12:17" transform="translate(20 262)" fill="#f2f6f8" font-size="12" font-family="Poppins-LightItalic, Poppins" font-weight="300" font-style="italic"><tspan x="0" y="13">Última Actualização: 04 de Dezembro de 2020 às 12:17</tspan></text>
+      <text id="Novos_Resultados" data-name="Novos Resultados" transform="translate(20 254)" fill="#f2f6f8" font-size="20" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">Novos Resultados</tspan></text>
+      <text id="Última_Actualização:_04_de_Dezembro_de_2020_às_12:17" data-name="Última Actualização: 04 de Dezembro de 2020 às 12:17" transform="translate(20 262)" fill="#f2f6f8" font-size="12" font-family="Poppins-LightItalic, Poppins, sans-serif" font-weight="300" font-style="italic"><tspan x="0" y="13">Última Actualização: 04 de Dezembro de 2020 às 12:17</tspan></text>
     </g>
     <rect id="Retângulo_2" data-name="Retângulo 2" width="412" height="60" transform="translate(0 675)" fill="#2b3139"/>
     <g id="Search" transform="translate(20 690)">
@@ -91,7 +91,7 @@
       <rect id="Retângulo_1-3" data-name="Retângulo 1" width="180" height="101" rx="18" fill="#2b3139"/>
     </g>
     <g id="Grupo_13" data-name="Grupo 13" transform="translate(-3 60)">
-      <text id="Total_de_Casos" data-name="Total de Casos" transform="translate(33 249)" fill="#f2f6f8" font-size="16" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Total de Casos</tspan></text>
+      <text id="Total_de_Casos" data-name="Total de Casos" transform="translate(33 249)" fill="#f2f6f8" font-size="16" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">Total de Casos</tspan></text>
     </g>
     <g id="Grupo_20" data-name="Grupo 20" transform="translate(0 -22)">
       <g id="cases" transform="translate(30 365)">
@@ -107,13 +107,13 @@
           </g>
         </g>
       </g>
-      <text id="_42_0_" data-name="[+42,0]" transform="translate(70 386)" fill="#f2f6f8" font-size="12" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">[+42,0]</tspan></text>
+      <text id="_42_0_" data-name="[+42,0]" transform="translate(70 386)" fill="#f2f6f8" font-size="12" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">[+42,0]</tspan></text>
       <g id="Grupo_14" data-name="Grupo 14" transform="translate(94 141)">
-        <text id="_15_4k" data-name="+15,4k" transform="translate(42 246)" fill="#f2f6f8" font-size="16" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">+15,4k</tspan></text>
+        <text id="_15_4k" data-name="+15,4k" transform="translate(42 246)" fill="#f2f6f8" font-size="16" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">+15,4k</tspan></text>
       </g>
     </g>
     <g id="Grupo_15" data-name="Grupo 15" transform="translate(189 60)">
-      <text id="Em_estado_crítico" data-name="Em estado crítico" transform="translate(33 249)" fill="#f2f6f8" font-size="16" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Em estado crítico</tspan></text>
+      <text id="Em_estado_crítico" data-name="Em estado crítico" transform="translate(33 249)" fill="#f2f6f8" font-size="16" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">Em estado crítico</tspan></text>
     </g>
     <g id="Grupo_21" data-name="Grupo 21" transform="translate(0 -26)">
       <g id="criticos" transform="translate(231 369)">
@@ -127,7 +127,7 @@
         </g>
       </g>
       <g id="Grupo_16" data-name="Grupo 16" transform="translate(279 145)">
-        <text id="_15_4k-2" data-name="+15,4k" transform="translate(42 246)" fill="#f2f6f8" font-size="16" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">+15,4k</tspan></text>
+        <text id="_15_4k-2" data-name="+15,4k" transform="translate(42 246)" fill="#f2f6f8" font-size="16" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">+15,4k</tspan></text>
       </g>
     </g>
     <g id="Grupo_17" data-name="Grupo 17" transform="translate(20 405)">
@@ -148,10 +148,10 @@
       </g>
     </g>
     <g id="Grupo_18" data-name="Grupo 18" transform="translate(-3 190)">
-      <text id="Testes_realizados" data-name="Testes realizados" transform="translate(33 249)" fill="#f2f6f8" font-size="16" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Testes realizados</tspan></text>
+      <text id="Testes_realizados" data-name="Testes realizados" transform="translate(33 249)" fill="#f2f6f8" font-size="16" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">Testes realizados</tspan></text>
     </g>
     <g id="Grupo_19" data-name="Grupo 19" transform="translate(279 239)">
-      <text id="_175_4k" data-name="+175,4k" transform="translate(33 246)" fill="#f2f6f8" font-size="16" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">+175,4k</tspan></text>
+      <text id="_175_4k" data-name="+175,4k" transform="translate(33 246)" fill="#f2f6f8" font-size="16" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">+175,4k</tspan></text>
     </g>
     <g id="Grupo_22" data-name="Grupo 22" transform="translate(20 517)">
       <rect id="Retângulo_1-5" data-name="Retângulo 1" width="113" height="125" rx="18" fill="#2b3139"/>
@@ -186,13 +186,13 @@
         <path id="Caminho_10" data-name="Caminho 10" d="M0,0H11.314" transform="translate(261.636 249.636) rotate(45)" fill="none" stroke="#ff5050" stroke-linecap="round" stroke-width="2"/>
       </g>
     </g>
-    <text id="_105_0_" data-name="[+105,0]" transform="translate(181 581)" fill="#21cf55" font-size="12" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">[+105,0]</tspan></text>
-    <text id="_8_2k" data-name="+8,2k" transform="translate(182 608)" fill="#21cf55" font-size="18" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">+8,2k</tspan></text>
-    <text id="Recuperados" transform="translate(166 629)" fill="#21cf55" font-size="12" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Recuperados</tspan></text>
-    <text id="_5_2k" data-name="+5,2k" transform="translate(52 608)" fill="#ff8040" font-size="18" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">+5,2k</tspan></text>
-    <text id="Recuperados-2" data-name="Recuperados" transform="translate(36 629)" fill="#ff8040" font-size="12" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Recuperados</tspan></text>
-    <text id="_5_0_" data-name="[+5,0]" transform="translate(316 581)" fill="#ff3131" font-size="12" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">[+5,0]</tspan></text>
-    <text id="_208_2k" data-name="+208,2k" transform="translate(300 608)" fill="#ff3131" font-size="18" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">+208,2k</tspan></text>
-    <text id="Mortes-2" data-name="Mortes" transform="translate(315 629)" fill="#ff3131" font-size="12" font-family="Poppins-SemiBold, Poppins" font-weight="600"><tspan x="0" y="0">Mortes</tspan></text>
+    <text id="_105_0_" data-name="[+105,0]" transform="translate(181 581)" fill="#21cf55" font-size="12" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">[+105,0]</tspan></text>
+    <text id="_8_2k" data-name="+8,2k" transform="translate(182 608)" fill="#21cf55" font-size="18" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">+8,2k</tspan></text>
+    <text id="Recuperados" transform="translate(166 629)" fill="#21cf55" font-size="12" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">Recuperados</tspan></text>
+    <text id="_5_2k" data-name="+5,2k" transform="translate(52 608)" fill="#ff8040" font-size="18" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">+5,2k</tspan></text>
+    <text id="Recuperados-2" data-name="Recuperados" transform="translate(36 629)" fill="#ff8040" font-size="12" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">Recuperados</tspan></text>
+    <text id="_5_0_" data-name="[+5,0]" transform="translate(316 581)" fill="#ff3131" font-size="12" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">[+5,0]</tspan></text>
+    <text id="_208_2k" data-name="+208,2k" transform="translate(300 608)" fill="#ff3131" font-size="18" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">+208,2k</tspan></text>
+    <text id="Mortes-2" data-name="Mortes" transform="translate(315 629)" fill="#ff3131" font-size="12" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">Mortes</tspan></text>
   </g>
 </svg>
