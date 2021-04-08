@@ -619,22 +619,6 @@
         }
     }
 
-    
-    .bTybGL, .jAmbxV{
-        border-radius: 2px;
-        box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1);
-        background-color: #29C17E;
-        color: #fff;
-        font-size: 1.1em;
-        border: none;
-        width: 40px !important;
-        height: 40px !important;
-        min-width: 40px !important;
-        position: absolute !important;
-        &:hover{
-          background-color: #29c17fcc;
-        }
-      }
       .rec-arrow-left,
       .rec-arrow-right{
         background-color: #438ce0 !important;
@@ -663,6 +647,10 @@
       .cetQhm{
         background-color: rgba(67, 140, 224,.5) !important;
         box-shadow: 0 0 1px 3px rgb(67, 140, 224) !important;
+        &:focus{
+            background-color: rgba(67, 140, 224,.5) !important;
+            box-shadow: 0 0 1px 3px rgb(67, 140, 224) !important;
+        }
       }
 }
 .quote{
