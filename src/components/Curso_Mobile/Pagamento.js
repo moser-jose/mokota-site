@@ -45,7 +45,7 @@ function Pagamento() {
                 </div>
                 <div className="grid-1-3 prestacao">
                     <span className="invest">Investimento do curso</span>
-                    <h1>30.000 Kzs <span className="invest">Ou</span></h1>
+                    <h1>35.000 Kzs <span className="invest">Ou</span></h1>
                     <h3>Duas prestações para o pagamento</h3>
                     <div className="primeira-p">
                         <div className="icon">
@@ -56,7 +56,7 @@ function Pagamento() {
                             <h2>Até o ínicio do curso</h2>
                         </div>
                         <div className="valor">
-                            <p>15.000 Kzs</p>
+                            <p>17.500 Kzs</p>
                         </div>
                     </div>
                     <div className="primeira-p segunda-p">
@@ -68,7 +68,7 @@ function Pagamento() {
                             <h2>Até a 2ª semana</h2>
                         </div>
                         <div className="valor">
-                            <p>15.000 Kzs</p>
+                            <p>17.500 Kzs</p>
                         </div>
                     </div>
 
