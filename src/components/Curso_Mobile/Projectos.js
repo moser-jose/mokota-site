@@ -12,7 +12,6 @@ import CovidMapa from '../../assets/img/img-curso/projetos/covid/Mapa.svg'
 import CovidPaises from '../../assets/img/img-curso/projetos/covid/Paises.svg'
 
 import Carousel from 'react-elastic-carousel';
-import ReactElasticCarousel from 'react-elastic-carousel'
 function Projectos() {
     const [calculadora, SetCalculadora] = useState(1);
     const [covid, SetCovid] = useState(0);
