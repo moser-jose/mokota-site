@@ -2,9 +2,10 @@ import React from 'react'
 import Checkbox from '../Admin/Formulario/Checkbox';
 import Input from '../Admin/Formulario/Input';
 import TextLoop from "react-text-loop";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 function InscreverSe() {
     return (
-        <div id="inscrever" className=" container-form container-form-l">
+        <div id="inscrever" className=" insc container-form container-form-l">
             <div className="container">
                 <div className="grid-6">
                     <h1 className="titulo">Inscreva-se
@@ -46,22 +47,30 @@ function InscreverSe() {
                     </div>
                 </div>
                 <div className="grid-10">
-                    Comece uma nova fase da sua vida como
-                <TextLoop interval={2400} springConfig={{ stiffness: 50, damping: 6 }}>
-                        <span>
-                            programador
-                </span>
-                        <span>
-                            developer
-                    </span>
-                    </TextLoop>{" "}
-                fullstack
 
-                <p>PRIORIZE SUA CARREIRA Investir no seu futuro profissional vai sair bem mais barato do que você imagina.</p>
+                    <h1>
+                        Comece uma nova fase da sua vida como
+                <TextLoop interval={2400} springConfig={{ stiffness: 50, damping: 6 }}>
+                            <span>
+                                programador
+                </span>
+                            <span>
+                                developer
+                    </span>
+                        </TextLoop>{" "}
+                mobile
+                    </h1>
+                    <p className="futuro"><span>PRIORIZE SUA CARREIRA,</span> invista no seu presente e ganhe no seu futuro.</p>
+
+                    <div className="conta">
+                        <p><span className="ic"><FontAwesomeIcon icon="phone-alt" /></span> <span className="num">(+244)</span> 923819414 | <span className="num">(+244)</span> 923818181 </p>
+                        <p><span className="ic"><FontAwesomeIcon icon="envelope" /></span> geral@mokota.net</p>
+                    </div>
+
                 </div>
 
-            </div>
-        </div>
+            </div >
+        </div >
     )
 }
 

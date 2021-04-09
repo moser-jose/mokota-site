@@ -26,6 +26,18 @@ function FAQ() {
                 </div>
             </div>
             <div className="container">
+            <div className="grid-1-3">
+                    <h2>Qual é o formato do curso?</h2>
+                    <p>No momento o curso é 100% presencial, dentro em breve ele será on-line também.
+                        O curso possui 8 módulos <span>Ver módulos</span> e prevê a criação de 4 aplicativos <span>ver projectos</span>
+                        e a facilidade de interação entre o aluno e o professor através meios disponíveis como Facebook, WhatsApp, Telegram e chamadas telefónicas</p>
+                </div>
+                <div className="grid-1-3">
+                    <h2>O que eu preciso para fazer o curso?</h2>
+                    <p>O único requisito que pedimos para fazer o curso. é apenas <span>ter um computador portátil</span>. Não
+                    é obrigatório ter conhecimento adicional em programação ou areas ligadas a ela. Tudo que for necessário para
+                     o curso, nomeadamente as ferramentas, o professor fará a questão de fornecer aos alunos.</p>
+                </div>
                 <div className="grid-1-3">
                     <h2>Meus dados (nome, sobre-nome, e-mail, telefone e endereço) estão seguros?</h2>
                     <p><span>SIM!</span> Em nossa plataforma usamos vários mecanismos de segurança para assegurar
@@ -34,7 +46,11 @@ function FAQ() {
                     políticas de privacidade.
                     </p>
                 </div>
-                <div className="grid-1-3">
+               
+                
+            </div>
+            <div className="container">
+            <div className="grid-1-3">
                     <h2>Como é feito o pagamento de acesso ao curso?</h2>
                     <p>O valor total do curso é de 30.000 kzs, e existem duas modalidades de pagamento,
                     a 1ª o estudante pode fazer o pagamento desse valor em um único pagamento. 2ª o aluno pode
@@ -43,25 +59,11 @@ function FAQ() {
                     </p>
                 </div>
                 <div className="grid-1-3">
-                    <h2>O que eu preciso para fazer o curso?</h2>
-                    <p>O único requisito que pedimos para fazer o curso. é apenas <span>ter um computador portátil</span>. Não
-                    é obrigatório ter conhecimento adicional em programação ou areas ligadas a ela. Tudo que for necessário para
-                     o curso, nomeadamente as ferramentas, o professor fará a questão de fornecer aos alunos.</p>
-                </div>
-            </div>
-            <div className="container">
-                <div className="grid-1-3">
                     <h2>Depois de matricular-me ao curso, como posso tirar algumas dúvidas?</h2>
                     <p>Depois de realizar a matricula, a nossa equipa depois de confirmar a veracidade das informações,
                     adiciona o número de contacto do aluno nos nossos grupos privados tanto no WhatsApp, bem como no Telegram.
                     O aluno ainda pode utilizar os outros meios como Facebook e chamadas telefónicas para tirar as suas dúvidas.
                     </p>
-                </div>
-                <div className="grid-1-3">
-                    <h2>Como é feito o pagamento de acesso ao curso?</h2>
-                    <p> Não sei programar, posso fazer? Não sei programar,
-                    posso fazer? Não sei programar, posso fazer? Não sei programar, posso fazer?Não sei
-                        programar, posso fazer?Não sei programar, posso fazer? </p>
                 </div>
                 <div className="grid-1-3">
                     <h2>Não tenho um computador portátil, posso fazer o curso?</h2>
