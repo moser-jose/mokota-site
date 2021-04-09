@@ -6,6 +6,8 @@ import KumbonBancoMapa from '../../assets/img/img-curso/projetos/kumbon/Mapa-Ban
 
 import CalculadoraLight from '../../assets/img/img-curso/projetos/calculadora/Home-Light.svg'
 import CalculadoraDark from '../../assets/img/img-curso/projetos/calculadora/Home-Dark.svg'
+import CalculadoraConfLight from '../../assets/img/img-curso/projetos/calculadora/Conf-Light.svg'
+import CalculadoraConfDark from '../../assets/img/img-curso/projetos/calculadora/Conf-Dark.svg'
 import CovidHome from '../../assets/img/img-curso/projetos/covid/Home.svg'
 import CovidEmergencia from '../../assets/img/img-curso/projetos/covid/Emergencia.svg'
 import CovidMapa from '../../assets/img/img-curso/projetos/covid/Mapa.svg'
@@ -65,7 +67,7 @@ function Projectos() {
             </ul>
             <div className={calculadora === 1 ? 'pro-v' : 'projecto-1 '}>
 
-            <div className="img">
+                <div className="img">
                     <Carousel
                         disableArrowsOnEnd={false}
                         pagination={true}
@@ -74,12 +76,15 @@ function Projectos() {
                         focusOnSelect={false}
                     >
                         <img src={CalculadoraLight} alt="calculadora" />
+                        <img src={CalculadoraConfLight} alt="calculadora" />
                         <img src={CalculadoraDark} alt="calculadora" />
+                        <img src={CalculadoraConfDark} alt="calculadora" />
+
 
                     </Carousel>
 
                 </div>
-                
+
                 <p>Com o App Calculadora você estará por dentro do framework react-native, vai saber como funciona e como podem ser criadas as aplicações para android e ios.
                 </p>
             </div>

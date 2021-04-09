@@ -408,7 +408,9 @@
                 font-size: 18px;
                 font-weight: 300;
                 font-family: "Rubik","Poppins";
-                display: flex;
+                display: grid;
+                grid-template-columns: 15px 1fr;
+                gap: 10px;
                 align-items: center;
 
                 &::before{
@@ -426,6 +428,7 @@
 
             }
         }
+       
     }
     .texto-i{
         
