@@ -159,10 +159,19 @@
         .part{
             flex-direction: column;
             .mov{
-                height: unset !important;
+                margin-top: 0;
+                height: 400px !important;
                 h1{
-                    font-size: 24px !important;
+                    font-size: 28px !important;
                     margin-bottom: 30px !important;
+                    .react{
+                        border-radius: 8px !important;
+                        font-size: 24px !important;
+                        padding: 6px 10px;
+                    }
+                    .curs{
+                        font-size: 16px !important;
+                    }
                 }
                 .bot{
                     justify-content: space-between;
