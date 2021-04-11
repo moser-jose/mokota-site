@@ -63,10 +63,17 @@ function InscreverSe() {
                     <p className="futuro"><span>PRIORIZE SUA CARREIRA,</span> invista no seu presente e ganhe no seu futuro.</p>
 
                     <div className="conta">
-                        <p><span className="ic"><FontAwesomeIcon icon="phone-alt" /></span> <span className="num">(+244)</span> 923819414 | <span className="num">(+244)</span> 923818181 </p>
+                        <div className="numb">
+                            <span className="ic"><FontAwesomeIcon icon="phone-alt" /></span>
+                            <p><span className="num">(+244)</span> 923819414 </p>
+                            <p> <span className="num">(+244)</span> 923818181</p>
+                        </div>
                         <p><span className="ic"><FontAwesomeIcon icon="envelope" /></span> geral@mokota.net</p>
                     </div>
 
+                    {/*  <div className="mapa">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d972.7648000512846!2d15.744577003614781!3d-12.77466742797554!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1bb77589c4992b13%3A0x2240e84769a24def!2sMediateca%20do%20Huambo!5e0!3m2!1spt-PT!2sao!4v1617986681737!5m2!1spt-PT!2sao" width="600" height="300" style={{border:0}} allowfullscreen="" loading="lazy"></iframe>
+                    </div > */}
                 </div>
 
             </div >

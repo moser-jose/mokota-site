@@ -5,13 +5,17 @@ import Main from "./pages/Main/Main"
 import MinhaConta from './pages/Admin/Login'
 import Dashboard from './pages/Admin/Dashboard'
 import Curso from './pages/Curso_Mobile/Main'
+import Privacidade from './pages/Curso_Mobile/Privacidade'
+import Termos from './pages/Curso_Mobile/Termos'
 const App = () => {
   return (
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Main />} />
+          <Route path="/" element={<Curso />} />
           <Route path="/curso/react-native-completo" element={<Curso />} />
+          <Route path="/privacidade" element={<Privacidade />} />
+          <Route path="/termos" element={<Termos />} />
           <Route path="minha-conta" element={<MinhaConta />} />
           <Route path="dashboard" element={<Dashboard />} />
         </Routes>

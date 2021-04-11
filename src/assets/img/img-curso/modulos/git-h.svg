@@ -4,7 +4,7 @@
       <stop offset="0" stop-color="#3f3635"/>
       <stop offset="1" stop-color="#fff"/>
     </linearGradient>
-    <filter id="Elipse_6" x="243" y="49" width="57" height="57" filterUnits="userSpaceOnUse">
+    <filter id="Elipse_6" x="237" y="49" width="57" height="57" filterUnits="userSpaceOnUse">
       <feOffset dy="3" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="3" result="blur"/>
       <feFlood flood-opacity="0.161"/>
@@ -17,18 +17,21 @@
   </defs>
   <g id="Watch_38_mm_5" data-name="Watch 38 mm – 5" clip-path="url(#clip-Watch_38_mm_5)">
     <rect width="335" height="300" fill="url(#linear-gradient)"/>
-    <text id="Seja_um_programador" data-name="Seja um programador" transform="translate(24 177)" fill="#efefef" font-size="20" font-family="Poppins-Medium, Poppins, sans-serif" font-weight="500"><tspan x="0" y="0">Seja um programador</tspan></text>
-    <text id="Open_Source_" data-name="Open Source " transform="translate(115 216)" fill="#efefef" font-size="20" font-family="Poppins-Medium, Poppins, sans-serif" font-weight="500"><tspan x="0" y="0">Open Source </tspan></text>
+    <text id="Seja_um_programador" data-name="Seja um programador" transform="translate(24 187)" fill="#efefef" font-size="20" font-family="Poppins-Medium, Poppins, sans-serif" font-weight="500"><tspan x="0" y="0">Seja um programador</tspan></text>
+    <text id="Open_Source_" data-name="Open Source " transform="translate(115 226)" fill="#efefef" font-size="20" font-family="Poppins-Medium, Poppins, sans-serif" font-weight="500"><tspan x="0" y="0">Open Source </tspan></text>
     <text id="_Git_e_Github_" data-name="(Git e Github)" transform="translate(101 271)" fill="#efefef" font-size="20" font-family="Poppins-Light, Poppins, sans-serif" font-weight="300"><tspan x="0" y="0">(Git e Github)</tspan></text>
     <path id="Caminho_48" data-name="Caminho 48" d="M192.756,192.756h0Z" transform="translate(231 -8.756)" fill="#fff" fill-rule="evenodd"/>
-    <text id="Modulo_" data-name="Modulo " transform="translate(231 45)" fill="#fff" font-size="20" font-family="Poppins-Medium, Poppins, sans-serif" font-weight="500"><tspan x="0" y="0">Módulo </tspan></text>
-    <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Elipse_6)">
-      <circle id="Elipse_6-2" data-name="Elipse 6" cx="19.5" cy="19.5" r="19.5" transform="translate(252 55)" fill="#438ce0"/>
+    <text id="Modulo_" data-name="Modulo " transform="translate(225 45)" fill="#fff" font-size="20" font-family="Poppins-Medium, Poppins, sans-serif" font-weight="500"><tspan x="0" y="0">Módulo </tspan></text>
+    <g id="Grupo_12" data-name="Grupo 12" transform="translate(-6)">
+      <g transform="matrix(1, 0, 0, 1, 6, 0)" filter="url(#Elipse_6)">
+        <circle id="Elipse_6-2" data-name="Elipse 6" cx="19.5" cy="19.5" r="19.5" transform="translate(246 55)" fill="#438ce0"/>
+      </g>
+      <text id="_7" data-name="7" transform="translate(267 81)" fill="#efefef" font-size="18" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">7</tspan></text>
     </g>
-    <text id="_7" data-name="7" transform="translate(267 81)" fill="#efefef" font-size="18" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">7</tspan></text>
     <g id="github" transform="translate(24 24)">
       <path id="Caminho_37" data-name="Caminho 37" d="M51.139,0A51.144,51.144,0,0,0,34.972,99.664c2.556.473,3.494-1.109,3.494-2.46,0-1.219-.048-5.248-.069-9.521-14.227,3.093-17.229-6.034-17.229-6.034-2.326-5.911-5.678-7.482-5.678-7.482-4.64-3.174.35-3.109.35-3.109,5.135.361,7.839,5.27,7.839,5.27,4.561,7.818,11.963,5.558,14.881,4.251a10.89,10.89,0,0,1,3.247-6.838c-11.358-1.293-23.3-5.678-23.3-25.273a19.79,19.79,0,0,1,5.269-13.726c-.531-1.288-2.281-6.489.5-13.533,0,0,4.294-1.374,14.067,5.242a48.512,48.512,0,0,1,25.611,0C73.711,19.834,78,21.208,78,21.208c2.783,7.044,1.032,12.245.5,13.533a19.752,19.752,0,0,1,5.263,13.726c0,19.641-11.963,23.966-23.35,25.232,1.834,1.587,3.468,4.7,3.468,9.47,0,6.842-.059,12.349-.059,14.034,0,1.361.92,2.955,3.513,2.453A51.146,51.146,0,0,0,51.139,0" fill="#161614"/>
       <path id="Caminho_38" data-name="Caminho 38" d="M45.71,180.339c-.112.254-.513.33-.876.156s-.58-.513-.459-.768.511-.335.881-.159.584.516.455.771m2.516,2.244c-.244.226-.721.121-1.044-.236a.782.782,0,0,1-.15-1.063c.251-.226.714-.12,1.049.237s.4.834.144,1.063m1.726,2.871c-.314.218-.826.014-1.143-.441s-.313-1,.007-1.218.822-.022,1.143.429.313,1.008-.008,1.231m2.919,3.326c-.28.309-.877.226-1.314-.2a.983.983,0,0,1-.29-1.307c.284-.31.884-.223,1.324.2s.58,1,.281,1.307m3.771,1.123c-.123.4-.7.582-1.277.412s-.957-.645-.84-1.049.7-.593,1.281-.411.957.64.837,1.048m4.293.476c.014.422-.477.772-1.085.779s-1.106-.328-1.113-.743.48-.772,1.091-.782,1.106.327,1.106.746m4.217-.162c.073.411-.35.834-.953.947s-1.143-.146-1.219-.553.357-.844.949-.954,1.146.142,1.223.561" transform="translate(-26.556 -107.491)" fill="#161614"/>
     </g>
+    <text id="_Bónus_" data-name="( Bónus )" transform="translate(219 124)" fill="#fff" font-size="20" font-family="Poppins-Medium, Poppins, sans-serif" font-weight="500"><tspan x="0" y="0">( Bónus )</tspan></text>
   </g>
 </svg>

@@ -10,7 +10,7 @@ function Duvidas() {
                     </span>
 
                     <h1>Certificados</h1>
-                    <p>Depois da conclusão do curso, todos formados têm direito ao certificado homologado pelo INEFOPE</p>
+                    <p>Depois da conclusão do curso, todos formados têm direito ao certificado homologado pelo INEFOP</p>
                 </div>
                 <div className="grid-4">
                     <span>
@@ -18,7 +18,7 @@ function Duvidas() {
                     </span>
                     <h1>Suporte Para Dúvidas</h1>
                     <p>A nossa equipa está preparada para tirar qualquer dúvida durante o curso.
-                    Via Telefonica, E-mail, WathsApp, Telegram, Facebook, ou presencialmente.
+                    Via Telefonica, E-mail, WhatsApp, Telegram, Facebook, ou presencialmente.
                     </p>
                 </div>
                 <div className="grid-4">

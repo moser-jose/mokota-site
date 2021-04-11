@@ -1,13 +1,13 @@
 import React from 'react'
 
-import JS from '../../assets/img/img-curso/js.svg'
-import Rea from '../../assets/img/img-curso/react-c.svg'
-import Design from '../../assets/img/img-curso/design-xd.svg'
-import Node from '../../assets/img/img-curso/node-m.svg'
-import Fire from '../../assets/img/img-curso/fire.svg'
-import GitH from '../../assets/img/img-curso/git-h.svg'
-import Desenv from '../../assets/img/img-curso/desenv.svg'
-import Publ from '../../assets/img/img-curso/publi.svg'
+import JS from '../../assets/img/img-curso/modulos/js.svg'
+import Rea from '../../assets/img/img-curso/modulos/react-c.svg'
+import Design from '../../assets/img/img-curso/modulos/design-xd.svg'
+import Node from '../../assets/img/img-curso/modulos/node-m.svg'
+import GitH from '../../assets/img/img-curso/modulos/git-h.svg'
+import Desenv from '../../assets/img/img-curso/modulos/desenv.svg'
+import Publ from '../../assets/img/img-curso/modulos/publi.svg'
+import Stack from '../../assets/img/img-curso/modulos/stack.svg'
 function Modulos() {
     return (
         <div className="modulos">
@@ -44,7 +44,7 @@ function Modulos() {
                         <img src={GitH} alt="" />
                     </div>
                     <div className="grid-4">
-                        <img src={Fire} alt="" />
+                        <img src={Stack} alt="" />
                     </div>
                     
                 </div>

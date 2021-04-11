@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="335" height="300" viewBox="0 0 335 300">
+  <defs>
+    <linearGradient id="linear-gradient" x2="0.837" y2="0.924" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#797979"/>
+    </linearGradient>
+    <filter id="Elipse_6" x="237" y="53" width="57" height="57" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-Watch_38_mm_9">
+      <rect width="335" height="300"/>
+    </clipPath>
+  </defs>
+  <g id="Watch_38_mm_9" data-name="Watch 38 mm – 9" clip-path="url(#clip-Watch_38_mm_9)">
+    <rect width="335" height="300" fill="url(#linear-gradient)"/>
+    <text id="Correções_de_erros" data-name="Correções de erros" transform="translate(72 203)" fill="#efefef" font-size="20" font-family="Poppins-Medium, Poppins, sans-serif" font-weight="500"><tspan x="0" y="0">Correções de erros</tspan></text>
+    <text id="Stackoverflow" transform="translate(99 272)" fill="#efefef" font-size="20" font-family="Poppins-Light, Poppins, sans-serif" font-weight="300"><tspan x="0" y="0">Stackoverflow</tspan></text>
+    <path id="Caminho_48" data-name="Caminho 48" d="M192.756,192.756h0Z" transform="translate(231 9.244)" fill="#fff" fill-rule="evenodd"/>
+    <text id="Modulo" transform="translate(228 45)" fill="#fff" font-size="20" font-family="Poppins-Medium, Poppins, sans-serif" font-weight="500"><tspan x="0" y="0">Módulo</tspan></text>
+    <g id="Grupo_11" data-name="Grupo 11" transform="translate(-6 4)">
+      <g transform="matrix(1, 0, 0, 1, 6, -4)" filter="url(#Elipse_6)">
+        <circle id="Elipse_6-2" data-name="Elipse 6" cx="19.5" cy="19.5" r="19.5" transform="translate(246 59)" fill="#438ce0"/>
+      </g>
+      <text id="_8" data-name="8" transform="translate(266 81)" fill="#efefef" font-size="18" font-family="Poppins-SemiBold, Poppins, sans-serif" font-weight="600"><tspan x="0" y="0">8</tspan></text>
+    </g>
+    <text id="com" transform="translate(145 239)" fill="#efefef" font-size="20" font-family="Poppins-Medium, Poppins, sans-serif" font-weight="500"><tspan x="0" y="0">com</tspan></text>
+    <g id="stack-overflow" transform="translate(24 24)">
+      <path id="Caminho_53" data-name="Caminho 53" d="M61.329,150.975V129.73h9.437v30.686H0V129.73H9.437v21.245Z" transform="translate(0 -73.078)" fill="#bcbbbb"/>
+      <path id="Caminho_54" data-name="Caminho 54" d="M75.553,61.373,77.44,54.29,39.461,46.5,37.81,54.29ZM43,35.879,78.383,52.4l3.3-7.083L46.3,28.8Zm9.9-17.468L82.628,43.433l4.956-5.9L57.627,12.511l-4.956,5.9ZM72.016,0,65.645,4.721,89,36.114l6.367-4.721ZM37.81,70.814H75.553V63.735H37.81Z" transform="translate(-21.299)" fill="#f48024"/>
+    </g>
+    <text id="_Bónus_" data-name="( Bónus )" transform="translate(219 126)" fill="#fff" font-size="20" font-family="Poppins-Medium, Poppins, sans-serif" font-weight="500"><tspan x="0" y="0">( Bónus )</tspan></text>
+  </g>
+</svg>

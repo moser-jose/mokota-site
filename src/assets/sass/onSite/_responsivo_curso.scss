@@ -442,7 +442,63 @@
             text-align: center;
         }
     }
+    .insc{
+        .grid-10{
+            margin-top: 50px;
+            h1,.futuro{
+                font-size: 26px;
+                max-width: 300px;
+                span{
+                    margin-left: 5px;
+                }
+            }
+            .futuro{
+                font-size: 16px;
+                font-family: "Rubik";
+                margin-top: 20px;
+                font-weight: 400;
+                letter-spacing: .5px;
+                line-height: 1.4;
+                text-transform:lowercase;
+                span{
+                    text-transform: uppercase;
+                }
+            }
     
+            .conta{
+                display: block;
+                width: 300px;
+                max-width: 300px !important;
+                margin: 30px auto;
+                .numb{
+                    margin-bottom: 20px;
+                    p{
+                        display: block;
+                        margin-left:0;
+                        text-align: center;
+                        margin-top: 5px;
+                    }
+                    
+                    .num{
+                        color: #e88d76;
+                        font-weight: 600;
+                        font-size: 20px;
+                        font-family: "Rubik";
+                    }
+                }
+                .ic{
+                    font-size: 30px;
+                }
+                p{
+                   
+                    margin-left:0;
+                }
+            }
+            .mapa{
+              
+            }
+        }
+    }
 
    .projectos{
        

@@ -44,7 +44,7 @@ function Header() {
                 </div>
                 <div className="menu-nav">
                     <ul className="nav">
-                        <li className="m-home"><Link className="link" duration={1000} smooth={true} to="home">Home</Link></li>
+                        <li className="m-home"><Linka className="link" to="/">Home</Linka></li>
                         <li className="m-sobre"><Link className="link" duration={1000} smooth={true} to="sobre">O Curso</Link></li>
                         <li className="m-sobre"><Link className="link" duration={1000} smooth={true} to="projectos">Projectos</Link></li>
                         <li className="m-sobre"><Link className="link" duration={1000} smooth={true} to="pagamento">Pagamento</Link></li>

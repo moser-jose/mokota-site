@@ -62,9 +62,23 @@
                     margin-bottom: 50px;
                     color: #fff;
                     text-align: left;
-                    span {
-                        color: #e88d76;
-                        font-weight: 600;
+                    .react{
+                        padding: 2px 10px;
+                        border-radius: 14px;
+                        background-color: #438ce0;
+                        margin-top: 8px;
+                        display: inline-block;
+                        box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.1);
+                        font-weight: 500;
+                    }
+                    .curs{
+                        font-size: 20px;
+                        display: block;
+                        margin-top: 20px;
+                        .textloop {
+                            color: #e88d76;
+                            font-weight: 600;
+                        }
                     }
                 }
                 .bot {
@@ -327,32 +341,48 @@
         .conta{
             display: flex;
             /* justify-content: center; */
-            max-width: 600px;
+            max-width: 600px !important;
             margin: 30px auto;
-            p{
-                display: block;
-                text-align: center;
-                margin-left:50px;
-                letter-spacing: 1px;
-                font-weight: 400;
-                font-size: 18px;
-                .ic{
-                    display: block;
-                    font-size: 40px;
-                    margin-bottom: 6px;
-                    color: #18181880;
-                    
+            .numb{
+                p{
+                    display: inline-block;
+                    margin-left:10px;
                 }
+                
                 .num{
                     color: #e88d76;
                     font-weight: 600;
                     font-size: 20px;
                     font-family: "Rubik";
+                    &:nth-last-child(1){
+                    }
                 }
+            }
+            .ic{
+                display: block;
+                font-size: 40px;
+                margin-bottom: 6px;
+                color: #18181880;
+                text-align: center;
+                
+            }
+            p{
+                display: block;
+                text-align: center;
+                margin-left:30px;
+                letter-spacing: 1px;
+                font-weight: 400;
+                font-size: 18px;
+               
                 &:nth-last-child(2){
                     margin-left:0;
                 }
             }
+        }
+        .mapa{
+            display: block;
+            margin: 0 auto;
+            max-width: 600px;
         }
     }
 }

@@ -21,22 +21,25 @@ function Home() {
                         <div className="part container">
                             <div className="mov grid-8">
                                 <h1>
-                                    Crie aplicações moveis (Android e IOS) {" "}
-                                    <TextLoop interval={2400} springConfig={{ stiffness: 50, damping: 6 }}>
-                                        <span>
-                                            nativas
+                                    Curso Completo de Desenvolvimento de Aplicações Moveis com <span className="react">React Native</span>
+                                    <span className="curs">
+                                        Crie aplicativos moveis (Android e IOS) {" "}
+                                        <TextLoop interval={2400} springConfig={{ stiffness: 50, damping: 6 }}>
+                                            <span className="textloop">
+                                                nativas
                                         </span>
-                                        <span>
-                                            híbridas
+                                            <span className="textloop">
+                                                híbridas
                                         </span>
-                                        <span>
-                                            da web
+                                            <span className="textloop">
+                                                da web
                                         </span>
-                                    </TextLoop>{" "}
+                                        </TextLoop>{" "}
                                     com esse curso.
+                                   </span>
                                 </h1>
                                 <div className="bot">
-                                <Link className="sbr" duration={1000} smooth={true} to="sobre">Saiba mais</Link>
+                                    <Link className="sbr" duration={1000} smooth={true} to="sobre">Saiba mais</Link>
                                     <button onClick={(event) => handleCl(event)} id="playsobre" className="playsobre" >{' '}</button>
                                     <span className="vid">Veja o vídeo</span>
                                 </div>

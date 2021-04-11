@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 function Footer() {
     return (
 
@@ -8,9 +9,7 @@ function Footer() {
                     <p className="copy">
                         Copyright &copy; {new Date().getFullYear()} <a href="/">mokota</a>. Todos direitos reservados
                     </p>
-                    <p className="termos"><span><a href="/">
-                        Termos e Condições </a></span> |
-                        <span><a href="/"> Privacidade</a></span></p>
+                    <p className="termos"><span> <Link to="/termos">Termos e Condições</Link></span> | <span><Link to="/privacidade">Privacidade</Link></span></p>
                     <div className="redes-s">
                         <span title="Facebook"><a href="/"><i className="iconspeck speck-facebook"></i></a></span>
                         <span title="Instagram"><a href="https://www.instagram.com/mokota_code/"><i className="iconspeck speck-instagram"></i></a></span>
