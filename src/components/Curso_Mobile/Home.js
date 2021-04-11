@@ -21,9 +21,9 @@ function Home() {
                         <div className="part container">
                             <div className="mov grid-8">
                                 <h1>
-                                    Curso Completo de Desenvolvimento de Aplicações Moveis com <span className="react">React Native</span>
+                                    Curso Completo de Desenvolvimento de Aplicações Móveis com <span className="react">React Native</span>
                                     <span className="curs">
-                                        Crie aplicativos moveis (Android e IOS) {" "}
+                                        Crie aplicativos móveis (Android e IOS) {" "}
                                         <TextLoop interval={2400} springConfig={{ stiffness: 50, damping: 6 }}>
                                             <span className="textloop">
                                                 nativas

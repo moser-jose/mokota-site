@@ -160,7 +160,7 @@
             flex-direction: column;
             .mov{
                 margin-top: 0;
-                height: 400px !important;
+                height: 300px !important;
                 h1{
                     font-size: 28px !important;
                     margin-bottom: 30px !important;
@@ -427,7 +427,16 @@
 
 
     footer{
-        display: none;
+        
+        .foot-p{
+            display: block !important;
+            .copy,.termos{
+                text-align: center !important;
+            }
+            .redes-s{
+                margin: 16px 0;
+            }
+        }
     }
 
     .pre-p{

@@ -6,9 +6,6 @@ function Footer() {
         <footer>
             <div className="footer container">
                 <div className="foot-p">
-                    <p className="copy">
-                        Copyright &copy; {new Date().getFullYear()} <a href="/">mokota</a>. Todos direitos reservados
-                    </p>
                     <p className="termos"><span> <Link to="/termos">Termos e Condições</Link></span> | <span><Link to="/privacidade">Privacidade</Link></span></p>
                     <div className="redes-s">
                         <span title="Facebook"><a href="/"><i className="iconspeck speck-facebook"></i></a></span>
@@ -17,6 +14,10 @@ function Footer() {
                         <span title="Youtube"><a href="/"><i className="iconspeck speck-youtube"></i></a></span>
                         <span title="Github"><a href="https://github.com/mokota-code"><i className="iconspeck speck-github"></i></a></span>
                     </div>
+                    <p className="copy">
+                        Copyright &copy; {new Date().getFullYear()} <a href="/">mokota</a>. Todos direitos reservados
+                    </p>
+
                 </div>
             </div>
         </footer>
