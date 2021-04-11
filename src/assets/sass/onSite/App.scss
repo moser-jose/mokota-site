@@ -22,6 +22,28 @@
         background-color: #d8e7fc;
     }
 }
+.btn-top{
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    width: 40px;
+    height: 40px;
+    z-index: 100;
+    border-radius: 2px;
+    animation: fadeIn .3s;
+    cursor: pointer;
+    color: #F4F7FA;
+    background-color: #6A7186;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    transition: all .5 ease;
+    &:hover{
+      background-color: #6A7186;
+    }
+  }
 .btn-azul {
     background-color: #438ce0;
     color: #fff;
@@ -376,6 +398,18 @@
                
                 &:nth-last-child(2){
                     margin-left:0;
+                }
+            }
+        }
+        .redes{
+            max-width: 600px !important;
+            margin: 10px auto 30px;
+            a{
+                color: #181818ab;
+                font-size: 32px;
+                margin: 0 20px;
+                &:hover{
+                    color: #18181880;
                 }
             }
         }

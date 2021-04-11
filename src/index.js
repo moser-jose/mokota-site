@@ -30,12 +30,14 @@ import {
   faChalkboardTeacher,
   faHatWizard,
   faHandshake,
+  faAngleUp
 }
   from '@fortawesome/free-solid-svg-icons'
 import { faHeart as faHeartFar } from '@fortawesome/free-regular-svg-icons';
 
 library.add(fab,
   faBell,
+  faAngleUp,
   faHandshake,
   faHatWizard,
   faChalkboardTeacher,

@@ -70,6 +70,14 @@ function InscreverSe() {
                         </div>
                         <p><span className="ic"><FontAwesomeIcon icon="envelope" /></span> geral@mokota.net</p>
                     </div>
+                    <div className="redes">
+                        <span title="Facebook"><a href="/"><i className="iconspeck speck-facebook"></i></a></span>
+                        <span title="Instagram"><a href="https://www.instagram.com/mokota_code/"><i className="iconspeck speck-instagram"></i></a></span>
+                        <span title="Twitter"><a href="/"><i className="iconspeck speck-twitter"></i></a></span>
+                        <span title="Youtube"><a href="/"><i className="iconspeck speck-youtube"></i></a></span>
+                        <span title="Github"><a href="https://github.com/mokota-code"><i className="iconspeck speck-github"></i></a></span>
+                    </div>
+
 
                     {/*  <div className="mapa">
                     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d972.7648000512846!2d15.744577003614781!3d-12.77466742797554!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1bb77589c4992b13%3A0x2240e84769a24def!2sMediateca%20do%20Huambo!5e0!3m2!1spt-PT!2sao!4v1617986681737!5m2!1spt-PT!2sao" width="600" height="300" style={{border:0}} allowfullscreen="" loading="lazy"></iframe>
