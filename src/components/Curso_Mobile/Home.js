@@ -41,7 +41,7 @@ function Home() {
                                 <div className="bot">
                                     <Link className="sbr" duration={1000} smooth={true} to="sobre">Saiba mais</Link>
                                     <button onClick={(event) => handleCl(event)} id="playsobre" className="playsobre" >{' '}</button>
-                                    <span className="vid">Veja o vídeo</span>
+                                    <span className="vid">Assista o vídeo</span>
                                 </div>
                             </div>
                             <div className="grid-8">

@@ -40,7 +40,7 @@ function Pagamento() {
                     </ul>
                     <div>
                         <Link duration={1000} smooth={true} to="inscrever" className="btn-azul">Garantir Vaga Agora</Link>
-                        <span onClick={(event) => handleCl(event)} id="playpagamento">Veja o video</span>
+                        <span onClick={(event) => handleCl(event)} id="playpagamento">Assista o video</span>
                     </div>
                 </div>
                 <div className="grid-1-3 prestacao">

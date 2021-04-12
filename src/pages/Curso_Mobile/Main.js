@@ -35,16 +35,16 @@ const Main = () => {
             {playBubton === true && <PlayVideo fechar={handleFecharClick} />}
             <Home />
             <Sobre />
-            <PreProjetos></PreProjetos>
-            <Modulos></Modulos>
-            <Projectos></Projectos>
-            <Duvidas></Duvidas>
-            <Pagamento></Pagamento>
-            <InscreverSe />
+            <PreProjetos />
+            <Modulos />
+            <Projectos />
+            <Duvidas />
+            <Pagamento />
+            {/*<InscreverSe />
             <Quote></Quote>
             <FAQ></FAQ>
             {scrollPosition > 50 && <TapToTop></TapToTop>}
-            <Footer />
+            <Footer /> */}
         </>
     );
 }

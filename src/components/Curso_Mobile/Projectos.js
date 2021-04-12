@@ -21,11 +21,9 @@ function Projectos() {
     const [camida, SetCamida] = useState(0);
 
     const breakPoints = [
-        { width: 1, itemsToShow: 1 },
-        { width: 300, itemsToShow: 1 },
-        { width: 767, itemsToShow: 1 },
+        { width: 100, itemsToShow: 1 },
+        { width: 600, itemsToShow: 2 },
         { width: 1000, itemsToShow: 4 },
-        { width: 1400, itemsToShow: 4 }
     ];
     const calculadoraFunct = () => {
         SetCalculadora(1);
