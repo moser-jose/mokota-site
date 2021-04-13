@@ -49,16 +49,10 @@ function InscreverSe() {
                 <div className="grid-10">
 
                     <h1>
-                        Comece uma nova fase da sua vida como
-                <TextLoop interval={2400} springConfig={{ stiffness: 50, damping: 6 }}>
-                            <span>
-                                programador
-                </span>
-                            <span>
+                        Comece uma nova fase da sua vida como  
+                        <span>
                                 developer
-                    </span>
-                        </TextLoop>{" "}
-                mobile
+                    </span> mobile
                     </h1>
                     <p className="futuro"><span>PRIORIZE SUA CARREIRA,</span> invista no seu presente e ganhe no seu futuro.</p>
 

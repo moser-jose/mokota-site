@@ -40,11 +40,11 @@ const Main = () => {
             <Projectos />
             <Duvidas />
             <Pagamento />
-            {/*<InscreverSe />
+            <InscreverSe />
             <Quote></Quote>
             <FAQ></FAQ>
             {scrollPosition > 50 && <TapToTop></TapToTop>}
-            <Footer /> */}
+            <Footer />
         </>
     );
 }
