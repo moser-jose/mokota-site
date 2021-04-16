@@ -1,1 +1,83 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="321.699" height="94" viewBox="0 0 321.699 94"><defs><filter id="a" x="112.699" y="0" width="95" height="86" filterUnits="userSpaceOnUse"><feOffset dy="3" input="SourceAlpha"/><feGaussianBlur stdDeviation="3" result="b"/><feFlood flood-opacity="0.161"/><feComposite operator="in" in2="b"/><feComposite in="SourceGraphic"/></filter><filter id="c" x="225.699" y="0" width="96" height="86" filterUnits="userSpaceOnUse"><feOffset dy="3" input="SourceAlpha"/><feGaussianBlur stdDeviation="3" result="d"/><feFlood flood-opacity="0.161"/><feComposite operator="in" in2="d"/><feComposite in="SourceGraphic"/></filter><filter id="e" x="186.699" y="8" width="59" height="86" filterUnits="userSpaceOnUse"><feOffset dy="3" input="SourceAlpha"/><feGaussianBlur stdDeviation="3" result="f"/><feFlood flood-opacity="0.161"/><feComposite operator="in" in2="f"/><feComposite in="SourceGraphic"/></filter></defs><g transform="translate(-416.301 -27)"><g transform="translate(4659 1330)"><g transform="translate(-4120.874 -1296.728)"><g transform="matrix(1, 0, 0, 1, -121.83, -6.27)" filter="url(#a)"><text transform="translate(121.7 59)" fill="#f8f8f8" font-size="60" font-family="CalifornianFB-Reg, Californian FB"><tspan x="0" y="0">mo</tspan></text></g><g transform="matrix(1, 0, 0, 1, -121.83, -6.27)" filter="url(#c)"><text transform="translate(234.7 59)" fill="#f8f8f8" font-size="60" font-family="CalifornianFB-Reg, Californian FB"><tspan x="0" y="0">ota</tspan></text></g><g transform="matrix(1, 0, 0, 1, -121.83, -6.27)" filter="url(#e)"><text transform="matrix(-1, 0, 0, 1, 236.7, 67)" fill="rgba(56,135,225,0.93)" font-size="60" font-family="CalifornianFB-Reg, Californian FB"><tspan x="0" y="0">K</tspan></text></g></g><g transform="translate(-4242.699 -1303)"><path d="M-4312.7-1343.833c39.543-5.427,38.769,79.862,38.769,79.862l55.05-86.065,14.731,72.109Z" transform="translate(4312.699 1353.172)" fill="rgba(255,255,255,0.51)"/><path d="M-4312.7-1343.833c39.543-5.427,38.769,79.862,38.769,79.862l55.05-86.065,14.731,72.109Z" transform="translate(4323.675 1350.037)" fill="rgba(56,135,225,0.93)"/></g></g></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="236.626" height="80" viewBox="0 0 236.626 80">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#4891e5"/>
+      <stop offset="1" stop-color="#1c64b4"/>
+    </linearGradient>
+    <filter id="Caminho_1356" x="127.5" y="19.251" width="33.733" height="38.348" filterUnits="userSpaceOnUse">
+      <feOffset dy="0.2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="0.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-2" x1="0.637" y1="0.271" x2="-0.25" y2="1.321" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#438bde"/>
+      <stop offset="1" stop-color="#22466f"/>
+    </linearGradient>
+    <filter id="Elipse_142" x="26" y="0" width="35" height="35" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Caminho_1325" x="0" y="22" width="35" height="35" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Caminho_1326" x="26" y="45" width="35" height="35" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-5" x1="0.733" y1="0.402" x2="-0.856" y2="-0.059" xlink:href="#linear-gradient-2"/>
+    <filter id="Elipse_142-2" x="27" y="24" width="32" height="32" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-5"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-5"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_1318" data-name="Grupo 1318" transform="translate(-13 -460)">
+    <g id="Grupo_1316" data-name="Grupo 1316" transform="translate(0 1)">
+      <path id="Caminho_1345" data-name="Caminho 1345" d="M38.737-415.655A11.589,11.589,0,0,0,28.762-407a19.536,19.536,0,0,0-.408,6.806c.7,5.211,3.558,8.809,8.089,10.189a21.8,21.8,0,0,0,10.014.117c5.7-1.711,8.634-6.514,8.3-13.611a13.261,13.261,0,0,0-1.4-6.028c-1.653-3.383-4.861-5.522-9.1-6.106A22.833,22.833,0,0,0,38.737-415.655Zm5.153,6.4a5.612,5.612,0,0,1,2.489,2.956,18.524,18.524,0,0,1,.019,7.389,4.657,4.657,0,0,1-4.278,3.6,4.96,4.96,0,0,1-5.483-3.636,16.575,16.575,0,0,1-.019-7.117,4.967,4.967,0,0,1,3.52-3.578A7.057,7.057,0,0,1,43.89-409.257Z" transform="translate(146.778 899.813)" fill="#f5f8fd"/>
+      <g transform="matrix(1, 0, 0, 1, 13, 459)" filter="url(#Caminho_1356)">
+        <path id="Caminho_1356-2" data-name="Caminho 1356" d="M-910.788-534.948h10.058l11.225,15.785v-15.785h8.945v35.071h-8.595v-15.537L-900.883-499.6l-10.041-.276,13.848-16.888-14.216-18.184h.5" transform="translate(1040.29 555.5)" fill="url(#linear-gradient)"/>
+      </g>
+      <path id="Caminho_1357" data-name="Caminho 1357" d="M38.737-415.655A11.589,11.589,0,0,0,28.762-407a19.536,19.536,0,0,0-.408,6.806c.7,5.211,3.558,8.809,8.089,10.189a21.8,21.8,0,0,0,10.014.117c5.7-1.711,8.634-6.514,8.3-13.611a13.261,13.261,0,0,0-1.4-6.028c-1.653-3.383-4.861-5.522-9.1-6.106A22.833,22.833,0,0,0,38.737-415.655Zm5.153,6.4a5.612,5.612,0,0,1,2.489,2.956,18.524,18.524,0,0,1,.019,7.389,4.657,4.657,0,0,1-4.278,3.6,4.96,4.96,0,0,1-5.483-3.636,16.575,16.575,0,0,1-.019-7.117,4.967,4.967,0,0,1,3.52-3.578A7.057,7.057,0,0,1,43.89-409.257Z" transform="translate(91.49 899.813)" fill="#f5f8fd"/>
+      <g id="Grupo_1314" data-name="Grupo 1314" transform="translate(-32.395 4)">
+        <path id="path9" d="M13421.8-237.089v-23.855h7.054v5.55h5.548v5.978h-5.548v12.234a2.429,2.429,0,0,0,.694,2.015,2.43,2.43,0,0,0,2.015.694h2.839v5.978h-4.025c-5.57,0-8.577-3.007-8.577-8.591" transform="translate(-13182.183 734.944)" fill="#f5f8fd"/>
+        <path id="Caminho_1360" data-name="Caminho 1360" d="M-844.968-455.479h4.667v5.866h-4.667Z" transform="translate(1081.363 935.479)" fill="#f5f8fd"/>
+      </g>
+      <path id="path17873" d="M132.97,2351.254v12.121h-8.19V2349.8c0-4.291-1.617-6.058-4.312-6.058-3.086,0-5.346,2.732-5.346,7.027v12.605h-8.19v-25.453h8.19v3.339a10.536,10.536,0,0,1,8.739-4.309c4.17,0,6.652,1.661,7.948,4.219,0,0,2.675-4.246,9.552-4.246,6.449,0,9.6,4.018,9.6,9.481v16.969h-8.19V2349.8c0-3.31-1.273-6.136-4.315-6.136-3.11,0-5.485,2.871-5.485,7.591Z" transform="translate(-34.425 -1852.925)" fill="#f5f8fd"/>
+      <path id="path17881" d="M559.545,2337.06c-7.08,0-11.481,6.2-11.481,13.028,0,7.863,5.247,13.422,11.6,13.422a10.454,10.454,0,0,0,7.586-3.7v2.817h7.437v-24.646h-7.437v3.051A9.49,9.49,0,0,0,559.545,2337.06Zm2.191,6.807c3.364,0,5.733,3.62,5.733,6.353,0,3.742-2.688,6.293-5.733,6.293a5.882,5.882,0,0,1-5.9-6.25C555.84,2347,558.322,2343.867,561.736,2343.867Z" transform="translate(-325.065 -1853.06)" fill="#f5f8fd"/>
+    </g>
+    <g id="Grupo_1315" data-name="Grupo 1315" transform="translate(251 773) rotate(180)">
+      <g id="Grupo_1304" data-name="Grupo 1304" transform="translate(264 576) rotate(180)">
+        <g id="Grupo_1302" data-name="Grupo 1302">
+          <path id="Caminho_1321" data-name="Caminho 1321" d="M3.3,1.813C.494-4.294,17.181-1.663,12,0S6.936,21.546,12,26-5.955,29.281,0,26,6.112,7.921,3.3,1.813Z" transform="matrix(0.643, 0.766, -0.766, 0.643, 62.102, 275.547)" fill="#438bde"/>
+          <path id="Caminho_1322" data-name="Caminho 1322" d="M3.3,1.813C.494-4.294,17.181-1.663,12,0S6.936,21.546,12,26-5.955,29.281,0,26,6.112,7.921,3.3,1.813Z" transform="translate(70.592 315.083) rotate(133)" fill="#438bde"/>
+          <g transform="matrix(1, 0, 0, 1, 26, 263)" filter="url(#Elipse_142)">
+            <circle id="Elipse_142-3" data-name="Elipse 142" cx="8.5" cy="8.5" r="8.5" transform="translate(35 6)" fill="url(#linear-gradient-2)"/>
+          </g>
+          <g transform="matrix(1, 0, 0, 1, 26, 263)" filter="url(#Caminho_1325)">
+            <path id="Caminho_1325-2" data-name="Caminho 1325" d="M8.5,0A8.5,8.5,0,1,1,0,8.5,8.5,8.5,0,0,1,8.5,0Z" transform="translate(9 28)" fill="url(#linear-gradient-2)"/>
+          </g>
+          <g transform="matrix(1, 0, 0, 1, 26, 263)" filter="url(#Caminho_1326)">
+            <path id="Caminho_1326-2" data-name="Caminho 1326" d="M8.5,0A8.5,8.5,0,1,1,0,8.5,8.5,8.5,0,0,1,8.5,0Z" transform="translate(35 51)" fill="url(#linear-gradient-2)"/>
+          </g>
+        </g>
+      </g>
+      <g transform="matrix(-1, 0, 0, -1, 238, 313)" filter="url(#Elipse_142-2)">
+        <circle id="Elipse_142-4" data-name="Elipse 142" cx="7" cy="7" r="7" transform="translate(36 30)" fill="url(#linear-gradient-5)"/>
+      </g>
+    </g>
+  </g>
+</svg>
