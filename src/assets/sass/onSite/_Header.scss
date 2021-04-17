@@ -1,3 +1,4 @@
+
 .header-scroll {
     box-shadow: rgba(46, 61, 73, 0.2) 0px 1px 20px 0px !important;
     background-color: #f5f8fd !important;
@@ -30,6 +31,7 @@
             }
         }
     }
+    
 }
 .header {
     transition:all 0.5s ease 0s;
@@ -207,6 +209,29 @@
             }
             .foot-mob {
                 display: none;
+            }
+        }
+    }
+}
+.menu-privacidade{
+    background-color: #f5f8fd !important;
+    img{
+        padding: 0 !important;
+    }
+    ul{
+        li{
+            
+            a{
+                color: #f5f8fd !important;
+                font-size: 18px !important;
+                display: block;
+                padding: 10px !important;
+                border-radius: 2px;
+                box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1);
+                background-color: #438ce0;
+                &:hover{
+                    background-color: #5da2f1;
+                }
             }
         }
     }

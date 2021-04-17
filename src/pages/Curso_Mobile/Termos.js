@@ -1,34 +1,13 @@
 import React from 'react'
-import Header from '../../components/Curso_Mobile/Header'
+import Footer from '../../components/Curso_Mobile/Footer'
+import HeaderPrivacidade from '../../components/Curso_Mobile/HeaderPrivacidade'
 
 function Termos() {
     return (
         <>
-        <Header/>
+        <HeaderPrivacidade/>
         <div class="container termos-p">
-
-        {/* <style>
-            .termos-p p{
-                margin: 15px 0;
-                font-size: 18px;
-                line-height: 1.3
-            }
-            .termos-p p span{
-                font-weight: 600;
-                font-size: 18px;
-            }
-            .termos-p .lista{
-                font-size: 20px;
-                font-weight: 500;
-                margin: 30px 0;
-            }
-            .termos-p .lista-p{
-                font-size: 18px;
-                font-weight: 500;
-                margin: 30px 0 30px 20px;
-            }
-        </style> */}
-    
+            <h1>Termos e Condições</h1>
         <p>Esta política de privacidade foi revista e actualizada em 04/03/2021</p>
         <p>
             Esta política de privacidade descreve as varias formas que a Mokota utiliza para colecta, armazenamento
@@ -178,7 +157,7 @@ function Termos() {
     <br />
     Não use os Serviços caso não concorde com esta Política de Privacidade.<br />
         </div>
-    
+    <Footer/>
         </>
     )
 }

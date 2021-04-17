@@ -1,9 +1,38 @@
 import React from 'react'
-import Checkbox from '../Admin/Formulario/Checkbox';
 import Input from '../Admin/Formulario/Input';
-import TextLoop from "react-text-loop";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Alerta from '../Admin/Formulario/Alerta';
+import useForm from '../../hooks/useForm';
+import { usePlayContext } from '../../contexts/PlayContext';
+import { alunoInscrever } from '../../api/';
+
 function InscreverSe() {
+    const nome = useForm('nome', 'Nome');
+    const sobrenome = useForm('sobrenome', 'Sobre Nome');
+    const telefone1 = useForm('telefone1', "Telefone (1)");
+    const email = useForm('email', 'E-mail');
+    const endereco = useForm('endereco', "Endereço");
+    const { error, setError } = usePlayContext();
+    async function handleSubmit(event) {
+        event.preventDefault();
+        if (nome.validate() && sobrenome.validate() && telefone1.validate() && email.validate() && endereco.validate()) {
+            const { url, options } = alunoInscrever({
+                nome: nome.value,
+                sobrenome: sobrenome.value,
+                telefone1: telefone1.value,/* 
+                telefone2: telefone2.value, */
+                email: email.value,
+                endereco: endereco.value,
+            });
+            const response = await fetch(url, options);
+            response.json().then(f => {
+                setError({
+                    cod: f.sucesso,
+                    mensagem: f.mensagem
+                });
+            });
+        }
+    }
     return (
         <div id="inscrever" className=" insc container-form container-form-l">
             <div className="container">
@@ -15,43 +44,40 @@ function InscreverSe() {
                     <h1 className="obs"><span>obs:</span> Porfavor, insira informações fidedigas pois
                 a nossa equipa irá entrar em contacto consigo.
                 </h1>
+                    <h1 className="obrig">* Campos obrigatórios</h1>
+                    {error && <Alerta mensagem={error} />}
                     <div className="container-data log-l">
-                        <form >
+                        <form action="" onSubmit={handleSubmit}  >
                             <div className="flex-l">
                                 <div className="flex-d">
-                                    <Input type="text" name="nome" placeholder="" label="Nome *" ></Input>
+                                    <Input type="text" classN={error && error.type === 'nome' ? 'error-red' : ''} name="nome" placeholder="" label="Nome *" {...nome} ></Input>
                                 </div>
                                 <div className="flex-d">
-                                    <Input type="text" name="sobrenome" placeholder="" label="Sobre Nome *" ></Input>
+                                    <Input type="text" classN={error && error.type === 'sobrenome' ? 'error-red' : ''} name="sobrenome" placeholder="" label="Sobre Nome *" {...sobrenome}   ></Input>
                                 </div></div>
                             <div className="flex-l">
                                 <div className="flex-d">
-                                    <Input type="text" name="telefone" placeholder="" label="Telefone (1) *" ></Input>
+                                    <Input type="text" classN={error && error.type === 'telefone1' ? 'error-red' : ''} name="telefone1" placeholder="" label="Telefone (1) *" {...telefone1} ></Input>
                                 </div>
                                 <div className="flex-d">
-                                    <Input type="text" name="sobrenome" placeholder="" label="Telefone (2) " ></Input>
+                                    <Input type="text" name="telefone2" placeholder="" label="Telefone (2) " ></Input>
                                 </div></div>
 
-                            <Input type="email" name="email" placeholder="" label="E-mail *" ></Input>
-                            <Input type="text" name="endereco" placeholder="" label="Endereço *" ></Input>
-                            <div className="termos-p">
-                                <Checkbox name="computador" label="Possuo um computador *" ></Checkbox>
-                                {/* <Checkbox name="programacao" label="Tenho experiência em programação"></Checkbox> */}
-                            </div>
-                            <div className="termos-p">
+                            <Input type="text" classN={error && error.type === 'email' ? 'error-red' : ''} name="email" placeholder="" label="E-mail *" {...email} ></Input>
+                            <Input type="text" classN={error && error.type === 'endereco' ? 'error-red' : ''} name="endereco" placeholder="" label="Endereço *" {...endereco} ></Input>
+                            <div className="submit">
                                 <Input type="submit" value="Inscrever-se" name="inscrever" placeholder="" label="" ></Input>
 
                             </div>
                         </form>
-
                     </div>
                 </div>
                 <div className="grid-10">
 
                     <h1>
-                        Comece uma nova fase da sua vida como  
+                        Comece uma nova fase da sua vida como
                         <span>
-                                developer
+                            developer
                     </span> mobile
                     </h1>
                     <p className="futuro"><span>PRIORIZE SUA CARREIRA,</span> invista no seu presente e ganhe no seu futuro.</p>
@@ -73,8 +99,8 @@ function InscreverSe() {
                     </div>
 
 
-                    {/*  <div className="mapa">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d972.7648000512846!2d15.744577003614781!3d-12.77466742797554!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1bb77589c4992b13%3A0x2240e84769a24def!2sMediateca%20do%20Huambo!5e0!3m2!1spt-PT!2sao!4v1617986681737!5m2!1spt-PT!2sao" width="600" height="300" style={{border:0}} allowfullscreen="" loading="lazy"></iframe>
+                    {/*   <div className="mapa">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d972.7648000512846!2d15.744577003614781!3d-12.77466742797554!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1bb77589c4992b13%3A0x2240e84769a24def!2sMediateca%20do%20Huambo!5e0!3m2!1spt-PT!2sao!4v1617986681737!5m2!1spt-PT!2sao" width="600" height="300" style={{ border: 0 }} allowfullscreen="" loading="lazy"></iframe>
                     </div > */}
                 </div>
 

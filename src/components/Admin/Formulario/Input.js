@@ -1,5 +1,5 @@
 import React from 'react'
-const Input = ({ label, type, name, value, onChange, onBlur, placeholder }) => {
+const Input = ({ label, type, name, value, onChange, onBlur, placeholder, classN }) => {
     return (
         <div className="Container">
             <label htmlFor={name} className="label">
@@ -8,7 +8,7 @@ const Input = ({ label, type, name, value, onChange, onBlur, placeholder }) => {
             <input
                 id={name}
                 name={name}
-                className="input"
+                className={`input ${classN}`}
                 placeholder={placeholder}
                 type={type}
                 value={value}

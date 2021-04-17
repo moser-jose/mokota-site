@@ -26,10 +26,10 @@ function FAQ() {
                 </div>
             </div>
             <div className="container">
-            <div className="grid-1-3">
+                <div className="grid-1-3">
                     <h2>Qual é o formato do curso?</h2>
                     <p>No momento o curso é 100% presencial, dentro em breve ele será on-line também.
-                        O curso possui 8 módulos <span>Ver módulos</span> e prevê a criação de 4 aplicativos <span>ver projectos</span>
+                    O curso possui 8 módulos e prevê a criação de 4 aplicativos
                         e a facilidade de interação entre o aluno e o professor através meios disponíveis como Facebook, WhatsApp, Telegram e chamadas telefónicas</p>
                 </div>
                 <div className="grid-1-3">
@@ -46,15 +46,15 @@ function FAQ() {
                     políticas de privacidade.
                     </p>
                 </div>
-               
-                
+
+
             </div>
             <div className="container">
-            <div className="grid-1-3">
+                <div className="grid-1-3">
                     <h2>Como é feito o pagamento de acesso ao curso?</h2>
-                    <p>O valor total do curso é de 30.000 kzs, e existem duas modalidades de pagamento,
+                    <p>O valor total do curso é de 35.000 kzs, e existem duas modalidades de pagamento,
                     a 1ª o estudante pode fazer o pagamento desse valor em um único pagamento. 2ª o aluno pode
-                    fazer o pagamento em duas prestações de 15.000 kzs cada. A primeira prestação é cobrado até o ínicio do curso,
+                    fazer o pagamento em duas prestações de 17.500 kzs cada. A primeira prestação é cobrado até o ínicio do curso,
                     e a segunda é cobrado duas semanas após o ínicio do curso.
                     </p>
                 </div>
@@ -66,10 +66,10 @@ function FAQ() {
                     </p>
                 </div>
                 <div className="grid-1-3">
-                    <h2>Não tenho um computador portátil, posso fazer o curso?</h2>
-                    <p> Não sei programar, posso fazer? Não sei programar,
-                    posso fazer? Não sei programar, posso fazer? Não sei programar, posso fazer?Não sei
-                        programar, posso fazer?Não sei programar, posso fazer? </p>
+                    <h2>É possível alterar os meus dados de inscrição (nome, sobre-nome, e-mail, telefone e endereço)?</h2>
+                    <p><span>SIM!</span> No entanto, nesta primeira fase, para poder alterar as informações
+                    usadas no acto da inscrição, deverá entrar em contacto com a nossa equipa no sentido de verificar a veracidade
+                    da informação a ser alterada. Numa segunda fase os alunos terão acesso a nossa plataforma e as suas respectivas credenciais de acesso.</p>
                 </div>
             </div>
         </div>

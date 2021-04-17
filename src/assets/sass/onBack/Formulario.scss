@@ -49,6 +49,9 @@ form{
         border-left: 6px solid #438CE0;
         width: 100%;
     }
+    .error-red{
+        border-left: 6px solid #dd4545 !important; 
+    }
     .button{
         width: 30%;
         float: right;
