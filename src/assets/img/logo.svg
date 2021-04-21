@@ -1,111 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="66" height="38" viewBox="0 -4 66 38">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="58.25" height="17.658" viewBox="0 0 58.25 17.658">
   <defs>
-    <linearGradient id="linear-gradient" x1="0.637" y1="0.271" x2="-0.25" y2="1.321" gradientUnits="objectBoundingBox">
+    <linearGradient id="linear-gradient" x1="0.5" x2="-0.379" y2="1.277" gradientUnits="objectBoundingBox">
       <stop offset="0" stop-color="#438bde"/>
       <stop offset="1" stop-color="#22466f"/>
     </linearGradient>
-    <filter id="Caminho_1366" x="47.844" y="16.774" width="10.656" height="10.66" filterUnits="userSpaceOnUse">
-      <feOffset dy="0.2" input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="0.5" result="blur"/>
-      <feFlood flood-opacity="0.161"/>
-      <feComposite operator="in" in2="blur"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
-    <filter id="Caminho_1325" x="37.99" y="4.7" width="10.662" height="10.662" filterUnits="userSpaceOnUse">
-      <feOffset dy="0.2" input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="0.5" result="blur-2"/>
-      <feFlood flood-opacity="0.161"/>
-      <feComposite operator="in" in2="blur-2"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
-    <linearGradient id="linear-gradient-3" x1="0.733" y1="0.402" x2="-0.856" y2="-0.059" xlink:href="#linear-gradient"/>
-    <filter id="Elipse_142" x="31.509" y="12.078" width="24.18" height="24.18" filterUnits="userSpaceOnUse">
-      <feOffset dy="3" input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="3" result="blur-3"/>
-      <feFlood flood-opacity="0.161"/>
-      <feComposite operator="in" in2="blur-3"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
-    <filter id="Caminho_1367" x="28.412" y="6.761" width="9.18" height="9.184" filterUnits="userSpaceOnUse">
-      <feOffset dy="0.2" input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="0.5" result="blur-4"/>
-      <feFlood flood-opacity="0.161"/>
-      <feComposite operator="in" in2="blur-4"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
-    <filter id="Caminho_1325-2" x="10.366" y="0" width="25.662" height="25.662" filterUnits="userSpaceOnUse">
-      <feOffset dy="3" input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="3" result="blur-5"/>
-      <feFlood flood-opacity="0.161"/>
-      <feComposite operator="in" in2="blur-5"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
-    <filter id="Caminho_1326" x="0" y="11.718" width="25.662" height="25.662" filterUnits="userSpaceOnUse">
-      <feOffset dy="3" input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="3" result="blur-6"/>
-      <feFlood flood-opacity="0.161"/>
-      <feComposite operator="in" in2="blur-6"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
-    <filter id="Elipse_142-2" x="20.315" y="12.074" width="25.66" height="25.66" filterUnits="userSpaceOnUse">
-      <feOffset dy="3" input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="3" result="blur-7"/>
-      <feFlood flood-opacity="0.161"/>
-      <feComposite operator="in" in2="blur-7"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
-    <filter id="Elipse_142-3" x="18.69" y="17.068" width="9.184" height="9.18" filterUnits="userSpaceOnUse">
-      <feOffset dy="0.2" input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="0.5" result="blur-8"/>
-      <feFlood flood-opacity="0.161"/>
-      <feComposite operator="in" in2="blur-8"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
   </defs>
-  <g id="Grupo_1344" data-name="Grupo 1344" transform="translate(1454 567.436)">
-    <g id="Grupo_1336" data-name="Grupo 1336" transform="translate(-1437.876 -571.436)">
-      <g id="Grupo_1326" data-name="Grupo 1326" transform="translate(13 29.436) rotate(-90)">
-        <g id="Grupo_1304" data-name="Grupo 1304" transform="translate(19.436 27.876) rotate(180)">
-          <g id="Grupo_1302" data-name="Grupo 1302" transform="translate(0 0)">
-            <path id="Caminho_1321" data-name="Caminho 1321" d="M1.935,1.725C.669-1.027,8.19.159,5.855.908s-2.282,9.711,0,11.718-8.092,1.479-5.408,0S3.2,4.478,1.935,1.725Z" transform="matrix(0.643, 0.766, -0.766, 0.643, 12.623, 1.958)" fill="#438bde"/>
-            <path id="Caminho_1322" data-name="Caminho 1322" d="M1.935,1.725C.669-1.027,8.19.159,5.855.908s-2.282,9.711,0,11.718-8.092,1.479-5.408,0S3.2,4.478,1.935,1.725Z" transform="translate(17.01 20.995) rotate(133)" fill="#438bde"/>
-            <g transform="matrix(0, -1, 1, 0, -6, 57)" filter="url(#Caminho_1366)">
-              <path id="Caminho_1366-2" data-name="Caminho 1366" d="M3.83,0A3.828,3.828,0,1,1,0,3.828,3.829,3.829,0,0,1,3.83,0Z" transform="translate(57 18.07) rotate(90)" fill="url(#linear-gradient)"/>
-            </g>
-            <g transform="matrix(0, -1, 1, 0, -6, 57)" filter="url(#Caminho_1325)">
-              <path id="Caminho_1325-3" data-name="Caminho 1325" d="M3.831,0A3.831,3.831,0,1,1,0,3.831,3.831,3.831,0,0,1,3.831,0Z" transform="translate(47.15 6) rotate(90)" fill="url(#linear-gradient)"/>
-            </g>
-          </g>
-        </g>
-        <g id="Grupo_1342" data-name="Grupo 1342">
-          <g transform="matrix(0, 1, -1, 0, 25.44, -29.12)" filter="url(#Elipse_142)">
-            <ellipse id="Elipse_142-4" data-name="Elipse 142" cx="3.09" cy="3.09" rx="3.09" ry="3.09" transform="translate(46.69 18.08) rotate(90)" fill="url(#linear-gradient-3)"/>
-          </g>
-        </g>
-        <g transform="matrix(0, 1, -1, 0, 25.44, -29.12)" filter="url(#Caminho_1367)">
-          <path id="Caminho_1367-2" data-name="Caminho 1367" d="M3.092,0A3.09,3.09,0,1,1,0,3.09,3.091,3.091,0,0,1,3.092,0Z" transform="translate(36.09 8.06) rotate(90)" fill="url(#linear-gradient-3)"/>
-        </g>
-      </g>
+  <g id="Grupo_1342" data-name="Grupo 1342" transform="translate(1445.053 563.614)">
+    <path id="Caminho_1321" data-name="Caminho 1321" d="M1.524,1.359C.527-.809,6.449.125,4.61.715s-1.8,7.646,0,9.226-6.372,1.164-4.258,0S2.521,3.526,1.524,1.359Z" transform="matrix(-0.766, 0.643, -0.643, -0.766, -1408.759, -551.96)" fill="#438bde"/>
+    <path id="Caminho_1322" data-name="Caminho 1322" d="M1.524,1.359C.527-.809,6.449.125,4.61.715s-1.8,7.646,0,9.226-6.372,1.164-4.258,0S2.521,3.526,1.524,1.359Z" transform="translate(-1423.748 -548.505) rotate(-137)" fill="#438bde"/>
+    <path id="Caminho_1321-2" data-name="Caminho 1321" d="M1.524,1.359C.527-.809,6.449.125,4.61.715s-1.8,7.646,0,9.226-6.372,1.164-4.258,0S2.521,3.526,1.524,1.359Z" transform="matrix(-0.766, 0.643, -0.643, -0.766, -1424.604, -551.96)" fill="#438bde"/>
+    <path id="Caminho_1322-2" data-name="Caminho 1322" d="M1.524,1.359C.527-.809,6.449.125,4.61.715s-1.8,7.646,0,9.226-6.372,1.164-4.258,0S2.521,3.526,1.524,1.359Z" transform="translate(-1439.593 -548.505) rotate(-137)" fill="#438bde"/>
+    <g id="ellipse-svgrepo-com" transform="translate(-1414.189 -547.517) rotate(-75)">
+      <circle id="Elipse_148" data-name="Elipse 148" cx="3.016" cy="3.016" r="3.016" transform="translate(0 0)" fill="url(#linear-gradient)"/>
     </g>
-    <g id="Grupo_1343" data-name="Grupo 1343" transform="translate(-1445 -542) rotate(-90)">
-      <g id="Grupo_1304-2" data-name="Grupo 1304" transform="translate(19.436 27.975) rotate(180)">
-        <g id="Grupo_1302-2" data-name="Grupo 1302" transform="translate(0 0)">
-          <path id="Caminho_1321-2" data-name="Caminho 1321" d="M1.935,1.725C.669-1.027,8.19.159,5.855.908s-2.282,9.711,0,11.718-8.092,1.479-5.408,0S3.2,4.478,1.935,1.725Z" transform="matrix(0.643, 0.766, -0.766, 0.643, 12.623, 2.057)" fill="#438bde"/>
-          <path id="Caminho_1322-2" data-name="Caminho 1322" d="M1.935,1.725C.669-1.027,8.19.159,5.855.908s-2.282,9.711,0,11.718-8.092,1.479-5.408,0S3.2,4.478,1.935,1.725Z" transform="translate(17.01 21.094) rotate(133)" fill="#438bde"/>
-          <g transform="matrix(0, -1, 1, 0, -6, 36.98)" filter="url(#Caminho_1325-2)">
-            <path id="Caminho_1325-4" data-name="Caminho 1325" d="M3.831,0A3.831,3.831,0,1,1,0,3.831,3.831,3.831,0,0,1,3.831,0Z" transform="translate(27.03 6) rotate(90)" fill="url(#linear-gradient)"/>
-          </g>
-          <g transform="matrix(0, -1, 1, 0, -6, 36.98)" filter="url(#Caminho_1326)">
-            <path id="Caminho_1326-2" data-name="Caminho 1326" d="M3.831,0A3.831,3.831,0,1,1,0,3.831,3.831,3.831,0,0,1,3.831,0Z" transform="translate(16.66 17.72) rotate(90)" fill="url(#linear-gradient)"/>
-          </g>
-          <g transform="matrix(0, -1, 1, 0, -6, 36.98)" filter="url(#Elipse_142-2)">
-            <circle id="Elipse_142-5" data-name="Elipse 142" cx="3.83" cy="3.83" r="3.83" transform="translate(36.98 18.07) rotate(90)" fill="url(#linear-gradient)"/>
-          </g>
-        </g>
-      </g>
-      <g transform="matrix(0, 1, -1, 0, 25.44, -9)" filter="url(#Elipse_142-3)">
-        <ellipse id="Elipse_142-6" data-name="Elipse 142" cx="3.09" cy="3.092" rx="3.09" ry="3.092" transform="translate(26.37 18.37) rotate(90)" fill="url(#linear-gradient-3)"/>
-      </g>
+    <g id="ellipse-svgrepo-com-2" data-name="ellipse-svgrepo-com" transform="translate(-1430.034 -547.517) rotate(-75)">
+      <circle id="Elipse_148-2" data-name="Elipse 148" cx="3.016" cy="3.016" r="3.016" transform="translate(0 0)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="ellipse-svgrepo-com-3" data-name="ellipse-svgrepo-com" transform="translate(-1445.053 -547.517) rotate(-75)">
+      <circle id="Elipse_148-3" data-name="Elipse 148" cx="3.016" cy="3.016" r="3.016" transform="translate(0 0)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="ellipse-svgrepo-com-4" data-name="ellipse-svgrepo-com" transform="translate(-1437.421 -557.788) rotate(-75)">
+      <circle id="Elipse_148-4" data-name="Elipse 148" cx="3.016" cy="3.016" r="3.016" transform="translate(0 0)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="ellipse-svgrepo-com-5" data-name="ellipse-svgrepo-com" transform="translate(-1421.682 -557.788) rotate(-75)">
+      <circle id="Elipse_148-5" data-name="Elipse 148" cx="3.016" cy="3.016" r="3.016" transform="translate(0 0)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="ellipse-svgrepo-com-6" data-name="ellipse-svgrepo-com" transform="translate(-1420.968 -547.929) rotate(-75)">
+      <circle id="Elipse_148-6" data-name="Elipse 148" cx="2.433" cy="2.433" r="2.433" transform="translate(0 0)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="ellipse-svgrepo-com-7" data-name="ellipse-svgrepo-com" transform="translate(-1437.026 -547.929) rotate(-75)">
+      <circle id="Elipse_148-7" data-name="Elipse 148" cx="2.433" cy="2.433" r="2.433" transform="translate(0 0)" fill="url(#linear-gradient)"/>
+    </g>
+    <g id="ellipse-svgrepo-com-8" data-name="ellipse-svgrepo-com" transform="translate(-1428.842 -556.121) rotate(-75)">
+      <circle id="Elipse_148-8" data-name="Elipse 148" cx="2.433" cy="2.433" r="2.433" transform="translate(0 0)" fill="url(#linear-gradient)"/>
     </g>
   </g>
 </svg>
