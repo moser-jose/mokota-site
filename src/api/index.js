@@ -49,3 +49,11 @@ export function alunoInscrever(body) {
         },
     };
 }
+export function alunosGet() {
+    return {
+        url: API_URL + '/alunos',
+        options: {
+            method: 'Get'
+        },
+    };
+}

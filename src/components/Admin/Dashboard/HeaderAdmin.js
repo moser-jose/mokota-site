@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Logo from '../../../assets/img/logo.svg'
 import Moser from '../../../assets/img/moser.jpg'
@@ -48,16 +49,10 @@ function HeaderAdmin() {
                     <div class="menu-bot">
                         <ul>
                             <li>
-                                <a href="/"><FontAwesomeIcon className="icon" icon="layer-group" /> Meus Cursos</a>
-                            </li>
-                            <li>
-                                <a href="#meuscertificados"><FontAwesomeIcon className="icon" icon="certificate" /> Meus Certificados</a>
-                            </li>
-                            <li>
-                                <a href="#"><FontAwesomeIcon className="icon" icon="headset" /> Suporte</a>
-                            </li>
-                            <li>
                                 <a href="/"><FontAwesomeIcon className="icon" icon="user-circle" /> Minha Conta</a>
+                            </li>
+                            <li>
+                                <Link to="inscritos"><FontAwesomeIcon className="icon" icon="user-circle" /> Alunos Inscritos</Link>
                             </li>
                         </ul>
                     </div>

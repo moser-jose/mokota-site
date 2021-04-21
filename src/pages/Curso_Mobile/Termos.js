@@ -6,7 +6,7 @@ function Termos() {
     return (
         <>
         <HeaderPrivacidade/>
-        <div class="container termos-p">
+        <div className="container termos-p">
             <h1>Termos e Condições</h1>
         <p>Esta política de privacidade foi revista e actualizada em 04/03/2021</p>
         <p>
@@ -24,17 +24,17 @@ function Termos() {
     
         </p>
     
-        <p class="lista">#️⃣ 1. Sobre a coleta de Dados 🗃️</p>
+        <p className="lista">#️⃣ 1. Sobre a coleta de Dados 🗃️</p>
         <p>A Mokota colecta os dados dos utilizadores que visitam o nosso site, e dos utilizadores
             que se increvem de forma voluntária na nossa plataforma, para poderem ter acesso algum curso.  </p>
-        <p class="lista-p">#️⃣ 1.1 Dados coletados por visitarem o site: </p>
+        <p className="lista-p">#️⃣ 1.1 Dados coletados por visitarem o site: </p>
     
         <p>
             Quando o utilizador acessa o nosso site, colectamos alguns dados referentes as informações do dispositivo utilizado para aceder o nosso site como:
             endereço IP, sistema operacionall, tipo de navegador.
         </p>
     
-        <p class="lista-p">#️⃣ 1.2 Dados coletados do cadastro do utilizador: </p>
+        <p className="lista-p">#️⃣ 1.2 Dados coletados do cadastro do utilizador: </p>
     
         <p>
             Quando o utilizador se registra na nossa plataforma atraves do formulario de cadastro, coletamos dados como@auth
@@ -42,8 +42,8 @@ function Termos() {
     
         </p>
     
-        <p class="lista-p">#️⃣ 1.3 Dados coletados do pagameno de um curso </p>
-        <p class="lista-p">#️⃣ 1.4 Dados coletados para notificações </p>
+        <p className="lista-p">#️⃣ 1.3 Dados coletados do pagameno de um curso </p>
+        <p className="lista-p">#️⃣ 1.4 Dados coletados para notificações </p>
     
     - **Dados da conta:** Para usar determinados recursos (como assinar um Plano), é necessário criar uma conta de usuário. Quando o usuário cria ou atualiza sua conta, coletamos e armazenamos os dados fornecidos, como nome completo, endereço físico, endereço de e-mail, senha e atribuímos ao usuário um número de identificação exclusivo (“Dados da conta”).<br />
     - **Dados dos cursos:** Quando o usuário assina um Plano, coletamos alguns dados, como quais cursos foram iniciados e concluídos pelo usuário.<br />

@@ -14,8 +14,7 @@
     .menu {
         .logoprincipal {
             img {
-                padding: 6px 0 !important;
-                margin-top: 10px;
+                padding: 0 !important;
             }
         }
         .menu-nav {
@@ -77,11 +76,14 @@
             align-items: center;
             height: 100%;
             position: relative;
-
-            img {
-                width: 150px;
-                padding: 10px 0;
+            a{
+                display: flex;
+                img {
+                    width: 100px;
+                    padding: 10px 0;
+                }
             }
+           
         }
         .menu-nav {
             display: flex;
@@ -93,6 +95,9 @@
             position: relative;
             flex: 2;
             z-index: 1000;
+            p{
+                display: none;
+            }
             .nav {
                 position: relative;
                 margin-right: 30px;

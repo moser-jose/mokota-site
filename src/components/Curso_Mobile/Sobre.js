@@ -28,7 +28,7 @@ const Sobre = () => {
                     <div className="eq-cab">
                         <h1 className="titulo">Sobre o <span>curso</span></h1>
                         <p className="desc"><span>Criação de Aplicativos Moveis com React Native Completo </span>
-                        é um curso criado pela Mokota, com intuito de disseminar
+                        é um curso criado pela Moskotas, com intuito de disseminar
                         o desenvolvimento de aplicações moveis por parte da juventude e não só,
                         despertar o lado criativo da juventude usando programação avançada.  </p>
                         <p className="desc">Neste curso completo você irá aprender a criar aplicativos

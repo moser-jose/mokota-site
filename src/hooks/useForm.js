@@ -14,7 +14,6 @@ const useForm = (type, campo) => {
 
   const focus = () => {
     const d = document.querySelectorAll('input')
-    console.log(d)
     d.forEach(f => {
       if (f.name === type) {
         f.focus();

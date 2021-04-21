@@ -10,6 +10,7 @@ function InscreverSe() {
     const nome = useForm('nome', 'Nome');
     const sobrenome = useForm('sobrenome', 'Sobre Nome');
     const telefone1 = useForm('telefone1', "Telefone (1)");
+    const telefone2 = useForm();
     const email = useForm('email', 'E-mail');
     const endereco = useForm('endereco', "Endereço");
     const { error, setError } = usePlayContext();
@@ -19,8 +20,8 @@ function InscreverSe() {
             const { url, options } = alunoInscrever({
                 nome: nome.value,
                 sobrenome: sobrenome.value,
-                telefone1: telefone1.value,/* 
-                telefone2: telefone2.value, */
+                telefone1: telefone1.value,
+                telefone2: telefone2.value,
                 email: email.value,
                 endereco: endereco.value,
             });
@@ -60,11 +61,11 @@ function InscreverSe() {
                                     <Input type="text" classN={error && error.type === 'telefone1' ? 'error-red' : ''} name="telefone1" placeholder="" label="Telefone (1) *" {...telefone1} ></Input>
                                 </div>
                                 <div className="flex-d">
-                                    <Input type="text" name="telefone2" placeholder="" label="Telefone (2) " ></Input>
+                                    <Input type="text" name="telefone2" placeholder="" label="Telefone (2) " {...telefone2}></Input>
                                 </div></div>
 
                             <Input type="text" classN={error && error.type === 'email' ? 'error-red' : ''} name="email" placeholder="" label="E-mail *" {...email} ></Input>
-                            <Input type="text" classN={error && error.type === 'endereco' ? 'error-red' : ''} name="endereco" placeholder="" label="Endereço *" {...endereco} ></Input>
+                            <Input type="text" classN={error && error.type === 'endereco' ? 'error-red' : ''} name="endereco" placeholder="" label="Morada *" {...endereco} ></Input>
                             <div className="submit">
                                 <Input type="submit" value="Inscrever-se" name="inscrever" placeholder="" label="" ></Input>
 
@@ -88,7 +89,7 @@ function InscreverSe() {
                             <p><span className="num">(+244)</span> 923819414 </p>
                             <p> <span className="num">(+244)</span> 923818181</p>
                         </div>
-                        <p><span className="ic"><FontAwesomeIcon icon="envelope" /></span> geral@mokota.net</p>
+                        <p><span className="ic"><FontAwesomeIcon icon="envelope" /></span> geral@moskotas.com</p>
                     </div>
                     <div className="redes">
                         <span title="Facebook"><a href="/"><i className="iconspeck speck-facebook"></i></a></span>

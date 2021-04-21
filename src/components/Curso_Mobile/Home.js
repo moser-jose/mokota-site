@@ -15,7 +15,6 @@ function Home() {
         <>
             <Header />
             <section id="home" sclass="s-home" className="home ">
-
                 <div className="carousel">
                     <div className="carousel-c">
                         <div className="part container">
@@ -100,11 +99,11 @@ function Home() {
                     </div>
                  */}
                 <ul className="redes">
-                    <li><a href="/"><span className="iconspeck speck-facebook"></span></a></li>
-                    <li><a href="https://github.com/mokota-code"><span className="iconspeck speck-github"></span></a></li>
-                    <li><a href="/"><span className="iconspeck speck-twitter"></span></a></li>
-                    <li><a href="https://www.instagram.com/mokota_code/"><span className="iconspeck speck-instagram"></span></a></li>
-                    <li><a href="/"><span className="iconspeck speck-youtube"></span></a></li>
+                    <li><a target="_blank" rel="noreferrer" href="/"><span className="iconspeck speck-facebook"></span></a></li>
+                    <li><a target="_blank" rel="noreferrer" href="https://github.com/mokota-oficial"><span className="iconspeck speck-github"></span></a></li>
+                    <li><a target="_blank" rel="noreferrer" href="/"><span className="iconspeck speck-twitter"></span></a></li>
+                    <li><a target="_blank" rel="noreferrer" href="https://www.instagram.com/mokota_oficial/"><span className="iconspeck speck-instagram"></span></a></li>
+                    <li><a target="_blank" rel="noreferrer" href="/"><span className="iconspeck speck-youtube"></span></a></li>
                 </ul>
                 <div className="fim"></div>
             </section>
