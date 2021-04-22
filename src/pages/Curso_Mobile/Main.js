@@ -14,6 +14,7 @@ import FAQ from '../../components/Curso_Mobile/FAQ'
 import Duvidas from '../../components/Curso_Mobile/Duvidas'
 import Pagamento from '../../components/Curso_Mobile/Pagamento'
 import TapToTop from '../../components/Curso_Mobile/TapToTop';
+import Wathsapp from '../../components/Curso_Mobile/Wathsapp'
 const Main = () => {
     const { playBubton, setPlayButton } = usePlayContext();
     const [scrollPosition, setScrollPosition] = useState(0);
@@ -43,6 +44,7 @@ const Main = () => {
             <InscreverSe />
             <Quote></Quote>
             <FAQ></FAQ>
+            <Wathsapp numero="244923819414" />
             {scrollPosition > 50 && <TapToTop></TapToTop>}
             <Footer />
         </>

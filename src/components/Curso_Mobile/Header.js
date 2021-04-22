@@ -67,7 +67,7 @@ function Header() {
                         <div id="animacao" className="animacao s-home"></div>
                     </ul>
                     <Linka to="minha-conta" onClick={handleClickBody} className={scrollPosition > 70 ? "btn-azul" : "btn-branco"}>Login</Linka>
-                    <p><span>moskotas</span> &copy; {new Date().getFullYear()} - <a href='https://wa.me/244923819414' target='_blank'>whats</a> Todos direitos reservados -
+                    <p><span>moskotas</span> &copy; {new Date().getFullYear()} - Todos direitos reservados -
                     <span className="block"><Linka onClick={handleClickBody} to="/termos"> Termos e Condições</Linka> | <Linka onClick={handleClickBody} to="/privacidade">Privacidade</Linka></span></p>
                 </div>
             </div>
