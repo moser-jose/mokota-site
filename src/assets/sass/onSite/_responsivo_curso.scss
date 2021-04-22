@@ -1,7 +1,15 @@
 
-@media only screen and (min-width: 1000px) and (max-width: 1560px){
+@media only screen and (min-width: 1461px) and (max-width: 1600px){
     .container{
-        width: 950px !important;
+        width: 1200px !important;
+    }
+    .home{
+        width: 100%;
+    }
+}
+@media only screen and (min-width: 1000px) and (max-width: 1460px){
+    .container{
+        width: 980px !important;
     }
     .home{
         width: 100%;

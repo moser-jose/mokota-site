@@ -8,20 +8,20 @@ import { alunoInscrever } from '../../api/';
 
 function InscreverSe() {
     const nome = useForm('nome', 'Nome');
-    const sobrenome = useForm('sobrenome', 'Sobre Nome');
-    const telefone1 = useForm('telefone1', "Telefone (1)");
-    const telefone2 = useForm();
+    const sobre_nome = useForm('sobre_nome', 'Sobre Nome');
+    const telefone_1 = useForm('telefone_1', "Telefone (1)");
+    const telefone_2 = useForm();
     const email = useForm('email', 'E-mail');
     const endereco = useForm('endereco', "Endereço");
     const { error, setError } = usePlayContext();
     async function handleSubmit(event) {
         event.preventDefault();
-        if (nome.validate() && sobrenome.validate() && telefone1.validate() && email.validate() && endereco.validate()) {
+        if (nome.validate() && sobre_nome.validate() && telefone_1.validate() && email.validate() && endereco.validate()) {
             const { url, options } = alunoInscrever({
                 nome: nome.value,
-                sobrenome: sobrenome.value,
-                telefone1: telefone1.value,
-                telefone2: telefone2.value,
+                sobre_nome: sobre_nome.value,
+                telefone_1: telefone_1.value,
+                telefone_2: telefone_2.value,
                 email: email.value,
                 endereco: endereco.value,
             });
@@ -54,14 +54,14 @@ function InscreverSe() {
                                     <Input type="text" classN={error && error.type === 'nome' ? 'error-red' : ''} name="nome" placeholder="" label="Nome *" {...nome} ></Input>
                                 </div>
                                 <div className="flex-d">
-                                    <Input type="text" classN={error && error.type === 'sobrenome' ? 'error-red' : ''} name="sobrenome" placeholder="" label="Sobre Nome *" {...sobrenome}   ></Input>
+                                    <Input type="text" classN={error && error.type === 'sobrenome' ? 'error-red' : ''} name="sobre_nome" placeholder="" label="Sobre Nome *" {...sobre_nome}   ></Input>
                                 </div></div>
                             <div className="flex-l">
                                 <div className="flex-d">
-                                    <Input type="text" classN={error && error.type === 'telefone1' ? 'error-red' : ''} name="telefone1" placeholder="" label="Telefone (1) *" {...telefone1} ></Input>
+                                    <Input type="text" classN={error && error.type === 'telefone1' ? 'error-red' : ''} name="telefone_1" placeholder="" label="Telefone (1) *" {...telefone_1} ></Input>
                                 </div>
                                 <div className="flex-d">
-                                    <Input type="text" name="telefone2" placeholder="" label="Telefone (2) " {...telefone2}></Input>
+                                    <Input type="text" name="telefone_2" placeholder="" label="Telefone (2) " {...telefone_2}></Input>
                                 </div></div>
 
                             <Input type="text" classN={error && error.type === 'email' ? 'error-red' : ''} name="email" placeholder="" label="E-mail *" {...email} ></Input>
