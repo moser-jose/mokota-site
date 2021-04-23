@@ -741,42 +741,12 @@
         }
     }
     .whatsapp{
-
-        position: fixed;
-        z-index: 100;
-        animation: fadeIn .3s;
-        cursor: pointer;
-        display: flex;
-        align-items: center;
         bottom: 10%;
-        right: 6%;
-        &:hover span{
-            display: flex;
+        right: 4.5%;
+       .whats{
+            width: 40px;
+            height: 40px;
         }
-       span{
-           font-size: 14px !important;
-           padding: 6px 10px 6px 8px;
-           background-color: #438ce0;
-           border-radius: 2px;
-           box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
-           margin-right: 15px;
-           display: none;
-           align-items: center;
-           position: relative;
-           color: #fff;
-           &::after{
-               content: "";
-               display: inline-block;
-               ;
-               height: 15px;
-               width: 15px;
-               background-color: #438ce0;
-               transform: rotate(45deg);
-               position: absolute;
-               right: -6px;
-               border-radius: 2px;
-           }
-       } 
         
       }
     .container {
