@@ -17,7 +17,7 @@ function InscreverSe() {
     async function handleSubmit(event) {
         event.preventDefault();
         if (nome.validate() && sobre_nome.validate() && telefone_1.validate() && email.validate() && endereco.validate()) {
-            const { url, options } = alunoInscrever({
+            const { url, options } = alunoInscrever(1, {
                 nome: nome.value,
                 sobre_nome: sobre_nome.value,
                 telefone_1: telefone_1.value,
@@ -36,7 +36,7 @@ function InscreverSe() {
     }
     return (
         <div id="inscrever" className=" insc container-form container-form-l">
-            <div className="container">
+            <div className="container" style={{ display: 'flex', alignItems: 'center' }}>
                 <div className="grid-6">
                     <h1 className="titulo">Inscreva-se
                     <span className="agora"> AGORA</span>
@@ -73,7 +73,7 @@ function InscreverSe() {
                         </form>
                     </div>
                 </div>
-                <div className="grid-10">
+                <div className="grid-10" >
 
                     <h1>
                         Comece uma nova fase da sua vida como

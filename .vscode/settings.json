@@ -9,5 +9,5 @@
         "package-lock.json":true,
         "README.md":true
     },
-    "liveServer.settings.port": 81
+    "liveServer.settings.port": 81,
 }

@@ -3,7 +3,7 @@ import moment from 'moment';
 import TimerComp from './TimerComp'
 
 const Timer = () => {
-  const dateValue = '04-21-2021';
+  const dateValue = '08-21-2021';
   const timeValue = '08:00';
   const ampmValue = 'am';
 
@@ -57,7 +57,7 @@ const Timer = () => {
 
   const playTimer = (unixEndDate) => {
     const distance = unixEndDate - moment().format('X');
-    
+
     if (distance > 0) {
       SetCountdown({
         days: parseInt(distance / (60 * 60 * 24), 10),
@@ -74,7 +74,7 @@ const Timer = () => {
     }
   }
   useEffect(() => {
-    handleSubmit('04-21-2021', '08:00', 'am');
+    handleSubmit('08-21-2021', '08:00', 'am');
   }, []);
   return (
     <React.Fragment>

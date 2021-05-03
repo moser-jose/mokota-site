@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { faAndroid, fab } from '@fortawesome/free-brands-svg-icons'
+import { library} from '@fortawesome/fontawesome-svg-core'
+import { faAndroid, fab, faMedapps } from '@fortawesome/free-brands-svg-icons'
 import { StatePlayContext } from './contexts/PlayContext'
 import {
   faPhoneAlt,
@@ -35,12 +35,34 @@ import {
   faEdit,
   faTrashAlt,
   faPlusCircle,
-  faFilter
+  faFilter,
+  faMoneyCheck,
+  faUserCheck,
+  faUserClock,
+  faUserMinus,
+  faUserShield,
+  faCashRegister,
+  faPencilAlt,
+  faCheckCircle,
+  faReceipt,
+  faPrint,
+  faLightbulb
 }
   from '@fortawesome/free-solid-svg-icons'
-import { faHeart as faHeartFar } from '@fortawesome/free-regular-svg-icons';
 
 library.add(fab,
+  faPencilAlt,
+  faReceipt,
+  faLightbulb,
+  faPrint,
+  faCheckCircle,
+  faMoneyCheck,
+  faCashRegister,
+  faUserShield,
+  faUserMinus,
+  faMedapps,
+  faUserCheck,
+  faUserClock,
   faBell,
   faFilter,
   faPlusCircle,
@@ -79,7 +101,7 @@ library.add(fab,
 ReactDOM.render(
   <React.StrictMode>
     <StatePlayContext>
-      <App />
+      <App/>
     </StatePlayContext>
 
   </React.StrictMode>,

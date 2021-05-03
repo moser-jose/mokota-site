@@ -1,6 +1,6 @@
 import React from 'react'
 import { usePlayContext } from '../../contexts/PlayContext'
-function PlaySobreSvg({img}) {
+function PlaySobreSvg() {
     const { setPlayButton, setEventButon } = usePlayContext();
     const handleCl = (event) => {
         setEventButon(event.target.id)

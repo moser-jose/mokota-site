@@ -2,7 +2,7 @@ import React from 'react'
 function TimerComp({ countdown, unixEndDate }) {
     return (
         <div className="grid-en-2">
-            <h4>Faltam</h4>
+            <h4>Faltam apenas</h4>
             <div className="cont">
                 <div>
                     <span>{countdown.days}</span>

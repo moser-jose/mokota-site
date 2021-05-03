@@ -10,22 +10,22 @@ function Privacidade() {
             <h1>Política de Privacidade</h1>
         <p>Esta política de privacidade foi revista e actualizada em 04/03/2021</p>
         <p>
-            Esta política de privacidade descreve as varias formas que a Moskotas utiliza para colecta, armazenamento
+            Esta política de privacidade descreve as varias formas que a Mekadir utiliza para colecta, armazenamento
              e proteção das suas informações pessoais.
-            Ao aceder, se increver ou utilizar nossos serviços, você estará concordando com a nossa política de privaciade.
+            Ao aceder, se inscrever ou utilizar nossos serviços, você estará concordando com a nossa política de privacidade.
         </p>
         <p>
-            No ambito da segurança das informações pessoais dos nossos utilizadores, somos obrigados a actualizar nossa
+            No âmbito da segurança das informações pessoais dos nossos utilizadores, somos obrigados a actualizar nossa
             política de privacidade periodicamente. Neste sentido, divulgaremos a versão revisada e actualizada em nosso site.
             No entanto, os nossos utilizadores terão um aviso prévio das alterações feitas na
-            política de privacidade, por meio de um e-mail enviado por nós e num periodo não superior a 30 dias.
-            No termino desse periodo e se não houver nenhuma reclamação por parte dos nossos utilizadores,
+            política de privacidade, por meio de um e-mail enviado por nós e num período não superior a 30 dias.
+            No termino desse período e se não houver nenhuma reclamação por parte dos nossos utilizadores,
             iremos considerar a política de privacidade 'pronta' e 'apta' para ser publicada.
     
         </p>
     
         <p className="lista">#️⃣ 1. Sobre a colecta de Dados 🗃️</p>
-        <p>A Moskotas colecta os dados dos utilizadores que visitam o nosso site, e dos utilizadores
+        <p>A Mekadir colecta os dados dos utilizadores que visitam o nosso site, e dos utilizadores
             que se inscrevem de forma voluntária na nossa plataforma, para poderem ter acesso algum curso.  </p>
         <p className="lista-p">#️⃣ 1.1 Dados coletados por visitarem o site: </p>
     
@@ -37,7 +37,7 @@ function Privacidade() {
         <p className="lista-p">#️⃣ 1.2 Dados coletados através da inscrição do aluno: </p>
     
         <p>
-            Quando o utilizador se registra na nossa plataforma atraves do formulário de 
+            Quando o utilizador se regista na nossa plataforma através do formulário de 
             cadastro, coletamos dados como 
                 nome, sobre nome,telefone (1), telefone (2) e-mail e endereço, 
                 esses dados são obrigatórios para se inscrever num dos cursos ministrados por nós.
@@ -45,15 +45,15 @@ function Privacidade() {
     
         <p className="lista-p">#️⃣ 1.3 Dados coletados do pagamento de um curso </p>
         <p>
-           Os dados referentes ao pagamento de algum curso ministrado pela Moskotas, não é colectado a partir do nosso site.
+           Os dados referentes ao pagamento de algum curso ministrado pela Mekadir, não é colectado a partir do nosso site.
            Esses dados são recolhidos ou colectados no acto da confirmação do 
            pagamento de algum curso por meio de um membro da nossa equipa para garantir maior tranquilidade e segurança em nossos alunos.
-           E esses dados além de serem utilizados para as estatísticas interna, também servem para a Moskotas emitir uma factura referente ao pagamento do curso.
+           E esses dados além de serem utilizados para as estatísticas interna, também servem para a Mekadir emitir uma factura referente ao pagamento do curso.
         </p>
 
         <p className="lista">#️⃣ 2. Sobre a Finalidade dos Dados 🗃️</p>
 
-        <p>Todos os dados que a Moskotas colecta, servem para um fim específico</p>
+        <p>Todos os dados que a Mekadir colecta, servem para um fim específico</p>
 
         <p className="lista-p">#️⃣ 2.1 Finalidade dos dados </p>
 
@@ -67,7 +67,7 @@ function Privacidade() {
 
         <p className="lista-p">#️⃣ 2.2 Google Analytics </p>
 
-        <p>A Moskotas Usa serviços de análise de terceiros, como o Google Analytics em seu site. 
+        <p>A Mekadir Usa serviços de análise de terceiros, como o Google Analytics em seu site. 
         Esse serviço usa ferramentas de coleta de dados para nos ajudar a analisar o uso do site por parte 
         do usuário, informações tais como a frequência de visitas do usuário, eventos dentro do site e dados 
         sobre uso e desempenho. Usamos estes dados para melhorar o site, entender melhor como o 
@@ -76,14 +76,14 @@ function Privacidade() {
     
         <p className="lista">#️⃣ 3.  Compartilhamento de Dados dos alunos ou utilizadores 🗃️</p>
         
-        <p>A Moskotas não compartilha nenhum dado dos nossos alunos ou utilizadores que visitam o nosso site 
+        <p>A Mekadir não compartilha nenhum dado dos nossos alunos ou utilizadores que visitam o nosso site 
             com nenhuma empresa de publicidade ou empresas ligadas a publicidade. 
             Temos em mente que essas informações são importantes e damos total liberdade aos nosso alunos e 
             utilizadores de gerirem essas informações de forma particular.  </p>
     
         <p className="lista">#️⃣ 4. Sobre a Segurança dos Dados dos nossos alunos 🗃️</p>
 
-        <p>A Moskotas adota em seu site medidas de segurança adequadas para a proteção contra acesso não autorizado,
+        <p>A Mekadir adota em seu site medidas de segurança adequadas para a proteção contra acesso não autorizado,
         alteração, divulgação ou destruição dos dados pessoais dos nossos alunos. 
         Essas medidas variam com base no tipo e na confidencialidade dos dados. Infelizmente, no entanto, 
         nenhum sistema pode ser 100% seguro. Ainda assim, nossos esforços têm sido 

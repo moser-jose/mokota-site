@@ -1,14 +1,17 @@
-import React from 'react'
+import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import HeaderAdmin from '../../components/Admin/Dashboard/HeaderAdmin'
-import '../../assets/sass/onBack/Dashboard.scss'
-import Code from '../../assets/img/code.jpg'
-
+import '../../assets/sass/onBack/Dashboard.scss';
+import MinhaConta from '../../pages/Admin/Login'
+import Inscritos from '../../pages/Admin/Inscritos'
+import Curso from '../../pages/Curso_Mobile/Main'
+import Privacidade from '../../pages/Curso_Mobile/Privacidade'
+import Termos from '../../pages/Curso_Mobile/Termos'
+import Print from '../../components/Curso_Mobile/Print'
 function Dashboard() {
-    const estado = 1;
     return (
         <>
-            <HeaderAdmin></HeaderAdmin>
+            <HeaderAdmin slug="desenvolvimento-de-aplicativos-com-react-native-completo"></HeaderAdmin>
             <div className="content">
                 <div className="conteudo">
                     <div className="meuscursos">
@@ -23,7 +26,7 @@ function Dashboard() {
                                         <span className="data">Fim 22/10/2021</span>
                                         <span className="pre">53 Alunos Pré-Inscritos</span>
                                         <span className="matriculados">10 Alunos Matriculados</span>
-                                        </li>
+                                    </li>
                                 </ul>
                             </div>
                         </div>

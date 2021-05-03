@@ -15,7 +15,7 @@ function Footer() {
                         <span title="Github"><a target="_blank" rel="noreferrer" href="https://github.com/mokota-oficial"><i className="iconspeck speck-github"></i></a></span>
                     </div>
                     <p className="copy">
-                        Copyright &copy; {new Date().getFullYear()} <a href="/">moskotas</a>. Todos direitos reservados
+                        Copyright &copy; {new Date().getFullYear()} <a href="/">mekadir</a>. Todos direitos reservados
                     </p>
 
                 </div>

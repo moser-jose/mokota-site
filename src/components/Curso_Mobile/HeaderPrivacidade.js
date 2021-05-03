@@ -1,23 +1,10 @@
-import React, { useEffect, useState } from 'react'
-import { Link } from 'react-scroll'
+import React from 'react'
 import { Link as Linka } from 'react-router-dom'
-import LogoBranco from '../../assets/img/logo_branco.svg'
 import Logo from '../../assets/img/logo.svg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function Header() {
 
-    const [scrollPosition, setScrollPosition] = useState(0);
-    const handleScroll = () => {
-        const position = window.pageYOffset;
-        setScrollPosition(position);
-    };
-    useEffect(() => {
-        window.addEventListener('scroll', handleScroll, { passive: true });
-        return () => {
-            window.removeEventListener('scroll', handleScroll);
-        }
-    }, []);
     return (
         <div className='header menu-privacidade'>
             <div className="pre-header">
@@ -44,12 +31,7 @@ function Header() {
                 </div>
                 <div className="menu-nav">
                     <ul className="nav">
-                        <li className="m-home"><Linka className="link" to="/">Home</Linka></li>{/* 
-                        <li className="m-sobre"><Link className="link" duration={1000} smooth={true} to="sobre">O Curso</Link></li>
-                        <li className="m-sobre"><Link className="link" duration={1000} smooth={true} to="projectos">Projectos</Link></li>
-                        <li className="m-sobre"><Link className="link" duration={1000} smooth={true} to="pagamento">Pagamento</Link></li>
-                        <li className="m-sobre"><Link className="link" duration={1000} smooth={true} to="faq">FAQ</Link></li> */}
-                        
+                        <li className="m-home"><Linka className="link" to="/">Home</Linka></li>
                     </ul>
                 </div>
             </div>

@@ -13,6 +13,7 @@ function PreProjetos() {
                     <ul>
                         <li>Durante o curso você vai poder utilizar ferramentas incríveis;</li>
                         <li>Você vai poder desenhar seu próprio aplicativo;</li>
+                        <li>Você vai criar três API´s reais;</li>
                         <li>Você vai criar não um, nem dois mais quatro aplicativos reais;</li>
                         <li>Vai poder publicar seus apps na Google Play e AppStore;</li>
                         <li>Vai poder partilhar seus aplicativos para o mundo todo;</li>

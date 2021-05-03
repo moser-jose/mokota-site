@@ -37,9 +37,9 @@ export function USER_GET(token) {
     };
 }
 
-export function alunoInscrever(body) {
+export function alunoInscrever(param, body) {
     return {
-        url: API_URL + '/inscrever',
+        url: API_URL + `/${param}/aluno/inscrever`,
         options: {
             method: 'POST',
             headers: {
@@ -51,7 +51,15 @@ export function alunoInscrever(body) {
 }
 export function alunosGet() {
     return {
-        url: API_URL + '/alunos',
+        url: API_URL + '/cursos',
+        options: {
+            method: 'Get'
+        },
+    };
+}
+export function getAllCursos() {
+    return {
+        url: API_URL + '/cursos',
         options: {
             method: 'Get'
         },

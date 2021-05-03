@@ -4,6 +4,8 @@ import { Link } from 'react-scroll'
 import Header from './Header'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { usePlayContext } from '../../contexts/PlayContext';
+import Timer from './Timer';
+import Cur from '../../assets/img/img-curso/react.svg'
 function Home() {
     const { setEventButon, setPlayButton } = usePlayContext();
 
@@ -44,68 +46,16 @@ function Home() {
                                 </div>
                             </div>
                             <div className="grid-8">
-
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-                {/*  <div className="carousel-r">
-                        <div className="part">
-                            <div className="mov grid-8">
-
-                                <h1>
-
-                                    Comece uma nova fase da sua vida como
-                                    <TextLoop interval={2400} springConfig={{ stiffness: 50, damping: 6 }}>
-                                        <span>
-                                            programador
-                                        </span>
-                                        <span>
-                                            developer
-                                        </span>
-                                    </TextLoop>{" "}
-                                     fullstack
-                            </h1>
-
-                                <a href="/">Inscreva-se</a>
-
-                            </div>
-                            <div className="grid-8">
-
-                            </div>
-                        </div>
-                    </div>
-                    <div className="carousel-t">
-                        <div className="part">
-                            <div className="grid-8">
-
-                            </div>
-                            <div className="mov  grid-8">
-                                <h1>
-                                    Faça o pagamento de forma
-                                    <span> segura</span> e <span>em duas prestações.</span>
-                                </h1>
-
-                                <div className="bot">
-                                    <a className="sbr" href="/">Saiba mais</a>
-                                    <button onClick={(event) => handleCl(event)} id="playcurso" className="playsobre" >{' '}</button>
-
-                                    <span className="vid">Veja o vídeo</span>
+                                <div className="dev">
+                                    <img src={Cur} alt="curso react-native" />
+                                    <Timer></Timer>
+                                    <span className="oportunidade" ><Link duration={1000} smooth={true} to="inscrever">Inscreva-se já</Link></span>
+                
                                 </div>
                             </div>
                         </div>
                     </div>
-                 */}
-                <ul className="redes">
-                    <li><a target="_blank" rel="noreferrer" href="/"><span className="iconspeck speck-facebook"></span></a></li>
-                    <li><a target="_blank" rel="noreferrer" href="https://github.com/mokota-oficial"><span className="iconspeck speck-github"></span></a></li>
-                    <li><a target="_blank" rel="noreferrer" href="/"><span className="iconspeck speck-twitter"></span></a></li>
-                    <li><a target="_blank" rel="noreferrer" href="https://www.instagram.com/mokota_oficial/"><span className="iconspeck speck-instagram"></span></a></li>
-                    <li><a target="_blank" rel="noreferrer" href="/"><span className="iconspeck speck-youtube"></span></a></li>
-                </ul>
-                <div className="fim"></div>
+                </div>
             </section>
 
         </>

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { Link } from 'react-scroll'
 import { Link as Linka } from 'react-router-dom'
 import Logo from '../../assets/img/logo.svg'
+import LogoBranco from '../../assets/img/logo_branco.svg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 function Header() {
@@ -48,7 +49,7 @@ function Header() {
             </div>
             <div className="container menu">
                 <div className="logoprincipal">
-                    <Linka to="/"><img src={Logo} alt="" /></Linka>
+                    <Linka to="/"><img src={scrollPosition > 70 ? Logo : LogoBranco} alt="" /></Linka>
                     <div onClick={handleClick} className={menu === true ? "bar change" : "bar"}>
                         <span id={menu === false ? "bar1" : "bar11"}></span>
                         <span id="bar2"></span>
@@ -57,11 +58,8 @@ function Header() {
                 </div>
                 <div className={menu === true ? " menu-nav menu-nav-dis" : "menu-nav"}>
                     <ul className="nav">
-                        <li className="m-home"><Linka onClick={handleClickBody} className="link" duration={1000} smooth={true} to="/">Home</Linka></li>
-                        <li className="m-sobre"><Link onClick={handleClickBody} className="link" duration={1000} smooth={true} to="sobre">O Curso</Link></li>
-                        <li className="m-sobre"><Link onClick={handleClickBody} className="link" duration={1000} smooth={true} to="projectos">Projectos</Link></li>
-                        <li className="m-sobre"><Link onClick={handleClickBody} className="link" duration={1000} smooth={true} to="pagamento">Pagamento</Link></li>
-                        <li className="m-sobre"><Link onClick={handleClickBody} className="link" duration={1000} smooth={true} to="inscrever">Inscrever-se</Link></li>
+                        <li className="m-home"><Linka className="link" to="/">Home</Linka></li>
+                        <li className="m-sobre"><Linka className="link" to="/cursos/certificados">Certificados</Linka></li>
                         <li className="m-sobre"><Link onClick={handleClickBody} className="link" duration={1000} smooth={true} to="faq">FAQ</Link></li>
                         <div id="animacao" className="animacao s-home"></div>
                     </ul>
