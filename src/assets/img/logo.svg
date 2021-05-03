@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1421.41" height="347.265" viewBox="0 0 1421.41 347.265">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1421.41" height="347.264" viewBox="0 0 1421.41 347.264">
   <defs>
     <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
       <stop offset="0" stop-color="#4891e5"/>
@@ -25,15 +25,8 @@
       <stop offset="0" stop-color="#4690e4"/>
       <stop offset="1" stop-color="#1c64b4"/>
     </linearGradient>
-    <filter id="Caminho_1483" x="635.164" y="0.038" width="153.542" height="222.074" filterUnits="userSpaceOnUse">
-      <feOffset dy="0.2" input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="0.5" result="blur"/>
-      <feFlood flood-opacity="0.161"/>
-      <feComposite operator="in" in2="blur"/>
-      <feComposite in="SourceGraphic"/>
-    </filter>
   </defs>
-  <g id="Grupo_1373" data-name="Grupo 1373" transform="translate(2376.115 3598.832)">
+  <g id="Grupo_1378" data-name="Grupo 1378" transform="translate(2376.115 3598.832)">
     <path id="path17881" d="M626.033,2337.06c-48.085,0-77.968,42.109-77.968,88.475,0,53.4,35.631,91.156,78.794,91.156,31.808,0,51.519-25.1,51.519-25.1v19.129h50.51V2343.337h-50.51v20.722S661.208,2337.06,626.033,2337.06Zm14.877,46.228c22.844,0,38.938,24.583,38.938,43.142,0,25.413-18.256,42.742-38.938,42.742-19.683,0-40.04-14.44-40.04-42.443C600.87,2404.557,617.724,2383.288,640.91,2383.288Z" transform="translate(-2126.211 -5895.11)" fill="url(#linear-gradient)"/>
     <g id="Grupo_1364" data-name="Grupo 1364" transform="translate(-1297.888 -753.75)">
       <g id="Grupo_de_rolagem_8" data-name="Grupo de rolagem 8" transform="translate(-1100.227 -2803.435)" clip-path="url(#clip-path)" style="isolation: isolate">
@@ -59,9 +52,7 @@
         </g>
       </g>
     </g>
-    <g transform="matrix(1, 0, 0, 1, -2376.11, -3598.83)" filter="url(#Caminho_1483)">
-      <path id="Caminho_1483-2" data-name="Caminho 1483" d="M-761-534.948h-48.283l-53.3,78.81V-575.257h-48.708V-357.58l48.708,1.4v-78.544l54.078,78.544,47.756-1.446-56.722-89.927" transform="translate(1547.96 576.59)" fill="url(#linear-gradient-6)"/>
-    </g>
+    <path id="Caminho_1483" data-name="Caminho 1483" d="M-761-534.948h-48.283l-53.3,78.81V-575.257h-48.708V-357.58l48.708,1.4v-78.544l54.078,78.544,47.756-1.446-56.722-89.927" transform="translate(-828.159 -3022.237)" fill="url(#linear-gradient-6)"/>
     <g id="Grupo_1368" data-name="Grupo 1368" transform="translate(-338.537 481.093)">
       <path id="path17869" d="M65.877,2454.061v-114.3h47.768v114.3Z" transform="translate(-880.521 -6314.37)" fill="url(#linear-gradient-6)"/>
       <path id="path17871" d="M59.9,3254.266a22.149,22.149,0,1,1-22.149-22.149A22.15,22.15,0,0,1,59.9,3254.266Z" transform="translate(-828.246 -7271.26)" fill="url(#linear-gradient-6)"/>
