@@ -49,8 +49,11 @@ function Header() {
             </div>
             <div className="container menu">
                 <div className="logoprincipal">
-                    <Linka to="/"><img src={scrollPosition > 70 ? Logo : LogoBranco} alt="" /></Linka>
-                    <div onClick={handleClick} className={menu === true ? "bar change" : "bar"}>
+                    <Linka to="/"><img src={scrollPosition > 70 ?
+                        Logo :
+                        menu === true ? Logo
+                            : LogoBranco
+                    } alt="" /></Linka><div onClick={handleClick} className={menu === true ? "bar change" : "bar"}>
                         <span id={menu === false ? "bar1" : "bar11"}></span>
                         <span id="bar2"></span>
                         <span id={menu === false ? "bar3" : "bar33"}></span>
