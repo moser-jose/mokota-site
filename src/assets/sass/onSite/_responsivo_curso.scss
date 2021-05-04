@@ -792,7 +792,7 @@
     }
 
      .header-scroll{
-        height: 60px !important;
+        height: 62px !important;
         .bar{
             span{
                 background-color:#6A7186 !important;
@@ -800,12 +800,15 @@
         }
      }
     .header{
-        height: 60px !important;
+        height: 62px !important;
+       
     .pre-header{
         display: none;
     }
     .menu{
         display: block;
+        margin: auto;
+        padding: 0 !important;
         .logoprincipal{
             z-index: 9999;
             justify-content: space-between;
