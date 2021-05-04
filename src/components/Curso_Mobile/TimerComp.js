@@ -11,9 +11,9 @@ function TimerComp({ countdown, unixEndDate }) {
                 <div><span>{countdown.hours}</span>
                     <p>Horas</p></div>
                 <div><span>{countdown.mins}</span>
-                    <p>Minutos</p></div>
+                    <p>Min</p></div>
                 <div><span>{countdown.secs}</span>
-                    <p>Segundos</p></div>
+                    <p>Seg</p></div>
             </div>
 
             <h3>O curso Iniciará no dia 28 de Abril de 2021 às 8:00 horas</h3>

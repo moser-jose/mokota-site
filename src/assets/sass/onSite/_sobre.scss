@@ -4,6 +4,33 @@
     padding: 120px 0 0;
     position: relative;
     overflow-x:hidden !important;
+
+    .status{
+        text-align: center;
+        margin:30px 0;
+        .active, span{
+            margin: 0 10px;
+            font-size: 18px;
+            font-weight: 400;
+            padding: 6px 10px;
+            background-color: #18181880;
+            box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+            border-radius: 3px;
+            color: #fff;
+            cursor: pointer;
+            letter-spacing: 1px;
+            &:hover{
+                background-color: #29282880;
+            }
+
+        }
+        .active{
+            background-color: #438ce0;
+            &:hover{
+                background-color: #4e99e9;
+            }
+        }
+    }
     .sb {
         /* padding-bottom: 120px; */
         display: flex;
@@ -208,6 +235,23 @@
                 font-size: 1.2rem;
                 margin: 10px 0 10px;
                 font-family: "Rubik","Poppins","sans-serif";
+                ul{
+                    li{
+                        display: inline-block;
+                        margin: 0 2px;
+                        &::before{
+                            content: "";
+                            height: 10px;
+                            width: 10px;
+                            background-color: #438ce0;
+                            border: 2px solid #fff;
+                            border-radius: 50%;
+                            display: inline-block;
+                            margin-right: 5px;
+                            box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+                        }
+                    }
+                }
             }
             
         }

@@ -31,7 +31,7 @@ function Header() {
         return () => {
             window.removeEventListener('scroll', handleScroll);
         }
-    }, []);
+    }, [handleScroll]);
     return (
         <div className={scrollPosition > 70 ? 'header header-scroll' : 'header'}>
             <div className="pre-header">

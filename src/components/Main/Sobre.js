@@ -1,8 +1,44 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Moser from '../../assets/img/moser.jpg'
 import PlaySobreSvg from './PlaySobreSvg'
 
 function Sobre() {
+    const [sobre, setSobre] = useState(true);
+    const [missao, setMissao] = useState(false);
+    const [visao, setVisao] = useState(false);
+    const [valores, setValores] = useState(false);
+
+    const mudarSobre = () => {
+        setSobre(true)
+        setVisao(false)
+        setValores(false)
+        setMissao(false)
+    }
+    const mudarMissao = () => {
+        setMissao(true)
+        setSobre(false)
+        setVisao(false)
+        setValores(false)
+    }
+
+    const mudarVisao = () => {
+        setVisao(true)
+        setSobre(false)
+        setValores(false)
+
+        setMissao(false)
+    }
+    const mudarValores = () => {
+        setValores(true)
+        setSobre(false)
+        setVisao(false)
+
+        setMissao(false)
+    }
+
+
+
+
     return (
         <section id="sobre" sclass="s-sobre" className="sobre ">
 
@@ -10,9 +46,56 @@ function Sobre() {
                 <div className="grid-8 sobrenos animacao-esquerda">
                     <div className="eq-cab">
                         <h1 className="titulo">Sobre <span>Nós</span></h1>
-                        <p className="desc">A mokota é empresa especializada no desenvolvimento de soluções tecnologicas personalizadas atendendo a demanda do nosso cliente, nossos projetos se baseiam no desenvolvimento de sistemas informáticos entre outros.</p>
-                        <p className="desc">Actuamos no desenvolvimento de sistemas nos mais variados segmentos como Agronegócio, Automotivo, Energia, IoT, Telecomunicações entre outros, em empresas de diversas áreas de atuação..</p>
+                        <div className="status">
+                            <span className={sobre === true ? 'active' : ''} onClick={mudarSobre}>Sobre</span>
+                            <span className={missao === true ? 'active' : ''} onClick={mudarMissao}>Missão</span>
+                            <span className={visao === true ? 'active' : ''} onClick={mudarVisao}>Visão</span>
+                            <span className={valores === true ? 'active' : ''} onClick={mudarValores}>Valores</span>
+                        </div>
+                        {
+                            sobre === true ?
+                                <><p className="desc">A mokota é empresa especializada no desenvolvimento de soluções tecnologicas personalizadas atendendo a demanda do nosso cliente, nossos projetos se baseiam no desenvolvimento de sistemas informáticos entre outros.</p>
+                                    <p className="desc">Actuamos no desenvolvimento de sistemas nos mais variados segmentos como Agronegócio, Automotivo, Energia, IoT, Telecomunicações entre outros, em empresas de diversas áreas de atuação..</p>
+                                </> :
+                                missao === true ?
+                                    <><p className="desc">Em 2017 quando foi lançado o primeiro curso da Danki Code
+                                    (Curso Front-End Completo), o objetivo era realmente entregar um material
+                                    diferenciado e completo. Anos depois, através do pacote full-stack tornou-se o
+                                    curso mais completo,
+                                    mais vendido e mais bem avaliado do mercado digital.</p>
+                                        <p className="desc">
+                                            Nosso objetivo é deixar os cursos super completos
+                                            para que o aluno não precise investir nada mais.
+                                        </p>
+                                    </>
+                                    : visao === true ?
+                                        <><p className="desc">tem como missão utilizar todo o poder da internet e tecnologia para levar aos seus alunos os melhores cursos de programação e marketing digital.</p>
+                                            <p className="desc">Nosso foco é transformar a vida dos alunos através
+                                            do conhecimento transmitido em nossos cursos, podendo os estudantes,
+                                            utilizarem esse conhecimento para o mercado de trabalho,
+                                        negócio próprio ou até mesmo hobby.</p>
+                                        </>
+                                        : valores === true &&
+                                        <><p className="desc">
+                                            <ul>
+                                                <li>
+                                                    Ética</li>
+                                                <li>
+                                                    Esforço</li>
+                                                <li>
+                                                    Trabalho em Equipe</li>
+                                                <li>
+                                                    Respeito</li>
+                                                <li>
+                                                    Confiança</li>
+                                                <li>
+                                                    Integridade
+                                                </li>
 
+                                            </ul>
+                                        </p>
+                                        </>
+                        }
                         <p className="mais">Assista o nosso video e saiba mais sobre nós. ➝</p>
                         <ul className="redes-sobre">
                             <li><a href="/"><span className="iconspeck speck-facebook"></span></a></li>

@@ -16,7 +16,7 @@ import Git from '../../assets/img/img-curso/git.svg';
 import Github from '../../assets/img/img-curso/github.svg';
 import AdobeXD from '../../assets/img/img-curso/adobe-xd.svg';
 import AndroidStudio from '../../assets/img/img-curso/android-studio.svg';
-
+import Sequelize from '../../assets/img/img-curso/sequelize.svg';
 const Sobre = () => {
 
     return (
@@ -101,11 +101,12 @@ const Sobre = () => {
                                 <span>Durante o curso, usaremos ferramentas conceituadas como:</span>
                                 <img src={Javascript} alt="Javascript"></img>
                                 <img src={Node} alt="Nodejs"></img>
+                                <img src={ReactIcon} alt="React"></img>
+                                <img src={Sequelize} alt="Sequelize"></img>
                                 <img src={Mongo} alt="MongoDB"></img>
                                 <img src={Firebase} alt="Firebase"></img>
                                 <img src={Express} alt="Express"></img>
                                 <img src={Mysql} alt="Mysql"></img>
-                                <img src={ReactIcon} alt="React"></img>
                                 <img src={Git} alt="Git"></img>
                                 <img src={Npm} alt="Npm"></img>
                                 <img src={AdobeXD} alt="Adobe XD"></img>

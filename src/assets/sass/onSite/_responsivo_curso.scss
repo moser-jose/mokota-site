@@ -800,6 +800,7 @@
         }
      }
     .header{
+        height: 60px !important;
     .pre-header{
         display: none;
     }
@@ -810,7 +811,7 @@
             justify-content: space-between;
             a{
                 img{
-                   /*  width: 50px !important; */
+                    width: 120px !important;
                 }
             }
             .bar{
@@ -917,11 +918,10 @@
     }
     .home{
         width: 100%;
-       
         .part{
             flex-direction: column;
             .mov{
-                margin-top: 40px;
+                margin-top: 0px !important;
                 height: 260px !important;
                 h1{
                     font-size: 28px !important;
@@ -963,16 +963,20 @@
                             padding: 6px !important;
                             
                             span{
-                                font-size: 20px !important;
+                                font-size: 18px !important;
+                                font-weight: 400 !important;
                             }
                             p{
                                 font-size: 14px !important;
+                                
+                                font-weight: 400 !important;
                             }
                         }
                     }
                     h3{
                         font-size: 14px !important;
                         margin-top: 8px !important;
+                        font-weight: 400 !important;
                     }
                     h4{
                         
