@@ -270,7 +270,7 @@
                 }
                 .texto{
                     h1{
-                        padding: 14px 0;
+                        padding: 14.5px 0 !important;
                     }
                 }
             }
@@ -278,6 +278,11 @@
                 .template{
                     background: #000 !important;
                     color: #f5f8fd !important;
+                    .texto{
+                        h1{
+                            padding: 26px 0 !important;
+                        }
+                    }
                     .botao{
                         .brevemente{
                             background: #292c35;
@@ -292,20 +297,33 @@
                 .template{
                     background:  linear-gradient(#778FDF,#495B90) !important;
                         color: #f5f8fd !important;
+                        .texto{
+                            h1{
+                                padding: 38px 0 !important;
+                            }
+                        }
                 }
             }
             .rec-carousel-item-3 {
                 .template{
                     background:  #181818e3!important;
                         color: #f5f8fd !important;
-                       
+                        .texto{
+                            h1{
+                                padding: 14.5px 0 !important;
+                            }
+                        }
                 }
             }
             .rec-carousel-item-4 {
                 .template{
                     background:  #000!important;
                         color: #f5f8fd !important;
-                       
+                        .texto{
+                            h1{
+                                padding: 38px 0 !important;
+                            }
+                        }
                         .botao{
                             .brevemente{
                                 background: #292c35;
@@ -320,7 +338,11 @@
                 .template{
                     background:  #4C9734 !important;
                         color: #f5f8fd !important;
-                        
+                        .texto{
+                            h1{
+                                padding: 4px 0 !important;
+                            }
+                        }
                         .botao{
                             .brevemente{
                                 background: #527b45;

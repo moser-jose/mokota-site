@@ -104,7 +104,6 @@ function Home() {
                 </Carousel>
                 <ul className="redes">
                     <li><a href="/"><span className="iconspeck speck-facebook"></span></a></li>
-                    <li><a href="https://github.com/mokota-code"><span className="iconspeck speck-github"></span></a></li>
                     <li><a href="/"><span className="iconspeck speck-twitter"></span></a></li>
                     <li><a href="https://www.instagram.com/mokota_code/"><span className="iconspeck speck-instagram"></span></a></li>
                     <li><a href="/"><span className="iconspeck speck-youtube"></span></a></li>
