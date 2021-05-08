@@ -1017,6 +1017,22 @@
                 .desc{
                     font-size: 1rem;
                 }
+                .status{
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    row-gap: 20px;
+                    span{
+                        padding: 10px;
+                    }
+                }
+                .socia{
+                    display: block;
+                    text-align: center;
+                    .redes-sobre{
+                        margin: 20px 0;
+                        padding: 0;
+                    }
+                }
                 .mais{
                     font-size: 14px;
                     letter-spacing: .4px;
@@ -1056,84 +1072,100 @@
             }
         }
     }
-    .equipa{
-        padding: 70px 0 50px;
-        .card-l {
-            .professor{
-                display: block;
-                margin: 0 !important;
-                height: 100%;
-                .membro {
-                    margin: 0 !important;
-                    
-                    h1{
-                        font-size: 1.3rem;
-                    }
-                    .func{
-                        h1{
-                            font-size: 1rem;
-                        }
-                    }
-                }
-                .sobreM{
-                    width: 300px;
-                    height: 0px; 
-                    padding: 0 ;
-                    height: unset;
-                    
-                    p{
-                        display: none;
-                    }
-                    ul{
-                        margin: 20px 0;
-                        li{
-                            font-size: 13px;
-                            &::before {
-                                content: "\2714";
-                                display: inline-block;
-                                color: #23962d !important;
-                                margin-right: 6px;
-                                font-size: 14px !important;
-                            }
-                        }
-                    }
+    .equipa-m,.equipa {
+        padding: 100px 0 120px;
+        &::after {
+            height: 50px;
+            top: 2%;
+        }
+        .eq-cab {
+            width: 300px;
+            .titulo {
+                font-size: 34px;
+                span {
+                    color: #e88d76;
+                    font-weight: 600;
                 }
             }
-            .ferr {
-                position: relative;
-                padding: 60px 0 0;
-                &::after {
-                    top:1px;
-                    height: 40px;
-                }
-                .eq-cab{
-                    width: auto;
-                    .titulo{
-                        font-size: 34px;
-                    }
-                    .desc{
-                        font-size: 1rem;
-                        span{
-                            margin-bottom: 20px;
-                        }
-                    }
-
-                }
+            .desc {
+                font-size: 1.2rem;
+                margin: 10px 0 30px;
             }
         }
-        .ferr-texto{
-            font-size: 18px;
-            span{
-                font-size: 20px;
-            }
-
-            .oportunidade{
-                font-size: 18px;
-                width: auto;
-                padding: 15px;
-            }
+        .membro-m{
+            margin: 0;
+        }
+        .membro {
+            margin-top: 30px;
+            height: 100%;
+           
         }
     }
+    }
+
+    .servicos{
+        padding: 100px 0 30px !important;
+        &::after {
+            height: 50px;
+        }
+        .eq-cab {
+            width: 300px;
+            .titulo {
+                font-size: 34px;
+               
+            }
+            .desc {
+                color: #ffffffc7;
+                line-height: 1.5;
+                font-size: 1.4rem;
+                text-align: center;
+                font-family: "Rubik","Poppins", "sans-serif";
+                margin: 10px 0 40px;
+                span{
+                    background-color: #dce9ff;
+                    padding: 4px 8px;
+                    border-radius: 4px;
+                    font-weight: 500;
+                    font-size: 14px;
+                    color: #3f506d;
+                    display: inline-block;
+                }
+            }
+        }
+        .contn{
+            margin-top: 0;
+            .grid8{
+                padding: 0;
+                margin-top: 30px;
+                &:nth-child(1){
+                    margin-top: 0;
+                }
+                &:nth-child(2){
+                    margin-bottom: 30px;
+                }
+                h1{
+                    font-size: 1.4em;
+                }
+                p{
+                    font-size: 1.1em;
+                    max-width: 300px;
+                    span{
+                        margin: 2px 0;
+                    }
+                }
+                .ic-serv{
+                    font-size:  60px;
+                }
+            }
+        }
+        .link{
+            margin: 0px auto  0 !important;
+            max-width: 300px;
+            &:hover{
+                background-color: #5da2f1;
+            }
+        }
+        
     }
     .container-form-l{
         display: block !important;

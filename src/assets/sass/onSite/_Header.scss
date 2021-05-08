@@ -111,7 +111,6 @@
                     display: inline-block;
                     z-index: 1;
                     a {
-                        //color: #555;
                         color: #fff;
                         font-size: 1rem;
                         position: relative;
@@ -122,40 +121,6 @@
                         &:hover {
                             color: #f1f1f1;
                         }
-                    }
-                    /* &::after{
-                        content: "";
-                        width: 3px;
-                        height: 3px;
-                        border: 2px solid #fff;
-                        background-color: #E88D76;
-                        border-radius: 50%;
-                        display: inline-block;
-                        position: absolute;
-                        top: 50%;
-                        transform: translateY(-50%);
-                        margin:0 -2px;
-                    } */
-
-                    &:nth-last-child(2)::after {
-                        content: "";
-                        border: none !important;
-                        background-color: transparent !important;
-                    }
-                    &::nth-child(1) {
-                        width: 54px;
-                    }
-                    &::nth-child(2) {
-                        width: 170px;
-                    }
-                    &::nth-child(3) {
-                        width: 100px;
-                    }
-                    :nth-child(4) {
-                        width: 160px;
-                    }
-                    :nth-child(5) {
-                        width: 110px;
                     }
                 }
                 .link{
@@ -176,33 +141,28 @@
 
                 .s-home,
                 li:nth-child(1):hover ~ .animacao {
-                    width: 49px;
+                    width: 45px;
                     left: 9.5px;
                 }
                 .s-sobre,
                 li:nth-child(2):hover ~ .animacao {
-                    width: 82px;
-                    left: 82px;
+                    width: 77px;
+                    left: 73px;
                 }
                 .s-servicos,
                 li:nth-child(3):hover ~ .animacao {
-                    width: 72px;
-                    left: 185px;
+                    width: 65px;
+                    left: 168px;
                 }
                 .s-cursos,
                 li:nth-child(4):hover ~ .animacao {
-                    width: 68px;
-                    left: 317px;
+                    width: 58px;
+                    left: 250px;
                 }
                 .s-contato,
                 li:nth-child(5):hover ~ .animacao {
-                    width: 90px;
-                    left: 410px;
-                }
-                .s-faq,
-                li:nth-child(6):hover ~ .animacao {
-                    width: 42px;
-                    left: 521px;
+                    width: 70px;
+                    left: 324px;
                 }
             }
             .social {

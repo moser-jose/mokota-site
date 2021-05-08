@@ -34,7 +34,7 @@ function Login() {
             <Input name="password" type="password" label="Senha *" placeholder="" />
 
             <div className="but">
-              <NavLink to="/">Recuperar a senha</NavLink>
+              <NavLink to="/recuperar-senha">Recuperar a senha</NavLink>
 
               <NavLink className="button" to="/dashboard">Entrar</NavLink>
             </div>

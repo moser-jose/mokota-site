@@ -5,7 +5,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 export default function Template({ img, icon, botao, texto, categoria, titulo, modulo, app, api, link }) {
     return (
         <div className="grid-1-3 template">
-            <img src={img} alt="Curso React Native" ></img>
+            <div className="img-c">
+                <img src={img} alt="Curso React Native" ></img>
+            </div>
             <div className="texto">
                 <span><FontAwesomeIcon className="icon" icon={icon} /> {categoria}</span>
                 <div className="modulos-curso">

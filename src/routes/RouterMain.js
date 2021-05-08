@@ -11,6 +11,8 @@ import Print from '../components/Curso_Mobile/Print'
 import { StateUserContext } from '../contexts/UserContext';
 import NotFound from '../components/404';
 import Inscritos from '../pages/Admin/Inscritos';
+import RecuperarSenha from '../pages/Admin/RecuperarSenha';
+import Certificados from '../components/Cursos/Certificados';
 export default function RouterMain() {
     return (
 
@@ -20,7 +22,9 @@ export default function RouterMain() {
                     <Route path="/" element={<Main />} />
                     <Route path="/cursos/desenvolvimento_de_aplicativos" element={<Curso />} />
                     <Route path="/cursos" element={<Cursos />} />
-                    <Route path="/print" element={<Print/>} />
+                    <Route path="/print" element={<Print />} />
+                    <Route path="/cursos/certificados" element={<Certificados />} />
+                    <Route path="/recuperar-senha" element={<RecuperarSenha />} />
                     <Route path="/cursos/certificados" element={<Cursos />} />
                     <Route path="/minha-conta" element={<MinhaConta />} />
                     <Route path="/privacidade" element={<Privacidade />} />

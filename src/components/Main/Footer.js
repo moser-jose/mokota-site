@@ -1,6 +1,8 @@
 import React from 'react'
 import Logo from '../../assets/img/logo_branco.svg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { Link } from 'react-router-dom'
+import {Link as Linka} from 'react-scroll'
 function Footer() {
     return (
 
@@ -12,8 +14,10 @@ function Footer() {
                         <div className="marca">
                             <div className="logor">
                                 <a href="/"><img src={Logo} alt="" /></a>
-                                <p>A mokota é uma empresa especializada no desenvolvimento de soluções tecnologicas personalizadas atendendo a demanda do nosso cliente, nossos projetos se baseiam no desenvolvimento de sistemas informáticos entre outros.</p>
-                                <a className="btnsaiba" href="#sobre">Saiba mais</a>
+                                <p>A Mekadir é uma empresa especializada no desenvolvimento de 
+                                    soluções tecnológicas personalizadas atendendo a demanda do cliente, 
+                                    nossos projectos se baseiam no desenvolvimento de sistemas informáticos entre outros.</p>
+                                <Linka className="btnsaiba" duration={1000} to="sobre" smooth={true} >Saiba mais</Linka>
                             </div>
                             <div className="contacto">
                                 <h1>Endereço</h1>
@@ -21,7 +25,7 @@ function Footer() {
                                 <h1>Contactos</h1>
                                 <p><span><FontAwesomeIcon icon="phone-alt" /></span> (+244) 923819414</p>
                                 <p><span><FontAwesomeIcon icon="phone-alt" /></span> (+244) 931000000</p>
-                                <p><a href="mailto:geral@mokota.com"><span><FontAwesomeIcon icon="envelope" /></span> geral@mokota.com</a></p>
+                                <p><a href="mailto:geral@mokota.com"><span><FontAwesomeIcon icon="envelope" /></span> geral@mekadir.com</a></p>
                             </div>
                         </div>
                     </div>
@@ -58,12 +62,9 @@ function Footer() {
                 </div>
 
                 <div className="foot-p">
-                    <p className="copy">
-                        Copyright &copy; {new Date().getFullYear()} <a href="/">mokota</a>. Todos direitos reservados
-                    </p>
-                    <p className="termos"><span><a href="/">
-                        Termos e Condições </a></span> |
-                        <span><a href="/"> Privacidade</a></span></p>
+                    <p className="termos"><span><Link to="/termos">
+                        Termos e Condições </Link></span> |
+                        <span><Link to="/privacidade"> Privacidade</Link></span></p>
                     <div className="redes-s">
                         <span title="Facebook"><a href="/"><i className="iconspeck speck-facebook"></i></a></span>
                         <span title="Instagram"><a href="https://www.instagram.com/mokota_code/"><i className="iconspeck speck-instagram"></i></a></span>
@@ -71,6 +72,10 @@ function Footer() {
                         <span title="Youtube"><a href="/"><i className="iconspeck speck-youtube"></i></a></span>
                         <span title="Github"><a href="https://github.com/mokota-code"><i className="iconspeck speck-github"></i></a></span>
                     </div>
+                    <p className="copy">
+                        <Link to="/">mekadir</Link> &copy; {new Date().getFullYear()}. Todos direitos reservados
+                    </p>
+
                 </div>
             </div>
         </footer>

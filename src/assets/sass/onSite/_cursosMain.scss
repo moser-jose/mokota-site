@@ -1,0 +1,349 @@
+.curso-m{
+    padding-top: 0 !important;
+    .h1{
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 1.6em;
+        margin-bottom: 50px;
+    }
+    .curs{
+        .rec-carousel-item-0 {
+            .template{
+                    background:  #38415E !important;
+                    color: #f5f8fd !important;
+                    img{
+                        background-color: transparent !important;
+                    }
+                    .texto{
+                        h1{
+                            margin-bottom: 0 !important;
+                        }
+                        span{
+                            color: #f5f8fd !important;
+                        }
+                        .modulos-curso{
+                            margin: 30px 0 !important;
+                            span {
+                                font-weight: 400 !important;
+                                margin: 0 !important;
+                            }
+                        }
+                    }
+            }
+        }
+        .rec-carousel-item-1 {
+            .template{
+                background: #000 !important;
+                color: #f5f8fd !important;
+                img{
+                    background-color: transparent !important;
+                }
+                .texto{
+                    h1{
+                        margin-bottom: 0 !important;
+                        padding: 14px 0;
+                    }
+                    span{
+                        color: #f5f8fd !important;
+                    }
+                    .modulos-curso{
+                        margin: 30px 0 !important;
+                        span {
+                            font-weight: 400 !important;
+                            margin: 0 !important;
+                        }
+                    }
+                }
+                .botao{
+                    .brevemente{
+                        background: #292c35;
+                        &:hover{
+                            background: #292c35 !important;
+                        }
+                    }
+                }
+            }
+        }
+        .rec-carousel-item-2 {
+            .template{
+                background:  linear-gradient(#778FDF,#495B90) !important;
+                    color: #f5f8fd !important;
+                    img{
+                        background-color: transparent !important;
+                    }
+                    .texto{
+                        h1{
+                            margin-bottom: 0 !important;
+                            padding: 28px 0;
+                        }
+                        span{
+                            color: #f5f8fd !important;
+                        }
+                        .modulos-curso{
+                            margin: 30px 0 !important;
+                            span {
+                                font-weight: 400 !important;
+                                margin: 0 !important;
+                            }
+                        }
+                    }
+            }
+        }
+        .rec-carousel-item-3 {
+            .template{
+                background:  #181818e3!important;
+                    color: #f5f8fd !important;
+                    img{
+                        background-color: transparent !important;
+                    }
+                    .texto{
+                        h1{
+                            margin-bottom: 0 !important;
+                            padding: 14px 0;
+                        }
+                        span{
+                            color: #f5f8fd !important;
+                        }
+                        .modulos-curso{
+                            margin: 30px 0 !important;
+                            span {
+                                font-weight: 400 !important;
+                                margin: 0 !important;
+                            }
+                        }
+                    }
+            }
+        }
+        .rec-carousel-item-4 {
+            .template{
+                background:  #000!important;
+                    color: #f5f8fd !important;
+                    img{
+                        background-color: transparent !important;
+                    }
+                    .texto{
+                        h1{
+                            margin-bottom: 0 !important;
+                            padding: 28px 0;
+                        }
+                        span{
+                            color: #f5f8fd !important;
+                        }
+                        .modulos-curso{
+                            margin: 30px 0 !important;
+                            span {
+                                font-weight: 400 !important;
+                                margin: 0 !important;
+                            }
+                        }
+                    }
+                    .botao{
+                        .brevemente{
+                            background: #292c35;
+                            &:hover{
+                                background: #292c35 !important;
+                            }
+                        }
+                    }
+            }
+        }
+        .rec-carousel-item-5 {
+            .template{
+                background:  #4C9734 !important;
+                    color: #f5f8fd !important;
+                    img{
+                        background-color: transparent !important;
+                    }
+                    .texto{
+                        h1{
+                            margin-bottom: 0 !important;
+                            padding: 0;
+                        }
+                        span{
+                            color: #f5f8fd !important;
+                        }
+                        .modulos-curso{
+                            margin: 30px 0 !important;
+                            span {
+                                font-weight: 400 !important;
+                                margin: 0 !important;
+                            }
+                        }
+                    }
+                    .botao{
+                        .brevemente{
+                            background: #527b45;
+                            &:hover{
+                                background: #527b45 !important;
+                            }
+                        }
+                    }
+            }
+        }
+
+        
+      .rec-arrow-left,
+      .rec-arrow-right{
+        background-color: #438ce0 !important;
+        width: 40px !important;
+        min-width: 40px !important;
+        height: 40px !important;
+        font-size: 18px;
+        border-radius: 2px !important;
+        z-index: 1000;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border:none !important;
+        box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1);
+        &:hover{
+            background-color: #4099ff !important;
+           
+          }
+      }
+      .rec-arrow-left{
+       left: 0;
+      }
+      .rec-arrow-right{
+       right: 0;
+      }
+      .rec-dot_active{
+        background-color: rgba(67, 140, 224,.5) !important;
+        box-shadow: 0 0 1px 3px rgb(67, 140, 224) !important;
+        &:focus{
+            background-color: rgba(67, 140, 224,.5) !important;
+            box-shadow: 0 0 1px 3px rgb(67, 140, 224) !important;
+        }
+      }
+    }
+}
+@media only screen and (max-width: 757px) {
+    .curso-m{
+        padding-top: 0 !important;
+        .h1{
+            font-size: 1.4em;
+            margin: 0 auto 30px;
+            max-width: 300px;
+        }
+        .curs{
+            .template{
+                margin: 0 !important;
+                .img-c{
+                    width: 220px;
+                    height: 220px;
+                    margin: 0 auto;
+                    display: block;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        background-color: transparent !important;
+                    }
+                }  
+                .texto{
+                    padding: 0 15px !important;
+                    margin-bottom: 30px;
+                    h1{
+                        margin-bottom: 0 !important;
+                        font-size: 1.25em !important;
+                    }
+                    span{
+                        font-size: 14px !important;
+                        color: #f5f8fd !important;
+                    }
+                    .modulos-curso{
+                        margin: 20px 0 !important;
+                        span {
+                            font-weight: 400 !important;
+                            margin: 0 !important;
+                        }
+                    }
+                }
+            }
+        }
+    
+        .curs{
+            .rec-carousel-item-0 {
+                .template{
+                        background:  #38415E !important;
+                        color: #f5f8fd !important;
+                }
+                .texto{
+                    h1{
+                        padding: 14px 0;
+                    }
+                }
+            }
+            .rec-carousel-item-1 {
+                .template{
+                    background: #000 !important;
+                    color: #f5f8fd !important;
+                    .botao{
+                        .brevemente{
+                            background: #292c35;
+                            &:hover{
+                                background: #292c35 !important;
+                            }
+                        }
+                    }
+                }
+            }
+            .rec-carousel-item-2 {
+                .template{
+                    background:  linear-gradient(#778FDF,#495B90) !important;
+                        color: #f5f8fd !important;
+                }
+            }
+            .rec-carousel-item-3 {
+                .template{
+                    background:  #181818e3!important;
+                        color: #f5f8fd !important;
+                       
+                }
+            }
+            .rec-carousel-item-4 {
+                .template{
+                    background:  #000!important;
+                        color: #f5f8fd !important;
+                       
+                        .botao{
+                            .brevemente{
+                                background: #292c35;
+                                &:hover{
+                                    background: #292c35 !important;
+                                }
+                            }
+                        }
+                }
+            }
+            .rec-carousel-item-5 {
+                .template{
+                    background:  #4C9734 !important;
+                        color: #f5f8fd !important;
+                        
+                        .botao{
+                            .brevemente{
+                                background: #527b45;
+                                &:hover{
+                                    background: #527b45 !important;
+                                }
+                            }
+                        }
+                }
+            }
+    
+            
+            .imakzv{
+                margin: 0 !important;
+            }
+          .rec-dot_active{
+            background-color: rgba(67, 140, 224,.5) !important;
+            box-shadow: 0 0 1px 3px rgb(67, 140, 224) !important;
+            &:focus{
+                background-color: rgba(67, 140, 224,.5) !important;
+                box-shadow: 0 0 1px 3px rgb(67, 140, 224) !important;
+            }
+          }
+        }
+    }
+}

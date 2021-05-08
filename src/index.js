@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import { library} from '@fortawesome/fontawesome-svg-core'
+import { library } from '@fortawesome/fontawesome-svg-core'
 import { faAndroid, fab, faMedapps } from '@fortawesome/free-brands-svg-icons'
 import { StatePlayContext } from './contexts/PlayContext'
 import {
@@ -46,13 +46,17 @@ import {
   faCheckCircle,
   faReceipt,
   faPrint,
-  faLightbulb
+  faLightbulb,
+  faRocket,
+  faGraduationCap,
 }
   from '@fortawesome/free-solid-svg-icons'
 
 library.add(fab,
   faPencilAlt,
+  faRocket,
   faReceipt,
+  faGraduationCap,
   faLightbulb,
   faPrint,
   faCheckCircle,
@@ -101,7 +105,7 @@ library.add(fab,
 ReactDOM.render(
   <React.StrictMode>
     <StatePlayContext>
-      <App/>
+      <App />
     </StatePlayContext>
 
   </React.StrictMode>,

@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Moser from '../../assets/img/moser.jpg'
 import PlaySobreSvg from './PlaySobreSvg'
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 function Sobre() {
     const [sobre, setSobre] = useState(true);
     const [missao, setMissao] = useState(false);
@@ -96,86 +96,94 @@ function Sobre() {
                                         </p>
                                         </>
                         }
-                        <p className="mais">Assista o nosso video e saiba mais sobre nós. ➝</p>
-                        <ul className="redes-sobre">
-                            <li><a href="/"><span className="iconspeck speck-facebook"></span></a></li>
-                            <li><a href="https://github.com/mokota-code"><span className="iconspeck speck-github"></span></a></li>
-                            <li><a href="/"><span className="iconspeck speck-twitter"></span></a></li>
-                            <li><a href="https://www.instagram.com/mokota_code/"><span className="iconspeck speck-instagram"></span></a></li>
-                            <li><a href="/"><span className="iconspeck speck-youtube"></span></a></li>
-                        </ul>
+                        <div className="socia">
+                            <ul className="redes-sobre">
+                                <li><a href="/"><span className="iconspeck speck-facebook"></span></a></li>
+                                <li><a href="https://github.com/mokota-code"><span className="iconspeck speck-github"></span></a></li>
+                                <li><a href="/"><span className="iconspeck speck-twitter"></span></a></li>
+                                <li><a href="https://www.instagram.com/mokota_code/"><span className="iconspeck speck-instagram"></span></a></li>
+                                <li><a href="/"><span className="iconspeck speck-youtube"></span></a></li>
+                            </ul>
+                            <p className="mais">Assista o video e saiba mais sobre nós. ➝</p>
+                        </div>
                     </div>
                 </div>
-                <div className="grid-8 sobre-video animacao-direita ">
+                <div className="grid-8 sobre-video ">
                     <PlaySobreSvg />
                 </div>
             </div>
-            <div className="equipa animacao-baixo">
+            <div className="equipa-m">
                 <div className="card container">
-                    <div className="eq-cab animacao-baixo">
+                    <div className="eq-cab">
                         <h1 className="titulo">Nossa <span>Equipa</span></h1>
-                        <p className="desc">A nossa equipa é formada por profissionais que consideram a excelência, a inovação e a constante evolução de conhecimento fatores críticos de sucesso.</p>
+                        <p className="desc">A nossa equipa é formada por profissionais que consideram a excelência, a inovação e a constante evolução de conhecimento factores críticos de sucesso.</p>
+                        <p className="desc">Venha programar com a gente e seja um <span>developer</span> a altura.</p>
+
                     </div>
-                    <div className="membro grid-4 animacao-baixo  ">
-                        <div className="func">
-                            <h1>Atendimento ao Cliente</h1>
+                    <div className="membro-m">
+                        <div className="membro grid-4">
+                            <div className="func">
+                                <h1>CEO</h1>
+                            </div>
+                            <div className="img">
+                                <img className="img-img" src={Moser} alt="" />
+                            </div>
+                            <h1>Moser José</h1>
+                            <h2>Programador Fullstack</h2>
+                            <span><a href="/"><i className="iconspeck speck-facebook"></i></a></span>
+                            <span><a href="/"><i className="iconspeck speck-linkedin-sp"></i></a></span>
+                            <span><a href="/"><i className="iconspeck speck-twitter"></i></a></span>
+                            <span><a href="/"><i className="iconspeck speck-instagram"></i></a></span>
+                            <span><a href="/"><i className="iconspeck speck-github"></i></a></span>
                         </div>
-                        <div className="img">
-                            <img className="img-img" src={Moser} alt="" />
+                        <div className="membro grid-4">
+                            <div className="func">
+                                <h1>CTO</h1>
+                            </div>
+                            <div className="img">
+                                <img className="img-img" src={Moser} alt="" />
+                            </div>
+                            <h1>Moser José</h1>
+                            <h2>Programador Fullstack</h2>
+                            <span><a href="/"><i className="iconspeck speck-facebook"></i></a></span>
+                            <span><a href="/"><i className="iconspeck speck-linkedin-sp"></i></a></span>
+                            <span><a href="/"><i className="iconspeck speck-twitter"></i></a></span>
+                            <span><a href="/"><i className="iconspeck speck-instagram"></i></a></span>
+                            <span><a href="/"><i className="iconspeck speck-github"></i></a></span>
                         </div>
-                        <h1>Moser José</h1>
-                        <h2>Programador Fullstack</h2>
-                        <span><a href="/"><i className="iconspeck speck-facebook"></i></a></span>
-                        <span><a href="/"><i className="iconspeck speck-linkedin-sp"></i></a></span>
-                        <span><a href="/"><i className="iconspeck speck-twitter"></i></a></span>
-                        <span><a href="/"><i className="iconspeck speck-instagram"></i></a></span>
-                        <span><a href="/"><i className="iconspeck speck-github"></i></a></span>
+                        <div className="membro grid-4">
+                            <div className="func">
+                                <h1>CEO</h1>
+                            </div>
+                            <div className="img">
+                                <img className="img-img" src={Moser} alt="" />
+                            </div>
+                            <h1>Moser José</h1>
+                            <h2>Programador Fullstack</h2>
+                            <span><a href="/"><i className="iconspeck speck-facebook"></i></a></span>
+                            <span><a href="/"><i className="iconspeck speck-linkedin-sp"></i></a></span>
+                            <span><a href="/"><i className="iconspeck speck-twitter"></i></a></span>
+                            <span><a href="/"><i className="iconspeck speck-instagram"></i></a></span>
+                            <span><a href="/"><i className="iconspeck speck-github"></i></a></span>
+                        </div>
+                        <div className="membro grid-4">
+                            <div className="func">
+                                <h1>Atendimento ao Cliente</h1>
+                            </div>
+                            <div className="img">
+                                <img className="img-img" src={Moser} alt="" />
+                            </div>
+                            <h1>Moser José</h1>
+                            <h2>Programador Fullstack</h2>
+                            <span><a href="/"><i className="iconspeck speck-facebook"></i></a></span>
+                            <span><a href="/"><i className="iconspeck speck-linkedin-sp"></i></a></span>
+                            <span><a href="/"><i className="iconspeck speck-twitter"></i></a></span>
+                            <span><a href="/"><i className="iconspeck speck-instagram"></i></a></span>
+                            <span><a href="/"><i className="iconspeck speck-github"></i></a></span>
+                        </div>
+
                     </div>
-                    <div className="membro grid-4 animacao-baixo">
-                        <div className="func">
-                            <h1>CEO</h1>
-                        </div>
-                        <div className="img">
-                            <img className="img-img" src={Moser} alt="" />
-                        </div>
-                        <h1>Moser José</h1>
-                        <h2>Programador Fullstack</h2>
-                        <span><a href="/"><i className="iconspeck speck-facebook"></i></a></span>
-                        <span><a href="/"><i className="iconspeck speck-linkedin-sp"></i></a></span>
-                        <span><a href="/"><i className="iconspeck speck-twitter"></i></a></span>
-                        <span><a href="/"><i className="iconspeck speck-instagram"></i></a></span>
-                        <span><a href="/"><i className="iconspeck speck-github"></i></a></span>
-                    </div>
-                    <div className="membro grid-4 animacao-baixo">
-                        <div className="func">
-                            <h1>CEO</h1>
-                        </div>
-                        <div className="img">
-                            <img className="img-img" src={Moser} alt="" />
-                        </div>
-                        <h1>Moser José</h1>
-                        <h2>Programador Fullstack</h2>
-                        <span><a href="/"><i className="iconspeck speck-facebook"></i></a></span>
-                        <span><a href="/"><i className="iconspeck speck-linkedin-sp"></i></a></span>
-                        <span><a href="/"><i className="iconspeck speck-twitter"></i></a></span>
-                        <span><a href="/"><i className="iconspeck speck-instagram"></i></a></span>
-                        <span><a href="/"><i className="iconspeck speck-github"></i></a></span>
-                    </div>
-                    <div className="membro grid-4 animacao-baixo">
-                        <div className="func">
-                            <h1>Fundador e CEO</h1>
-                        </div>
-                        <div className="img">
-                            <img className="img-img" src={Moser} alt="" />
-                        </div>
-                        <h1>Moser José</h1>
-                        <h2>Programador Fullstack</h2>
-                        <span><a href="/"><i className="iconspeck speck-facebook"></i></a></span>
-                        <span><a href="/"><i className="iconspeck speck-linkedin-sp"></i></a></span>
-                        <span><a href="/"><i className="iconspeck speck-twitter"></i></a></span>
-                        <span><a href="/"><i className="iconspeck speck-instagram"></i></a></span>
-                        <span><a href="/"><i className="iconspeck speck-github"></i></a></span>
-                    </div>
+
                 </div>
             </div>
         </section>

@@ -36,15 +36,18 @@ footer {
                 .marca {
                     .logor {
                         .btnsaiba {
-                            border: 1px solid #4099ff;
-                            padding: 4px 6px;
+                            border: 2px solid #438ce0;
+                            padding: 8px;
                             border-radius: 2px;
-                            font-size: 12px;
-                            color: #4099ff;
+                            font-size: 14px;
+                            color: #fff;
+                            font-weight: 400;
                             display: inline-block;
                             margin-bottom: 20px;
+                            cursor: pointer;
+                            text-transform: uppercase;
                             &:hover {
-                                color: #438ce0;
+                                background-color: #438ce0;
                             }
                         }
                         img {
@@ -172,7 +175,7 @@ footer {
         }
 
         .foot-p {
-            /* border-top: 1px solid #ccc; */
+            border-top: 1px solid #f5f8fd;
             width: 100%;
             display: grid;
             align-items: center;

@@ -23,17 +23,7 @@ function Header() {
         setMenu(!menu);
         document.querySelector('body').classList.remove('body');
     }
-    const handleScroll = () => {
-        setScrollPosition(window.pageYOffset);
-    }
-    useEffect(() => {
-
-        window.addEventListener('scroll', handleScroll, { passive: true });
-        setScrollPosition(window.pageYOffset);
-        return () => {
-            window.removeEventListener('scroll', handleScroll);
-        }
-    }, [scrollPosition]);
+    
     return (
         <div className={scrollPosition > 70 ? 'header header-scroll' : 'header'}>
             <div className="pre-header">
@@ -51,11 +41,7 @@ function Header() {
             </div>
             <div className="container menu">
                 <div className="logoprincipal">
-                    <Linka to="/"><img src={scrollPosition > 70 ?
-                        Logo :
-                        menu === true ? Logo
-                            : LogoBranco
-                    } alt="" /></Linka><div onClick={handleClick} className={menu === true ? "bar change" : "bar"}>
+                    <Linka to="/"><img src={Logo} alt="" /></Linka><div onClick={handleClick} className={menu === true ? "bar change" : "bar"}>
                         <span id={menu === false ? "bar1" : "bar11"}></span>
                         <span id="bar2"></span>
                         <span id={menu === false ? "bar3" : "bar33"}></span>
@@ -63,13 +49,12 @@ function Header() {
                 </div>
                 <div className={menu === true ? " menu-nav menu-nav-dis" : "menu-nav"}>
                     <ul className="nav">
-                        <li className="m-home"><a className="link" href="/">Home</a></li>
+                        <li className="m-home"><Linka className="link" to="/">Home</Linka></li>
                         <li className="m-sobre"><Linka className="link" to="/cursos">Cursos</Linka></li>
                         <li className="m-sobre"><Linka className="link" to="/cursos/certificados">Certificados</Linka></li>
-                        <li className="m-sobre"><Link   onClick={handleClickBody} className="link" duration={1000} smooth={true} to="faq">FAQ</Link></li>
                         <div id="animacao" className="animacao s-home"></div>
                     </ul>
-                    <Linka to="/minha-conta" onClick={handleClickBody} className={scrollPosition > 70 ? "btn-azul" : "btn-branco"}>Login</Linka>
+                    <Linka to="/minha-conta" onClick={handleClickBody} className="btn-azul">Login</Linka>
                     <p><span>mekadir</span> &copy; {new Date().getFullYear()} - Todos direitos reservados -
                     <span className="block"><Linka onClick={handleClickBody} to="/termos"> Termos e Condições</Linka> | <Linka onClick={handleClickBody} to="/privacidade">Privacidade</Linka></span></p>
                 </div>

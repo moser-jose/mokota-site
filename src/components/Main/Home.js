@@ -1,5 +1,7 @@
 import React from 'react'
 import TextLoop from "react-text-loop";
+import { Link } from 'react-scroll'
+import {Link as Linka} from 'react-router-dom'
 import { Carousel } from 'react-responsive-carousel';
 import Header from './Header'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
@@ -16,7 +18,7 @@ function Home() {
             <Header />
             <section id="home" sclass="s-home" className="home ">
                 <Carousel
-                    autoPlay
+                    autoPlay={false}
                     showThumbs={false}
                     showStatus={false}
                     showArrows={false}
@@ -30,23 +32,17 @@ function Home() {
                             <div className="mov grid-8">
                                 <h1>
                                     Nós criamos soluções
-                                    <TextLoop interval={2400} springConfig={{ stiffness: 50, damping: 6 }}>
-                                        <span>
-                                            tecnológicas
-                                        </span>
-                                        <span>
-                                            digitais
-                                        </span>
-                                        <span>
-                                            de productividade
+                                    <TextLoop className="home-tex" interval={2400} springConfig={{ stiffness: 50, damping: 6 }}>
+                                        <span className="home-tex-span">
+                                            digitais e tecnológicas
                                         </span>
                                     </TextLoop>{" "}
                                     para o seu negócio.
                                 </h1>
                                 <div className="bot">
-                                    <a className="sbr" href="/">Saiba mais</a>
+                                    <Link to="sobre" className="sbr" duration={1000} smooth={true}>Saiba mais</Link>
                                     <button onClick={(event) => handleCl(event)} id="playsobre" className="playsobre" >{' '}</button>
-                                    <span className="vid">Veja o nosso vídeo</span>
+                                    <span className="vid">Veja o vídeo</span>
                                 </div>
                             </div>
                             <div className="grid-8">
@@ -60,20 +56,18 @@ function Home() {
 
                                 <h1>
 
-                                    Comece uma nova fase da sua vida como
-                                    <TextLoop interval={2400} springConfig={{ stiffness: 50, damping: 6 }}>
-                                        <span>
+                                    Comece uma nova fase da sua vida como {" "}
+                                    <TextLoop className="home-tex" interval={2400} springConfig={{ stiffness: 50, damping: 6 }}>
+                                        <span className="home-tex-span">
                                             programador
                                         </span>
-                                        <span>
-                                            developer
-                                        </span>
                                     </TextLoop>{" "}
-                                     fullstack
+                                    fullstack
+
                             </h1>
-
-                                <a href="/">Saiba mais</a>
-
+                                <div className="bot">
+                                    <Link to="cursos" duration={1000} className="sbr" smooth={true}>Saiba mais</Link>
+                                </div>
                             </div>
                             <div className="grid-8">
 
@@ -85,24 +79,22 @@ function Home() {
                             <div className="grid-8">
 
                             </div>
-                            <div className="mov  grid-8">
+                            <div className="mov grid-8">
                                 <h1>
-                                    Faça um de nossos cursos e seja um
-                                    <TextLoop interval={2400} springConfig={{ stiffness: 50, damping: 6 }}>
-                                        <span>
-                                            programador
-                                        </span>
-                                        <span>
+                                    Faça um de nossos cursos e seja um {" "}
+                                    <TextLoop className="home-tex" interval={2400} springConfig={{ stiffness: 50, damping: 6 }}>
+
+                                        <span className="home-tex-span">
                                             developer
                                         </span>
                                     </TextLoop>{" "} eficiente.
                                 </h1>
 
                                 <div className="bot">
-                                    <a className="sbr" href="/">Ver Cursos</a>
+                                    <Linka to="/cursos" className="sbr">Ver Cursos</Linka>
                                     <button onClick={(event) => handleCl(event)} id="playcurso" className="playsobre" >{' '}</button>
 
-                                    <span className="vid">Veja o nosso vídeo</span>
+                                    <span className="vid">Veja o vídeo</span>
                                 </div>
                             </div>
                         </div>
