@@ -1,5 +1,4 @@
 import React from 'react'
-import TextLoop from "react-text-loop";
 import { Link } from 'react-scroll'
 import {Link as Linka} from 'react-router-dom'
 import { Carousel } from 'react-responsive-carousel';
@@ -32,11 +31,14 @@ function Home() {
                             <div className="mov grid-8">
                                 <h1>
                                     Nós criamos soluções
-                                    <TextLoop className="home-tex" interval={2400} springConfig={{ stiffness: 50, damping: 6 }}>
+                                    <div className="home-tex" interval={2400} springConfig={{ stiffness: 50, damping: 6 }}>
                                         <span className="home-tex-span">
-                                            digitais e tecnológicas
+                                            digitais e
                                         </span>
-                                    </TextLoop>{" "}
+                                        <span className="home-tex-span">
+                                            tecnológicas
+                                        </span>
+                                    </div>{" "}
                                     para o seu negócio.
                                 </h1>
                                 <div className="bot">
@@ -57,11 +59,11 @@ function Home() {
                                 <h1>
 
                                     Comece uma nova fase da sua vida como {" "}
-                                    <TextLoop className="home-tex" interval={2400} springConfig={{ stiffness: 50, damping: 6 }}>
+                                    <div className="home-tex" interval={2400} springConfig={{ stiffness: 50, damping: 6 }}>
                                         <span className="home-tex-span">
                                             programador
                                         </span>
-                                    </TextLoop>{" "}
+                                    </div>{" "}
                                     fullstack
 
                             </h1>
@@ -82,12 +84,12 @@ function Home() {
                             <div className="mov grid-8">
                                 <h1>
                                     Faça um de nossos cursos e seja um {" "}
-                                    <TextLoop className="home-tex" interval={2400} springConfig={{ stiffness: 50, damping: 6 }}>
+                                    <div className="home-tex" interval={2400} springConfig={{ stiffness: 50, damping: 6 }}>
 
                                         <span className="home-tex-span">
                                             developer
                                         </span>
-                                    </TextLoop>{" "} eficiente.
+                                    </div>{" "} eficiente.
                                 </h1>
 
                                 <div className="bot">

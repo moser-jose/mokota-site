@@ -931,6 +931,10 @@
                 h1{
                     font-size: 28px !important;
                     margin-bottom: 30px !important;
+                    .home-tex-span{
+                        font-size: 40px !important;
+                        display: block !important;
+                    }
                     .react{
                         border-radius: 8px !important;
                         font-size: 24px !important;
@@ -996,6 +1000,12 @@
                     font-size: 16px !important;
                 }
             }
+        }
+        .redes {
+            left: 38px !important;
+            bottom: 20px !important;
+            font-size: 1rem !important;
+            line-height: 1.70 !important;
         }
     }
 
@@ -1104,7 +1114,7 @@
     }
 
     .servicos{
-        padding: 100px 0 30px !important;
+        padding: 100px 0 50px !important;
         &::after {
             height: 50px;
         }
