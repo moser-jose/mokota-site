@@ -30,8 +30,8 @@ function Servicos() {
                     <div className="grid-8 grid8">
                         <FontAwesomeIcon className="ic-serv" icon="laptop-code" />
                         <h1>Criação de Sites e Sistemas Web</h1>
-                        <p>A sua empresa online através da criação de um <span>site</span>  faça a gestão da sua empresa,
-                        do seu negócio, e dos seus clientes através de um <span>sistema</span> que integra as melhores
+                        <p>Deixe a sua empresa online através da criação de um <span>site</span> e optimize o seu negócio e a interação com os seus clientes através de um sistema de gestão seguro, eficiente
+                        e que integra as melhores
                         ferramentas para impulsionar a sua marca.</p>
                     </div>
                     <div className="grid-8 grid8"></div>
