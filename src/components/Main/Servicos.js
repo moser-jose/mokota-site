@@ -13,7 +13,7 @@ function Servicos() {
                         <FontAwesomeIcon className="ic-serv" icon="graduation-cap" />
                         <h1>Formação Profissional</h1>
                         <p>Faça um de nossos cursos, seja um profissional
-                            no desenvolvimento <span>web</span> <span>mobile</span> <span>desktop</span> e domine todos os
+                            no desenvolvimento <span>web</span> <span>mobile</span> <span>desktop</span> e domine todos os 
                             <span>frameworks</span> da actualidade.
 
                         </p>
@@ -30,7 +30,8 @@ function Servicos() {
                     <div className="grid-8 grid8">
                         <FontAwesomeIcon className="ic-serv" icon="laptop-code" />
                         <h1>Criação de Sites e Sistemas Web</h1>
-                        <p>Deixe a sua empresa online através da criação de um <span>site</span> e optimize o seu negócio e a interação com os seus clientes através de um sistema de gestão seguro, eficiente
+                        <p>Deixe a sua empresa online através da criação de um <span>site</span> e optimize o 
+                        seu negócio e a interação com os seus clientes através de um <h3>sistema de gestão</h3> seguro, eficiente
                         e que integra as melhores
                         ferramentas para impulsionar a sua marca.</p>
                     </div>

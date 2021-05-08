@@ -792,7 +792,7 @@
     }
 
      .header-scroll{
-        height: 62px !important;
+        height: 80px !important;
         .bar{
             span{
                 background-color:#6A7186 !important;
@@ -800,8 +800,9 @@
         }
      }
     .header{
-        height: 62px !important;
+        height: 80px !important;
         padding: 10px 0;
+        display: flex !important;
        
     .pre-header{
         display: none;
