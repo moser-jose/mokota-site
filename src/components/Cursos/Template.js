@@ -20,7 +20,7 @@ export default function Template({ img, icon, botao, texto, categoria, titulo, m
             </div>
             <div className="botao">
                 {link !== '' ?
-                    <NavLink to={link}>{botao}</NavLink>
+                    <a href={link}>{botao}</a>
                     :
                     <span className="brevemente">{botao}</span>
                 }

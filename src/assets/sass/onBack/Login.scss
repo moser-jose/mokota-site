@@ -2,9 +2,7 @@
 @import '../onSite/normalize';
 @import '../onSite/reset';
 @import '../onSite/grid';
-body{
-    /* display: flex; */
-}
+
 .container-form{
   /*   display: flex; */
     height: 100vh;
@@ -183,4 +181,183 @@ body{
     .alerta-ok{
         background-color: #1b9753;
     }
+}
+
+@media only screen and (max-width: 757px) {
+    .container-form{
+        /*   display: flex; */
+          height: 100vh;
+          background-color: #f5f8fd !important;
+          color: #000 !important;
+          justify-content: center;
+          align-items: center;
+          .container-data{
+              position: relative;
+              height: 100vh;
+              display: flex;
+              align-items: center;
+              .info{
+                  height: 100vh;
+                  display: flex;
+                  align-items: center;
+                  font-family: "Poppins",sans-serif;
+                  font-size: 18px;
+                  flex: 1;
+                  background-color: #fff;
+                  p{
+                      margin-bottom: 40px;
+                      line-height: 1.7;
+                  }
+                  a{
+                      font-weight: 700;
+                      letter-spacing: 1px;
+                  }
+      
+                  span{
+                      display: inline-flex;
+                      align-items: center;
+                      margin-right: 20px;
+                      font-size: 16px;
+                      margin-bottom: 10px;
+                      .icon{
+                          font-size: 30px;
+                          margin-right: 10px;
+                          color: #438CE0;
+                      }
+                  }
+                  .link{
+                      color: #438CE0;
+                  }
+                  img{
+                      width: 100%;
+                      height: 100vh;
+                      object-fit:cover
+                  }
+              }
+              .form{
+                  width: 100% !important;
+                  padding:0 35px !important;
+                  
+                  a{
+                      margin-bottom: 40px;
+                      img{
+                          width: 200px;
+                      }
+                  }
+                  form{
+                      height: 100vh;
+                      display: flex;
+                      flex-direction: column;
+                      justify-content: center;
+                  }
+                  .label{
+                      margin-top: 10px !important;
+                  }
+                  .input{
+                      padding-top: 18px !important;
+                      padding-bottom: 18px !important;
+                      
+                  }
+                  .but{
+                      
+                      margin-top: 30px !important;
+                      .button{
+                          padding: 15px !important;
+                      }
+                  }
+                  
+              }
+              
+              @import '../onBack/Formulario.scss';
+              .po{
+                  margin-top: 60px !important;
+                  display: inline-block;
+                  font-size: 16px;;
+                  font-family: "Poppins",sans-serif;
+                  a{
+                      display: inline-block;
+                  }
+              }
+              .facalog{
+                  font-weight: 700;
+                  letter-spacing: 1px;
+              }
+              footer{
+                  text-align: center;
+                  width: 100%;
+                  background-color: transparent !important;
+                  color: #000;
+                  position: absolute;
+                  bottom: 20px;
+                  left: 50%;
+                  transform: translateX(-50%);
+                  p{
+                      font-size: 13px;
+                      line-height: 1.4;
+                      .block{
+                          display: block;
+                      }
+                      a{
+                          color: #438CE0 !important;
+                          text-decoration: none;
+                          font-weight: 500;
+                          font-size: 13px;
+                          margin: 0 !important;
+                          display: inline-block;
+                          &:hover{
+                              color: #326bad !important;
+                          }
+                      }
+                  }
+              }
+          }
+          .alerta-erro,.alerta-ok{
+              background-color: #dd4545;
+              margin-top: 20px;
+              height: 55px;
+              border-radius: 2px;
+              box-shadow: 0 1px 2px rgba(0,0,0,.1);
+              display: flex;/* 
+              grid-template-columns: 1fr 60px; */
+              align-items: center;
+             
+              width: 100%;
+              padding: 0 10px;
+              .mensagem{
+                  /* grid-column: 1; */
+                  flex: 1;
+                  span{
+                      color: #fff;
+                      font-size: 16px;
+                      letter-spacing: .5px;
+      
+                  }
+              }
+      
+              .close-m{
+                  margin: 0 auto;
+                  display: block;
+                  span{
+                      color: #fff;
+                      height: 25px;
+                      width: 25px;
+                      border-radius: 50%;
+                      background-color: rgba(0,0,0,.6);
+                      cursor: pointer;
+                      display:flex;
+                      justify-content: center;
+                      align-items: center;
+                      transform: rotate(45deg);
+                      font-weight: 500;
+                      font-family: 'Poppins',sans-serif;
+                      &:hover{
+                          background-color: rgba(0,0,0,.9);
+                      }
+                  }
+              }
+          }
+          .alerta-ok{
+              background-color: #1b9753;
+          }
+      }
 }

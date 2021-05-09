@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-scroll'
-import {Link as Linka} from 'react-router-dom'
+import { Link as Linka } from 'react-router-dom'
 import { Carousel } from 'react-responsive-carousel';
 import Header from './Header'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
@@ -32,9 +32,6 @@ function Home() {
                                 <h1>
                                     Nós criamos soluções
                                     <div className="home-tex" interval={2400} springConfig={{ stiffness: 50, damping: 6 }}>
-                                        <span className="home-tex-span">
-                                            digitais e
-                                        </span>
                                         <span className="home-tex-span">
                                             tecnológicas
                                         </span>
