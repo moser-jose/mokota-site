@@ -130,7 +130,7 @@ function Header() {
 
                         }></div>
                     </ul>
-                    <Linka to="/minha-conta" className={scrollPosition > 70 ? "btn-azul" : "btn-branco"}>Entrar</Linka>
+                    <Linka to="/minha-conta" onClick={handleClickBody} className={scrollPosition > 70 ? "btn-azul" : "btn-branco"}>Entrar</Linka>
                     <p><span>mekadir</span> &copy; {new Date().getFullYear()} - Todos direitos reservados -
                     <span className="block"><Linka onClick={handleClickBody} to="/termos"> Termos e Condições</Linka> | <Linka onClick={handleClickBody} to="/privacidade">Privacidade</Linka></span></p>
 

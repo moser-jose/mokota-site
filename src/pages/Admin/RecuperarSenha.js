@@ -31,7 +31,7 @@ function RecuperarSenha() {
             <p className="texto">Recuperar a senha</p>
             <Input name="email" type="email" label="E-mail *" placeholder="" />
             <div className="but">
-              <NavLink to="/minha-conta">Já possui uma conta? faça o Login</NavLink>
+              <NavLink to="/minha-conta">Possui uma conta? faça o Login</NavLink>
 
               <NavLink className="button" to="/dashboard">Enviar</NavLink>
             </div>

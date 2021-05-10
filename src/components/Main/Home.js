@@ -90,7 +90,7 @@ function Home() {
                                 </h1>
 
                                 <div className="bot">
-                                    <Linka to="/cursos" className="sbr">Ver Cursos</Linka>
+                                    <a href="/cursos" className="sbr">Ver Cursos</a>
                                     <button onClick={(event) => handleCl(event)} id="playcurso" className="playsobre" >{' '}</button>
 
                                     <span className="vid">Veja o vídeo</span>
