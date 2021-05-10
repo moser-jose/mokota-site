@@ -31,7 +31,7 @@ function Servicos() {
                         <FontAwesomeIcon className="ic-serv" icon="laptop-code" />
                         <h1>Criação de Sites e Sistemas Web</h1>
                         <p>Deixe a sua empresa online através da criação de um <span>site</span> e optimize o 
-                        seu negócio e a interação com os seus clientes através de um <h3>sistema de gestão</h3> seguro, eficiente
+                        seu negócio e a interação com os seus clientes através de um <span>sistema de gestão</span> seguro, eficiente
                         e que integra as melhores
                         ferramentas para impulsionar a sua marca.</p>
                     </div>
