@@ -49,8 +49,12 @@ import {
   faLightbulb,
   faRocket,
   faGraduationCap,
+  faHandsHelping,
+  faArrowCircleLeft,
+  faNetworkWired
 }
   from '@fortawesome/free-solid-svg-icons'
+import { StateUserContext } from './contexts/UserContext';
 
 library.add(fab,
   faPencilAlt,
@@ -100,14 +104,18 @@ library.add(fab,
   faHeadset,
   faHeart,
   faAndroid,
+  faHandsHelping,
+  faArrowCircleLeft,
+  faNetworkWired
 )
 
 ReactDOM.render(
   <React.StrictMode>
-    <StatePlayContext>
-      <App />
-    </StatePlayContext>
-
+    <StateUserContext>
+      <StatePlayContext>
+        <App />
+      </StatePlayContext>
+    </StateUserContext>
   </React.StrictMode>,
   document.getElementById('root')
 );

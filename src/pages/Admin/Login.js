@@ -28,9 +28,9 @@ function Login() {
 
         <div className="form">
           <form id="login" name="login" method="POST">
-            <NavLink to="/"><img src={Logo} alt="Mokota - soluções tecnológicas" /></NavLink>
+            <a href="/"><img src={Logo} alt="Mokota - soluções tecnológicas" /></a>
             <p className="texto">Acessa a sua conta</p>
-            <Input name="email" type="email" label="E-mail *" placeholder="" />
+            <Input name="email" type="text" label="E-mail *" placeholder="" />
             <Input name="password" type="password" label="Senha *" placeholder="" />
 
             <div className="but">

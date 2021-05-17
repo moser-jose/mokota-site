@@ -7,7 +7,7 @@ import Logo from '../../../assets/img/logo.svg'
 import Moser from '../../../assets/img/moser.jpg'
 import '../../../assets/sass/onBack/AdminHeader.scss'
 
-function HeaderAdmin({ slug }) {
+function HeaderAdmin({children }) {
     return (
         <>
 
@@ -46,18 +46,8 @@ function HeaderAdmin({ slug }) {
                     </div>
                 </div>
                 <div className="pre-content">
-                    <div className="menu-bot">
-                        <ul>
-                            <li>
-                                <a href="/"><FontAwesomeIcon className="icon" icon="user-circle" /> Minha Conta</a>
-                            </li>
-                            <li>
-                                <NavLink to={`curso/${slug}`}><FontAwesomeIcon className="icon" icon="user-circle" /> Alunos Inscritos</NavLink>
-                            </li>
-                        </ul>
-                    </div>
+                {children}
                 </div>
-
             </section>
 
         </>

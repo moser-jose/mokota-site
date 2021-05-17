@@ -71,7 +71,7 @@ function Header() {
                         <li className="m-sobre"><Link onClick={handleClickBody} className="link" duration={1000} smooth={true} to="faq">FAQ</Link></li>
                         <div id="animacao" className="animacao s-home"></div>
                     </ul>
-                    <Linka to="/minha-conta" onClick={handleClickBody} className={scrollPosition > 70 ? "btn-azul" : "btn-branco"}>Login</Linka>
+                    <Linka to="/minha-conta" onClick={handleClickBody} className={scrollPosition > 70 ? "btn-azul" : "btn-branco"}>Entrar</Linka>
                     <p><span>mekadir</span> &copy; {new Date().getFullYear()} - Todos direitos reservados -
                     <span className="block"><Linka onClick={handleClickBody} to="/termos"> Termos e Condições</Linka> | <Linka onClick={handleClickBody} to="/privacidade">Privacidade</Linka></span></p>
                 </div>

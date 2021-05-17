@@ -13,6 +13,7 @@ import Alerta from '../../components/Admin/Formulario/Alerta';
 import { usePlayContext } from '../../contexts/PlayContext';
 import { useUserContext } from '../../contexts/UserContext';
 import useForm from '../../hooks/useForm';
+import Voltar from '../../components/Admin/Dashboard/Voltar';
 
 
 var pag = {
@@ -21,6 +22,7 @@ var pag = {
     fPres: 0,
     sPres: 0
 }
+
 function Inscritos() {
     const params = useParams();
 
@@ -57,13 +59,12 @@ function Inscritos() {
     const email = useForm('email', 'E-mail');
     const endereco = useForm('endereco', "Endereço");
     const { error, setError } = usePlayContext();
-    const usersPerPage = 15;
+    const usersPerPage = 20;
     const pagesVisited = pageNumber * usersPerPage;
     const pageCount = Math.ceil(data.length / usersPerPage);
     const changePage = ({ selected }) => {
         setPageNumber(selected);
     };
-
     function handleFecharClick({ target, currentTarget }) {
         if (target === currentTarget) {
             setModal(false);
@@ -72,7 +73,7 @@ function Inscritos() {
         }
     }
     const percentagem = useCallback((perc) => {
-        return round((perc * 100) / data.length, 0);
+        return round((perc * 100) / data.length, 1);
     }, [data.length])
     async function handleSubmit(event) {
         event.preventDefault();
@@ -106,14 +107,14 @@ function Inscritos() {
         setModalPagamento(true);
     }
     const handleGetAlunos = useCallback(() => {
-        return cursos.map((item) => {
+        cursos.map((item) => {
             if (item.slug === params.slug) {
                 setCurso(item);
                 item.dados_do_curso.map((id) => {
                     setDadosCurso(id)
                     setData(id.alunos)
                     id.alunos.map((gb) => {
-                        return gb.matricula.map((v, k) => {
+                        gb.matricula.map((v, k) => {
                             if (v.pagamentos.length === 0) {
                                 pag.semP = pag.semP + 1;
                                 setSemPag(pag.semP);
@@ -141,10 +142,14 @@ function Inscritos() {
                 })
             }
         });
+        pag.semP = 0;
+        pag.unico = 0;
+        pag.sPres = 0;
+        pag.fPres = 0;
     }, [cursos, params.slug])
     useEffect(() => {
         handleGetAlunos();
-    }, [cursos, handleGetAlunos, params.slug])
+    }, [handleGetAlunos, params.slug])
     return (
         <>
             {
@@ -155,7 +160,6 @@ function Inscritos() {
                         <p>Inscrever Alunos</p>
                     </div>
                     <div className="corpo">
-
                         {error && <Alerta mensagem={error} />}
                         <div className="container-data log-l">
                             <form action="" onSubmit={handleSubmit}  >
@@ -193,7 +197,6 @@ function Inscritos() {
                         <p>Informação sobre Pagamento do curso</p>
                     </div>
                     <div className="corpo">
-
                         <div className="Container flx">
                             <div className="nome">
                                 <h1>
@@ -333,7 +336,9 @@ function Inscritos() {
                 <Modal height="450px" width="30%" modal={handleFecharClick}>
                 </Modal>
             }
-            <HeaderAdmin></HeaderAdmin>
+            <HeaderAdmin>
+                <Voltar />
+            </HeaderAdmin>
             <div className="content">
                 <div className="conteudo">
                     <div className="meuscursos">
@@ -406,9 +411,9 @@ function Inscritos() {
                                 <div className="inscrito">
                                     <p onClick={() => setModal(true)}><span><FontAwesomeIcon className="icon" icon="plus-circle" /></span> Inscrever Aluno</p>
                                 </div>
-                                <div className="inscrito">
+                                {/* <div className="inscrito">
                                     <p onClick={() => setModalPagamento(true)}><span><FontAwesomeIcon className="icon" icon="cash-register" /></span> Adicionar Pagamento</p>
-                                </div>
+                                </div> */}
                                 <div className="numeropaginas">
                                     <form>
                                         <Input type="text" name="pesquisa" placeholder="Insira o termo de pesquisa"></Input>

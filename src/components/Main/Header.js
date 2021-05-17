@@ -105,9 +105,9 @@ function Header() {
             </div>
             <div className="container menu">
                 <div className="logoprincipal">
-                    <Linka to="/"><img src={scrollPosition > 70 ? Logo :
+                    <a href="/"><img src={scrollPosition > 70 ? Logo :
                         menu === true ? Logo
-                            : LogoBranco} alt="" /></Linka>
+                            : LogoBranco} alt="" /></a>
                     <div onClick={handleClick} className={menu === true ? "bar change" : "bar"}>
                         <span id={menu === false ? "bar1" : "bar11"}></span>
                         <span id="bar2"></span>
@@ -118,9 +118,10 @@ function Header() {
                     <ul className="nav">
                         <li className="m-home"><a onClick={clickHome} className="link" href="/">Home</a></li>
                         <li className="m-sobre"><Link onClick={clickSobre} className="link" duration={1000} smooth={true} to="sobre">Sobre nós</Link></li>
-                        <li className="m-servicos"><Link onClick={clickServicos} className="link" to="servicos">Serviços</Link></li>
+                        <li className="m-servicos"><Link onClick={clickServicos} duration={1000} smooth={true} className="link" to="servicos">Serviços</Link></li>
+                        <li className="m-servicos"><Link onClick={clickServicos} duration={1000} smooth={true} className="link" to="portfolio">Portefólio</Link></li>
                         <li className="m-cusros"><a onClick={clickCursos} className="link" href="/cursos">Cursos</a></li>
-                        <li className="m-contacto"><Link onClick={clickContacto} className="link" to="contato">Contacto</Link></li>
+                        <li className="m-contacto"><Link onClick={clickContacto} uration={1000} smooth={true} className="link" to="contactos">Contacto</Link></li>
                         <div id="animacao" className={
                             home === true ? 'animacao s-home' :
                                 sobre === true ? 'animacao s-sobre' :

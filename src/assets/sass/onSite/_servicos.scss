@@ -22,7 +22,7 @@
         .titulo {
             text-align: center;
             color: #393939;
-            font-size: 3rem;
+            font-size: 2.4rem;
             line-height: 1.375;
             letter-spacing: -0.1rem;
             span {
@@ -85,10 +85,24 @@
                     display: inline-block;
                 }
             }
-            .ic-serv{
-                font-size:  70px;
-                color: #3f506d;
+            .icon-{
+                height: 95px;
+                   width: 95px;
+                   border-radius: 50%;
+                   background-color: #438CE0;
+                   margin: 0 auto;
+                   display: flex;
+                   align-items: center;
+                   justify-content: center;
+                   border: 10px solid #b5d3f3;
+
+                .ic-serv{
+                    font-size:  45px !important;
+                    color: #fff;
+                   
+                }
             }
+            
         }
     }
     .link{

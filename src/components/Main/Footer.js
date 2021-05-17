@@ -33,12 +33,12 @@ function Footer() {
                         <p>Links</p>
 
                         <ul className="nav">
-                            <li className="m-home"><a href="#home">Home</a></li>
-                            <li className="m-sobre"><a href="#sobre">Sobre nós</a></li>
-                            <li className="m-servicos"><a href="#servicos">Serviços</a></li>
-                            <li className="m-cusros"><a href="#cursos">Cursos</a></li>
-                            <li className="m-contacto"><a href="#contato">Contacto</a></li>
-                            <li className="m-faq"><a href="#faq">FAQ</a></li>
+                            <li className="m-home"><a href="/">Home</a></li>
+                            <li className="m-sobre"><Linka duration={1000} smooth={true} to="sobre">Sobre nós</Linka></li>
+                            <li className="m-servicos"><Linka duration={1000} smooth={true} to="servicos">Serviços</Linka></li>
+                            <li className="m-servicos"><Linka duration={1000} smooth={true} to="portfolio">Portefólio</Linka></li>
+                            <li className="m-cusros"><a href="/cursos">Cursos</a></li>
+                            <li className="m-contacto"><Linka duration={100} smooth={true} to="contactos">Contacto</Linka></li>
                             <div id="animacao" className="animacao s-home"></div>
                         </ul>
 
@@ -46,8 +46,6 @@ function Footer() {
                             <p>Receba notificações por e-mail</p>
                             <form action="" method="post">
                                 <div className="email">
-
-                                    <span><FontAwesomeIcon icon="envelope" /></span>
                                     <input type=" text" placeholder="Introduza o e-mail" />
                                 </div>
                                 <input type="submit" value="Submeter" />

@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-import Moser from '../../assets/img/moser.jpg'
+import Moser from '../../assets/img/moser.jpeg'
+import Wilson from '../../assets/img/wilson.jpeg'
 import PlaySobreSvg from './PlaySobreSvg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 function Sobre() {
@@ -153,18 +154,18 @@ function Sobre() {
                         </div>
                         <div className="membro grid-4">
                             <div className="func">
-                                <h1>CEO</h1>
+                                <h1>COO</h1>
                             </div>
                             <div className="img">
-                                <img className="img-img" src={Moser} alt="" />
+                                <img className="img-img" src={Wilson} alt="" />
                             </div>
-                            <h1>Moser José</h1>
-                            <h2>Programador Fullstack</h2>
+                            <h1>Simão Mbengui</h1>
+                            <h2>Administrador de Sistemas</h2>
                             <span><a href="/"><i className="iconspeck speck-facebook"></i></a></span>
-                            <span><a href="/"><i className="iconspeck speck-linkedin-sp"></i></a></span>
-                            <span><a href="/"><i className="iconspeck speck-twitter"></i></a></span>
-                            <span><a href="/"><i className="iconspeck speck-instagram"></i></a></span>
-                            <span><a href="/"><i className="iconspeck speck-github"></i></a></span>
+                            <span><a href="https://www.linkedin.com/in/simao-mbengui-36b470b7"><i className="iconspeck speck-linkedin-sp"></i></a></span>
+                            <span><a href="https://twitter.com/smbengui"><i className="iconspeck speck-twitter"></i></a></span>
+                            <span><a href="https://www.instagram.com/wilsondjulay/"><i className="iconspeck speck-instagram"></i></a></span>
+                            
                         </div>
                         <div className="membro grid-4">
                             <div className="func">

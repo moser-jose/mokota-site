@@ -15,8 +15,6 @@ import RecuperarSenha from '../pages/Admin/RecuperarSenha';
 import Certificados from '../components/Cursos/Certificados';
 export default function RouterMain() {
     return (
-
-        <StateUserContext>
             <BrowserRouter>
                 <Routes>
                     <Route path="/" element={<Main />} />
@@ -30,12 +28,10 @@ export default function RouterMain() {
                     <Route path="/privacidade" element={<Privacidade />} />
                     <Route path="/termos" element={<Termos />} />
                     <Route path="/dashboard" element={<Dashboard />} />
-
                     <Route path="/dashboard/curso/:slug" element={<Inscritos />} />
                     <Route path="/dashboard/*" element={<NotFound />} />
                     <Route path="*" element={<NotFound />} />
                 </Routes>
             </BrowserRouter>
-        </StateUserContext>
     )
 }

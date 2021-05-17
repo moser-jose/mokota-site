@@ -1,0 +1,87 @@
+.contactos{
+    height: 800px;
+    width: 100%;
+    background: #434be0;
+    background: linear-gradient(77deg, #434be0 25%, #4572cb 75%);
+    padding: 120px 0 30px 0 !important;
+    position: relative;
+    &::after {
+        content: "";
+        position: absolute;
+        top: 2%;
+        bottom: 2%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 2px;
+        height: 80px;
+        display: block;
+        background-color: #e88d76;
+    }
+        
+    .eq-cab {
+        position: relative;
+        width: 800px;
+        display: block;
+        margin: 0 auto 30px;
+
+        .titulo {
+            text-align: center;
+            color: #e88d76;
+            font-size: 2.4rem;
+            line-height: 1.375;
+            letter-spacing: -0.1rem;
+            span {
+                color: #fff;
+                font-weight: 600;
+            }
+        }
+        .desc {
+            color: #ffffffc7;
+            line-height: 1.5;
+            font-size: 1.4rem;
+            text-align: center;
+            font-family: "Rubik","Poppins", "sans-serif";
+            margin: 10px 0 40px;
+            span{
+                background-color: #dce9ff;
+                padding: 4px 8px;
+                border-radius: 4px;
+                font-weight: 500;
+                font-size: 14px;
+                color: #3f506d;
+                display: inline-block;
+            }
+        }
+    }
+    .container{
+        position: relative;
+        height: 100%;
+        background-color: #f5f8fd ;
+        margin-bottom: 3rem;
+        padding: 50px;
+        z-index: 2;
+        box-shadow: 0 1px 1px 0 rgba(0,0,0,.06), 0 2px 5px 0 rgba(0,0,0,.2);
+
+        .grid-6{
+           textarea{
+            width: 100%;
+           }
+           
+           .obrig {
+            margin-top: 30px;
+            font-size: 14px;
+        }
+           .flex-d{
+              &:nth-child(1){
+                width: 110%;
+              }
+           }
+           .submit{
+               input{
+                margin: 0 auto;
+                display: block;
+               }
+           }
+        }
+    }
+}

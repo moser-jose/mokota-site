@@ -5,16 +5,30 @@ const Input = ({ label, type, name, value, onChange, onBlur, placeholder, classN
             <label htmlFor={name} className="label">
                 {label}
             </label>
-            <input
-                id={name}
-                name={name}
-                className={`input ${classN}`}
-                placeholder={placeholder}
-                type={type}
-                value={value}
-                onChange={onChange}
-                onBlur={onBlur}
-            />
+            {
+                type === 'textarea' ?
+                    <textarea
+                        id={name}
+                        name={name}
+                        className={`input ${classN}`}
+                        placeholder={placeholder}
+                        value={value}
+                        rows={5}
+                        onChange={onChange}
+                        onBlur={onBlur}
+                    ></textarea> :
+                    type === 'text' ||type === 'password' || type === 'email' || type === 'submit' ?
+                        <input
+                            id={name}
+                            name={name}
+                            className={`input ${classN}`}
+                            type={type}
+                            placeholder={placeholder}
+                            value={value}
+                            onChange={onChange}
+                            onBlur={onBlur}
+                        ></input> : <></>
+            }
         </div>
     );
 };
