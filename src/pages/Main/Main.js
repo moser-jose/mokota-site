@@ -42,7 +42,7 @@ const Main = () => {
             <Contactos />
             <Quote/>
             {scrollPosition > 50 && <><WhatsApp numero="244923819414" /><TapToTop /></>}
-            <Footer />
+           {/*  <Footer /> */}
         </>
     );
 }

@@ -1373,7 +1373,7 @@
     }
 
    .projectos{
-       
+   
     ul{
         margin: 10px auto 20px;
         display: grid;
@@ -1419,6 +1419,60 @@
             box-shadow: 0 0 1px 3px rgb(67, 140, 224) !important;
         }
       }
+   }
+   .portfolio,.contactos{
+    .eq-cab {
+        width: 300px;
+        .titulo {
+            font-size: 34px;
+           
+        }
+        .desc {
+            color: #ffffffc7;
+            line-height: 1.5;
+            font-size: 1.4rem;
+            text-align: center;
+            font-family: "Rubik","Poppins", "sans-serif";
+            margin: 10px 0 40px;
+            span{
+                background-color: #dce9ff;
+                padding: 4px 8px;
+                border-radius: 4px;
+                font-weight: 500;
+                font-size: 14px;
+                color: #3f506d;
+                display: inline-block;
+            }
+        }
+    }
+   }
+   .portfolio{
+       .tabs-projetos{
+           ul{
+               margin-bottom:30px
+           }
+        .projetos-todos{
+            .grid-1-3{
+                margin: 20px 0 0 !important;
+                .saiba-pro{
+                    padding: 0 20px;
+                }
+            }
+        }
+       
+       }
+   }
+   .contactos{
+    .container {
+        padding: 0;
+        .grid-6{
+            padding: 0 12px;
+        }
+        .grid-10{
+            padding: 0 12px;
+        }
+        
+    }
    }
    .duvidas{
        padding: 50px 0 60px;
