@@ -13,6 +13,7 @@ import NotFound from '../components/404';
 import Inscritos from '../pages/Admin/Inscritos';
 import RecuperarSenha from '../pages/Admin/RecuperarSenha';
 import Certificados from '../components/Cursos/Certificados';
+import DadosProjectos from '../components/Main/DadosProjectos';
 export default function RouterMain() {
     return (
             <BrowserRouter>
@@ -27,6 +28,7 @@ export default function RouterMain() {
                     <Route path="/minha-conta" element={<MinhaConta />} />
                     <Route path="/privacidade" element={<Privacidade />} />
                     <Route path="/termos" element={<Termos />} />
+                    <Route path="projectos/:slug" element={<DadosProjectos />} />
                     <Route path="/dashboard" element={<Dashboard />} />
                     <Route path="/dashboard/curso/:slug" element={<Inscritos />} />
                     <Route path="/dashboard/*" element={<NotFound />} />

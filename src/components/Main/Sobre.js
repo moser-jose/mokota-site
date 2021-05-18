@@ -123,14 +123,14 @@ function Sobre() {
                     </div>
                     <div className="membro-m">
                         <div className="membro grid-4">
-                            <div className="func">
+                            {/* <div className="func">
                                 <h1>CEO</h1>
-                            </div>
+                            </div> */}
                             <div className="img">
                                 <img className="img-img" src={Moser} alt="" />
                             </div>
-                            <h1>Moser José</h1>
-                            <h2>Programador Fullstack</h2>
+                            <h1>Gaspar António</h1>
+                            <h2>Gestor de Projectos</h2>
                             <span><a href="/"><i className="iconspeck speck-facebook"></i></a></span>
                             <span><a href="/"><i className="iconspeck speck-linkedin-sp"></i></a></span>
                             <span><a href="/"><i className="iconspeck speck-twitter"></i></a></span>
@@ -138,9 +138,9 @@ function Sobre() {
                             <span><a href="/"><i className="iconspeck speck-github"></i></a></span>
                         </div>
                         <div className="membro grid-4">
-                            <div className="func">
+                            {/* <div className="func">
                                 <h1>CTO</h1>
-                            </div>
+                            </div> */}
                             <div className="img">
                                 <img className="img-img" src={Moser} alt="" />
                             </div>
@@ -153,9 +153,9 @@ function Sobre() {
                             <span><a href="/"><i className="iconspeck speck-github"></i></a></span>
                         </div>
                         <div className="membro grid-4">
-                            <div className="func">
+                            {/* <div className="func">
                                 <h1>COO</h1>
-                            </div>
+                            </div> */}
                             <div className="img">
                                 <img className="img-img" src={Wilson} alt="" />
                             </div>
@@ -168,9 +168,9 @@ function Sobre() {
                             
                         </div>
                         <div className="membro grid-4">
-                            <div className="func">
+                           {/*  <div className="func">
                                 <h1>Atendimento ao Cliente</h1>
-                            </div>
+                            </div> */}
                             <div className="img">
                                 <img className="img-img" src={Moser} alt="" />
                             </div>

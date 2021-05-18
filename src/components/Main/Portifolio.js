@@ -1,6 +1,10 @@
 import React from 'react'
-import IMG from '../../assets/img/code.jpg'
+import { Link } from 'react-router-dom'
+import SiteHinario from '../../assets/img/hinario.jpg'
+import { usePlayContext } from '../../contexts/PlayContext'
+
 export default function Portifolio() {
+    const { projetos } = usePlayContext();
     return (
 
         <div className="portfolio">
@@ -18,30 +22,23 @@ export default function Portifolio() {
                         <div id="animacao" className="todos-p"></div>
                     </ul>
                     <div className="projetos-todos">
-                        <div className="grid-1-3">
-                            <img src={IMG} alt=""></img>
-                            <div className="saiba-pro">
-                                <h2>Página web</h2>
-                                <h1>Hinário Adventista do Sétimo Dia</h1>
-                                <a href="/" >Saiba mais</a>
-                            </div>
-                        </div>
-                        <div className="grid-1-3">
-                            <img src={IMG} alt=""></img>
-                            <div className="saiba-pro">
-                                <h2>Sistema web</h2>
-                                <h1>Hinário Adventista do Sétimo Dia</h1>
-                                <a href="/" >Saiba mais</a>
-                            </div>
-                        </div>
-                        <div className="grid-1-3">
-                            <img src={IMG} alt=""></img>
-                            <div className="saiba-pro">
-                                <h2>app mobile</h2>
-                                <h1>Hinário Adventista do Sétimo Dia</h1>
-                                <a href="/" >Saiba mais</a>
-                            </div>
-                        </div>
+                        {
+                            projetos.data.map((data) => (
+                                <div className="grid-1-3">
+                                    <img src={
+                                        data.foto === 1 ?
+                                            SiteHinario :
+                                            ''
+
+                                    } alt=""></img>
+                                    <div className="saiba-pro">
+                                        <h2>{data.categoria}</h2>
+                                        <h1>{data.titulo}</h1>
+                                        <Link to={`projectos/${data.slug}`} >Saiba mais</Link>
+                                    </div>
+                                </div>
+                            ))
+                        }
                     </div>
                 </div>
             </div>
