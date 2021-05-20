@@ -3,7 +3,6 @@ import Moser from '../../assets/img/moser.jpg'
 import Gaspar from '../../assets/img/gaspar.jpg'
 import Wilson from '../../assets/img/wilson.jpg'
 import PlaySobreSvg from './PlaySobreSvg'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 function Sobre() {
     const [sobre, setSobre] = useState(true);
     const [missao, setMissao] = useState(false);
