@@ -15,8 +15,8 @@ export default function Portifolio() {
 
                 <div className="tabs-projetos">
                     <ul>
-                        <li>Todos</li>
-                        <li>Sites</li>
+                        <li>Todos Projectos</li>
+                        <li>Páginas Web</li>
                         <li>Sistemas web</li>
                         <li>Apps mobile</li>
                         <div id="animacao" className="todos-p"></div>
