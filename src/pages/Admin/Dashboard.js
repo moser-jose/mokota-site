@@ -28,7 +28,7 @@ function Dashboard() {
 
                                                 {
                                                     dados.dados_do_curso.map((item) => (
-                                                        <>
+                                                        <div key={item.id}>
                                                             <div className="img">
                                                                 <img src={ReactNaive} alt=""></img>
                                                                 <span className="edicao">{item.edicao}ª Edição</span>
@@ -36,13 +36,13 @@ function Dashboard() {
                                                             <h1>{dados.curso}</h1>
                                                             <p>
                                                                 Neste curso completo você irá aprender a criar aplicativos nativos para Android e iOS, desde o zero, passando pelo design e a lógica das aplicações até a sua implementação.
-                                                                Você usará ferramentas incríveis e criará <h3>4 apps</h3> e <h3>3 Api's</h3> e publique seus aplicativos.
+                                                                Você usará ferramentas incríveis e criará <span>4 apps</span> e <span>3 Api's</span> e publique seus aplicativos.
                                                             </p>
                                                             <div className="datas">
                                                                 <span className="data">Ínicio: <h3>{moment(item.inicio).format('DD-MM-YYYY')}</h3></span>
                                                                 <span className="data">Fim: <h3>{moment(item.fim).format('DD-MM-YYYY')}</h3></span>
                                                             </div>
-                                                        </>
+                                                        </div>
                                                     ))
                                                 }
                                                 <Link to={`curso/${dados.slug}`} className="vermais">ver dados</Link>

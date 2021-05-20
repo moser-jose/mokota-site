@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-import Moser from '../../assets/img/moser.jpeg'
+import Moser from '../../assets/img/moser.JPG'
+import Gaspar from '../../assets/img/gasp.JPG'
 import Wilson from '../../assets/img/wilson.jpeg'
 import PlaySobreSvg from './PlaySobreSvg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -127,10 +128,10 @@ function Sobre() {
                                 <h1>CEO</h1>
                             </div> */}
                             <div className="img">
-                                <img className="img-img" src={Moser} alt="" />
+                                <img className="img-img" src={Gaspar} alt="" />
                             </div>
                             <h1>Gaspar António</h1>
-                            <h2>Gestor de Projectos</h2>
+                            <h2>Engenheiro de Software</h2>
                             <span><a href="/"><i className="iconspeck speck-facebook"></i></a></span>
                             <span><a href="/"><i className="iconspeck speck-linkedin-sp"></i></a></span>
                             <span><a href="/"><i className="iconspeck speck-twitter"></i></a></span>

@@ -31,7 +31,7 @@ function Home() {
                             <div className="mov grid-8">
                                 <h1>
                                     Nós criamos soluções
-                                    <div className="home-tex" interval={2400} springConfig={{ stiffness: 50, damping: 6 }}>
+                                    <div className="home-tex" >
                                         <span className="home-tex-span">
                                             tecnológicas
                                         </span>
@@ -56,7 +56,7 @@ function Home() {
                                 <h1>
 
                                     Comece uma nova fase da sua vida como {" "}
-                                    <div className="home-tex" interval={2400} springConfig={{ stiffness: 50, damping: 6 }}>
+                                    <div className="home-tex" >
                                         <span className="home-tex-span">
                                             programador
                                         </span>
@@ -81,7 +81,7 @@ function Home() {
                             <div className="mov grid-8">
                                 <h1>
                                     Faça um de nossos cursos e seja um {" "}
-                                    <div className="home-tex" interval={2400} springConfig={{ stiffness: 50, damping: 6 }}>
+                                    <div className="home-tex" >
 
                                         <span className="home-tex-span">
                                             developer

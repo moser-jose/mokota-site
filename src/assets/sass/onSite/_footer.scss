@@ -190,7 +190,7 @@ footer {
             }
             .foot2 {
                 flex: 1;
-                padding-left: 20;
+                padding-left: 20px;
                 padding-right: 0;
                 margin-left: 0;
                 margin-right: 0;
@@ -316,5 +316,11 @@ footer {
                 }
             }
         }
+    }
+}
+.ft{
+    padding: 0 !important;
+    .foot-p{
+        border-top: none !important;
     }
 }

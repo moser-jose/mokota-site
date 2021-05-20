@@ -51,7 +51,8 @@ import {
   faGraduationCap,
   faHandsHelping,
   faArrowCircleLeft,
-  faNetworkWired
+  faNetworkWired,
+  faFrown
 }
   from '@fortawesome/free-solid-svg-icons'
 import { StateUserContext } from './contexts/UserContext';
@@ -106,7 +107,8 @@ library.add(fab,
   faAndroid,
   faHandsHelping,
   faArrowCircleLeft,
-  faNetworkWired
+  faNetworkWired,
+  faFrown
 )
 
 ReactDOM.render(

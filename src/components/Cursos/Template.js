@@ -1,5 +1,4 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default function Template({ img, icon, botao, texto, categoria, titulo, modulo, app, api, link }) {

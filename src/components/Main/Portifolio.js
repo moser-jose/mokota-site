@@ -24,7 +24,7 @@ export default function Portifolio() {
                     <div className="projetos-todos">
                         {
                             projetos.data.map((data) => (
-                                <div className="grid-1-3">
+                                <div className="grid-1-3" key={data.id}>
                                     <img src={
                                         data.foto === 1 ?
                                             SiteHinario :

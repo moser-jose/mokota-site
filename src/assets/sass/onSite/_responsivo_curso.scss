@@ -1273,19 +1273,6 @@
 
 
 
-    footer{
-        
-        .foot-p{
-            display: block !important;
-            .copy,.termos{
-                text-align: center !important;
-            }
-            .redes-s{
-                margin: 16px 0;
-            }
-        }
-    }
-
     .pre-p{
         height: 100%;
 
@@ -1705,6 +1692,49 @@
         .text{
             margin: 20px 0;
             
+        }
+    }
+
+    
+
+    footer{
+        width: 100% !important;
+        .footer{
+        .foo{
+            width: 300px !important;
+            display: block !important;
+            .foot{
+                &:nth-child(1){
+                    &::before {
+                        display: none !important;
+                    }
+                }
+            }
+            .foot1{
+                padding: 0;
+                .newsletter{
+                    position: relative !important;
+                    margin: 50px 0 30px;
+                    bottom: 0;
+                    input[type="submit"]{
+                        width: 45% !important; 
+                    }
+                }
+            }
+            .foot2{
+                padding-left: 0;
+            }
+        }
+        }
+        .foot-p{
+            width: 300px !important;
+            display: block !important;
+            .copy,.termos{
+                text-align: center !important;
+            }
+            .redes-s{
+                margin: 16px 0;
+            }
         }
     }
 }

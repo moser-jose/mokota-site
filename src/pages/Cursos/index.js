@@ -59,7 +59,7 @@ export default function index() {
                                 o zero, passando pelo design
                                 e a lógica das aplicações
                                 até a sua implementação.
-                                Você usará ferramentas incríveis e criará <h3>4 apps</h3> e <h3>3 Api's</h3> e publique seus aplicativos.
+                                Você usará ferramentas incríveis e criará <span>4 apps</span> e <span>3 Api's</span> e publique seus aplicativos.
                             </>
                         }
                         modulo="8 módulos"
@@ -94,7 +94,7 @@ export default function index() {
                         texto={<>Esse curso vai lhe ensinar a utilizar as melhores ferramentas de
                         produção de sites para criar sites incríveis.
                         Desenhe os seus próprios sites, põe a mão na massa e programe cada secção do seu site.
-                        Use os melhores <h3>frameworks front-end</h3> do mercado e
+                        Use os melhores <span>frameworks front-end</span> do mercado e
                         publique os seus trabalhos de forma fácil e segura.</>}
                         modulo="10 módulos"
                         app="3 Sites"
@@ -112,10 +112,10 @@ export default function index() {
                         texto={
                             <>
                                 Neste curso você vai aprender a criar sistemas web
-                                com o melhor <h3>framework</h3> <h3>php</h3> que existe
+                                com o melhor <span>framework</span> <span>php</span> que existe
                                 no mercado de desenvolvimento. vai poder publicar e gerenciar seus
                                 sistemas. Vai entender porquê que como desenvolvedor
-                                você precisa ter o <h3>Laravel</h3> como solução para os seus projectos.
+                                você precisa ter o <span>Laravel</span> como solução para os seus projectos.
                             </>
                         }
                         modulo="10 módulos"
@@ -133,7 +133,7 @@ export default function index() {
                             <>
                                 Você já pensou em ser programador javascript? Deixar de usar o
                                 javascript como uma ferramenta que apenas faz a interação entre a página e o usuário
-                                e passar a utiliza-lo para criação de grandes projectos, principalmente no <h3>back-end</h3>
+                                e passar a utiliza-lo para criação de grandes projectos, principalmente no <span>back-end</span>
                                 das tuas aplicações? se a resposta é sim, então esse curso é para si. Faça o curso e saiba mais
                                 sobre essa poderosa linguagem de programação.
                             </>
@@ -152,9 +152,9 @@ export default function index() {
                         texto={
                             <>
                                 Crie o back-end dos teus
-                                sistemas web ou aplicações moveis com o <h3>Node.js</h3> e <h3>Javascript</h3> puro
-                                sem complicações de forma fácil e eficaz, publique as suas api's e distribua os seus <h3>end-points</h3>.
-                                Torna-te num <h3> developer fulstack</h3>
+                                sistemas web ou aplicações moveis com o <span>Node.js</span> e <span>Javascript</span> puro
+                                sem complicações de forma fácil e eficaz, publique as suas api's e distribua os seus <span>end-points</span>.
+                                Torna-te num <span> developer fulstack</span>
                             </>
                         }
                         modulo="12 módulos"
