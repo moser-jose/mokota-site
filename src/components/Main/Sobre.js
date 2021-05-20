@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Moser from '../../assets/img/moser.jpg'
-import Gaspar from '../../assets/img/gasp.jpg'
+import Gaspar from '../../assets/img/gaspar.jpg'
 import Wilson from '../../assets/img/wilson.jpg'
 import PlaySobreSvg from './PlaySobreSvg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -166,10 +166,10 @@ function Sobre() {
                             <span><a href="https://www.linkedin.com/in/simao-mbengui-36b470b7"><i className="iconspeck speck-linkedin-sp"></i></a></span>
                             <span><a href="https://twitter.com/smbengui"><i className="iconspeck speck-twitter"></i></a></span>
                             <span><a href="https://www.instagram.com/wilsondjulay/"><i className="iconspeck speck-instagram"></i></a></span>
-                            
+
                         </div>
                         <div className="membro grid-4">
-                           {/*  <div className="func">
+                            {/*  <div className="func">
                                 <h1>Atendimento ao Cliente</h1>
                             </div> */}
                             <div className="img">
