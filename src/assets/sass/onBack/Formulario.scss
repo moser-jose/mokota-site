@@ -67,6 +67,7 @@ form{
         border: none;
         outline: none;
         text-align: center;
+        text-transform: uppercase;
         &:hover{
             color: #fefefe !important;
             background-color: #4e99e9;
@@ -74,6 +75,7 @@ form{
     }
     input[type="submit"]{
         margin-bottom: 0 !important;
+        text-transform: uppercase;
         width: 200px;
         padding: 18px;
         cursor: pointer;
