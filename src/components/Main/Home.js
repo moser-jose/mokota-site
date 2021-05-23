@@ -27,7 +27,7 @@ function Home() {
                     interval={8000}
                 >
                     <div className="carousel-1">
-                        <div className="part">
+                        <div className="part container">
                             <div className="mov grid-8">
                                 <h1>
                                     Nós criamos soluções
@@ -50,7 +50,7 @@ function Home() {
                         </div>
                     </div>
                     <div className="carousel-2">
-                        <div className="part">
+                        <div className="part container">
                             <div className="mov grid-8">
 
                                 <h1>
@@ -74,7 +74,7 @@ function Home() {
                         </div>
                     </div>
                     <div className="carousel-3">
-                        <div className="part">
+                        <div className="part container">
                             <div className="grid-8">
 
                             </div>

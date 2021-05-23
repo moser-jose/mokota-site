@@ -26,9 +26,86 @@
     .container{
         width: 980px !important;
     }
-    
+    .grid-4 {
+        width: 241px !important;
+        margin-right: 5px !important;
+        margin-left: 5px !important;
+        &:nth-last-child(1){
+            margin-right: 0 !important;
+        }
+        &:nth-last-child(4){
+            margin-left: 0px !important ;
+        } 
+    }
     .home{
         width: 100%;
+        .carousel{
+            .carousel-1{
+                .part{
+                    .mov{
+                        h1{
+                            font-size: 3.1rem !important;
+                            margin-bottom: 50px;
+                            color: #fff;
+                            text-align: left;
+                            .home-tex{
+                                .home-tex-span{
+                                    font-weight: 500 !important;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .carousel-2{
+                
+            }
+            .carousel-3{
+                
+            }
+
+        }
+        .redes{
+            bottom: 30px;
+        }
+    }
+    .sobre{
+        .sb{
+            .sobrenos {
+                .eq-cab{
+                    .socia{
+                        .redes-sobre{
+                            flex:1;
+                            li{
+                                &:nth-child(5){
+                                    margin-right: 0 !important;
+                                }
+                                a{
+                                    font-size: 24px !important;
+                                }
+                            }
+                        }
+                        .mais{
+                            flex: 1.5;
+                        }
+                    }
+                }
+            }
+        }
+        .equipa-m{
+            .card{
+                .membro-m{
+                    .membro {
+                        .img{
+                            img{
+                                width: 180px;
+                                height: 180px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 @media only screen and (min-width: 758px) and (max-width: 999px){

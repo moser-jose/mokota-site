@@ -55,26 +55,35 @@ function Sobre() {
                         </div>
                         {
                             sobre === true ?
-                                <><p className="desc">A mokota é empresa especializada no desenvolvimento de soluções tecnologicas personalizadas atendendo a demanda do nosso cliente, nossos projetos se baseiam no desenvolvimento de sistemas informáticos entre outros.</p>
-                                    <p className="desc">Actuamos no desenvolvimento de sistemas nos mais variados segmentos como Agronegócio, Automotivo, Energia, IoT, Telecomunicações entre outros, em empresas de diversas áreas de atuação..</p>
+                                <><p className="desc">A mekadir é uma empresa especializada no desenvolvimento
+                                de soluções tecnológicas personalizadas atendendo a demanda do nosso cliente,
+                                nossos projectos se baseiam no desenvolvimento
+                                de sistemas informáticos, na criação de páginas web,
+                                no desenvolvimento de aplicativos mobile
+                                entre outros.</p>
+                                    <p className="desc">Actuamos no desenvolvimento de
+                                    sistemas nos mais variados segmentos como Prestação de serviços,
+                                    Energia, IoT, Telecomunicações, TIC'S.</p>
                                 </> :
                                 missao === true ?
-                                    <><p className="desc">Em 2017 quando foi lançado o primeiro curso da Danki Code
-                                    (Curso Front-End Completo), o objetivo era realmente entregar um material
-                                    diferenciado e completo. Anos depois, através do pacote full-stack tornou-se o
-                                    curso mais completo,
-                                    mais vendido e mais bem avaliado do mercado digital.</p>
+                                    <><p className="desc">Nossa missão é desenvolver
+                                    ferramentas que façam parte da solução de um problema
+                                    pessoal dos nossos clientes ou da sociedade em geral.</p>
                                         <p className="desc">
-                                            Nosso objetivo é deixar os cursos super completos
-                                            para que o aluno não precise investir nada mais.
+                                            Para os nossos cursos, o objetivo é transformar a vida dos alunos
+                                            através do conhecimento que transmitimos na area do desenvolvimento tecnológico,
+                                            permitindo que nossos estudantes utilizem esse conhecimento para começar o próprio negócio, ou
+                                            que seja benéfico no mercado de trabalho.
                                         </p>
                                     </>
                                     : visao === true ?
-                                        <><p className="desc">tem como missão utilizar todo o poder da internet e tecnologia para levar aos seus alunos os melhores cursos de programação e marketing digital.</p>
-                                            <p className="desc">Nosso foco é transformar a vida dos alunos através
-                                            do conhecimento transmitido em nossos cursos, podendo os estudantes,
-                                            utilizarem esse conhecimento para o mercado de trabalho,
-                                        negócio próprio ou até mesmo hobby.</p>
+                                        <><p className="desc">Ser um grupo competitivo que actue de forma simples e
+                                        abrangente no segmento informático e não só, através de desenvolvimento de projectos
+                                        que resolvam problemas pontuais da nossa sociedade.
+                                          </p>
+                                            <p className="desc">Nosso foco é fazer com que nossos
+                                            alunos tenha conhecimento de qualidade e avançado de programação e
+                                            incutir em suas mentes a iniciarem uma jornada nessa área fantástica.</p>
                                         </>
                                         : valores === true &&
                                         <><p className="desc">
@@ -84,14 +93,23 @@ function Sobre() {
                                                 <li>
                                                     Esforço</li>
                                                 <li>
+                                                    Paixão
+                                                </li>
+                                                <li>
+
                                                     Trabalho em Equipe</li>
                                                 <li>
                                                     Respeito</li>
                                                 <li>
+                                                    Qualidade
+                                                </li>
+                                                <li>
+
                                                     Confiança</li>
                                                 <li>
                                                     Integridade
                                                 </li>
+
 
                                             </ul>
                                         </p>
