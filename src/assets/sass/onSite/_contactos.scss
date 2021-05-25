@@ -15,7 +15,7 @@
         width: 2px;
         height: 80px;
         display: block;
-        background-color: #e88d76;
+        background-color: #e88d76 !important;
     }
         
     .eq-cab {
@@ -30,6 +30,9 @@
             font-size: 2.4rem;
             line-height: 1.375;
             letter-spacing: -0.1rem;
+            &::after{
+                content: none;
+            }
             span {
                 color: #fff;
                 font-weight: 600;

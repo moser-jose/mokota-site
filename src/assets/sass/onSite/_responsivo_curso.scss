@@ -160,6 +160,19 @@
             }
         }
     }
+    .portfolio{
+        .tabs-projetos{
+            .projetos-todos{
+                .grid-1-3{
+                    .saiba-pro{
+                        h1{
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
     
     
 }
@@ -774,7 +787,11 @@
                 margin-left: 0 !important;
             }
         }
-        
+        .curso-m{
+            .template{
+                width: 100% !important;
+            }
+        }
         .faq,.inscrever, .insc,.projectos{
             padding: 60px 0 !important;
             h1,.titulo{

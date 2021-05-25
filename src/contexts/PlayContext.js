@@ -16,28 +16,6 @@ export const StatePlayContext = ({ children }) => {
                 site: 'https://hinario-adventista.vercel.app/',
                 tipo_projeto: 'Open',
                 slug: 'app-hinario-adventista-do-7-dia'
-            },
-            {
-                id: 2,
-                foto: 1,
-                titulo: 'uuuu do 7º Dia',
-                num_categoria: 2,
-                categoria: 'App Mobile',
-                descricao: 'Este é um projecto de um App Mobile que traz todos os 610 hinos do Hinário Adventista do 7º dia, com os seus respectivos autores, compositores e textos bíblicos',
-                site: 'https://hinario-adventista.vercel.app/',
-                tipo_projeto: 'Open',
-                slug: 'app-hinario-adventista-do-7-dia'
-            },
-            {
-                id: 3,
-                foto: 1,
-                titulo: 'dfsgdf f tista do 7º Dia',
-                num_categoria: 2,
-                categoria: 'App Mobile',
-                descricao: 'Este é um projecto de um App Mobile que traz todos os 610 hinos do Hinário Adventista do 7º dia, com os seus respectivos autores, compositores e textos bíblicos',
-                site: 'https://hinario-adventista.vercel.app/',
-                tipo_projeto: 'Open',
-                slug: 'app-hinario-adventista-do-7-dia'
             }
         ]
     }

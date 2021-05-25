@@ -10,50 +10,40 @@ export default function Portifolio() {
     const [web, setWeb] = useState(false);
     const [sistema, setSistema] = useState(false);
     const [app, setApp] = useState(false);
-    var arr = [];
+
+    const filter = (categoria) => {
+        return projetos.data.filter((el) => {
+            return el.num_categoria === categoria;
+        })
+    }
     const funTodos = () => {
         setTodos(true)
         setWeb(false)
         setSistema(false)
         setApp(false)
-        arr = projetos.data.map((el) => {
-            return el;
-        })
-        setDados(arr);
-        console.log(arr)
+        setDados(projetos.data);
     }
     const funWeb = () => {
         setTodos(false)
         setWeb(true)
         setSistema(false)
         setApp(false)
-        arr = projetos.data.filter((el) => {
-            return el.num_categoria === 1;
-        })
-        setDados(arr);
+        setDados(filter(1));
     }
     const funSistema = () => {
         setTodos(false)
         setWeb(false)
         setSistema(true)
         setApp(false)
-        arr = projetos.data.filter((el) => {
-            return el.num_categoria === 2;
-        })
-        setDados(arr);
+        setDados(filter(2));
     }
     const funApp = () => {
         setTodos(false)
         setWeb(false)
         setSistema(false)
         setApp(true)
-        arr = projetos.data.filter((el) => {
-            return el.num_categoria === 3;
-        })
-        setDados(arr);
+        setDados(filter(3));
     }
-
-
     return (
 
         <div className="portfolio">
