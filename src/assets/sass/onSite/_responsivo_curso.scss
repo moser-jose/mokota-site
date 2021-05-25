@@ -26,6 +26,18 @@
     .container{
         width: 980px !important;
     }
+    .grid-1-3{
+        width: 313px !important;
+        margin-right: 5px !important;
+        margin-left: 5px !important;
+        &:nth-last-child(1){
+            margin-right: 0 !important;
+        }
+        &:nth-last-child(3){
+            margin-left: 0px !important ;
+        } 
+    }
+
     .grid-4 {
         width: 241px !important;
         margin-right: 5px !important;
@@ -36,7 +48,25 @@
         &:nth-last-child(4){
             margin-left: 0px !important ;
         } 
+    } 
+
+    .grid-6{
+        width: 380px !important;
     }
+    .grid-10{
+        width: 480px !important;
+    }
+    .grid-8 {
+        width: 480px !important;
+        margin-right: 10px !important;
+        margin-left: 10px !important;
+        &:nth-last-child(1){
+            margin-right: 0 !important;
+        }
+        &:nth-last-child(2){
+            margin-left: 0px !important ;
+        } 
+      }
     .home{
         width: 100%;
         .carousel{
@@ -107,6 +137,31 @@
             }
         }
     }
+
+    .curso-m{
+        .template{
+            width: 100% !important;
+        }
+    }
+    .contactos {
+        .grid-10{
+            .conta{
+                display: flex;
+                    justify-content: center;
+                    align-items: center;
+                .numb{
+                    text-align: center;
+                    
+                    p{
+                        margin-left: 0;
+                        line-height: 1.3;
+                    }
+                }
+            }
+        }
+    }
+    
+    
 }
 @media only screen and (min-width: 758px) and (max-width: 999px){
     .btn-top {

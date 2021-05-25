@@ -76,7 +76,7 @@ export default function Contactos() {
                         Comece uma nova fase da sua vida como
                         <span>
                             developer
-                    </span> mobile
+                    </span> 
                     </h1>
                     <p className="futuro"><span>PRIORIZE SUA CARREIRA,</span> invista no seu presente e ganhe no seu futuro.</p>
 
@@ -86,14 +86,14 @@ export default function Contactos() {
                             <p><span className="num">(+244)</span> 923819414 </p>
                             <p> <span className="num">(+244)</span> 923818181</p>
                         </div>
-                        <p><span className="ic"><FontAwesomeIcon icon="envelope" /></span> geral@moskotas.com</p>
+                        <p><span className="ic"><FontAwesomeIcon icon="envelope" /></span> geral@mekadir.com</p>
                     </div>
                     <div className="redes">
                         <span title="Facebook"><a href="/"><i className="iconspeck speck-facebook"></i></a></span>
-                        <span title="Instagram"><a href="https://www.instagram.com/mokota_code/"><i className="iconspeck speck-instagram"></i></a></span>
+                        <span title="Instagram"><a href="https://www.instagram.com/mekadir-oficial/"><i className="iconspeck speck-instagram"></i></a></span>
                         <span title="Twitter"><a href="/"><i className="iconspeck speck-twitter"></i></a></span>
                         <span title="Youtube"><a href="/"><i className="iconspeck speck-youtube"></i></a></span>
-                        <span title="Github"><a href="https://github.com/mokota-code"><i className="iconspeck speck-github"></i></a></span>
+                        <span title="Github"><a href="https://github.com/mekadir-oficial"><i className="iconspeck speck-github"></i></a></span>
                     </div>
 
                 </div>
