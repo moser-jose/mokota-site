@@ -12,6 +12,7 @@ import Header from '../../components/Cursos/Header'
 import Footer from '../../components/Curso_Mobile/Footer'
 import FAQ from '../../components/Cursos/FAQ'
 import Quote from '../../components/Curso_Mobile/Quote'
+import Duvidas from '../../components/Curso_Mobile/Duvidas'
 export default function index() {
     return (
         <div className="home-c">
@@ -33,10 +34,7 @@ export default function index() {
                 </div>
             </div>
             <div className="container curs-4">
-                <div className="grid-4 gird-curso"></div>
-                <div className="grid-4 gird-curso"></div>
-                <div className="grid-4 gird-curso"></div>
-                <div className="grid-4 gird-curso"></div>
+                <Duvidas />
             </div>
             <div id="cursos" className="cursos-mek">
 

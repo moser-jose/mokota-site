@@ -1,21 +1,59 @@
-import React from 'react'
+import React, { useState, useCallback } from 'react'
 import Logo from '../../assets/img/logo_branco.svg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Link } from 'react-router-dom'
-import {Link as Linka} from 'react-scroll'
+import { Link as Linka } from 'react-scroll'
+import { useAllContext } from '../../contexts/AllContexts'
 function Footer() {
+    const { setSobre, setServicos, setPortfolio, setContacto } = useAllContext();
+
+    const clickSobre = useCallback(
+        () => {
+            setSobre(true)
+            setServicos(false)
+            setPortfolio(false)
+            setContacto(false)
+        },
+        [setContacto, setPortfolio, setServicos, setSobre],
+    )
+    const clickServicos = useCallback(
+        () => {
+            setSobre(false)
+            setServicos(true)
+            setPortfolio(false)
+            setContacto(false)
+        },
+        [setContacto, setPortfolio, setServicos, setSobre],
+    )
+    const clickPortfolio = useCallback(
+        () => {
+            setSobre(false)
+            setServicos(false)
+            setPortfolio(true)
+            setContacto(false)
+        },
+        [setContacto, setPortfolio, setServicos, setSobre],
+    )
+    const clickContacto = useCallback(
+        () => {
+            setSobre(false)
+            setServicos(false)
+            setPortfolio(false)
+            setContacto(true)
+        },
+        [setContacto, setPortfolio, setServicos, setSobre],
+    )
     return (
 
         <footer>
             <div className="footer container">
-
                 <div className="foo">
                     <div className="foot">
                         <div className="marca">
                             <div className="logor">
                                 <a href="/"><img src={Logo} alt="" /></a>
-                                <p>A Mekadir é uma empresa especializada no desenvolvimento de 
-                                    soluções tecnológicas personalizadas atendendo a demanda do cliente, 
+                                <p>A Mekadir é uma empresa especializada no desenvolvimento de
+                                soluções tecnológicas personalizadas atendendo a demanda do cliente,
                                     nossos projectos se baseiam no desenvolvimento de sistemas informáticos entre outros.</p>
                                 <Linka className="btnsaiba" duration={1000} to="sobre" smooth={true} >Saiba mais</Linka>
                             </div>
@@ -33,13 +71,12 @@ function Footer() {
                         <p>Links</p>
 
                         <ul className="nav">
-                            <li className="m-home"><a href="/">Home</a></li>
-                            <li className="m-sobre"><Linka duration={1000} smooth={true} to="sobre">Sobre nós</Linka></li>
-                            <li className="m-servicos"><Linka duration={1000} smooth={true} to="servicos">Serviços</Linka></li>
-                            <li className="m-servicos"><Linka duration={1000} smooth={true} to="portfolio">Portefólio</Linka></li>
-                            <li className="m-cusros"><a href="/cursos">Cursos</a></li>
-                            <li className="m-contacto"><Linka duration={100} smooth={true} to="contactos">Contacto</Linka></li>
-                            <div id="animacao" className="animacao s-home"></div>
+                            <li><a href="/">Home</a></li>
+                            <li ><Linka onClick={clickSobre} duration={1000} smooth={true} to="sobre">Sobre nós</Linka></li>
+                            <li ><Linka onClick={clickServicos} duration={1000} smooth={true} to="servicos">Serviços</Linka></li>
+                            <li ><Linka onClick={clickPortfolio} duration={1000} smooth={true} to="portfolio">Portfólio</Linka></li>
+                            <li><a href="/cursos">Cursos</a></li>
+                            <li ><Linka onClick={clickContacto} duration={100} smooth={true} to="contactos">Contacto</Linka></li>
                         </ul>
 
                         <div className="newsletter">

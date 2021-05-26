@@ -50,11 +50,11 @@ function Header() {
             </div>
             <div className="container menu">
                 <div className="logoprincipal">
-                    <Linka to="/"><img src={scrollPosition > 70 ?
+                    <a href="/"><img src={scrollPosition > 70 ?
                         Logo :
                         menu === true ? Logo
                             : LogoBranco
-                    } alt="" /></Linka>
+                    } alt="" /></a>
                     <div onClick={handleClick} className={menu === true ? "bar change" : "bar"}>
                         <span id={menu === false ? "bar1" : "bar11"}></span>
                         <span id="bar2"></span>
@@ -63,7 +63,7 @@ function Header() {
                 </div>
                 <div className={menu === true ? " menu-nav menu-nav-dis" : "menu-nav"}>
                     <ul className="nav">
-                        <li className="m-home"><Linka onClick={handleClickBody} className="link" to="/">Home</Linka></li>
+                        <li className="m-home"><a className="link" href="/">Home</a></li>
                         <li className="m-sobre"><Link onClick={handleClickBody} className="link" duration={1000} smooth={true} to="sobre">O Curso</Link></li>
                         <li className="m-sobre"><Link onClick={handleClickBody} className="link" duration={1000} smooth={true} to="projectos">Projectos</Link></li>
                         <li className="m-sobre"><Link onClick={handleClickBody} className="link" duration={1000} smooth={true} to="pagamento">Pagamento</Link></li>

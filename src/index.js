@@ -56,6 +56,7 @@ import {
 }
   from '@fortawesome/free-solid-svg-icons'
 import { StateUserContext } from './contexts/UserContext';
+import { StateAllContext } from './contexts/AllContexts';
 
 library.add(fab,
   faPencilAlt,
@@ -114,9 +115,11 @@ library.add(fab,
 ReactDOM.render(
   <React.StrictMode>
     <StateUserContext>
-      <StatePlayContext>
-        <App />
-      </StatePlayContext>
+      <StateAllContext>
+        <StatePlayContext>
+          <App />
+        </StatePlayContext>
+      </StateAllContext>
     </StateUserContext>
   </React.StrictMode>,
   document.getElementById('root')

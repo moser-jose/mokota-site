@@ -153,7 +153,6 @@ function Sobre() {
                             <span><a href="/"><i className="iconspeck speck-linkedin-sp"></i></a></span>
                             <span><a href="/"><i className="iconspeck speck-twitter"></i></a></span>
                             <span><a href="/"><i className="iconspeck speck-instagram"></i></a></span>
-                            <span><a href="/"><i className="iconspeck speck-github"></i></a></span>
                         </div>
                         <div className="membro grid-4">
                             {/* <div className="func">
@@ -179,7 +178,6 @@ function Sobre() {
                             </div>
                             <h1>Simão Mbengui</h1>
                             <h2>Administrador de Sistemas</h2>
-                            <span><a href="/"><i className="iconspeck speck-facebook"></i></a></span>
                             <span><a href="https://www.linkedin.com/in/simao-mbengui-36b470b7"><i className="iconspeck speck-linkedin-sp"></i></a></span>
                             <span><a href="https://twitter.com/smbengui"><i className="iconspeck speck-twitter"></i></a></span>
                             <span><a href="https://www.instagram.com/wilsondjulay/"><i className="iconspeck speck-instagram"></i></a></span>

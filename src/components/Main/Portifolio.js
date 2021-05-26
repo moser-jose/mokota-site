@@ -1,49 +1,28 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import SiteHinario from '../../assets/img/hinario.jpg'
-import { usePlayContext } from '../../contexts/PlayContext'
+import { useAllContext } from '../../contexts/AllContexts';
 
 export default function Portifolio() {
-    const { projetos } = usePlayContext();
+    const { projetos } = useAllContext();
     const [dados, setDados] = useState(projetos.data);
-    const [todos, setTodos] = useState(true);
-    const [web, setWeb] = useState(false);
-    const [sistema, setSistema] = useState(false);
-    const [app, setApp] = useState(false);
 
     const filter = (categoria) => {
         return projetos.data.filter((el) => {
             return el.num_categoria === categoria;
         })
     }
-    const funTodos = () => {
-        setTodos(true)
-        setWeb(false)
-        setSistema(false)
-        setApp(false)
-        setDados(projetos.data);
+    const funProjectos = (categoria) => {
+        if (categoria === 1)
+            setDados(filter(1));
+        else if (categoria === 2)
+            setDados(filter(2));
+        else if (categoria === 3)
+            setDados(filter(3));
+        else
+            setDados(projetos.data);
     }
-    const funWeb = () => {
-        setTodos(false)
-        setWeb(true)
-        setSistema(false)
-        setApp(false)
-        setDados(filter(1));
-    }
-    const funSistema = () => {
-        setTodos(false)
-        setWeb(false)
-        setSistema(true)
-        setApp(false)
-        setDados(filter(2));
-    }
-    const funApp = () => {
-        setTodos(false)
-        setWeb(false)
-        setSistema(false)
-        setApp(true)
-        setDados(filter(3));
-    }
+
     return (
 
         <div className="portfolio">
@@ -54,10 +33,10 @@ export default function Portifolio() {
 
                 <div className="tabs-projetos">
                     <ul>
-                        <li onClick={funTodos}>Todos Projectos</li>
-                        <li onClick={funWeb}>Páginas Web</li>
-                        <li onClick={funSistema}>Sistemas web</li>
-                        <li onClick={funApp}>Apps mobile</li>
+                        <li onClick={() => funProjectos(0)}>Todos Projectos</li>
+                        <li onClick={() => funProjectos(1)}>Páginas Web</li>
+                        <li onClick={() => funProjectos(2)}>Sistemas web</li>
+                        <li onClick={() => funProjectos(3)}>Apps mobile</li>
                         <div id="animacao" className="todos-p"></div>
                     </ul>
                     <div className="projetos-todos">

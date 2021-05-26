@@ -6,61 +6,44 @@ import { Link as Linka } from 'react-router-dom'
 import LogoBranco from '../../assets/img/logo_branco.svg'
 import Logo from '../../assets/img/logo.svg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { useAllContext } from '../../contexts/AllContexts'
 
 function Header() {
-    const [menu, setMenu] = useState(false);
-    const [home, setHome] = useState(true);
-    const [sobre, setSobre] = useState(false);
-    const [servicos, setServicos] = useState(false);
-    const [cursos, setCursos] = useState(false);
-    const [contacto, setContacto] = useState(false);
-
-    const clickHome = () => {
-        setHome(true)
-        setSobre(false)
-        setServicos(false)
-        setCursos(false)
-        setContacto(false)
-        setMenu(!menu);
-        document.querySelector('body').classList.remove('body');
-    }
+    const { menu, setMenu, sobre, setSobre, servicos, setServicos, portfolio, setPortfolio, contacto, setContacto } = useAllContext();
     const clickSobre = () => {
-        setHome(false)
         setSobre(true)
         setServicos(false)
-        setCursos(false)
+        setPortfolio(false)
         setContacto(false)
         setMenu(!menu);
         document.querySelector('body').classList.remove('body');
     }
     const clickServicos = () => {
-        setHome(false)
         setSobre(false)
         setServicos(true)
-        setCursos(false)
+        setPortfolio(false)
         setContacto(false)
         setMenu(!menu);
         document.querySelector('body').classList.remove('body');
     }
-    const clickCursos = () => {
-        setHome(false)
+    const clickPortfolio = () => {
         setSobre(false)
         setServicos(false)
-        setCursos(true)
+        setPortfolio(true)
         setContacto(false)
         setMenu(!menu);
         document.querySelector('body').classList.remove('body');
     }
     const clickContacto = () => {
-        setHome(false)
+
         setSobre(false)
         setServicos(false)
-        setCursos(false)
+        setPortfolio(false)
+
         setContacto(true)
         setMenu(!menu);
         document.querySelector('body').classList.remove('body');
     }
-
     const handleClick = () => {
         setMenu(!menu);
         if (!menu) {
@@ -116,19 +99,18 @@ function Header() {
                 </div>
                 <div className={menu === true ? " menu-nav menu-nav-dis" : "menu-nav"}>
                     <ul className="nav">
-                        <li className="m-home"><a onClick={clickHome} className="link" href="/">Home</a></li>
+                        <li className="m-home"><a className="link" href="/">Home</a></li>
                         <li className="m-sobre"><Link onClick={clickSobre} className="link" duration={1000} smooth={true} to="sobre">Sobre nós</Link></li>
                         <li className="m-servicos"><Link onClick={clickServicos} duration={1000} smooth={true} className="link" to="servicos">Serviços</Link></li>
-                        <li className="m-servicos"><Link onClick={clickServicos} duration={1000} smooth={true} className="link" to="portfolio">Portefólio</Link></li>
-                        <li className="m-cusros"><a onClick={clickCursos} className="link" href="/cursos">Cursos</a></li>
+                        <li className="m-portfolio"><Link onClick={clickPortfolio} duration={1000} smooth={true} className="link" to="portfolio">Portfólio</Link></li>
+                        <li className="m-cusros"><a className="link" href="/cursos">Cursos</a></li>
                         <li className="m-contacto"><Link onClick={clickContacto} uration={1000} smooth={true} className="link" to="contactos">Contacto</Link></li>
                         <div id="animacao" className={
-                            home === true ? 'animacao s-home' :
-                                sobre === true ? 'animacao s-sobre' :
-                                    servicos === true ? 'animacao s-servicos' :
-                                        cursos === true ? 'animacao s-cursos' :
-                                            'animacao s-contato'
-
+                            sobre === true ? 'animacao s-sobre' :
+                                servicos === true ? 'animacao s-servicos' :
+                                    portfolio === true ? 'animacao s-portfolio' :
+                                        contacto === true ? 'animacao s-contato' :
+                                            'animacao s-home'
                         }></div>
                     </ul>
                     <Linka to="/minha-conta" onClick={handleClickBody} className={scrollPosition > 70 ? "btn-azul" : "btn-branco"}>Entrar</Linka>
