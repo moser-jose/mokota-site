@@ -5,7 +5,7 @@ import { usePlayContext } from '../contexts/PlayContext';
 const types = {
   email: {
     regex: /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
-    message: 'E-mail inválido, verifique',
+    message: ['E-mail inválido, verifique'],
   }
 };
 const useForm = (type, campo) => {
@@ -26,7 +26,7 @@ const useForm = (type, campo) => {
       setError({
         cod: 0,
         type: type,
-        mensagem: 'Preencha o  campo ' + campo
+        mensagem: ['Preencha o  campo ' + campo]
       });
       focus();
 
@@ -36,7 +36,7 @@ const useForm = (type, campo) => {
       setError({
         cod: 0,
         type: type,
-        mensagem: types[type].message
+        mensagem: [types[type].message]
       });
       return false;
 
@@ -44,7 +44,7 @@ const useForm = (type, campo) => {
     else {
       setError({
         cod: 1,
-        mensagem: 'Aluno cadastrado com sucesso'
+        mensagem: ['Aluno cadastrado com sucesso']
       });
       return true;
     }

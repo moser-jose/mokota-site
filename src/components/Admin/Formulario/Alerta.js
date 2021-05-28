@@ -18,7 +18,7 @@ const Alerta = ({ mensagem }) => {
             {notificacao === true &&
                 mensagem.cod !== 3 &&
                 <div className={mensagem.cod === 0 ? "alerta-erro" : mensagem.cod === 1 && "alerta-ok"}>
-                    <div className="mensagem"><span>{mensagem.mensagem}</span></div>
+                    <div className="mensagem"><span>{mensagem.mensagem[0]}</span></div>
                     <div className="close-m"><span id="close_err" title="Fechar mensagem" onClick={closeAlert}>+</span></div>
                 </div>
             }

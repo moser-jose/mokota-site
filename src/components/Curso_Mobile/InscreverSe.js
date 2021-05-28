@@ -29,7 +29,7 @@ function InscreverSe() {
             response.json().then(f => {
                 setError({
                     cod: f.sucesso,
-                    mensagem: f.mensagem
+                    mensagem: [f.mensagem]
                 });
             });
         }
