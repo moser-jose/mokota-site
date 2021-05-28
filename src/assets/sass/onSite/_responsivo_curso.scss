@@ -1236,6 +1236,7 @@
     }
     .equipa-m,.equipa {
         padding: 100px 0 120px;
+        background-attachment: local !important;
         &::after {
             height: 50px;
             top: 2%;
