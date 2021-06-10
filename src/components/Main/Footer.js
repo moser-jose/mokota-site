@@ -101,11 +101,11 @@ function Footer() {
                         Termos e Condições </Link></span> |
                         <span><Link to="/privacidade"> Privacidade</Link></span></p>
                     <div className="redes-s">
-                        <span title="Facebook"><a href="/"><i className="iconspeck speck-facebook"></i></a></span>
-                        <span title="Instagram"><a href="https://www.instagram.com/mekadir_oficial/"><i className="iconspeck speck-instagram"></i></a></span>
-                        <span title="Twitter"><a href="/"><i className="iconspeck speck-twitter"></i></a></span>
-                        <span title="Youtube"><a href="https://www.youtube.com/channel/UCPvCI8ftR37KuwxhvMJQWIQ"><i className="iconspeck speck-youtube"></i></a></span>
-                        <span title="Github"><a href="https://github.com/mekadir_oficial"><i className="iconspeck speck-github"></i></a></span>
+                        <span title="Facebook"><a target="_blank" rel="noreferrer" href="https://www.facebook.com/mekadir"><i className="iconspeck speck-facebook"></i></a></span>
+                        <span title="Instagram"><a target="_blank" rel="noreferrer" href="https://www.instagram.com/mekadir_oficial/"><i className="iconspeck speck-instagram"></i></a></span>
+                        <span title="Twitter"><a target="_blank" rel="noreferrer" href="/"><i className="iconspeck speck-twitter"></i></a></span>
+                        <span title="Youtube"><a target="_blank" rel="noreferrer" href="https://www.youtube.com/channel/UCPvCI8ftR37KuwxhvMJQWIQ"><i className="iconspeck speck-youtube"></i></a></span>
+                        <span title="Github"><a target="_blank" rel="noreferrer" href="https://github.com/mekadir-oficial"><i className="iconspeck speck-github"></i></a></span>
                     </div>
                     <p className="copy">
                         <Link to="/">mekadir</Link> &copy; {new Date().getFullYear()}. Todos direitos reservados

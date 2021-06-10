@@ -117,11 +117,11 @@ function Sobre() {
                         }
                         <div className="socia">
                             <ul className="redes-sobre">
-                                <li><a href="/"><span className="iconspeck speck-facebook"></span></a></li>
-                                <li><a href="https://github.com/mekadir_oficial"><span className="iconspeck speck-github"></span></a></li>
-                                <li><a href="/"><span className="iconspeck speck-twitter"></span></a></li>
-                                <li><a href="https://www.instagram.com/mekadir_oficial/"><span className="iconspeck speck-instagram"></span></a></li>
-                                <li><a href="https://www.youtube.com/channel/UCPvCI8ftR37KuwxhvMJQWIQ"><span className="iconspeck speck-youtube"></span></a></li>
+                                <li><a target="_blank" rel="noreferrer" href="https://www.facebook.com/mekadir"><span className="iconspeck speck-facebook"></span></a></li>
+                                <li><a target="_blank" rel="noreferrer" href="https://github.com/mekadir-oficial"><span className="iconspeck speck-github"></span></a></li>
+                                <li><a target="_blank" rel="noreferrer" href="/"><span className="iconspeck speck-twitter"></span></a></li>
+                                <li><a target="_blank" rel="noreferrer" href="https://www.instagram.com/mekadir_oficial/"><span className="iconspeck speck-instagram"></span></a></li>
+                                <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/channel/UCPvCI8ftR37KuwxhvMJQWIQ"><span className="iconspeck speck-youtube"></span></a></li>
                             </ul>
                             <p className="mais">Assista o video e saiba mais sobre nós. ➝</p>
                         </div>
