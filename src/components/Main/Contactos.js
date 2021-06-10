@@ -18,21 +18,7 @@ export default function Contactos() {
     async function handleSubmit(e) {
         e.preventDefault();
         if (nome.validate() && telefone.validate() && assunto.validate() && email.validate() && mensagem.validate()) {
-            const { url, options } = alunoInscrever(1, {
-                nome: nome.value,
-                telefone: telefone.value,
-                assunto: mensagem.value,
-                email: email.value,
-                mensagem: mensagem.value,
-            });
-            const response = await fetch(url, options);
-            response.json().then(f => {
-                setErrorSite({
-                    cod: f.sucesso,
-                    mensagem: f.mensagem
-                });
-
-            });
+            sendEmail(e);
         }
     }
 
@@ -43,12 +29,12 @@ export default function Contactos() {
             .then((result) => {
                 setErrorSite({
                     cod: 1,
-                    mensagem: ["email enviado"]
+                    mensagem: ["E-mail enviado"]
                 });
             }, (error) => {
                 setErrorSite({
                     cod: 0,
-                    mensagem: [error.text]
+                    mensagem: ["Algum erro aconteceu."]
                 });
             });
     }
@@ -71,7 +57,7 @@ export default function Contactos() {
                     <h1 className="obrig">* Campos obrigatórios</h1>
                     {errorSite && <Alerta mensagem={errorSite} />}
                     <div className="container-data log-l">
-                        <form name="emailSen" method="post" id="emailSend" onSubmit={sendEmail}  >
+                        <form name="emailSen" method="post" id="emailSend" onSubmit={handleSubmit}  >
                             <div className="flex-l">
                                 <div className="flex-d">
                                     <Input type="text" classN={errorSite && errorSite.type === 'nome' ? 'error-red' : ''} name="nome" placeholder="" label="Nome *" {...nome} ></Input>
