@@ -6,45 +6,55 @@ import '../../assets/sass/onBack/Login.scss'
 import Input from '../../components/Admin/Formulario/Input'
 import Alerta from '../../components/Admin/Formulario/Alerta'
 import Head from '../../helper/Head'
-function Login() {
+import { useAuthContext } from '../../contexts/AuthContext'
+import useForm from '../../hooks/useForm'
 
-  const mensagem = [
-    0,
-    "este é um erro de aviso"
-  ]
+function Login() {
+  const email = useForm('', 'E-mail');
+  const senha = useForm('senha', 'Senha');
+
+  const { login, error } = useAuthContext();
+
+  async function handleSubmit(event) {
+    event.preventDefault();
+    if (email.validate() && senha.validate()) {
+      login(email.value, senha.value);
+      
+    }
+  }
 
   return (
     <section className="container-form">
       <Head
         title="Minha Conta"
-        description="Home do site Dogs, com o feed de fotos."
+        description="Acesse a sua conta na plataforma da Mekadir"
       />
-      <Alerta mensagem={mensagem} />
+
       <div className="container-data">
         <div className="info">
-
           <img src={IMG} alt="" />
         </div>
+        <div className="form-cont">
+          {error && <Alerta mensagem={error} />}
+          <div className="form">
+            <form id="login" name="login" method="POST" onSubmit={handleSubmit}   >
+              <a href="/"><img src={Logo} alt="Mokota - soluções tecnológicas" /></a>
+              <p className="texto">Acessa a sua conta</p>
+              <Input type="text" classN={error ? 'error-red' : ''} name="email" placeholder="" label="Usuário ou E-mail *" {...email} ></Input>
 
-        <div className="form">
-          <form id="login" name="login" method="POST">
-            <a href="/"><img src={Logo} alt="Mokota - soluções tecnológicas" /></a>
-            <p className="texto">Acessa a sua conta</p>
-            <Input name="email" type="text" label="E-mail *" placeholder="" />
-            <Input name="password" type="password" label="Senha *" placeholder="" />
+              <Input name="senha" type="password" classN={error && error.type === 'senha' ? 'error-red' : ''} placeholder="" label="Senha *" {...senha} />
 
-            <div className="but">
-              <NavLink to="/recuperar-senha">Recuperar a senha</NavLink>
+              <div className="but">
+                <NavLink to="/recuperar-senha">Recuperar a senha</NavLink>
 
-              <NavLink className="button" to="/dashboard">Entrar</NavLink>
-            </div>
-            <footer><p><span>mekadir</span> &copy; {new Date().getFullYear()} - Todos direitos reservados - <span className="block"><NavLink to="/termos"> Termos e Condições</NavLink> | <NavLink to="/privacidade">Privacidade</NavLink></span></p></footer>
+                <button className="button">Entrar</button>
+              </div>
+              <footer><p><span>mekadir</span> &copy; {new Date().getFullYear()} - Todos direitos reservados - <span className="block"><NavLink to="/termos"> Termos e Condições</NavLink> | <NavLink to="/privacidade">Privacidade</NavLink></span></p></footer>
 
-          </form>
+            </form>
 
+          </div>
         </div>
-
-        {/*  */}
       </div>
     </section >
 

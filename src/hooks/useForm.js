@@ -1,4 +1,5 @@
 import React from 'react';
+import { useAuthContext } from '../contexts/AuthContext';
 import { usePlayContext } from '../contexts/PlayContext';
 
 
@@ -6,14 +7,24 @@ const types = {
   email: {
     regex: /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
     message: ['E-mail inválido, verifique'],
+  },
+  telefone: {
+    regex: /(\d{3}[ //-]*){3}/g,
+    message: ['Telefone inválido, verifique'],
+  },
+  password: {
+    regex: /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])[0-9a-zA-Z]{8,}$/,
+    message:
+      '1 letra maíusculo, 1 minúsculo e 1 digito. Mínimo 8 caracteres.',
   }
 };
 const useForm = (type, campo) => {
   const [value, setValue] = React.useState('');
-  const { error, setError } = usePlayContext();
+  const { error, setError } = useAuthContext();
+  const { errorSite, setErrorSite } = usePlayContext();
 
   const focus = () => {
-    const d = document.querySelectorAll('input')
+    const d = document.querySelectorAll('.input')
     d.forEach(f => {
       if (f.name === type) {
         f.focus();
@@ -28,8 +39,12 @@ const useForm = (type, campo) => {
         type: type,
         mensagem: ['Preencha o  campo ' + campo]
       });
+      setErrorSite({
+        cod: 0,
+        type: type,
+        mensagem: ['Preencha o  campo ' + campo]
+      });
       focus();
-
       return false;
     } else if (types[type] && !types[type].regex.test(value)) {
       focus();
@@ -38,20 +53,24 @@ const useForm = (type, campo) => {
         type: type,
         mensagem: [types[type].message]
       });
+      setErrorSite({
+        cod: 0,
+        type: type,
+        mensagem: [types[type].message]
+      });
       return false;
 
     }
     else {
-      setError({
-        cod: 1,
-        mensagem: ['Aluno cadastrado com sucesso']
-      });
       return true;
     }
   }
 
   function onChange({ target }) {
     setError({
+      cod: 3,
+    });
+    setErrorSite({
       cod: 3,
     });
     setValue(target.value);
@@ -61,6 +80,7 @@ const useForm = (type, campo) => {
     value,
     setValue,
     error,
+    errorSite,
     onChange,
     validate: () => validate(value),
   };

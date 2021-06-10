@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-scroll'
-import { Link as Linka } from 'react-router-dom'
 import { Carousel } from 'react-responsive-carousel';
 import Header from './Header'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
@@ -17,7 +16,7 @@ function Home() {
             <Header />
             <section id="home" sclass="s-home" className="home ">
                 <Carousel
-                    autoPlay={false}
+                    autoPlay={true}
                     showThumbs={false}
                     showStatus={false}
                     showArrows={false}

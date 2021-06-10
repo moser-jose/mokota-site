@@ -11,9 +11,9 @@
 @import 'footer';
 .btn-branco,
 .btn-azul {
-    padding: 10px 20px;
+    padding: 12px 16px;
     background-color: #fff;
-    font-size: 18px;
+    font-size: 16px;
     border: none;
     box-shadow: 0 0 1px rgba(0, 0, 0, 0.125), 0 1px 3px rgba(0, 0, 0, 0.2);
     color: #555;
@@ -22,8 +22,68 @@
     border-radius: 2px;
     outline: none;
     text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
     &:hover {
         background-color: #d8e7fc;
+    }
+    img{
+        width: 35px;
+        height: 35px;
+        object-fit: cover;
+        border-radius: 50%;;
+        margin-left: 10px;
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0.125), 0 1px 3px rgba(0, 0, 0, 0.2);
+    
+    }
+    
+    .opcoes {
+        width: 250px;
+        padding-top: 15px;
+        position: absolute;
+        top: 48px;
+        right: 0px;
+        display: none;
+        ul {
+            border-radius: 4px;
+            box-shadow: rgba(46, 61, 73, 0.2) 0px 1px 20px 0px;
+            background-color: #fff;
+            padding: 0 20px 0 20px;
+            li {
+                border-top: 1.5px solid #9ba1a7;
+                padding: 14px 0 14px 0;
+                font-size: 14px;
+                font-weight: 500;
+                color: #313135;
+                &:nth-child(1) {
+                    border-top: none !important;
+                }
+                &:hover {
+                    color: #083e96;
+                }
+                .icon {
+                    font-size: 16px;
+                    margin-right: 10px;
+                }
+                a {
+                    margin-right: 12px;
+                    font-family: "Poppins", sans-serif;
+                    font-weight: 500;
+                    font-size: 14px;
+                    text-decoration: none;
+                    color: #313135;
+                    &:hover {
+                        color: #083e96;
+                    }
+                    
+                }
+            }
+        }
+    }
+    &:hover > .opcoes {
+        display: block;
     }
 }
 

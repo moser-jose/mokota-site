@@ -1,8 +1,8 @@
 export const API_URL = 'http://localhost:4000';
 
-export function TOKEN_POST(body) {
+export function userLogin(body) {
     return {
-        url: API_URL + '/jwt-auth/v1/token',
+        url: API_URL + '/usuario/login',
         options: {
             method: 'POST',
             headers: {
@@ -12,10 +12,22 @@ export function TOKEN_POST(body) {
         },
     };
 }
-
-export function TOKEN_VALIDATE_POST(token) {
+export function updateState(token, body) {
     return {
-        url: API_URL + '/jwt-auth/v1/token/validate',
+        url: API_URL + '/usuario/update_state',
+        options: {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                Authorization: 'Bearer ' + token,
+            },
+            body: JSON.stringify(body),
+        },
+    };
+}
+export function validarToken(token) {
+    return {
+        url: API_URL + '/token/validar_token',
         options: {
             method: 'POST',
             headers: {
@@ -25,14 +37,40 @@ export function TOKEN_VALIDATE_POST(token) {
     };
 }
 
-export function USER_GET(token) {
+export function cursos(token) {
     return {
-        url: API_URL + '/api/user',
+        url: API_URL + '/cursos',
         options: {
             method: 'GET',
             headers: {
                 Authorization: 'Bearer ' + token,
             },
+        },
+    };
+}
+
+export function usuariosGet(token) {
+    return {
+        url: API_URL + '/usuarios',
+        options: {
+            method: 'GET',
+            headers: {
+                Authorization: 'Bearer ' + token,
+            },
+        },
+    };
+}
+
+export function usuarioGet(token, body) {
+    return {
+        url: API_URL + '/usuario',
+        options: {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                Authorization: 'Bearer ' + token,
+            },
+            body: JSON.stringify(body),
         },
     };
 }
@@ -57,6 +95,19 @@ export function alunosGet() {
         },
     };
 }
+
+export function alunosAll(token) {
+    return {
+        url: API_URL + '/alunos',
+        options: {
+            method: 'GET',
+            headers: {
+                Authorization: 'Bearer ' + token,
+            },
+        },
+    };
+}
+
 export function getAllCursos() {
     return {
         url: API_URL + '/cursos',

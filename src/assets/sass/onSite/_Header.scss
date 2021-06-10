@@ -17,7 +17,7 @@
             }
         }
         .menu-nav {
-            .nav {
+            .nav-home,.nav-cur {
                 li {
                     a {
                         color: #555 !important;
@@ -94,7 +94,7 @@
             p{
                 display: none;
             }
-            .nav {
+            .nav-home {
                 position: relative;
                 margin-right: 30px;
                 .animacao {

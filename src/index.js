@@ -1,9 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
+import { BrowserRouter as Router, Switch, Routes, Route } from 'react-router-dom'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faAndroid, fab, faMedapps } from '@fortawesome/free-brands-svg-icons'
 import { StatePlayContext } from './contexts/PlayContext'
+import { StateAuthContext } from './contexts/AuthContext'
 import {
   faPhoneAlt,
   faMobileAlt,
@@ -52,12 +54,15 @@ import {
   faHandsHelping,
   faArrowCircleLeft,
   faNetworkWired,
-  faFrown
+  faFrown,
+  faAngleDown,
+  faTachometerAlt,
+  faUserFriends,
+  faUserGraduate
 }
   from '@fortawesome/free-solid-svg-icons'
 import { StateUserContext } from './contexts/UserContext';
 import { StateAllContext } from './contexts/AllContexts';
-
 library.add(fab,
   faPencilAlt,
   faRocket,
@@ -109,18 +114,24 @@ library.add(fab,
   faHandsHelping,
   faArrowCircleLeft,
   faNetworkWired,
-  faFrown
+  faFrown,
+  faAngleDown,
+  faTachometerAlt,
+  faUserFriends,
+  faUserGraduate
 )
 
 ReactDOM.render(
   <React.StrictMode>
-    <StateUserContext>
-      <StateAllContext>
-        <StatePlayContext>
-          <App />
-        </StatePlayContext>
-      </StateAllContext>
-    </StateUserContext>
+    <Router>
+      <StateAuthContext>
+        <StateAllContext>
+          <StatePlayContext>
+            <App />
+          </StatePlayContext>
+        </StateAllContext>
+      </StateAuthContext>
+    </Router>
   </React.StrictMode>,
   document.getElementById('root')
 );

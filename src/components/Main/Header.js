@@ -5,10 +5,15 @@ import {
 import { Link as Linka } from 'react-router-dom'
 import LogoBranco from '../../assets/img/logo_branco.svg'
 import Logo from '../../assets/img/logo.svg'
+import Moser from '../../assets/img/moser.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { useAllContext } from '../../contexts/AllContexts'
+import { useAuthContext } from '../../contexts/AuthContext';
 
 function Header() {
+    const { autenticado, userOn, logout } = useAuthContext();
+
+
     const { menu, setMenu, sobre, setSobre, servicos, setServicos, portfolio, setPortfolio, contacto, setContacto } = useAllContext();
     const clickSobre = () => {
         setSobre(true)
@@ -98,7 +103,7 @@ function Header() {
                     </div>
                 </div>
                 <div className={menu === true ? " menu-nav menu-nav-dis" : "menu-nav"}>
-                    <ul className="nav">
+                    <ul className="nav-home">
                         <li className="m-home"><a className="link" href="/">Home</a></li>
                         <li className="m-sobre"><Link onClick={clickSobre} className="link" duration={1000} smooth={true} to="sobre">Sobre nós</Link></li>
                         <li className="m-servicos"><Link onClick={clickServicos} duration={1000} smooth={true} className="link" to="servicos">Serviços</Link></li>
@@ -113,7 +118,21 @@ function Header() {
                                             'animacao s-home'
                         }></div>
                     </ul>
-                    <Linka to="/minha-conta" onClick={handleClickBody} className={scrollPosition > 70 ? "btn-azul" : "btn-branco"}>Entrar</Linka>
+                    {autenticado ?
+                        <span onClick={handleClickBody} className={scrollPosition > 70 ? "btn-azul" : "btn-branco"}>
+                            {userOn && userOn.nome + ' ' + userOn.sobre_nome}
+                            <img src={Moser} alt=""></img>
+                            <div className="opcoes">
+                                <ul>
+                                    <li><Linka to="/dashboard"><FontAwesomeIcon className="icon" icon="tachometer-alt" /> Dashboard</Linka></li>
+                                    <li><a href="/"><FontAwesomeIcon className="icon" icon="layer-group" /> Meus Cursos</a></li>
+                                    <li><a href="/"><FontAwesomeIcon className="icon" icon="user-circle" /> Minha Conta</a></li>
+                                    <li onClick={logout}><span><FontAwesomeIcon className="icon" icon="sign-out-alt" /> Sair</span></li>
+                                </ul>
+                            </div>
+                        </span>
+                        :
+                        <Linka to="/minha-conta" onClick={handleClickBody} className={scrollPosition > 70 ? "btn-azul" : "btn-branco"}>Entrar</Linka>}
                     <p><span>mekadir</span> &copy; {new Date().getFullYear()} - Todos direitos reservados -
                     <span className="block"><Linka onClick={handleClickBody} to="/termos"> Termos e Condições</Linka> | <Linka onClick={handleClickBody} to="/privacidade">Privacidade</Linka></span></p>
 

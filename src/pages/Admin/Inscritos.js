@@ -11,9 +11,12 @@ import Input from '../../components/Admin/Formulario/Input'
 import Modal from '../../components/Admin/Dashboard/Modal';
 import Alerta from '../../components/Admin/Formulario/Alerta';
 import { usePlayContext } from '../../contexts/PlayContext';
-import { useUserContext } from '../../contexts/UserContext';
+import { useAuthContext } from '../../contexts/AuthContext';
 import useForm from '../../hooks/useForm';
 import Voltar from '../../components/Admin/Dashboard/Voltar';
+import MenuEsquerdo from '../../components/Admin/Dashboard/MenuEsquerdo';
+import LineChart from '../../components/Admin/Dashboard/LineChart';
+import PieChart from '../../components/Admin/Dashboard/PieChart';
 
 
 var pag = {
@@ -25,7 +28,7 @@ var pag = {
 
 function Inscritos() {
     const params = useParams();
-
+    const [menu, setMenu] = useState(false);
     const round = (num, places) => {
         if (!("" + num).includes("e")) {
             return +(Math.round(num + "e+" + places) + "e-" + places);
@@ -40,7 +43,8 @@ function Inscritos() {
         }
 
     }
-    const { cursos } = useUserContext();
+    const [cursoAct, setCursoAct] = useState(true);
+    const { cursosDados } = useAuthContext();
     const [curso, setCurso] = useState([]);
     const [dadosCurso, setDadosCurso] = useState([]);
     const [data, setData] = useState([]);
@@ -72,6 +76,17 @@ function Inscritos() {
             setModalPagamento(false);
         }
     }
+
+    const handleClick = () => {
+        setMenu(!menu);
+        /*  if (!menu) {
+             document.querySelector('body').classList.add('body');
+         }
+         else {
+             document.querySelector('body').classList.remove('body');
+         } */
+        console.log(menu)
+    }
     const percentagem = useCallback((perc) => {
         return round((perc * 100) / data.length, 1);
     }, [data.length])
@@ -96,6 +111,7 @@ function Inscritos() {
         }
     }
 
+
     const pesqMatriculaId = (id) => {
         data.map((v) => {
             v.matricula.map((i) => {
@@ -107,7 +123,7 @@ function Inscritos() {
         setModalPagamento(true);
     }
     const handleGetAlunos = useCallback(() => {
-        cursos.map((item) => {
+        cursosDados && cursosDados.map((item) => {
             if (item.slug === params.slug) {
                 setCurso(item);
                 item.dados_do_curso.map((id) => {
@@ -146,7 +162,7 @@ function Inscritos() {
         pag.unico = 0;
         pag.sPres = 0;
         pag.fPres = 0;
-    }, [cursos, params.slug])
+    }, [cursosDados, params.slug])
     useEffect(() => {
         handleGetAlunos();
     }, [handleGetAlunos, params.slug])
@@ -336,311 +352,338 @@ function Inscritos() {
                 <Modal height="450px" width="30%" modal={handleFecharClick}>
                 </Modal>
             }
-            <HeaderAdmin>
-                <Voltar />
-            </HeaderAdmin>
-            <div className="content">
-                <div className="conteudo">
-                    <div className="meuscursos">
-                        <h1 className="h1"><FontAwesomeIcon className="icon" icon="layer-group" /> Alunos Para o Curso de {curso.curso} <span className="edicao">{dadosCurso.edicao}ª Edição</span></h1>
-                        <div className="counter">
-                            <div className="numeros">
-                                <div className="info-home">
-                                    <h1>{data.length} <span className="perc">( {percentagem(data.length)}% )</span></h1>
-                                    <span><FontAwesomeIcon className="icon" icon="users" /></span>
+
+            <div className="dash">
+                <MenuEsquerdo menu={menu} handleClick={handleClick} />
+                <div className={menu ? "direito- direito-menu" : "direito-"}>
+
+                    <div className="content">
+                        <HeaderAdmin titulo="Curso da Mekadir" icon="layer-group" descricao={"Curso de " + curso.curso} />
+                        <div className="conteudo">
+                            <div className="meuscursos">
+
+                                <span className="span-h1" onClick={() => setCursoAct(!cursoAct)}>
+                                    <h1 className="h1"><FontAwesomeIcon className="icon" icon="layer-group" />Estatísticas para o curso de {curso.curso}
+                                        <span className="edicao">{dadosCurso.edicao}ª Edição</span>
+                                        <span className={dadosCurso.estado ? "estado-activo" : "estado-inactivo"}>{dadosCurso.estado ? "Activo" : "Inactivo"}</span>
+                                    </h1>
+                                    <span className="span-span">
+                                        <FontAwesomeIcon className={cursoAct ? "icon icon-sh" : "icon"} icon="angle-up" />
+
+                                    </span>
+                                </span>
+                                <div className="tempo">
+                                    <span>Início: {moment(dadosCurso.inicio).format('DD-MMMM-YYYY')}</span>
+                                    <span>Fim: {moment(dadosCurso.fim).format('DD-MMMM-YYYY')}</span>
                                 </div>
-                                <div className="a">
-                                    <div className="info-footer">
-                                        <h2>Alunos Inscritos</h2>
-                                        <span><FontAwesomeIcon className="icon" icon="info-circle" /></span>
+                                <div className="line-">
+                                    <LineChart />
+                                    <div className="pie">
+                                        
                                     </div>
                                 </div>
-                            </div>
-                            <div className="numeros">
-                                <div className="info-home">
-                                    <h1>{semPag}<span className="perc">( {percentagem(semPag)}% )</span></h1>
-                                    <span><FontAwesomeIcon className="icon" icon="user-minus" /></span>
-                                </div>
-                                <div className="a">
-                                    <div className="info-footer">
-                                        <h2>Alunos sem Pagamentos</h2>
-                                        <span><FontAwesomeIcon className="icon" icon="info-circle" /></span>
+
+                                
+
+                                <div className="counter">
+                                    <div className="numeros">
+                                        <div className="info-home">
+                                            <h1>{data.length} <span className="perc">( {percentagem(data.length)}% )</span></h1>
+                                            <span><FontAwesomeIcon className="icon" icon="users" /></span>
+                                        </div>
+                                        <div className="a">
+                                            <div className="info-footer">
+                                                <h2>Alunos Inscritos</h2>
+                                                <span><FontAwesomeIcon className="icon" icon="info-circle" /></span>
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div className="numeros">
-                                <div className="info-home">
-                                    <h1>{pagFir}<span className="perc">( {percentagem(pagFir)}% )</span></h1>
-                                    <span><FontAwesomeIcon className="icon" icon="user-clock" /></span>
-                                </div>
-                                <div className="a">
-                                    <div className="info-footer">
-                                        <h2>Alunos com 1ª Prestação</h2>
-                                        <span><FontAwesomeIcon className="icon" icon="info-circle" /></span>
+                                    <div className="numeros">
+                                        <div className="info-home">
+                                            <h1>{semPag}<span className="perc">( {percentagem(semPag)}% )</span></h1>
+                                            <span><FontAwesomeIcon className="icon" icon="user-minus" /></span>
+                                        </div>
+                                        <div className="a">
+                                            <div className="info-footer">
+                                                <h2>Alunos sem Pagamentos</h2>
+                                                <span><FontAwesomeIcon className="icon" icon="info-circle" /></span>
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div className="numeros">
-                                <div className="info-home">
-                                    <h1>{pagSec}<span className="perc">( {percentagem(pagSec)}% )</span></h1>
-                                    <span><FontAwesomeIcon className="icon" icon="user-shield" /></span>
-                                </div>
-                                <div className="a">
-                                    <div className="info-footer">
-                                        <h2>Alunos com 2ª Prestação</h2>
-                                        <span><FontAwesomeIcon className="icon" icon="info-circle" /></span>
+                                    <div className="numeros">
+                                        <div className="info-home">
+                                            <h1>{pagFir}<span className="perc">( {percentagem(pagFir)}% )</span></h1>
+                                            <span><FontAwesomeIcon className="icon" icon="user-clock" /></span>
+                                        </div>
+                                        <div className="a">
+                                            <div className="info-footer">
+                                                <h2>Alunos com 1ª Prestação</h2>
+                                                <span><FontAwesomeIcon className="icon" icon="info-circle" /></span>
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div className="numeros">
-                                <div className="info-home">
-                                    <h1>{pagUnico}<span className="perc">( {percentagem(pagUnico)}% )</span></h1>
-                                    <span><FontAwesomeIcon className="icon" icon="user-check" /></span>
-                                </div>
-                                <div className="a">
-                                    <div className="info-footer">
-                                        <h2>Alunos com Pagamento Único</h2>
-                                        <span><FontAwesomeIcon className="icon" icon="info-circle" /></span>
+                                    <div className="numeros">
+                                        <div className="info-home">
+                                            <h1>{pagSec}<span className="perc">( {percentagem(pagSec)}% )</span></h1>
+                                            <span><FontAwesomeIcon className="icon" icon="user-shield" /></span>
+                                        </div>
+                                        <div className="a">
+                                            <div className="info-footer">
+                                                <h2>Alunos com 2ª Prestação</h2>
+                                                <span><FontAwesomeIcon className="icon" icon="info-circle" /></span>
+                                            </div>
+                                        </div>
                                     </div>
+                                    <div className="numeros">
+                                        <div className="info-home">
+                                            <h1>{pagUnico}<span className="perc">( {percentagem(pagUnico)}% )</span></h1>
+                                            <span><FontAwesomeIcon className="icon" icon="user-check" /></span>
+                                        </div>
+                                        <div className="a">
+                                            <div className="info-footer">
+                                                <h2>Alunos com Pagamento Único</h2>
+                                                <span><FontAwesomeIcon className="icon" icon="info-circle" /></span>
+                                            </div>
+                                        </div>
+                                    </div>
+
                                 </div>
-                            </div>
+                                <div className="lista">
+                                    <div className="pagination">
+                                        <div className="inscrito">
+                                            <p onClick={() => setModal(true)}><span><FontAwesomeIcon className="icon" icon="plus-circle" /></span> Inscrever Aluno</p>
+                                        </div>
+                                        {/* <div className="inscrito">
+                                        <p onClick={() => setModalPagamento(true)}><span><FontAwesomeIcon className="icon" icon="cash-register" /></span> Adicionar Pagamento</p>
+                                    </div> */}
+                                        <div className="numeropaginas">
+                                            <form>
+                                                <Input type="text" name="pesquisa" placeholder="Insira o termo de pesquisa"></Input>
+                                                <span title="Filtrar a pesquisa" onClick={() => setModalPesq(true)}><FontAwesomeIcon className="icon" icon="filter" /></span>
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div className="lista-table">
+                                        <div className="conteudo-corpo-tabela">
+                                            <table id="tab_dados">
+                                                <thead>
+                                                    <tr>
+                                                        <th>Nº</th>
+                                                        <th>Data</th>
+                                                        <th>Hora</th>
+                                                        <th>Pagamento</th>
+                                                        <th>Nome Completo</th>
+                                                        <th>Telefone (1)</th>
+                                                        <th>Telefone (2)</th>
+                                                        <th>E-mail</th>
+                                                        <th>Opera&ccedil;&otilde;es</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    {
 
-                        </div>
-                        <div className="lista">
-                            <div className="pagination">
-                                <div className="inscrito">
-                                    <p onClick={() => setModal(true)}><span><FontAwesomeIcon className="icon" icon="plus-circle" /></span> Inscrever Aluno</p>
-                                </div>
-                                {/* <div className="inscrito">
-                                    <p onClick={() => setModalPagamento(true)}><span><FontAwesomeIcon className="icon" icon="cash-register" /></span> Adicionar Pagamento</p>
-                                </div> */}
-                                <div className="numeropaginas">
-                                    <form>
-                                        <Input type="text" name="pesquisa" placeholder="Insira o termo de pesquisa"></Input>
-                                        <span title="Filtrar a pesquisa" onClick={() => setModalPesq(true)}><FontAwesomeIcon className="icon" icon="filter" /></span>
-                                    </form>
-                                </div>
-                            </div>
-                            <div className="lista-table">
-                                <div className="conteudo-corpo-tabela">
-                                    <table id="tab_dados">
-                                        <thead>
-                                            <tr>
-                                                <th>Nº</th>
-                                                <th>Data</th>
-                                                <th>Hora</th>
-                                                <th>Pagamento</th>
-                                                <th>Nome Completo</th>
-                                                <th>Telefone (1)</th>
-                                                <th>Telefone (2)</th>
-                                                <th>E-mail</th>
-                                                <th>Morada</th>
-
-                                                <th>Opera&ccedil;&otilde;es</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            {
-
-                                                useMemo(() => data
-                                                    .slice(pagesVisited, pagesVisited + usersPerPage)
-                                                    .map((value, k) => (
-                                                        <tr key={k}>
-                                                            <td>{value.id}</td>
-                                                            <td>{moment(value.created_at).format('DD-MM-YYYY')}</td>
-                                                            <td>{moment(value.created_at).format('HH:mm:ss')}</td>
-                                                            <td>
-                                                                {
-                                                                    value.matricula.map((item1, k) => (
-                                                                        item1.pagamentos.length === 0 ?
-                                                                            <span className="nao" key={k}>
-                                                                                Não
-                                                                            <div className="dados-p">
-                                                                                    <div className="dados-p-corpo">
-                                                                                        <div className="flex-dados">
-                                                                                            <div>
-
-                                                                                                <p>
-                                                                                                    Nenhum Pagamento Efectuado
-                                                                                            </p>
-                                                                                            </div>
-                                                                                        </div>
-
-                                                                                    </div>
-                                                                                </div>
-                                                                            </span> :
-                                                                            item1.pagamentos.map((item, k) => (
-                                                                                item.tipo_pagamento.nome === '1ª Prestação' ?
-                                                                                    <span className="fp" key={k}>
-                                                                                        1ª P
-                                                                                        <div className="dados-p">
+                                                        useMemo(() => data
+                                                            .slice(pagesVisited, pagesVisited + usersPerPage)
+                                                            .map((value, k) => (
+                                                                <tr key={k}>
+                                                                    <td>{value.id}</td>
+                                                                    <td>{moment(value.created_at).format('DD-MM-YYYY')}</td>
+                                                                    <td>{moment(value.created_at).format('HH:mm:ss')}</td>
+                                                                    <td>
+                                                                        {
+                                                                            value.matricula.map((item1, k) => (
+                                                                                item1.pagamentos.length === 0 ?
+                                                                                    <span className="nao" key={k}>
+                                                                                        Não
+                                                                                <div className="dados-p">
                                                                                             <div className="dados-p-corpo">
                                                                                                 <div className="flex-dados">
                                                                                                     <div>
 
                                                                                                         <p>
-                                                                                                            <span>T. de Pagamento</span>
-                                                                                                            {item.tipo_pagamento.nome}
-                                                                                                        </p>
-                                                                                                    </div>
-                                                                                                    <div><p> <span>Valor Pago</span> {item.montante} AKZ</p></div>
-                                                                                                    <div><p><span>Data</span>{moment(item.created_at).format('DD-MM-YYYY')}</p></div>
-                                                                                                    <div><p><span>Hora</span>{moment(item.created_at).format('HH:mm:ss')}</p></div>
-
-                                                                                                </div>
-                                                                                                <div className="flex-dados">
-                                                                                                    <div><p><span>F. de Pagamento</span>{item.forma_pagamento.nome}</p></div>
-                                                                                                    <div><p><span>Nº de Referência</span>{item.n_referencia}</p></div>
-                                                                                                    <div><p><span>Banco</span>{item.banco_pagamento.nome}</p></div>
-                                                                                                    <div>
-                                                                                                        <p><span>Observação</span>{item.observacao}</p>
+                                                                                                            Nenhum Pagamento Efectuado
+                                                                                                </p>
                                                                                                     </div>
                                                                                                 </div>
 
                                                                                             </div>
                                                                                         </div>
                                                                                     </span> :
-                                                                                    item.tipo_pagamento.nome === '2ª Prestação' ?
-                                                                                        <span className="sp" key={k}>
-                                                                                            2ª P
+                                                                                    item1.pagamentos.map((item, k) => (
+                                                                                        item.tipo_pagamento.nome === '1ª Prestação' ?
+                                                                                            <span className="fp" key={k}>
+                                                                                                1ª P
                                                                                             <div className="dados-p">
-                                                                                                <div className="dados-p-corpo">
-                                                                                                    <div className="flex-dados">
-                                                                                                        <div>
+                                                                                                    <div className="dados-p-corpo">
+                                                                                                        <div className="flex-dados">
+                                                                                                            <div>
 
-                                                                                                            <p>
-                                                                                                                <span>T. de Pagamento</span>
-                                                                                                                {item.tipo_pagamento.nome}
-                                                                                                            </p>
+                                                                                                                <p>
+                                                                                                                    <span>T. de Pagamento</span>
+                                                                                                                    {item.tipo_pagamento.nome}
+                                                                                                                </p>
+                                                                                                            </div>
+                                                                                                            <div><p> <span>Valor Pago</span> {item.montante} AKZ</p></div>
+                                                                                                            <div><p><span>Data</span>{moment(item.created_at).format('DD-MM-YYYY')}</p></div>
+                                                                                                            <div><p><span>Hora</span>{moment(item.created_at).format('HH:mm:ss')}</p></div>
+
                                                                                                         </div>
-                                                                                                        <div><p> <span>Valor Pago</span> {item.montante} AKZ</p></div>
-                                                                                                        <div><p><span>Data</span>{moment(item.created_at).format('DD-MM-YYYY')}</p></div>
-                                                                                                        <div><p><span>Hora</span>{moment(item.created_at).format('HH:mm:ss')}</p></div>
+                                                                                                        <div className="flex-dados">
+                                                                                                            <div><p><span>F. de Pagamento</span>{item.forma_pagamento.nome}</p></div>
+                                                                                                            <div><p><span>Nº de Referência</span>{item.n_referencia}</p></div>
+                                                                                                            <div><p><span>Banco</span>{item.banco_pagamento.nome}</p></div>
+                                                                                                            <div>
+                                                                                                                <p><span>Observação</span>{item.observacao}</p>
+                                                                                                            </div>
+                                                                                                        </div>
 
                                                                                                     </div>
-                                                                                                    <div className="flex-dados">
-                                                                                                        <div><p><span>F. de Pagamento</span>{item.forma_pagamento.nome}</p></div>
-                                                                                                        <div><p><span>Nº de Referência</span>{item.n_referencia}</p></div>
-                                                                                                        <div><p><span>Banco</span>{item.banco_pagamento.nome}</p></div>
-                                                                                                        <div>
-                                                                                                            <p><span>Observação</span>{item.observacao}</p>
-                                                                                                        </div>
-                                                                                                    </div>
-
                                                                                                 </div>
-                                                                                            </div>
-                                                                                        </span> :
-                                                                                        item.tipo_pagamento.nome === 'Único' &&
-                                                                                        <span className="pun" key={k}>
-                                                                                            P. Único
-                                                                                            <div className="dados-p">
-                                                                                                <div className="dados-p-corpo">
-                                                                                                    <div className="flex-dados">
-                                                                                                        <div>
+                                                                                            </span> :
+                                                                                            item.tipo_pagamento.nome === '2ª Prestação' ?
+                                                                                                <span className="sp" key={k}>
+                                                                                                    2ª P
+                                                                                                <div className="dados-p">
+                                                                                                        <div className="dados-p-corpo">
+                                                                                                            <div className="flex-dados">
+                                                                                                                <div>
 
-                                                                                                            <p>
-                                                                                                                <span>T. de Pagamento</span>
-                                                                                                                {item.tipo_pagamento.nome}
-                                                                                                            </p>
+                                                                                                                    <p>
+                                                                                                                        <span>T. de Pagamento</span>
+                                                                                                                        {item.tipo_pagamento.nome}
+                                                                                                                    </p>
+                                                                                                                </div>
+                                                                                                                <div><p> <span>Valor Pago</span> {item.montante} AKZ</p></div>
+                                                                                                                <div><p><span>Data</span>{moment(item.created_at).format('DD-MM-YYYY')}</p></div>
+                                                                                                                <div><p><span>Hora</span>{moment(item.created_at).format('HH:mm:ss')}</p></div>
+
+                                                                                                            </div>
+                                                                                                            <div className="flex-dados">
+                                                                                                                <div><p><span>F. de Pagamento</span>{item.forma_pagamento.nome}</p></div>
+                                                                                                                <div><p><span>Nº de Referência</span>{item.n_referencia}</p></div>
+                                                                                                                <div><p><span>Banco</span>{item.banco_pagamento.nome}</p></div>
+                                                                                                                <div>
+                                                                                                                    <p><span>Observação</span>{item.observacao}</p>
+                                                                                                                </div>
+                                                                                                            </div>
+
                                                                                                         </div>
-                                                                                                        <div><p> <span>Valor Pago</span> {item.montante} AKZ</p></div>
-                                                                                                        <div><p><span>Data</span>{moment(item.created_at).format('DD-MM-YYYY')}</p></div>
-                                                                                                        <div><p><span>Hora</span>{moment(item.created_at).format('HH:mm:ss')}</p></div>
-
                                                                                                     </div>
-                                                                                                    <div className="flex-dados">
-                                                                                                        <div><p><span>F. de Pagamento</span>{item.forma_pagamento.nome}</p></div>
-                                                                                                        <div><p><span>Nº de Referência</span>{item.n_referencia}</p></div>
-                                                                                                        <div><p><span>Banco</span>{item.banco_pagamento.nome}</p></div>
-                                                                                                        <div>
-                                                                                                            <p><span>Observação</span>{item.observacao}</p>
+                                                                                                </span> :
+                                                                                                item.tipo_pagamento.nome === 'Único' &&
+                                                                                                <span className="pun" key={k}>
+                                                                                                    P. Único
+                                                                                                <div className="dados-p">
+                                                                                                        <div className="dados-p-corpo">
+                                                                                                            <div className="flex-dados">
+                                                                                                                <div>
+
+                                                                                                                    <p>
+                                                                                                                        <span>T. de Pagamento</span>
+                                                                                                                        {item.tipo_pagamento.nome}
+                                                                                                                    </p>
+                                                                                                                </div>
+                                                                                                                <div><p> <span>Valor Pago</span> {item.montante} AKZ</p></div>
+                                                                                                                <div><p><span>Data</span>{moment(item.created_at).format('DD-MM-YYYY')}</p></div>
+                                                                                                                <div><p><span>Hora</span>{moment(item.created_at).format('HH:mm:ss')}</p></div>
+
+                                                                                                            </div>
+                                                                                                            <div className="flex-dados">
+                                                                                                                <div><p><span>F. de Pagamento</span>{item.forma_pagamento.nome}</p></div>
+                                                                                                                <div><p><span>Nº de Referência</span>{item.n_referencia}</p></div>
+                                                                                                                <div><p><span>Banco</span>{item.banco_pagamento.nome}</p></div>
+                                                                                                                <div>
+                                                                                                                    <p><span>Observação</span>{item.observacao}</p>
+                                                                                                                </div>
+                                                                                                            </div>
+
                                                                                                         </div>
                                                                                                     </div>
+                                                                                                </span>
 
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </span>
-
+                                                                                    ))
                                                                             ))
-                                                                    ))
-                                                                }
-                                                            </td>
-                                                            <td>{value.nome + " " + value.sobre_nome}</td>
-                                                            <td>{value.telefone_1}</td>
-                                                            <td>{value.telefone_2}</td>
-                                                            <td>{value.email}</td>
-                                                            <td>{value.endereco}</td>
+                                                                        }
+                                                                    </td>
+                                                                    <td>{value.nome + " " + value.sobre_nome}</td>
+                                                                    <td>{value.telefone_1}</td>
+                                                                    <td>{value.telefone_2}</td>
+                                                                    <td>{value.email}</td>
 
-                                                            <td>
-                                                                {
-                                                                    value.matricula.map((item1, k) => (
-                                                                        item1.pagamentos.length === 0 ?
-                                                                            <div key={k}>
-                                                                                <span className="util-editar util-ver" onClick={(id) => pesqMatriculaId(item1.id)} id={item1.id} title="Realizar Pagamento" ><FontAwesomeIcon className="icon" icon="cash-register" /></span>
-                                                                            &nbsp; <span className="util-editar" id={value.id} title="Editar Inscrito" ><FontAwesomeIcon className="icon" icon="pencil-alt" /></span>
-                                                                            &nbsp;<span className="util-eliminar" id={item1.id} title="Eliminar Inscrito"><FontAwesomeIcon className="icon" icon="trash-alt" /></span>
-                                                                            </div> :
-
-                                                                            item1.pagamentos.map((item, k) => (
-                                                                                item1.pagamentos.length === 1 && item.tipo_pagamento.nome === '1ª Prestação' ?
-                                                                                    <div key={k} >
+                                                                    <td>
+                                                                        {
+                                                                            value.matricula.map((item1, k) => (
+                                                                                item1.pagamentos.length === 0 ?
+                                                                                    <div key={k}>
                                                                                         <span className="util-editar util-ver" onClick={(id) => pesqMatriculaId(item1.id)} id={item1.id} title="Realizar Pagamento" ><FontAwesomeIcon className="icon" icon="cash-register" /></span>
-                                                                                        &nbsp; <span className="util-editar" id={value.id} title="Editar Inscrito" ><FontAwesomeIcon className="icon" icon="pencil-alt" /></span>
-                                                                                        &nbsp;<span className="util-eliminar" id={item1.id} title="Eliminar Inscrito"><FontAwesomeIcon className="icon" icon="trash-alt" /></span>
+                                                                                &nbsp; <span className="util-editar" id={value.id} title="Editar Inscrito" ><FontAwesomeIcon className="icon" icon="pencil-alt" /></span>
+                                                                                &nbsp;<span className="util-eliminar" id={item1.id} title="Eliminar Inscrito"><FontAwesomeIcon className="icon" icon="trash-alt" /></span>
                                                                                     </div> :
-                                                                                    item.tipo_pagamento.nome === '2ª Prestação' ?
-                                                                                        <div key={k}>
-                                                                                            <span className="util-editar util-rec" onClick={(id) => pesqMatriculaId(item1.id)} id={item1.id} title="Realizar Pagamento" ><FontAwesomeIcon className="icon" icon="receipt" /></span>
-                                                                                        &nbsp;
-                                                                                            <span className="util-editar" id={value.id} title="Editar Inscrito" ><FontAwesomeIcon className="icon" icon="pencil-alt" /></span>
-                                                                                    &nbsp;<span className="util-eliminar" id={item1.id} title="Eliminar Inscrito"><FontAwesomeIcon className="icon" icon="trash-alt" /></span>
-                                                                                        </div> :
-                                                                                        item.tipo_pagamento.nome === 'Único' &&
-                                                                                        <div key={k}>
-                                                                                            <span className="util-editar util-rec" onClick={(id) => pesqMatriculaId(item1.id)} id={item1.id} title="Realizar Pagamento" ><FontAwesomeIcon className="icon" icon="receipt" /></span>
-                                                                                        &nbsp;
-                                                                                            <span className="util-editar" id={value.id} title="Editar Inscrito" ><FontAwesomeIcon className="icon" icon="pencil-alt" /></span>
-                                                                                    &nbsp;<span className="util-eliminar" id={item1.id} title="Eliminar Inscrito"><FontAwesomeIcon className="icon" icon="trash-alt" /></span>
-                                                                                        </div>
 
+                                                                                    item1.pagamentos.map((item, k) => (
+                                                                                        item1.pagamentos.length === 1 && item.tipo_pagamento.nome === '1ª Prestação' ?
+                                                                                            <div key={k} >
+                                                                                                <span className="util-editar util-ver" onClick={(id) => pesqMatriculaId(item1.id)} id={item1.id} title="Realizar Pagamento" ><FontAwesomeIcon className="icon" icon="cash-register" /></span>
+                                                                                            &nbsp; <span className="util-editar" id={value.id} title="Editar Inscrito" ><FontAwesomeIcon className="icon" icon="pencil-alt" /></span>
+                                                                                            &nbsp;<span className="util-eliminar" id={item1.id} title="Eliminar Inscrito"><FontAwesomeIcon className="icon" icon="trash-alt" /></span>
+                                                                                            </div> :
+                                                                                            item.tipo_pagamento.nome === '2ª Prestação' ?
+                                                                                                <div key={k}>
+                                                                                                    <span className="util-editar util-rec" onClick={(id) => pesqMatriculaId(item1.id)} id={item1.id} title="Realizar Pagamento" ><FontAwesomeIcon className="icon" icon="receipt" /></span>
+                                                                                            &nbsp;
+                                                                                                <span className="util-editar" id={value.id} title="Editar Inscrito" ><FontAwesomeIcon className="icon" icon="pencil-alt" /></span>
+                                                                                        &nbsp;<span className="util-eliminar" id={item1.id} title="Eliminar Inscrito"><FontAwesomeIcon className="icon" icon="trash-alt" /></span>
+                                                                                                </div> :
+                                                                                                item.tipo_pagamento.nome === 'Único' &&
+                                                                                                <div key={k}>
+                                                                                                    <span className="util-editar util-rec" onClick={(id) => pesqMatriculaId(item1.id)} id={item1.id} title="Realizar Pagamento" ><FontAwesomeIcon className="icon" icon="receipt" /></span>
+                                                                                            &nbsp;
+                                                                                                <span className="util-editar" id={value.id} title="Editar Inscrito" ><FontAwesomeIcon className="icon" icon="pencil-alt" /></span>
+                                                                                        &nbsp;<span className="util-eliminar" id={item1.id} title="Eliminar Inscrito"><FontAwesomeIcon className="icon" icon="trash-alt" /></span>
+                                                                                                </div>
+
+                                                                                    ))
                                                                             ))
-                                                                    ))
-                                                                }</td>
+                                                                        }</td>
 
-                                                        </tr>
-                                                    )), [data, pagesVisited])
-                                            }
-                                        </tbody>
-                                    </table>
+                                                                </tr>
+                                                            )), [data, pagesVisited])
+                                                    }
+                                                </tbody>
+                                            </table>
 
+                                        </div>
+                                    </div>
+                                    <div className="pagination">
+                                        <div className="paginas">
+                                            <p>Página <span>{pageNumber + 1}</span> de <span>{pageCount}</span></p>
+                                        </div>
+                                        <div className="numeropaginas">
+                                            <ReactPaginate
+                                                previousLabel={"<"}
+                                                nextLabel={">"}
+                                                breakLabel={"..."}
+                                                breakClassName={"break-me"}
+                                                pageCount={pageCount}
+                                                onPageChange={changePage}
+                                                containerClassName={"paginationBttns"}
+                                                previousLinkClassName={"previousBttn"}
+                                                nextLinkClassName={"nextBttn"}
+                                                disabledClassName={"paginationDisabled"}
+                                                activeClassName={"paginationActive"}
+                                            />
+                                        </div>
+                                    </div>
                                 </div>
+
                             </div>
-                            <div className="pagination">
-                                <div className="paginas">
-                                    <p>Página <span>{pageNumber + 1}</span> de <span>{pageCount}</span></p>
-                                </div>
-                                <div className="numeropaginas">
-                                    <ReactPaginate
-                                        previousLabel={"<"}
-                                        nextLabel={">"}
-                                        breakLabel={"..."}
-                                        breakClassName={"break-me"}
-                                        pageCount={pageCount}
-                                        onPageChange={changePage}
-                                        containerClassName={"paginationBttns"}
-                                        previousLinkClassName={"previousBttn"}
-                                        nextLinkClassName={"nextBttn"}
-                                        disabledClassName={"paginationDisabled"}
-                                        activeClassName={"paginationActive"}
-                                    />
-                                </div>
-                            </div>
+
                         </div>
-
                     </div>
 
                 </div>
             </div>
+
         </>
     )
 }

@@ -5,33 +5,58 @@ import Alerta from '../Admin/Formulario/Alerta';
 import useForm from '../../hooks/useForm';
 import { usePlayContext } from '../../contexts/PlayContext';
 import { alunoInscrever } from '../../api/';
+import emailjs from 'emailjs-com';
 export default function Contactos() {
-    const nome = useForm('nome', 'Nome');
-    const telefone = useForm('telefone', "Telefone (1)");
-    const email = useForm('email', 'E-mail');
-    const mensagem = useForm('endereco', "Mensagem");
-    const assunto = useForm('assunto', "Assunto");
-    const { error, setError } = usePlayContext();
 
-    async function handleSubmit(event) {
-        event.preventDefault();
-        if (nome.validate()  && telefone.validate() && assunto.validate() && email.validate() && mensagem.validate()) {
+    const { errorSite, setErrorSite } = usePlayContext();
+    const nome = useForm('nome', 'Nome');
+    const telefone = useForm('telefone', "Telefone");
+    const email = useForm('email', 'E-mail');
+    const mensagem = useForm('mensagem', "Mensagem");
+    const assunto = useForm('assunto', "Assunto");
+
+    async function handleSubmit(e) {
+        e.preventDefault();
+        if (nome.validate() && telefone.validate() && assunto.validate() && email.validate() && mensagem.validate()) {
             const { url, options } = alunoInscrever(1, {
                 nome: nome.value,
-                telefone_1: telefone.value,
+                telefone: telefone.value,
                 assunto: mensagem.value,
                 email: email.value,
                 mensagem: mensagem.value,
             });
             const response = await fetch(url, options);
             response.json().then(f => {
-                setError({
+                setErrorSite({
                     cod: f.sucesso,
                     mensagem: f.mensagem
                 });
+
             });
         }
     }
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('googleMekadir', 'template_4wuta9i', e.target, 'user_6jwwZQImmaHLToaXF0Ne5')
+            .then((result) => {
+                setErrorSite({
+                    cod: 1,
+                    mensagem: ["email enviado"]
+                });
+            }, (error) => {
+                setErrorSite({
+                    cod: 0,
+                    mensagem: [error.text]
+                });
+            });
+    }
+
+
+
+
+
     return (
         <div id="contactos" className="contactos insc container-form container-form-l">
             <div className="eq-cab">
@@ -44,22 +69,22 @@ export default function Contactos() {
                 a nossa equipa irá entrar em contacto consigo.
                 </h1>
                     <h1 className="obrig">* Campos obrigatórios</h1>
-                    {error && <Alerta mensagem={error} />}
+                    {errorSite && <Alerta mensagem={errorSite} />}
                     <div className="container-data log-l">
-                        <form action="" onSubmit={handleSubmit}  >
+                        <form name="emailSen" method="post" id="emailSend" onSubmit={sendEmail}  >
                             <div className="flex-l">
                                 <div className="flex-d">
-                                    <Input type="text" classN={error && error.type === 'nome' ? 'error-red' : ''} name="nome" placeholder="" label="Nome *" {...nome} ></Input>
+                                    <Input type="text" classN={errorSite && errorSite.type === 'nome' ? 'error-red' : ''} name="nome" placeholder="" label="Nome *" {...nome} ></Input>
                                 </div>
                                 <div className="flex-d">
-                                    <Input type="text" classN={error && error.type === 'telefone1' ? 'error-red' : ''} name="telefone_1" placeholder="" label="Telefone *" {...telefone} ></Input>
+                                    <Input type="text" classN={errorSite && errorSite.type === 'telefone' ? 'error-red' : ''} name="telefone" placeholder="" label="Telefone *" {...telefone} ></Input>
                                 </div></div>
 
-                                <Input type="text" classN={error && error.type === 'email' ? 'error-red' : ''} name="assunto" placeholder="" label="Assunto *" {...assunto} ></Input>
-                            
-                            <Input type="text" classN={error && error.type === 'email' ? 'error-red' : ''} name="email" placeholder="" label="E-mail *" {...email} ></Input>
-                            <Input type="textarea" classN={error && error.type === 'endereco' ? 'error-red' : ''} name="mensagem" placeholder="" label="Mensagem *" {...mensagem} ></Input>
-                            
+                            <Input type="text" classN={errorSite && errorSite.type === 'assunto' ? 'error-red' : ''} name="assunto" placeholder="" label="Assunto *" {...assunto} ></Input>
+
+                            <Input type="text" classN={errorSite && errorSite.type === 'email' ? 'error-red' : ''} name="email" placeholder="" label="E-mail *" {...email} ></Input>
+                            <Input type="textarea" classN={errorSite && errorSite.type === 'mensagem' ? 'error-red' : ''} name="mensagem" placeholder="" label="Mensagem *" {...mensagem} ></Input>
+
                             <div className="submit">
                                 <Input type="submit" value="Enviar" name="inscrever" placeholder="" label="" ></Input>
 
@@ -76,7 +101,7 @@ export default function Contactos() {
                         Comece uma nova fase da sua vida como
                         <span>
                             developer
-                    </span> 
+                    </span>
                     </h1>
                     <p className="futuro"><span>PRIORIZE SUA CARREIRA,</span> invista no seu presente e ganhe no seu futuro.</p>
 

@@ -27,6 +27,9 @@
     .container{
         width: 980px !important;
     }
+    .whatsapp{
+        bottom: 15%;
+    }
     .grid-1-3{
         width: 313px !important;
         margin-right: 5px !important;
@@ -138,7 +141,6 @@
             }
         }
     }
-
     .curso-m{
         .template{
             width: 100% !important;
@@ -174,10 +176,88 @@
             }
         }
     }
-    
+
+    //Página cursos
+    .duvidas{
+        .grid-4{
+            margin-left: 0 !important;
+        }
+    }
+    .curs{
+        .template{
+            &:nth-child(1){
+                .texto{
+                    padding-bottom: 41px !important;
+                }
+            }
+            
+        }
+    }
+    .cu-t{
+        .template{
+            &:nth-child(1){
+                .texto{
+                    padding-bottom: 54px !important;
+                }
+            }
+            &:nth-child(3){
+                .texto{
+                    padding-bottom: 32px !important;
+                }
+            }
+        }
+    }
+    //Página certificados
+        
+    .cert{
+        .nav{
+            li{
+                a{
+                    color: #555 !important;
+                }
+            }
+        }
+
+    .certificados{
+        height: 100vh;
+        width: 100%;
+        background-color: #f5f8fd ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        div{
+            width: 34% !important;
+            .award{
+                font-size: 90px !important;
+            }
+            h1{
+                font-size: 25px !important;
+            }
+            p{
+                margin: 25px 0 !important;
+            }
+            form{
+                .Container{
+                    width: 100% !important;
+                        .input{
+                            margin-bottom: 20px !important;
+                        }
+                        
+                }
+                .button{
+                    width: unset !important;
+                    font-weight: 500 !important;
+                }
+            }
+            
+        }
+    }
+    }
     
 }
 @media only screen and (min-width: 758px) and (max-width: 999px){
+   
     .btn-top {
         width: 30px;
         height: 30px;

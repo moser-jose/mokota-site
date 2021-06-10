@@ -53,41 +53,52 @@
                 object-fit:cover
             }
         }
-        .form{
-            width: 900px;
-            padding:0 210px;
+        .form-cont{
             position: relative;
-            
-            a{
+            .alerta-ok, .alerta-erro{
+                position: absolute;
+                width: 500px;
+                right: 20px;
+                top:20px;
+                z-index: 300;
+            }
+
+            .form{
+                width: 900px;
+                padding:0 210px;
+                position: relative;
                 
-                text-align: center !important;
-                margin-bottom: 80px;
-                img{
-                    width: 200px;
+                a{
+                    
+                    text-align: center !important;
+                    margin-bottom: 80px;
+                    img{
+                        width: 270px;
+                    }
                 }
-            }
-            form{
-                height: 100vh;
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-            }
-            .label{
-                margin-top: 10px !important;
-            }
-            .input{
-                padding-top: 22px !important;
-                padding-bottom: 22px !important;
-                
-            }
-            .but{
-                
-                margin-top: 30px !important;
-                .button{
-                    padding: 15px !important;
+                form{
+                    height: 100vh;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
                 }
+                .label{
+                    margin-top: 10px !important;
+                }
+                .input{
+                    padding-top: 22px !important;
+                    padding-bottom: 22px !important;
+                    
+                }
+                .but{
+                    
+                    margin-top: 30px !important;
+                    .button{
+                        padding: 15px !important;
+                    }
+                }
+                
             }
-            
         }
         
         @import '../onBack/Formulario.scss';
@@ -185,14 +196,43 @@
 @media only screen and (min-width: 1000px) and (max-width: 1460px){
     .container-form{
         .container-data{
-            .form{
-                width: 100vw;
-
-                a{
-                img{
-                    width: 280px;
+            .form-cont{
+                .form{
+                    width: 100vw;
+                    position: relative  !important;
+                    form {
+                        
+                        a{
+                            margin-bottom: 40px !important;
+                            img{
+                                width: 250px !important;
+                            }
+                        }
+                        .Container{
+                            .input{
+                                padding: 18px !important;
+                            }
+                        }
+                        .but{
+                            margin:  20px 0 0  !important;
+                            a{
+                                margin:  0 !important;
+                            }
+                        }
+                        footer{
+                            bottom: 15px;
+                            padding: 0 !important;
+                            p{
+                                .block{
+                                    display: inline-block !important;
+                                    a{
+                                        margin: 0 !important;
+                                    }
+                                }
+                            }
+                        }
+                    }
                 }
-            }
             }
         }
     }

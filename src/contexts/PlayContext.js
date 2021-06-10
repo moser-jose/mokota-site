@@ -5,10 +5,10 @@ export const StateContext = createContext();
 export const StatePlayContext = ({ children }) => {
     const [playBubton, setPlayButton] = useState(false);
     const [eventButon, setEventButon] = useState(null);
-    const [error, setError] = useState(null);
+    const [errorSite, setErrorSite] = useState(null);
     return (
         <StateContext.Provider
-            value={{ playBubton, setPlayButton, eventButon, setEventButon, error, setError }}>
+            value={{ playBubton, setPlayButton, eventButon, setEventButon, errorSite, setErrorSite }}>
             {children}
         </StateContext.Provider>
     );

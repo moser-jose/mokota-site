@@ -4,7 +4,7 @@ export const StateContext = createContext();
 
 export const StateUserContext = ({ children }) => {
     const [cursos, setCursos] = useState([]);
-    const [data, setData] = useState([]);
+    
     async function handleGetAlunos() {
         const { url, options } = alunosGet();
         const response = await fetch(url, options);
@@ -17,7 +17,7 @@ export const StateUserContext = ({ children }) => {
     }, []);
     return (
         <StateContext.Provider
-            value={{ cursos, setCursos }}>
+            value={{ cursos, setCursos}}>
             {children}
         </StateContext.Provider>
     );

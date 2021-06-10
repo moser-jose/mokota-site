@@ -4,9 +4,12 @@ import { Link as Linka } from 'react-router-dom'
 import Logo from '../../assets/img/logo.svg'
 import LogoBranco from '../../assets/img/logo_branco.svg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
+import { useAuthContext } from '../../contexts/AuthContext';
+import Moser from '../../assets/img/moser.jpg'
 function Header() {
+    const { autenticado, userOn, logout } = useAuthContext();
     const [menu, setMenu] = useState(false);
+    const [faq, setFaq] = useState(false);
 
     const [scrollPosition, setScrollPosition] = useState(0);
 
@@ -21,6 +24,7 @@ function Header() {
     }
     const handleClickBody = () => {
         setMenu(!menu);
+        setFaq(!faq);
         document.querySelector('body').classList.remove('body');
     }
     const handleScroll = () => {
@@ -62,14 +66,29 @@ function Header() {
                     </div>
                 </div>
                 <div className={menu === true ? " menu-nav menu-nav-dis" : "menu-nav"}>
-                    <ul className="nav">
-                        <li className="m-home"><a className="link" href="/">Home</a></li>
-                        <li className="m-sobre"><Linka className="link" to="/cursos">Cursos</Linka></li>
-                        <li className="m-sobre"><Linka className="link" to="/cursos/certificados">Certificados</Linka></li>
-                        <li className="m-sobre"><Link onClick={handleClickBody} className="link" duration={1000} smooth={true} to="faq">FAQ</Link></li>
-                        <div id="animacao" className="animacao s-home"></div>
+                    <ul className="nav-cur">
+                        <li ><a className="link" href="/">Home</a></li>
+                        <li ><Linka className="link" to="/cursos/certificados">Certificados</Linka></li>
+                        <li ><Link onClick={handleClickBody} className="link" duration={1000} smooth={true} to="faq">FAQ</Link></li>
+                        <div id="animacao" className={faq === true ? "animacao s-faq" : "animacao s-curso"}>
+
+                        </div>
                     </ul>
-                    <Linka to="/minha-conta" onClick={handleClickBody} className={scrollPosition > 70 ? "btn-azul" : "btn-branco"}>entrar</Linka>
+                    {autenticado ?
+                        <span onClick={handleClickBody} className={scrollPosition > 70 ? "btn-azul" : "btn-branco"}>
+                            {userOn && userOn.nome + ' ' + userOn.sobre_nome}
+                            <img src={Moser} alt=""></img>
+                            <div className="opcoes">
+                                <ul>
+                                    <li><Linka to="/dashboard"><FontAwesomeIcon className="icon" icon="tachometer-alt" /> Dashboard</Linka></li>
+                                    <li><a href="/"><FontAwesomeIcon className="icon" icon="layer-group" /> Meus Cursos</a></li>
+                                    <li><a href="/"><FontAwesomeIcon className="icon" icon="user-circle" /> Minha Conta</a></li>
+                                    <li onClick={logout}><span><FontAwesomeIcon className="icon" icon="sign-out-alt" /> Sair</span></li>
+                                </ul>
+                            </div>
+                        </span>
+                        :
+                        <Linka to="/minha-conta" onClick={handleClickBody} className={scrollPosition > 70 ? "btn-azul" : "btn-branco"}>Entrar</Linka>}
                     <p><span>mekadir</span> &copy; {new Date().getFullYear()} - Todos direitos reservados -
                     <span className="block"><Linka onClick={handleClickBody} to="/termos"> Termos e Condições</Linka> | <Linka onClick={handleClickBody} to="/privacidade">Privacidade</Linka></span></p>
                 </div>
