@@ -118,10 +118,10 @@ function Sobre() {
                         <div className="socia">
                             <ul className="redes-sobre">
                                 <li><a href="/"><span className="iconspeck speck-facebook"></span></a></li>
-                                <li><a href="https://github.com/mokota-code"><span className="iconspeck speck-github"></span></a></li>
+                                <li><a href="https://github.com/mekadir_oficial"><span className="iconspeck speck-github"></span></a></li>
                                 <li><a href="/"><span className="iconspeck speck-twitter"></span></a></li>
-                                <li><a href="https://www.instagram.com/mokota_code/"><span className="iconspeck speck-instagram"></span></a></li>
-                                <li><a href="/"><span className="iconspeck speck-youtube"></span></a></li>
+                                <li><a href="https://www.instagram.com/mekadir_oficial/"><span className="iconspeck speck-instagram"></span></a></li>
+                                <li><a href="https://www.youtube.com/channel/UCPvCI8ftR37KuwxhvMJQWIQ"><span className="iconspeck speck-youtube"></span></a></li>
                             </ul>
                             <p className="mais">Assista o video e saiba mais sobre nós. ➝</p>
                         </div>
