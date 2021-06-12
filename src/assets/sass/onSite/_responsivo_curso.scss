@@ -1144,6 +1144,20 @@
             .btn-branco{
                 background-color: #438ce0;
                 color: #fff;
+                width: 300px;
+                margin: 0 auto;
+                .opcoes{
+                    width: 100%;
+                    /* display: block; */
+                    ul{
+                        li{
+                            a{
+                                text-align: left;
+                                margin: 0;
+                            }
+                        }
+                    }
+                }
             }
         }
         .menu-nav-dis{

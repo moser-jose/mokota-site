@@ -17,6 +17,7 @@ import Voltar from '../../components/Admin/Dashboard/Voltar';
 import MenuEsquerdo from '../../components/Admin/Dashboard/MenuEsquerdo';
 import LineChart from '../../components/Admin/Dashboard/LineChart';
 import PieChart from '../../components/Admin/Dashboard/PieChart';
+import 'moment/locale/pt'
 
 
 var pag = {
@@ -373,8 +374,8 @@ function Inscritos() {
                                     </span>
                                 </span>
                                 <div className="tempo">
-                                    <span>Início: {moment(dadosCurso.inicio).format('DD-MMMM-YYYY')}</span>
-                                    <span>Fim: {moment(dadosCurso.fim).format('DD-MMMM-YYYY')}</span>
+                                    <span>Início: {moment(dadosCurso.inicio).format('LL')}</span>
+                                    <span>Fim: {moment(dadosCurso.fim).format('LL')}</span>
                                 </div>
                                 <div className="line-">
                                     <LineChart />

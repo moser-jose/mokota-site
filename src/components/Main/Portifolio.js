@@ -51,7 +51,7 @@ export default function Portifolio() {
                                     <div className="saiba-pro">
                                         <h2>{data.categoria}</h2>
                                         <h1>{data.titulo}</h1>
-                                        <Link to={`projectos/${data.slug}`} >Saiba mais</Link>
+                                        <a target="_blank" rel="noreferrer" href="https://hinario-adventista.vercel.app/" >Saiba mais</a>
                                     </div>
                                 </div>
                             ))

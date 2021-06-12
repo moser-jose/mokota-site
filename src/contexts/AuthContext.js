@@ -6,6 +6,7 @@ export const StateAuthContext = ({ children }) => {
     const navigate = useNavigate();
     const [autenticado, setAutenticado] = useState(false);
     const [cursosDados, setCursosDados] = useState(null);
+    const [loading, setLoading] = useState(false);
     const [userOn, setUserOn] = useState(null);
     const [usuariosDados, setUsuariosDados] = useState(null);
     const [alunosDados, setAlunosDados] = useState(null);
@@ -19,11 +20,11 @@ export const StateAuthContext = ({ children }) => {
                 const { url, options } = validarToken(token);
                 const response = await fetch(url, options);
                 const { sucesso, email } = await response.json();
-                if (sucesso === 1) {
+                if (sucesso === 4) {
                     const { url, options } = updateState(token, { email });
                     const response = await fetch(url, options);
                     const { sucesso } = await response.json();
-                    if (sucesso !== 1) {
+                    if (sucesso !== 4) {
                         logout();
                     }
                 }
@@ -79,7 +80,7 @@ export const StateAuthContext = ({ children }) => {
     async function login(email, senha) {
         try {
             setError(null);
-            /* setLoading(true); */
+            setLoading(true);
             const { url, options } = userLogin({ email, senha });
             const response = await fetch(url, options);
             const { sucesso, token, mensagem } = await response.json();
@@ -87,7 +88,7 @@ export const StateAuthContext = ({ children }) => {
                 cod: sucesso,
                 mensagem: mensagem
             });
-            if (sucesso === 1) {
+            if (sucesso === 4) {
                 window.localStorage.setItem('token', token);
                 await getCursos(token);
                 await getAlunos(token);
@@ -102,7 +103,7 @@ export const StateAuthContext = ({ children }) => {
             });
             setAutenticado(false);
         } finally {
-            /* setLoading(false); */
+            setLoading(false);
 
         }
     }
@@ -113,16 +114,15 @@ export const StateAuthContext = ({ children }) => {
             if (token) {
                 try {
                     setError(null);
-                    /*  setLoading(true); */
+                    setLoading(true);
                     const { url, options } = validarToken(token);
                     const response = await fetch(url, options);
                     const { sucesso, email, mensagem } = await response.json();
-                    /* console.log(email) */
                     setError({
                         cod: sucesso,
                         mensagem: mensagem
                     });
-                    if (sucesso === 1) {
+                    if (sucesso === 4) {
                         await getCursos(token);
                         await getAlunos(token);
                         await getUsuarios(token);
@@ -134,7 +134,7 @@ export const StateAuthContext = ({ children }) => {
                 } catch (err) {
                     logout();
                 } finally {
-                    /* setLoading(false); */
+                    setLoading(false);
                 }
             }
             else {
@@ -147,7 +147,7 @@ export const StateAuthContext = ({ children }) => {
 
     return (
         <StateContext.Provider
-            value={{ autenticado, updateStateUser, error, userOn, usuariosDados, cursosDados, alunosDados, setError, login, logout, setAutenticado }}>
+            value={{ loading, autenticado, updateStateUser, error, userOn, usuariosDados, cursosDados, alunosDados, setError, login, logout, setAutenticado }}>
             {children}
         </StateContext.Provider>
     );

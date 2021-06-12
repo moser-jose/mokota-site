@@ -8,14 +8,14 @@ const types = {
     regex: /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
     message: ['E-mail inválido, verifique'],
   },
-  telefone: {
+  /* telefone: {
     regex: /(\d{3}[ //-]*){3}/g,
     message: ['Telefone inválido, verifique'],
-  },
+  }, */
   password: {
     regex: /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])[0-9a-zA-Z]{8,}$/,
     message:
-      '1 letra maíusculo, 1 minúsculo e 1 digito. Mínimo 8 caracteres.',
+      '1 caracter maíusculo, 1 minúsculo e 1 digito. Mínimo 8 caracteres.',
   }
 };
 const useForm = (type, campo) => {

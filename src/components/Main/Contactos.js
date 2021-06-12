@@ -4,7 +4,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Alerta from '../Admin/Formulario/Alerta';
 import useForm from '../../hooks/useForm';
 import { usePlayContext } from '../../contexts/PlayContext';
-import { alunoInscrever } from '../../api/';
 import emailjs from 'emailjs-com';
 export default function Contactos() {
 
@@ -19,18 +18,18 @@ export default function Contactos() {
         e.preventDefault();
         if (nome.validate() && telefone.validate() && assunto.validate() && email.validate() && mensagem.validate()) {
             sendEmail(e);
+
         }
     }
 
     const sendEmail = (e) => {
-        e.preventDefault();
 
         emailjs.sendForm('googleMekadir', 'template_4wuta9i', e.target, 'user_6jwwZQImmaHLToaXF0Ne5')
             .then((result) => {
                 setErrorSite({
                     cod: 1,
                     mensagem: ["E-mail enviado"]
-                });
+                })
             }, (error) => {
                 setErrorSite({
                     cod: 0,

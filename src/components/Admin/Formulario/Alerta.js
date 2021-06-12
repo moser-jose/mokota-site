@@ -7,6 +7,9 @@ const Alerta = ({ mensagem }) => {
             if (mensagem.cod === 0 || mensagem.cod === 1) {
                 setNotificacao(true);
             }
+            else {
+                setNotificacao(false);
+            }
         }
         Alert();
     }, [mensagem])

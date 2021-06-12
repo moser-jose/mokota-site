@@ -38,10 +38,17 @@ function Servicos() {
                     <div className="grid-8 grid8">
                         <span className="icon-"><FontAwesomeIcon className="ic-serv" icon="network-wired" /></span>
                         <h1>Consultoria e Administração de Sistemas</h1>
-                        <p>Deixe a sua empresa online através da criação de um <span>site</span> e optimize o
-                        seu negócio e a interação com os seus clientes através de um <span>sistema de gestão</span> seguro, eficiente
-                        e que integra as melhores
-                        ferramentas para impulsionar a sua marca.</p>
+                        <p>Fornecemos, instalamos, montamos e configuramos servidores, 
+                        <span>(Windows, Unix)</span> desde a fase de planificação até à 
+                        a fase de implementação. Implementamos e administramos sistemas 
+                        de virtualização com o <span>Hyper-V</span> <span>VMWare</span> </p>
+
+
+
+
+
+
+
                     </div>
                 </div>
             </div>

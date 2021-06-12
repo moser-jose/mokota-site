@@ -119,13 +119,12 @@ function Header() {
                         }></div>
                     </ul>
                     {autenticado ?
-                        <span onClick={handleClickBody} className={scrollPosition > 70 ? "btn-azul" : "btn-branco"}>
+                        <span /* onClick={handleClickBody} */ className={scrollPosition > 70 ? "btn-azul" : "btn-branco"}>
                             {userOn && userOn.nome + ' ' + userOn.sobre_nome}
                             <img src={Moser} alt=""></img>
                             <div className="opcoes">
                                 <ul>
                                     <li><Linka to="/dashboard"><FontAwesomeIcon className="icon" icon="tachometer-alt" /> Dashboard</Linka></li>
-                                    <li><a href="/"><FontAwesomeIcon className="icon" icon="layer-group" /> Meus Cursos</a></li>
                                     <li><a href="/"><FontAwesomeIcon className="icon" icon="user-circle" /> Minha Conta</a></li>
                                     <li onClick={logout}><span><FontAwesomeIcon className="icon" icon="sign-out-alt" /> Sair</span></li>
                                 </ul>

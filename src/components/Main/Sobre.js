@@ -82,7 +82,7 @@ function Sobre() {
                                         que resolvam problemas pontuais da nossa sociedade.
                                           </p>
                                             <p className="desc">Nosso foco é fazer com que nossos
-                                            alunos tenha conhecimento de qualidade e avançado de programação e
+                                            alunos tenham conhecimento de qualidade e avançado de programação e
                                             incutir em suas mentes a iniciarem uma jornada nessa área fantástica.</p>
                                         </>
                                         : valores === true &&

@@ -19,7 +19,7 @@ function Login() {
     event.preventDefault();
     if (email.validate() && senha.validate()) {
       login(email.value, senha.value);
-      
+
     }
   }
 
