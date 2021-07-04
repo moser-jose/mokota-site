@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="395.702" height="305.617" viewBox="0 0 395.702 305.617">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_3" data-name="Retângulo 3" width="395.702" height="305.617" transform="translate(22)" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Retângulo_1" data-name="Retângulo 1" width="442.702" height="158.809" transform="translate(0 73)" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f70" stop-opacity="0"/>
+      <stop offset="1" stop-color="#e6560b"/>
+    </linearGradient>
+    <clipPath id="clip-path-3">
+      <rect id="Retângulo_2" data-name="Retângulo 2" width="442.702" height="146.809" transform="translate(0 12)" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2a72c4"/>
+      <stop offset="1" stop-color="#3480d8" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_1378" data-name="Grupo 1378" transform="translate(2376.115 3557.185)">
+    <g id="Grupo_1364" data-name="Grupo 1364" transform="translate(-1297.888 -753.75)">
+      <g id="Grupo_de_rolagem_8" data-name="Grupo de rolagem 8" transform="translate(-1100.227 -2803.435)" clip-path="url(#clip-path)">
+        <g id="Grupo_1343" data-name="Grupo 1343" transform="translate(0 -2)">
+          <g id="Grupo_de_rolagem_5" data-name="Grupo de rolagem 5" transform="translate(0 75.809)" clip-path="url(#clip-path-2)">
+            <path id="Caminho_1390" data-name="Caminho 1390" d="M891-525.328V-640.464l6.857-.872c3.577-.523,25.936-.7,49.785-.523l43.227.523,1.491,83.561,1.49,83.561,35.774-81.642c19.378-44.833,37.264-82.689,39.649-84.084,3.279-1.744,13.415-2.268,46.208-1.919l42.332.523,37.264,85.131,37.265,85.131.894-84.608.6-84.608,9.838-1.047c5.068-.523,27.725-.872,49.785-.523l40.246.523v230.273l-79.6.523-79.3.349-4.77-9.071c-2.385-5.059-16.1-36.285-30.408-69.256-18.185-41.344-26.83-58.964-28.619-56.7-1.192,1.744-14.608,31.226-29.513,65.244s-28.321,63.674-29.812,65.767L1049-410.191H891Z" transform="translate(-891 642)" fill="url(#linear-gradient)"/>
+          </g>
+          <g id="Grupo_de_rolagem_7" data-name="Grupo de rolagem 7" transform="translate(0 -10)" clip-path="url(#clip-path-3)">
+            <path id="Caminho_1404" data-name="Caminho 1404" d="M891-526.864v115.136l6.857.872c3.577.523,25.936.7,49.785.523l43.227-.523,1.491-83.561,1.49-83.561,35.774,81.642c19.378,44.833,37.264,82.689,39.649,84.084,3.279,1.745,13.415,2.268,46.208,1.919l42.332-.523,37.264-85.131,37.265-85.131.894,84.608.6,84.608,9.838,1.047c5.068.523,27.725.872,49.785.523l40.246-.523V-641.128l-79.6-.523-79.3-.349-4.77,9.071c-2.385,5.059-16.1,36.285-30.408,69.256-18.185,41.344-26.83,58.964-28.619,56.7-1.192-1.745-14.608-31.226-29.513-65.244s-28.321-63.674-29.812-65.767L1049-642H891Z" transform="translate(-891 642)" fill="url(#linear-gradient-2)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Grupo_1365" data-name="Grupo 1365" transform="translate(-1297.888 -753.75)">
+      <g id="Grupo_de_rolagem_8-2" data-name="Grupo de rolagem 8" transform="translate(-1100.227 -2803.435)" clip-path="url(#clip-path)">
+        <g id="Grupo_1343-2" data-name="Grupo 1343" transform="translate(0 -2)">
+          <g id="Grupo_de_rolagem_5-2" data-name="Grupo de rolagem 5" transform="translate(0 75.809)" clip-path="url(#clip-path-2)">
+            <path id="Caminho_1390-2" data-name="Caminho 1390" d="M891-525.328V-640.464l6.857-.872c3.577-.523,25.936-.7,49.785-.523l43.227.523,1.491,83.561,1.49,83.561,35.774-81.642c19.378-44.833,37.264-82.689,39.649-84.084,3.279-1.744,13.415-2.268,46.208-1.919l42.332.523,37.264,85.131,37.265,85.131.894-84.608.6-84.608,9.838-1.047c5.068-.523,27.725-.872,49.785-.523l40.246.523v230.273l-79.6.523-79.3.349-4.77-9.071c-2.385-5.059-16.1-36.285-30.408-69.256-18.185-41.344-26.83-58.964-28.619-56.7-1.192,1.744-14.608,31.226-29.513,65.244s-28.321,63.674-29.812,65.767L1049-410.191H891Z" transform="translate(-891 642)" fill="url(#linear-gradient)"/>
+          </g>
+          <g id="Grupo_de_rolagem_7-2" data-name="Grupo de rolagem 7" transform="translate(0 -10)" clip-path="url(#clip-path-3)">
+            <path id="Caminho_1404-2" data-name="Caminho 1404" d="M891-526.864v115.136l6.857.872c3.577.523,25.936.7,49.785.523l43.227-.523,1.491-83.561,1.49-83.561,35.774,81.642c19.378,44.833,37.264,82.689,39.649,84.084,3.279,1.745,13.415,2.268,46.208,1.919l42.332-.523,37.264-85.131,37.265-85.131.894,84.608.6,84.608,9.838,1.047c5.068.523,27.725.872,49.785.523l40.246-.523V-641.128l-79.6-.523-79.3-.349-4.77,9.071c-2.385,5.059-16.1,36.285-30.408,69.256-18.185,41.344-26.83,58.964-28.619,56.7-1.192-1.745-14.608-31.226-29.513-65.244s-28.321-63.674-29.812-65.767L1049-642H891Z" transform="translate(-891 642)" fill="url(#linear-gradient-2)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

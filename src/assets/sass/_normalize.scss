@@ -32,7 +32,10 @@
       border-radius: 2px;
     } */
   }
-
+  .dark {
+    background: #292c35 !important;
+    transition: background 0.3s linear;
+}
   /**
      * Render the `main` element consistently in IE.
      */

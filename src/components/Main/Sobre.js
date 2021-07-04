@@ -119,7 +119,7 @@ function Sobre() {
                             <ul className="redes-sobre">
                                 <li><a target="_blank" rel="noreferrer" href="https://www.facebook.com/mekadir"><span className="iconspeck speck-facebook"></span></a></li>
                                 <li><a target="_blank" rel="noreferrer" href="https://github.com/mekadir-oficial"><span className="iconspeck speck-github"></span></a></li>
-                                <li><a target="_blank" rel="noreferrer" href="/"><span className="iconspeck speck-twitter"></span></a></li>
+                                <li><a target="_blank" rel="noreferrer" href="https://www.twitter.com/mekadiroficial/"><span className="iconspeck speck-twitter"></span></a></li>
                                 <li><a target="_blank" rel="noreferrer" href="https://www.instagram.com/mekadir_oficial/"><span className="iconspeck speck-instagram"></span></a></li>
                                 <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/channel/UCPvCI8ftR37KuwxhvMJQWIQ"><span className="iconspeck speck-youtube"></span></a></li>
                             </ul>
@@ -140,6 +140,64 @@ function Sobre() {
 
                     </div>
                     <div className="membro-m">
+                        <div className="membro grid-4">
+                            {/* <div className="func">
+                                <h1>CEO</h1>
+                            </div> */}
+                            <div className="img">
+                                <img className="img-img" src={Gaspar} alt="" />
+                            </div>
+                            <h1>Gaspar António</h1>
+                            <h2>Engenheiro de Software</h2>
+                            <span><a href="/"><i className="iconspeck speck-facebook"></i></a></span>
+                            <span><a href="/"><i className="iconspeck speck-linkedin-sp"></i></a></span>
+                            <span><a href="/"><i className="iconspeck speck-twitter"></i></a></span>
+                            <span><a href="/"><i className="iconspeck speck-instagram"></i></a></span>
+                        </div>
+                        <div className="membro grid-4">
+                            {/* <div className="func">
+                                <h1>CTO</h1>
+                            </div> */}
+                            <div className="img">
+                                <img className="img-img" src={Moser} alt="" />
+                            </div>
+                            <h1>Moser José</h1>
+                            <h2>Programador Fullstack</h2>
+                            <span><a href="/"><i className="iconspeck speck-facebook"></i></a></span>
+                            <span><a href="/"><i className="iconspeck speck-linkedin-sp"></i></a></span>
+                            <span><a href="/"><i className="iconspeck speck-twitter"></i></a></span>
+                            <span><a href="/"><i className="iconspeck speck-instagram"></i></a></span>
+                            <span><a href="/"><i className="iconspeck speck-github"></i></a></span>
+                        </div>
+                        <div className="membro grid-4">
+                            {/* <div className="func">
+                                <h1>COO</h1>
+                            </div> */}
+                            <div className="img">
+                                <img className="img-img" src={Wilson} alt="" />
+                            </div>
+                            <h1>Simão Mbengui</h1>
+                            <h2>Administrador de Sistemas</h2>
+                            <span><a href="https://www.linkedin.com/in/simao-mbengui-36b470b7"><i className="iconspeck speck-linkedin-sp"></i></a></span>
+                            <span><a href="https://twitter.com/smbengui"><i className="iconspeck speck-twitter"></i></a></span>
+                            <span><a href="https://www.instagram.com/wilsondjulay/"><i className="iconspeck speck-instagram"></i></a></span>
+
+                        </div>
+                        <div className="membro grid-4">
+                            {/*  <div className="func">
+                                <h1>Atendimento ao Cliente</h1>
+                            </div> */}
+                            <div className="img">
+                                <img className="img-img" src={Moser} alt="" />
+                            </div>
+                            <h1>Moser José</h1>
+                            <h2>Programador Fullstack</h2>
+                            <span><a href="/"><i className="iconspeck speck-facebook"></i></a></span>
+                            <span><a href="/"><i className="iconspeck speck-linkedin-sp"></i></a></span>
+                            <span><a href="/"><i className="iconspeck speck-twitter"></i></a></span>
+                            <span><a href="/"><i className="iconspeck speck-instagram"></i></a></span>
+                            <span><a href="/"><i className="iconspeck speck-github"></i></a></span>
+                        </div>
                         <div className="membro grid-4">
                             {/* <div className="func">
                                 <h1>CEO</h1>

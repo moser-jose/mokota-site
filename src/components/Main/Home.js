@@ -16,7 +16,7 @@ function Home() {
             <Header />
             <section id="home" sclass="s-home" className="home ">
                 <Carousel
-                    autoPlay={true}
+                    autoPlay={false}
                     showThumbs={false}
                     showStatus={false}
                     showArrows={false}
@@ -27,7 +27,7 @@ function Home() {
                 >
                     <div className="carousel-1">
                         <div className="part container">
-                            <div className="mov grid-8">
+                            <div className="mov">
                                 <h1>
                                     Nós criamos soluções
                                     <div className="home-tex" >
@@ -43,14 +43,13 @@ function Home() {
                                     <span className="vid">Veja o vídeo</span>
                                 </div>
                             </div>
-                            <div className="grid-8">
-
+                            <div className="grid-space">
                             </div>
                         </div>
                     </div>
                     <div className="carousel-2">
                         <div className="part container">
-                            <div className="mov grid-8">
+                            <div className="mov">
 
                                 <h1>
 
@@ -67,17 +66,15 @@ function Home() {
                                     <Link to="cursos" duration={1000} className="sbr" smooth={true}>Saiba mais</Link>
                                 </div>
                             </div>
-                            <div className="grid-8">
+                            <div className="grid-space">
 
                             </div>
                         </div>
                     </div>
                     <div className="carousel-3">
                         <div className="part container">
-                            <div className="grid-8">
-
-                            </div>
-                            <div className="mov grid-8">
+                           
+                            <div className="mov grid-space-">
                                 <h1>
                                     Faça um de nossos cursos e seja um {" "}
                                     <div className="home-tex" >
@@ -100,7 +97,7 @@ function Home() {
                 </Carousel>
                 <ul className="redes">
                     <li><a target="_blank" rel="noreferrer" href="https://www.facebook.com/mekadir"><span className="iconspeck speck-facebook"></span></a></li>
-                    <li><a target="_blank" rel="noreferrer" href="/"><span className="iconspeck speck-twitter"></span></a></li>
+                    <li><a target="_blank" rel="noreferrer" href="https://www.twitter.com/mekadiroficial/"><span className="iconspeck speck-twitter"></span></a></li>
                     <li><a target="_blank" rel="noreferrer" href="https://www.instagram.com/mekadir_oficial/"><span className="iconspeck speck-instagram"></span></a></li>
                     <li><a target="_blank" rel="noreferrer" href="https://www.youtube.com/channel/UCPvCI8ftR37KuwxhvMJQWIQ"><span className="iconspeck speck-youtube"></span></a></li>
                 </ul>

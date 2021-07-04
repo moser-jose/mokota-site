@@ -1,13 +1,14 @@
 import React from 'react'
-import Input from '../Admin/Formulario/Input';
+import Input from './Formulario/Input';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import Alerta from '../Admin/Formulario/Alerta';
+import Alerta from '../Main/Formulario/Alerta';
+import '../../assets/sass/Formulario.scss';
 import useForm from '../../hooks/useForm';
-import { usePlayContext } from '../../contexts/PlayContext';
+import { useAuthContext } from '../../contexts/AuthContext';
 import emailjs from 'emailjs-com';
 export default function Contactos() {
 
-    const { errorSite, setErrorSite } = usePlayContext();
+    const { error, setError } = useAuthContext();
     const nome = useForm('nome', 'Nome');
     const telefone = useForm('telefone', "Telefone");
     const email = useForm('email', 'E-mail');
@@ -26,12 +27,12 @@ export default function Contactos() {
 
         emailjs.sendForm('googleMekadir', 'template_4wuta9i', e.target, 'user_6jwwZQImmaHLToaXF0Ne5')
             .then((result) => {
-                setErrorSite({
+                setError({
                     cod: 1,
                     mensagem: ["E-mail enviado"]
                 })
             }, (error) => {
-                setErrorSite({
+                setError({
                     cod: 0,
                     mensagem: ["Algum erro aconteceu."]
                 });
@@ -51,24 +52,24 @@ export default function Contactos() {
 
                 <div className="grid-6">
                     <h1 className="obs"><span>obs:</span> Porfavor, insira informações fidedigas pois
-                a nossa equipa irá entrar em contacto consigo.
-                </h1>
+                        a nossa equipa irá entrar em contacto consigo.
+                    </h1>
                     <h1 className="obrig">* Campos obrigatórios</h1>
-                    {errorSite && <Alerta mensagem={errorSite} />}
+                    {error && <Alerta mensagem={error} />}
                     <div className="container-data log-l">
                         <form name="emailSen" method="post" id="emailSend" onSubmit={handleSubmit}  >
                             <div className="flex-l">
                                 <div className="flex-d">
-                                    <Input type="text" classN={errorSite && errorSite.type === 'nome' ? 'error-red' : ''} name="nome" placeholder="" label="Nome *" {...nome} ></Input>
+                                    <Input type="text" classN={error && error.type === 'nome' ? 'error-red' : ''} name="nome" placeholder="" label="Nome *" {...nome} ></Input>
                                 </div>
                                 <div className="flex-d">
-                                    <Input type="text" classN={errorSite && errorSite.type === 'telefone' ? 'error-red' : ''} name="telefone" placeholder="" label="Telefone *" {...telefone} ></Input>
+                                    <Input type="text" classN={error && error.type === 'telefone' ? 'error-red' : ''} name="telefone" placeholder="" label="Telefone *" {...telefone} ></Input>
                                 </div></div>
 
-                            <Input type="text" classN={errorSite && errorSite.type === 'assunto' ? 'error-red' : ''} name="assunto" placeholder="" label="Assunto *" {...assunto} ></Input>
+                            <Input type="text" classN={error && error.type === 'assunto' ? 'error-red' : ''} name="assunto" placeholder="" label="Assunto *" {...assunto} ></Input>
 
-                            <Input type="text" classN={errorSite && errorSite.type === 'email' ? 'error-red' : ''} name="email" placeholder="" label="E-mail *" {...email} ></Input>
-                            <Input type="textarea" classN={errorSite && errorSite.type === 'mensagem' ? 'error-red' : ''} name="mensagem" placeholder="" label="Mensagem *" {...mensagem} ></Input>
+                            <Input type="text" classN={error && error.type === 'email' ? 'error-red' : ''} name="email" placeholder="" label="E-mail *" {...email} ></Input>
+                            <Input type="textarea" classN={error && error.type === 'mensagem' ? 'error-red' : ''} name="mensagem" placeholder="" label="Mensagem *" {...mensagem} ></Input>
 
                             <div className="submit">
                                 <Input type="submit" value="Enviar" name="inscrever" placeholder="" label="" ></Input>
@@ -80,15 +81,13 @@ export default function Contactos() {
 
                 </div>
                 <div className="grid-10">
-
-
                     <h1>
                         Comece uma nova fase da sua vida como
-                        <span>
-                            developer
-                    </span>
+                        <span className="developer">
+                            #programador
+                        </span>
                     </h1>
-                    <p className="futuro"><span>PRIORIZE SUA CARREIRA,</span> invista no seu presente e ganhe no seu futuro.</p>
+                    <p className="futuro"><span>PRIORIZE SUA CARREIRA</span> invista no seu presente e ganhe no seu futuro.</p>
 
                     <div className="conta">
                         <div className="numb">

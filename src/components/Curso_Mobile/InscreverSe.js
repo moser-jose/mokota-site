@@ -1,7 +1,7 @@
 import React from 'react'
-import Input from '../Admin/Formulario/Input';
+import Input from '../Main/Formulario/Input';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import Alerta from '../Admin/Formulario/Alerta';
+import Alerta from '../Main/Formulario/Alerta';
 import useForm from '../../hooks/useForm';
 import { usePlayContext } from '../../contexts/PlayContext';
 import { alunoInscrever } from '../../api/';

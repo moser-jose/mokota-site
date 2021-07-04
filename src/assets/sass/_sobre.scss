@@ -4,7 +4,6 @@
     padding: 120px 0 0;
     position: relative;
     overflow-x:hidden !important;
-
     .status{
         text-align: center;
         margin:30px 0;
@@ -34,8 +33,10 @@
     }
     .sb {
         padding-bottom: 60px;
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
         align-items: center;
+        gap: 30px;
     }
     .opc{
         margin-top: 50px;
@@ -68,8 +69,10 @@
         display: block;
         margin: 0 auto;
         text-align: center;
-        height: 400px;
+        height: 100%;
         position: relative;
+        width: 100%;
+        grid-column: 2;
         @keyframes pulse-border {
             0% {
                 transform: translate(-50%, -50%, 0) scale(1);
@@ -94,7 +97,7 @@
             background: linear-gradient(
             rgba(24, 24, 24, 0.3),
             rgba(24, 24, 24, 0.5)),
-            url("../../img/img-curso/rea.png") center center no-repeat;
+            url("../img/img-curso/rea.png") center center no-repeat;
             background-size: cover;
 
             
@@ -148,58 +151,12 @@
                 align-items: center;
                 z-index: 0;
             }
-        }
-        /*
-            a{
-                background-color: #4099ff;
-                height: 400px;
-                border-radius: 4px;
-                box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1);
-                position: relative;
-                cursor:pointer;
-                display: block;
-                .vd{
-                    height: 170px;
-                    width: 170px;
-                    background-color: #fff;
-                    border-radius: 50%;
-                    position: absolute;
-                    top: 50%;
-                    left: 50%;
-                    transform: translate(-50%, -50%);
-                }
-                &::before{
-                    content: "";
-                    height: 150px;
-                    width: 150px;
-                    background-color: #fff;
-                    border-radius: 50%;
-                    position: absolute;
-                    top: 50%;
-                    left: 50%;
-                    transform: translate(-50%, -50%);
-                    animation: pulse-border 1500ms ease-out infinite;
-                    -webkit-transform: translateX(-50%) translateY(-50%);
-                    -ms-transform: translateX(-50%) translateY(-50%);
-                    transform: translateX(-50%) translateY(-50%);
-                }
-                &::after{
-                    content: "";
-                    position: absolute;
-                    display: block;
-                    top: 50%;
-                    left: 50%;
-                    transform: translate(-36%, -50%);
-                    border-left: 4.325rem solid #393939;
-                    border-top: 3rem solid transparent;
-                    border-bottom: 3rem solid transparent;
-                    box-shadow: 0 2px 3px0 rgba(0, 0, 0, 0.1);
-                }
-            } */
-    }
+        }}
     .sobrenos {
         position: relative;
         margin-right: 30px;
+        width: 100%;
+        grid-column: 1;
         &::after {
             content: "";
             position: absolute;
@@ -233,7 +190,7 @@
             }
             .desc {
                 line-height: 1.4;
-                font-size: 1.4rem;
+                font-size: 1.3rem;
                 margin: 10px 0 10px;
                 font-family: "Rubik","Poppins","sans-serif";
                 ul{
@@ -263,9 +220,12 @@
         justify-content:space-between;
         margin: 20px 0;
         .redes-sobre {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            justify-content: center;
+            align-items: center;  
+            gap: 10px;
             li {
-                display: inline-block;
-                margin-right: 10px;
                 a {
                     font-size: 26px;
                     color: #438ce0;
@@ -420,7 +380,7 @@
     /* background-color: #111111 !important; */
     background:  linear-gradient(
         rgba(24, 24, 24, 0.2),
-        rgba(24, 24, 24, 0.3)),url("../../img/equipa.jpg") ;
+        rgba(24, 24, 24, 0.3)),url("../img/equipa.jpg") ;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -459,7 +419,7 @@
         .desc {
             color: #ffffffc7;
             line-height: 1.5;
-            font-size: 1.4rem;
+            font-size: 1.3rem;
             text-align: center;
             font-family: "Rubik","Poppins", "sans-serif";
             margin: 10px 0 40px;
@@ -476,20 +436,25 @@
     }
     .membro-m{
         margin: 50px 0;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap:20px;
     }
     .membro {
         box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2);
         padding: 20px;
         background-color: #fff;
         height: 340px;
+        width: 100%;
         border-radius: 2px;
         text-align: center;
         transition: all 0.5s;
-        background-image: url("../../img/background.svg");
+        background-image: url("../img/background.svg");
         background-repeat: no-repeat;
         background-position: center;
         position: relative;
-        margin-left: 0 !important;
+        margin: 0 !important;
         &::after {
             content: "";
             position: absolute;

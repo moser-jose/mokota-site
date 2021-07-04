@@ -89,9 +89,21 @@ export function alunoInscrever(param, body) {
 }
 export function alunosGet() {
     return {
-        url: API_URL + '/cursos',
+        url: API_URL + '/curso',
         options: {
-            method: 'Get'
+            method: 'Get',
+            
+        },
+    };
+}
+export function alunoById(param, token) {
+    return {
+        url: API_URL + `/aluno/${param}`,
+        options: {
+            method: 'Get',
+            headers: {
+                Authorization: 'Bearer ' + token,
+            },
         },
     };
 }

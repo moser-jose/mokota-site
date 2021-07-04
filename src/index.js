@@ -61,7 +61,6 @@ import {
   faUserGraduate
 }
   from '@fortawesome/free-solid-svg-icons'
-import { StateUserContext } from './contexts/UserContext';
 import { StateAllContext } from './contexts/AllContexts';
 library.add(fab,
   faPencilAlt,
@@ -118,7 +117,8 @@ library.add(fab,
   faAngleDown,
   faTachometerAlt,
   faUserFriends,
-  faUserGraduate
+  faUserGraduate,
+  faEdit
 )
 
 ReactDOM.render(

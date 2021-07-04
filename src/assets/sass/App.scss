@@ -226,7 +226,7 @@
             rgba(24, 24, 24, 0.5),
             rgba(24, 24, 24, 0.5)
         ),
-        url("../../img/img-curso/prog.jpg") center center no-repeat;
+        url("../img/img-curso/prog.jpg") center center no-repeat;
         background-size: cover;
 
         
@@ -258,6 +258,17 @@
             span{
                 color: #e88d76;
                 font-weight: 600;
+                
+            }
+            .developer{
+                background-color: #dce9ff;
+                border-radius: 4px;
+                font-weight: 500;
+                color: #3f506d;
+                display: inline-block;
+                text-align: center;
+                padding: 4px 8px;
+                margin-left: 20px;
             }
         }
         .futuro{
@@ -270,6 +281,14 @@
             text-transform:lowercase;
             span{
                 text-transform: uppercase;
+                background-color: #dce9ff;
+                border-radius: 4px;
+                font-weight: 500;
+                font-size: 14px;
+                color: #3f506d;
+                display: inline-block;
+                text-align: center;
+                padding: 4px 8px;
             }
         }
 
@@ -285,12 +304,16 @@
                 }
                 
                 .num{
-                    color: #e88d76;
-                    font-weight: 600;
                     font-size: 20px;
                     font-family: "Rubik";
-                    &:nth-last-child(1){
-                    }
+                    background-color: #dce9ff;
+                    border-radius: 4px;
+                    font-weight: 500;
+                    font-size: 14px;
+                    color: #3f506d;
+                    display: inline-block;
+                    text-align: center;
+                    padding: 4px 8px;
                 }
             }
             .ic{
@@ -1164,132 +1187,5 @@
     margin: 30px 0 30px 20px;
 }
 
-.notfound{
-    .container{
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        img{
-            width: 350px;
-            margin-bottom: 60px;
-        }
-        .not{
-            display: flex;
-            align-items: center;
-            .ico{
-                font-size: 200px;
-                height: 200px;
-                width: 200px;;  
-                color: #ff5a5adb;
-                border: 12px solid #ff5a5a;
-                border-radius: 50%;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                position: relative;
-                &::before{
-                    content: "";
-                    height: 230px !important;
-                    width: 230px !important;
-                    border-radius: 50%;
-                    position: absolute;
-                    display: block;
-                    border:12px solid #fc8f92
-                    ;
-                }
-                &::after{
-                    content: "";
-                    height: 210px !important;
-                    width: 210px !important;
-                    border-radius: 50%;
-                    position: absolute;
-                    display: block;
-                    border:12px solid #fe7071c4
-                    ;
-                }
-            }
 
-            .h1{
-                h2{
-                    font-size: 26px;
-                    font-weight: 500;
-                    text-transform: uppercase;
-                    margin-bottom: -10px;
-                    text-align: center;
-                }
-                h1{
-                    margin-left: 30px;
-                    font-size: 220px;
-                    font-weight: 500
-                }
-                p{
-                    margin-top: -20px;
-                    margin-left: 30px;
-                    font-size: 18px;
-                    line-height: 1.4em;
-                }
-            }
-        }
-
-        .link{
-            margin-bottom: 0 !important;
-            width: 250px;
-            padding: 12px;
-            cursor: pointer;
-            background-color: #438CE0;
-            box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
-            border-radius: 4px;
-            color: #fefefe;
-            font-size: 22px;
-            font-weight: 400;
-            letter-spacing: 1px;
-            border: none;
-            outline: none;
-            text-align: center;
-            margin-top: 30px;
-            text-transform: uppercase;
-            &:hover {
-                background-color: #5da2f1;
-            }
-        }
-        .redes{
-            margin-top: 80px;
-            li{
-                display: inline-block;
-                height: 50px;
-                width: 50px;
-                background-color: #438CE0;
-                border-radius: 50%;
-                position: relative;
-                display: inline-flex;
-                justify-content: center;
-                align-items: center;
-                margin: 0 10px;
-                border: 4px solid #b5d3f3;
-                transition: all .5s ease;
-                a{
-                    font-size: 23px;
-                    color: #fff;
-                    width: 100%;
-                    height: 100%;
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                }
-                &:hover{
-                    transition: all .5s ease;
-                    background-color:  #b5d3f3;
-                }
-                &:hover a{
-                    transition: all .5s ease;
-                    color: #3f506d
-                }
-            }
-        }
-       
-        
-    }
-}
 @import 'responsivo_curso';

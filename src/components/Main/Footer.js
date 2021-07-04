@@ -103,7 +103,7 @@ function Footer() {
                     <div className="redes-s">
                         <span title="Facebook"><a target="_blank" rel="noreferrer" href="https://www.facebook.com/mekadir"><i className="iconspeck speck-facebook"></i></a></span>
                         <span title="Instagram"><a target="_blank" rel="noreferrer" href="https://www.instagram.com/mekadir_oficial/"><i className="iconspeck speck-instagram"></i></a></span>
-                        <span title="Twitter"><a target="_blank" rel="noreferrer" href="/"><i className="iconspeck speck-twitter"></i></a></span>
+                        <span title="Twitter"><a target="_blank" rel="noreferrer" href="https://www.twitter.com/mekadiroficial/"><i className="iconspeck speck-twitter"></i></a></span>
                         <span title="Youtube"><a target="_blank" rel="noreferrer" href="https://www.youtube.com/channel/UCPvCI8ftR37KuwxhvMJQWIQ"><i className="iconspeck speck-youtube"></i></a></span>
                         <span title="Github"><a target="_blank" rel="noreferrer" href="https://github.com/mekadir-oficial"><i className="iconspeck speck-github"></i></a></span>
                     </div>

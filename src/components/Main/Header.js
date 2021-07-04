@@ -125,15 +125,15 @@ function Header() {
                             <div className="opcoes">
                                 <ul>
                                     <li><Linka to="/dashboard"><FontAwesomeIcon className="icon" icon="tachometer-alt" /> Dashboard</Linka></li>
-                                    <li><a href="/"><FontAwesomeIcon className="icon" icon="user-circle" /> Minha Conta</a></li>
+                                    <li><Linka to={`/dashboard/usuario/${userOn && userOn.id}`}><FontAwesomeIcon className="icon" icon="user-circle" /> Minha Conta</Linka></li>
                                     <li onClick={logout}><span><FontAwesomeIcon className="icon" icon="sign-out-alt" /> Sair</span></li>
                                 </ul>
                             </div>
                         </span>
                         :
-                        <Linka to="/minha-conta" onClick={handleClickBody} className={scrollPosition > 70 ? "btn-azul" : "btn-branco"}>Entrar</Linka>}
+                        <a href="http://localhost:3001"  onClick={handleClickBody} className={scrollPosition > 70 ? "btn-azul" : "btn-branco"}>Entrar</a>}
                     <p><span>mekadir</span> &copy; {new Date().getFullYear()} - Todos direitos reservados -
-                    <span className="block"><Linka onClick={handleClickBody} to="/termos"> Termos e Condições</Linka> | <Linka onClick={handleClickBody} to="/privacidade">Privacidade</Linka></span></p>
+                    <span className="block"><a onClick={handleClickBody} href="/termos"> Termos e Condições</a> | <Linka onClick={handleClickBody} to="/privacidade">Privacidade</Linka></span></p>
 
                 </div>
             </div>

@@ -1,6 +1,6 @@
 import React from 'react'
-import Input from '../Admin/Formulario/Input'
-import Button from '../Admin/Formulario/Button'
+import Input from '../Main/Formulario/Input'
+import Button from '../Main/Formulario/Button'
 import Header from '../Cursos/HeaderCertificado'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 export default function Certificados() {

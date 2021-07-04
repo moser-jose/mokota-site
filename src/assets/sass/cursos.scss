@@ -4,7 +4,7 @@
                 rgba(24, 24, 24, 0.623),
                 rgba(24, 24, 24, 0.815)
             ),
-            url("../../img/code.jpg") center center no-repeat;
+            url("../img/code.jpg") center center no-repeat;
             background-size: cover;
     margin-bottom: 60px;
     display: flex;
@@ -102,16 +102,72 @@
         line-height: 1.3;
     }
     .curs{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
         margin-top: 10px !important;
+        gap: 20px;
         .template{
+            margin: 0 !important;
             overflow: hidden;
             box-shadow: rgba(46, 61 ,73, 0.2) 0px 1px 20px 0px;
             box-sizing: border-box;
             border-radius: 6px;
             background-color: #fff;
-            background-image: url("../../img/background.svg");
-                background-repeat: no-repeat;
-                background-position: center;
+            background-image: url("../img/background.svg");
+            background-repeat: no-repeat;
+            background-position: center;
+            width: 100%;
+            &:nth-child(2){
+                
+                img{
+                    background-color: #38415E;
+                }
+                .texto{
+                    padding-bottom: 45.5px;
+                }
+            }
+            &:nth-child(1){
+                grid-column: 1;
+                img{
+                    background: #000
+                }
+                .texto{
+                    padding-bottom: 38px;
+                }
+            }
+            &:nth-child(3){
+                img{
+                    background:linear-gradient(#778FDF,#495B90);
+                }
+                .texto{
+                    padding-bottom: 45px;
+                }
+            }
+            &:nth-child(4){
+                img{
+                    background-color: #181818e3;
+                }
+                .texto{
+                    padding-bottom: 81px;
+                }
+            }
+            
+            &:nth-child(5){
+                img{
+                    background: #000;
+                }
+                .texto{
+                    padding-bottom: 75px;
+                }
+            }
+            &:nth-child(6){
+                img{
+                    background: #4C9734 !important;
+                }
+                .texto{
+                    padding-bottom: 34px;
+                }
+            }
             h3{
                 background-color: #dce9ff;
                 padding: 4px 8px;
@@ -203,57 +259,13 @@
                     }
                 }
             }
-            &:nth-child(1){
-                img{
-                    background-color: #38415E;
-                }
-            }
-            &:nth-child(2){
-                img{
-                    background: #000
-                }
-                .texto{
-                    padding-bottom: 38px;
-                }
-            }
-            &:nth-child(3){
-                img{
-                    background:linear-gradient(#778FDF,#495B90);
-                }
-                .texto{
-                    padding-bottom: 38px;
-                }
-            }
             
         }
     }
-    .cu-t{
-        margin-top: 20px !important;
+    .curs-main{
+        display: flex;
         .template{
-            &:nth-child(1){
-                img{
-                    background-color: #181818e3;
-                }
-                .texto{
-                    padding-bottom: 79px;
-                }
-            }
-            
-            &:nth-child(2){
-                img{
-                    background: #000;
-                }
-                .texto{
-                    padding-bottom: 74px;
-                }
-            }
-            &:nth-child(3){
-                img{
-                    background: #4C9734 !important;
-                }
-                
-            }
-            
+            margin: 0 10px !important;
         }
     }
 }
@@ -405,6 +417,100 @@
     }
 }
 }
+@media only screen and (min-width: 1000px) and (max-width: 1460px){
+
+//Página cursos
+.duvidas{
+    .grid-4{
+        margin-left: 0 !important;
+    }
+}
+.curs{
+    .template{
+        &:nth-child(1){
+            .texto{
+                padding-bottom: 50px !important;
+            }
+        }
+        
+    }
+}
+.cu-t{
+    .template{
+        &:nth-child(1){
+            .texto{
+                padding-bottom: 55px !important;
+            }
+        }
+        &:nth-child(2){
+            .texto{
+                padding-bottom: 30px !important;
+            }
+        }
+        &:nth-child(3){
+            .texto{
+                padding-bottom: 72px !important;
+            }
+        }
+    }
+}
+//Página certificados
+    
+.cert{
+    .nav{
+        li{
+            a{
+                color: #555 !important;
+            }
+        }
+    }
+
+.certificados{
+    height: 100vh;
+    width: 100%;
+    background-color: #f5f8fd ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    div{
+        width: 34% !important;
+        .award{
+            font-size: 90px !important;
+        }
+        h1{
+            font-size: 25px !important;
+        }
+        p{
+            margin: 25px 0 !important;
+        }
+        form{
+            .Container{
+                width: 100% !important;
+                    .input{
+                        margin-bottom: 20px !important;
+                    }
+                    
+            }
+            .button{
+                width: unset !important;
+                font-weight: 500 !important;
+            }
+        }
+        
+    }
+}
+}
+
+
+}
+
+
+
+
+
+
+
 
 @media only screen and (max-width: 757px) {
     .curso-m,.cursos-mek{
@@ -445,7 +551,7 @@
                 box-sizing: border-box;
                 border-radius: 6px;
                 background-color: #fff;
-                background-image: url("../../img/background.svg");
+                background-image: url("../img/background.svg");
                     background-repeat: no-repeat;
                     background-position: center;
                 h3{

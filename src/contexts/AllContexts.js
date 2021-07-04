@@ -5,7 +5,6 @@ export const StateContext = createContext();
 export const StateAllContext = ({ children }) => {
     const projetos = {
         data: [
-
             {
                 id: 1,
                 foto: 1,

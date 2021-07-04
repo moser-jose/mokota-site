@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Footer from '../../components/Main/Footer'
 import Home from "../../components/Main/Home"
 import Sobre from "../../components/Main/Sobre"
-import '../../assets/sass/onSite/App.scss'
+import '../../assets/sass/App.scss'
 import PlayVideo from '../../components/Main/PlayVideo'
 import { usePlayContext } from '../../contexts/PlayContext'
 import WhatsApp from '../../components/Curso_Mobile/WhatsApp'
