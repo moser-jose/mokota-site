@@ -1437,7 +1437,7 @@
         background-attachment: local !important;
         &::after {
             height: 50px;
-            top: 2%;
+            top: .7%;
         }
         .eq-cab {
             width: 310px;
@@ -1836,6 +1836,13 @@
     &::after{
      height: 50px;
     }
+    .alerta-erro,.alerta-ok {
+        .mensagem {
+            span{
+                padding: 0 !important;
+            }
+            }
+    }
     .container {
         padding: 0;
         .grid-6{
@@ -1846,6 +1853,11 @@
             .futuro,.contas,.redes{
                 padding: 0 10px;
             }
+            .futuro{
+                span{
+                    margin: 0;
+                }
+            }
             h1{
                 padding: 0 20px;
             }
@@ -1853,6 +1865,9 @@
                 display: flex !important;
                 justify-content: center;
                 align-items: center;
+            }
+            .developer{
+                margin: 0 !important;
             }
         }
         

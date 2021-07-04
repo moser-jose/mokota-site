@@ -263,8 +263,9 @@
         }
     
         .curs{
-            .rec-carousel-item-0 {
+            .rec-carousel-item-1 {
                 .template{
+                    margin: 0 !important;
                         background:  #38415E !important;
                         color: #f5f8fd !important;
                 }
@@ -274,13 +275,14 @@
                     }
                 }
             }
-            .rec-carousel-item-1 {
+            .rec-carousel-item-0 {
                 .template{
+                    margin: 0 !important;
                     background: #000 !important;
                     color: #f5f8fd !important;
                     .texto{
                         h1{
-                            padding: 26px 0 !important;
+                            padding: 14px 0 !important;
                         }
                     }
                     .botao{
@@ -295,6 +297,7 @@
             }
             .rec-carousel-item-2 {
                 .template{
+                    margin: 0 !important;
                     background:  linear-gradient(#778FDF,#495B90) !important;
                         color: #f5f8fd !important;
                         .texto{
@@ -306,6 +309,7 @@
             }
             .rec-carousel-item-3 {
                 .template{
+                    margin: 0 !important;
                     background:  #181818e3!important;
                         color: #f5f8fd !important;
                         .texto{
@@ -317,6 +321,7 @@
             }
             .rec-carousel-item-4 {
                 .template{
+                    margin: 0 !important;
                     background:  #000!important;
                         color: #f5f8fd !important;
                         .texto{
@@ -336,6 +341,7 @@
             }
             .rec-carousel-item-5 {
                 .template{
+                    margin: 0 !important;
                     background:  #4C9734 !important;
                         color: #f5f8fd !important;
                         .texto{

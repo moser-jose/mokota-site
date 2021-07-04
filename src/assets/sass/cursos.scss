@@ -514,7 +514,7 @@
 
 @media only screen and (max-width: 757px) {
     .curso-m,.cursos-mek{
-        padding: 100px 0 50px;
+        padding: 30px 0 50px;
         .nossos{
                 text-align: center;
                 color: #393939;
@@ -525,10 +525,10 @@
                     content: "";
                     display: block;
                     background-color: #393939;
-                    height: 60px;
+                    height: 50px;
                     width: 2px;
                     border-radius: 20%;
-                    margin: 0 auto;
+                    margin: 0 auto 20px;
                 }
                 span{
                     color: #e88d76;
@@ -545,8 +545,10 @@
         }
         .curs{
             margin-top: 10px !important;
+            display: block;
             .template{
                 overflow: hidden;
+                margin-top: 20px !important;
                 box-shadow: rgba(46, 61 ,73, 0.2) 0px 1px 20px 0px;
                 box-sizing: border-box;
                 border-radius: 6px;
@@ -676,5 +678,53 @@
                 
             }
         }
+    }
+
+    .cert{
+        .nav{
+            li{
+                a{
+                    color: #555 !important;
+                }
+            }
+    }
+    
+    .certificados{
+        height: 100vh;
+        width: 100%;
+        background-color: #f5f8fd ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        div{
+            width: 310px;
+            .award{
+                font-size: 80px;
+            }
+            h1{
+                font-size: 30px;
+            }
+            p{
+                margin: 30px 0;
+            }
+            .Container{
+                width: 100%;
+                margin: 0 auto;
+                    .input{
+                        width: 100%;
+                        padding: 20px 10px;
+                        margin-bottom: 35px !important;
+                        font-size: 14px !important;
+                        font-weight: 300 !important;
+                    }
+                    
+            }
+            .button{
+                width: 100%;
+                font-weight: 500;
+            }
+        }
+    }
     }
 }
