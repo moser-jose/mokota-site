@@ -8,10 +8,10 @@ const types = {
     regex: /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/,
     message: ['E-mail inválido, verifique'],
   },
-  /* telefone: {
-    regex: /(\d{3}[ //-]*){3}/g,
-    message: ['Telefone inválido, verifique'],
-  }, */
+  telefone: {
+    regex: /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{3})$/,
+    message: ['Telefone inválido, verifique']
+  },
   password: {
     regex: /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])[0-9a-zA-Z]{8,}$/,
     message:
