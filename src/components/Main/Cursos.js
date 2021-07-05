@@ -10,7 +10,8 @@ function Cursos() {
             itemsToShow: 1,
             showArrows: false
         },
-        { width: 600, itemsToShow: 2 },
+        { width: 600, itemsToShow: 2,showArrows: false },
+        
         { width: 1000, itemsToShow: 3 },
     ];
     console.log(data)
