@@ -52,7 +52,7 @@ export default function Main() {
                     Começe agora uma carreira de developer e cria as suas próprias aplicações web e mobile,
                     domine as ferramentas de programação e venha programar com a gente.
                 </p>
-                <div className="container curs">
+                <div className="container curs cur-">
                     {data && data.map((e, key) => (
                         <Template key={key}
                             img={e.img}

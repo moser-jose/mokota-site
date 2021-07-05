@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 function Duvidas() {
     return (
         <div className="duvidas">
-            <div className="container">
+            <div className="container cursos-pag">
                 <div className="grid-4">
                     <span>
                         <FontAwesomeIcon className="icon" icon="award" />

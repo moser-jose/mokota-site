@@ -421,8 +421,12 @@
 
 //Página cursos
 .duvidas{
+    .cursos-pag{
+        display: grid !important;
+        grid-template-columns: 1fr 1fr;
+    }
     .grid-4{
-        margin-left: 0 !important;
+        width: 100% !important;;
     }
 }
 .curs{
@@ -473,32 +477,7 @@
     align-items: center;
     justify-content: center;
     
-    div{
-        width: 34% !important;
-        .award{
-            font-size: 90px !important;
-        }
-        h1{
-            font-size: 25px !important;
-        }
-        p{
-            margin: 25px 0 !important;
-        }
-        form{
-            .Container{
-                width: 100% !important;
-                    .input{
-                        margin-bottom: 20px !important;
-                    }
-                    
-            }
-            .button{
-                width: unset !important;
-                font-weight: 500 !important;
-            }
-        }
-        
-    }
+    
 }
 }
 

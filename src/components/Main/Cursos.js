@@ -14,7 +14,6 @@ function Cursos() {
         
         { width: 1000, itemsToShow: 3 },
     ];
-    console.log(data)
     return (
         <div className="curso-m">
             <h1 className="h1">Saiba mais sobre os nossos cursos.</h1>

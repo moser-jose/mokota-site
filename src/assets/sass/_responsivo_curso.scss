@@ -119,6 +119,7 @@
             .card{
                 .membro-m{
                     .membro {
+                        width: 100% !important;
                         .img{
                             img{
                                 width: 180px;
@@ -166,7 +167,65 @@
         }
     }
 
-    
+    .cursos-pag{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr !important;
+        gap: 20px;
+        .grid-4{
+            &:nth-child(1){
+                grid-column: 1 !important;
+            }
+            
+
+        }
+    }
+    .cur-{
+        display: grid !important;
+        grid-template-columns: 1fr 1fr 1fr !important;
+        gap:20px;
+        .grid-1-3{
+            width: 100% !important;
+            &:nth-child(1){
+                grid-column: 1;
+            }
+        }
+    }
+    .certificados{
+        height: 100vh;
+        width: 100%;
+        background-color: #f5f8fd ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        div{
+            width: 80% !important;
+            margin:  0 auto;
+            
+            h1{
+                font-size: 30px;
+            }
+            p{
+                margin: 30px 0;
+            }
+            .Container{
+                width: 100% !important;
+                margin: 0 auto;
+                    .input{
+                        width: 100%;
+                        padding: 20px 10px;
+                        margin-bottom: 35px !important;
+                        font-size: 14px !important;
+                        font-weight: 300 !important;
+                    }
+                    
+            }
+            .button{
+                width: 100%;
+                font-weight: 500;
+            }
+        }
+    }
     
 }
 @media only screen and (min-width: 758px) and (max-width: 999px){
@@ -408,6 +467,7 @@
         padding: 100px 0 0;
         .sb{
             .sobrenos {
+                margin: 0 !important;
                 &::after {
                     top: -70px;
                     height: 50px;
@@ -981,6 +1041,18 @@
         .grid-1-3{
             margin-left: 0 !important;
         }
+        .faq-1{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            .grid-1-3{
+                width: 100% !important;
+                margin: 0 !important;
+                &:nth-child(1){
+                    grid-column: 1
+                }
+            };
+        }
     }
     .curso-m{
         .template{
@@ -1003,6 +1075,7 @@
             
         }
     }
+    
     .insc{
         padding-top: 90px !important;
     }
@@ -1073,6 +1146,66 @@
             }
             .redes-s{
                 margin: 16px 0;
+            }
+        }
+    }
+
+    .cursos-pag{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        .grid-4{
+            &:nth-child(1){
+                grid-column: 1 !important;
+            }
+            
+
+        }
+    }
+    .cur-{
+        display: grid !important;
+        grid-template-columns: 1fr 1fr !important;
+        gap:20px;
+        .grid-1-3{
+            width: 100% !important;
+            &:nth-child(1){
+                grid-column: 1;
+            }
+        }
+    }
+    .certificados{
+        height: 100vh;
+        width: 100%;
+        background-color: #f5f8fd ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        div{
+            width: 80% !important;
+            margin:  0 auto;
+            
+            h1{
+                font-size: 30px;
+            }
+            p{
+                margin: 30px 0;
+            }
+            .Container{
+                width: 100% !important;
+                margin: 0 auto;
+                    .input{
+                        width: 100%;
+                        padding: 20px 10px;
+                        margin-bottom: 35px !important;
+                        font-size: 14px !important;
+                        font-weight: 300 !important;
+                    }
+                    
+            }
+            .button{
+                width: 100%;
+                font-weight: 500;
             }
         }
     }

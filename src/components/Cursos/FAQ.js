@@ -12,7 +12,6 @@ function FAQ() {
                     se não sabe, a <span>Mekadir</span> lhe garante que vai se apaixonar
                     por esse mundo maravilhoso </p>
                 </div>
-
                 <div className="grid-1-3">
                     <h2>Quanto tempo dura os cursos?</h2>
                     <p>A maioria dos cursos duram <span>oficialmente 1 mês</span> e no momento eles são presenciais, no entanto, se o aluno preferir, pode
@@ -26,8 +25,6 @@ function FAQ() {
                     é obrigatório ter conhecimento adicional em programação ou areas ligadas a ela. Tudo que for necessário para
                      o curso, nomeadamente as ferramentas, o professor fará a questão de fornecer aos alunos.</p>
                 </div>
-            </div>
-            <div className="container">
                 <div className="grid-1-3">
                     <h2>Meus dados (nome, sobre-nome, e-mail, telefone e endereço) estão seguros?</h2>
                     <p><span>SIM!</span> Em nossa plataforma usamos vários mecanismos de segurança para assegurar
@@ -50,7 +47,7 @@ function FAQ() {
                     da informação a ser alterada. Numa segunda fase os alunos terão acesso a nossa plataforma e as suas respectivas credenciais de acesso.</p>
                 </div>
             </div>
-        </div>
+            </div>
     )
 }
 
