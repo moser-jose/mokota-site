@@ -84,7 +84,7 @@ export default function Contactos() {
                     <h1>
                         Comece uma nova fase da sua vida como
                         <span className="developer">
-                            #programador
+                            #programador👨🏻‍💻
                         </span>
                     </h1>
                     <p className="futuro"><span>PRIORIZE SUA CARREIRA</span> invista no seu presente e ganhe no seu futuro.</p>

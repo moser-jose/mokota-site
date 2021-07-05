@@ -160,10 +160,10 @@ footer {
                             font-size: 16px;
                             padding: 12px 5px;
                             border-left: 6px solid #438CE0;
-                            width: 100%;
+                            width: 100% !important;
                         }
                         input[type="submit"] {
-                            width: 35%;
+                            width: 100% !important;
                             padding: 10px;
                             cursor: pointer;
                             background-color: #438CE0;

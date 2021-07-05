@@ -42,7 +42,7 @@ export default function Main() {
 
                 </div>
             </div>
-            <div className="container curs-4">
+            <div className="curs-4">
                 <Duvidas />
             </div>
             <div id="cursos" className="cursos-mek">

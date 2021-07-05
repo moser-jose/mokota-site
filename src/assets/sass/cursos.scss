@@ -63,7 +63,17 @@
     }
     
 }
-
+.duvidas{
+    width: 100%;
+    padding: 60px 0 !important;
+    .cursos-pag{
+        display: grid !important;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .grid-4{
+        width: 100% !important;;
+    }
+}
 .curs-4{
     margin-top: 100px;
     .duvidas{
@@ -364,6 +374,16 @@
 .gird-curso{
     height: 300px;
     background-color: #438ce0;
+}
+.cursos-pag{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:20px;
+    .grid-4{
+        &:nth-child(1){
+            grid-column: 1;
+        }
+    }
 }
 .cert{
     .nav{
