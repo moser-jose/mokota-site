@@ -67,11 +67,14 @@
     width: 100%;
     padding: 60px 0 !important;
     .cursos-pag{
-        display: grid !important;
+        display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
     .grid-4{
         width: 100% !important;;
+        &:nth-child(1){
+            grid-column: 1;
+        }
     }
 }
 .curs-4{
@@ -375,7 +378,7 @@
     height: 300px;
     background-color: #438ce0;
 }
-.cursos-pag{
+/* .cursos-pag{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap:20px;
@@ -384,7 +387,7 @@
             grid-column: 1;
         }
     }
-}
+} */
 .cert{
     .nav{
         li{
@@ -403,7 +406,7 @@
     justify-content: center;
     
     div{
-        width: 60%;
+        width: 50%;
         margin: 0 auto;
         .award{
             font-size: 150px;
@@ -547,6 +550,7 @@
             margin-top: 10px !important;
             display: block;
             .template{
+                width: 100% !important;
                 overflow: hidden;
                 margin-top: 20px !important;
                 box-shadow: rgba(46, 61 ,73, 0.2) 0px 1px 20px 0px;
@@ -656,30 +660,10 @@
                 
             }
         }
-        .cu-t{
-            margin-top: 0 !important;
-            .template{
-                &:nth-child(1){
-                    img{
-                        background-color: #181818e3;
-                    }
-                }
-                
-                &:nth-child(2){
-                    img{
-                        background: #000;
-                    }
-                }
-                &:nth-child(3){
-                    img{
-                        background: #4C9734 !important;
-                    }
-                }
-                
-            }
-        }
     }
-
+    .cursos-pag{
+        display: block !important;
+    }
     .cert{
         .nav{
             li{
@@ -727,4 +711,8 @@
         }
     }
     }
+    .faq-1 {
+        display: block !important;
+    }
+
 }
