@@ -1498,6 +1498,27 @@
             bottom: 10px !important;
             font-size: 1.2rem !important;
             line-height: 1.75 !important;
+            &::before {
+                display: block;
+                content: "";
+                width: 2px;
+                height: 38px;
+                background-color: rgba(255, 255, 255, 0.3);
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 12px;
+            }
+            li{
+                height: 25px !important;
+                a {
+                    color: #fff;
+                    font-size: 16px;
+                    
+                    &:hover {
+                        color: #e9e9e9;
+                    }
+                }
+            }
         }
     }
 
