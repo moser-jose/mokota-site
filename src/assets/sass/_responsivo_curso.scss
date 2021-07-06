@@ -199,7 +199,7 @@
         justify-content: center;
         
         div{
-            width: 80% !important;
+            width: 60% !important;
             margin:  0 auto;
             
             h1{
@@ -272,7 +272,9 @@
         height: 80px !important;
         padding: 10px 0;
         display: flex !important;
-       
+        #bar1,#bar2,#bar3{
+            background-color:#6A7186 !important;
+        }
     .pre-header{
         display: none;
     }
@@ -1182,7 +1184,7 @@
         justify-content: center;
         
         div{
-            width: 80% !important;
+            width: 70% !important;
             margin:  0 auto;
             
             h1{
@@ -1274,6 +1276,9 @@
         height: 80px !important;
         padding: 10px 0;
         display: flex !important;
+        #bar1,#bar2,#bar3{
+            background-color:#6A7186 !important;
+        }
        
     .pre-header{
         display: none;
