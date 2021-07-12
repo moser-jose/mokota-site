@@ -128,7 +128,6 @@ footer {
                 }
 
                 .newsletter {
-                    width: 100%;
                     position: absolute;
                     bottom: 36px;
                     display: block;
@@ -140,7 +139,6 @@ footer {
                         .email {
                             display: flex;
                             align-items: center;
-                            width: 85%;
                             border-radius: 4px;
                             overflow: hidden;
                             .fa-envelope {
@@ -160,10 +158,10 @@ footer {
                             font-size: 16px;
                             padding: 12px 5px;
                             border-left: 6px solid #438CE0;
-                            width: 100% !important;
+                            width: 100%;
                         }
                         input[type="submit"] {
-                            width: 100% !important;
+                            width: 50%;
                             padding: 10px;
                             cursor: pointer;
                             background-color: #438CE0;

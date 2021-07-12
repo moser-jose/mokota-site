@@ -4,6 +4,7 @@ import Web from '../assets/img/img-curso/web.png'
 import LR from '../assets/img/img-curso/laravel.png'
 import JS from '../assets/img/img-curso/js.png'
 import Node from '../assets/img/img-curso/node.png'
+import Flutter from '../assets/img/img-curso/flutter.png'
 const cursos = [
   {
     titulo: "Lógica de Programação e Algoritmos",
@@ -24,7 +25,7 @@ const cursos = [
     botao: "Saiba mais"
   },
   {
-    titulo: "Desenvolvimento de Aplicações Moveis com React Native",
+    titulo: "Desenvolvimento de Aplicações Móveis (android e ios) com React Native Completo",
     img: RN,
     slug: "desenvolvimento-de-aplicacoes-moveis-com-react-native",
     texto: <>
@@ -58,6 +59,24 @@ const cursos = [
     app: "3 sites",
     icon: "lightbulb",
     api: "1 api",
+    link: "",
+    botao: "Brevemente",
+  },
+  {
+    img: Flutter,
+    slug: "flutter-completo",
+    categoria: "Desenvolvimento",
+    titulo: "Desenvolvimento de Aplicações Móveis (android e ios) com Flutter completo",
+    texto: <>Neste curso completo você irá aprender
+    a criar aplicativos nativos
+    para Android e iOS, desde
+    o zero, com um dos melhores <span>cross-plataform</span> que existe no mercado de desenvolvimento mobile.
+    Você usará ferramentas incríveis e criará <span>5 apps</span> e <span>2 Api's</span> e publica-los nas lojas de apps.
+  </>,
+    modulo: "12 módulos",
+    app: "5 apps",
+    icon: "lightbulb",
+    api: "2 api",
     link: "",
     botao: "Brevemente",
   },

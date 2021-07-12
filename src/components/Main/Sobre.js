@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Moser from '../../assets/img/moser.jpg'
 import Gaspar from '../../assets/img/gaspar.jpg'
 import Wilson from '../../assets/img/wilson.jpg'
+import Heli from '../../assets/img/heli.png'
 import PlaySobreSvg from './PlaySobreSvg'
 function Sobre() {
     const [sobre, setSobre] = useState(true);
@@ -186,15 +187,12 @@ function Sobre() {
                                 <h1>Atendimento ao Cliente</h1>
                             </div> */}
                             <div className="img">
-                                <img className="img-img" src={Moser} alt="" />
+                                <img className="img-img" src={Heli} alt="" />
                             </div>
-                            <h1>Moser José</h1>
-                            <h2>Programador Fullstack</h2>
-                            <span><a target="_blank" rel="noreferrer" href="/"><i className="iconspeck speck-facebook"></i></a></span>
-                            <span><a target="_blank" rel="noreferrer" href="/"><i className="iconspeck speck-linkedin-sp"></i></a></span>
-                            <span><a target="_blank" rel="noreferrer" href="/"><i className="iconspeck speck-twitter"></i></a></span>
-                            <span><a target="_blank" rel="noreferrer" href="/"><i className="iconspeck speck-instagram"></i></a></span>
-                            <span><a target="_blank" rel="noreferrer" href="/"><i className="iconspeck speck-github"></i></a></span>
+                            <h1>Heli Sangueve</h1>
+                            <h2>Programador Back-End</h2>
+                            <span><a target="_blank" rel="noreferrer" href="https://www.facebook.com/heliromeu"><i className="iconspeck speck-facebook"></i></a></span>
+                            <span><a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/heli-sangueve-5bb97a211"><i className="iconspeck speck-linkedin-sp"></i></a></span>
                         </div>
 
                     </div>

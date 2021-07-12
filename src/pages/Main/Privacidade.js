@@ -8,7 +8,7 @@ function Privacidade() {
         <HeaderPrivacidade/>
         <div className="container termos-p">
             <h1>Política de Privacidade</h1>
-        <p>Esta política de privacidade foi revista e actualizada em 04/03/2021</p>
+        <p>Esta política de privacidade foi revista e actualizada em 20/07/2021</p>
         <p>
             Esta política de privacidade descreve as varias formas que a Mekadir utiliza para colecta, armazenamento
              e proteção das suas informações pessoais.
@@ -101,7 +101,7 @@ function Privacidade() {
             eliminar ou parar de receber alguma notificação por mensagem ou e-mail.</p>
 
 
-        <p>Ao utilizar nossos serviços ou aceder ao nosso site, ✅ o aluno ou utilizador concorda com a nossa política de privacidade ✅ desta Política de Privacidade.</p>
+        <p>Ao utilizar nossos serviços ou aceder ao nosso site, ✅ o aluno ou utilizador concorda com a nossa política de privacidade.</p>
     
         <p>Não use os Serviços caso não concorde com esta Política de Privacidade.<br /></p>
         </div>

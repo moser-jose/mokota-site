@@ -24,7 +24,7 @@ const useForm = (type, campo) => {
   const { errorSite, setErrorSite } = usePlayContext();
 
   const focus = () => {
-    const d = document.querySelectorAll('.input')
+    const d = document.querySelectorAll('.input input')
     d.forEach(f => {
       if (f.name === type) {
         f.focus();
@@ -73,6 +73,7 @@ const useForm = (type, campo) => {
     setErrorSite({
       cod: 3,
     });
+    
     setValue(target.value);
   }
 

@@ -41,7 +41,7 @@
                 .texto{
                     h1{
                         margin-bottom: 0 !important;
-                        padding: 14px 0 !important;
+                        padding: 28px 0 !important;
                     }
                     span{
                         color: #f5f8fd !important;
@@ -74,32 +74,7 @@
                     .texto{
                         h1{
                             margin-bottom: 0 !important;
-                            padding: 28px 0 !important;
-                        }
-                        span{
-                            color: #f5f8fd !important;
-                        }
-                        .modulos-curso{
-                            margin: 30px 0 !important;
-                            span {
-                                font-weight: 400 !important;
-                                margin: 0 !important;
-                            }
-                        }
-                    }
-            }
-        }
-        .rec-carousel-item-3 {
-            .template{
-                background:  #181818e3!important;
-                    color: #f5f8fd !important;
-                    img{
-                        background-color: transparent !important;
-                    }
-                    .texto{
-                        h1{
-                            margin-bottom: 0 !important;
-                            padding: 14px 0 !important;
+                            padding: 40px 0 !important;
                         }
                         span{
                             color: #f5f8fd !important;
@@ -116,6 +91,59 @@
         }
         .rec-carousel-item-4 {
             .template{
+                background:  #181818e3!important;
+                    color: #f5f8fd !important;
+                    img{
+                        background-color: transparent !important;
+                    }
+                    .texto{
+                        h1{
+                            margin-bottom: 0 !important;
+                            padding: 26px 0 !important;
+                        }
+                        span{
+                            color: #f5f8fd !important;
+                        }
+                        .modulos-curso{
+                            margin: 30px 0 !important;
+                            span {
+                                font-weight: 400 !important;
+                                margin: 0 !important;
+                            }
+                        }
+                    }
+            }
+        }
+        .rec-carousel-item-3 {
+            .template{
+                background: rgb(56,152,182);
+                background: linear-gradient(149deg, rgba(56,152,182,0.9976584383753502) 17%, rgba(56,129,210,1) 85%);
+
+                    color: #f5f8fd !important;
+                    img{
+                        background-color: transparent !important;
+                    }
+                    .texto{
+                        h1{
+                            margin-bottom: 0 !important;
+                            padding: 12px 0 !important;
+                        }
+                        span{
+                            color: #f5f8fd !important;
+                        }
+                        .modulos-curso{
+                            margin: 30px 0 !important;
+                            span {
+                                font-weight: 400 !important;
+                                margin: 0 !important;
+                            }
+                        }
+                    }
+            }
+        }
+        
+        .rec-carousel-item-5 {
+            .template{
                 background:  #000!important;
                     color: #f5f8fd !important;
                     img{
@@ -124,7 +152,7 @@
                     .texto{
                         h1{
                             margin-bottom: 0 !important;
-                            padding: 28px 0 !important;
+                            padding: 40px 0 !important;
                         }
                         span{
                             color: #f5f8fd !important;
@@ -147,7 +175,7 @@
                     }
             }
         }
-        .rec-carousel-item-5 {
+        .rec-carousel-item-6 {
             .template{
                 background:  #4C9734 !important;
                     color: #f5f8fd !important;
@@ -157,7 +185,7 @@
                     .texto{
                         h1{
                             margin-bottom: 0 !important;
-                            padding: 0 !important;
+                            padding: 12px 0 !important;
                         }
                         span{
                             color: #f5f8fd !important;
@@ -230,8 +258,8 @@
             .template{
                 margin: 0 !important;
                 .img-c{
-                    width: 220px;
-                    height: 220px;
+                    width: 200px;
+                    height: 200px;
                     margin: 0 auto;
                     display: block;
                     img{
@@ -271,7 +299,7 @@
                 }
                 .texto{
                     h1{
-                        padding: 14.5px 0 !important;
+                        padding: 0px 0 !important;
                     }
                 }
             }
@@ -282,7 +310,7 @@
                     color: #f5f8fd !important;
                     .texto{
                         h1{
-                            padding: 14px 0 !important;
+                            padding: 23px 0 !important;
                         }
                     }
                     .botao{
@@ -302,19 +330,34 @@
                         color: #f5f8fd !important;
                         .texto{
                             h1{
-                                padding: 38px 0 !important;
+                                padding: 34.5px 0 !important;
                             }
                         }
                 }
             }
             .rec-carousel-item-3 {
                 .template{
+                    background: rgb(56,152,182);
+                    background: linear-gradient(149deg, rgba(56,152,182,0.9976584383753502) 17%, rgba(56,129,210,1) 85%);
                     margin: 0 !important;
-                    background:  #181818e3!important;
                         color: #f5f8fd !important;
+                        img{
+                            background-color: transparent !important;
+                        }
                         .texto{
                             h1{
-                                padding: 14.5px 0 !important;
+                                margin-bottom: 0 !important;
+                                padding: 0px 0 !important;
+                            }
+                            span{
+                                color: #f5f8fd !important;
+                            }
+                            .modulos-curso{
+                                margin: 30px 0 !important;
+                                span {
+                                    font-weight: 400 !important;
+                                    margin: 0 !important;
+                                }
                             }
                         }
                 }
@@ -322,11 +365,23 @@
             .rec-carousel-item-4 {
                 .template{
                     margin: 0 !important;
+                    background:  #181818e3!important;
+                        color: #f5f8fd !important;
+                        .texto{
+                            h1{
+                                padding: 23px 0 !important;
+                            }
+                        }
+                }
+            }
+            .rec-carousel-item-5 {
+                .template{
+                    margin: 0 !important;
                     background:  #000!important;
                         color: #f5f8fd !important;
                         .texto{
                             h1{
-                                padding: 26px 0 !important;
+                                padding: 34.5px 0 !important;
                             }
                         }
                         .botao{
@@ -339,14 +394,14 @@
                         }
                 }
             }
-            .rec-carousel-item-5 {
+            .rec-carousel-item-6 {
                 .template{
                     margin: 0 !important;
                     background:  #4C9734 !important;
                         color: #f5f8fd !important;
                         .texto{
                             h1{
-                                padding: 4px 0 !important;
+                                padding: 12px 0 !important;
                             }
                         }
                         .botao{

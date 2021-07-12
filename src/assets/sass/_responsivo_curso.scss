@@ -3,22 +3,7 @@
     .container{
         width: 1200px !important;
     }
-    .grid-4{
-        width: 285px !important;
-    }
-    .grid-1-3{
-        width: 386px !important;
-       
-    }
-    .grid-8{
-        width: 590px !important;
-    }
-    .grid-9{
-        width: 598px !important;
-    }
-    .grid-10{
-        width: 678px !important;
-    }
+
     .home{
         width: 100%;
     }
@@ -1150,6 +1135,9 @@
                 margin: 16px 0;
             }
         }
+        input[type="submit"]{
+            width: 100% !important; 
+        }
     }
 
     .cursos-pag{
@@ -2270,7 +2258,7 @@
                         width: 100% !important;
                     }
                     input[type="submit"]{
-                        width: 45% !important; 
+                        width: 100% !important; 
                     }
                 }
             }

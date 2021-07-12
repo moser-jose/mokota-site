@@ -1,5 +1,7 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 const Input = ({ label, type, name, value, onChange, onBlur, placeholder, classN }) => {
+    
+      
     return (
         <div className="Container">
             <label htmlFor={name} className="label">
